@@ -1,0 +1,905 @@
+const API = window.location.origin;
+const speciesRowCount = 9;
+const thinningCount = 4;
+
+let map;
+let standLayer;
+let standLayersById = new Map();
+let selectedStandId = null;
+let lastRunId = null;
+let chatSessionId = null;
+let lastOutputs = [];
+let lastDiagnostics = [];
+let thinningKeys = new Set();
+let resultsTableCollapsed = false;
+let observationsVisible = false;
+
+const $ = (id) => document.getElementById(id);
+
+function value(id) {
+  return $(id)?.value?.trim() ?? "";
+}
+
+function numberValue(id) {
+  const raw = value(id);
+  return raw === "" ? null : Number(raw);
+}
+
+function normalizeSpeciesName(name) {
+  const aliases = {
+    spruce: "Picea abies",
+    "norway spruce": "Picea abies",
+    "picea abies": "Picea abies",
+    larch: "Larix decidua",
+    laerche: "Larix decidua",
+    "lärche": "Larix decidua",
+    "larix decidua": "Larix decidua",
+    beech: "Fagus sylvatica",
+    buche: "Fagus sylvatica",
+    "european beech": "Fagus sylvatica",
+    "fagus sylvatica": "Fagus sylvatica",
+  };
+  return aliases[String(name).trim().toLowerCase()] || String(name).trim();
+}
+
+function outputSpeciesLabel(species, cohort) {
+  const base = normalizeSpeciesName(species);
+  return cohort ? `${base} | ${cohort}` : base;
+}
+
+function apiPath(path) {
+  return `${API}${path}`;
+}
+
+async function request(path, options = {}) {
+  const response = await fetch(apiPath(path), {
+    headers: { "Content-Type": "application/json", ...(options.headers || {}) },
+    ...options,
+  });
+  const text = await response.text();
+  let data = null;
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    data = text;
+  }
+  if (!response.ok) {
+    const detail = data?.detail || data || response.statusText;
+    throw new Error(Array.isArray(detail) ? detail.map((item) => item.msg).join("; ") : detail);
+  }
+  return data;
+}
+
+function initMap() {
+  map = L.map("map", {
+    zoomControl: false,
+    preferCanvas: true,
+    zoomAnimation: false,
+  }).setView([48.1, 11.5], 7);
+  L.control.zoom({ position: "bottomright" }).addTo(map);
+  const tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    keepBuffer: 4,
+    attribution: "&copy; OpenStreetMap contributors",
+  });
+  tiles.on("tileerror", (event) => {
+    console.warn("OSM tile failed to load", event.coords);
+  });
+  tiles.addTo(map);
+  standLayer = L.geoJSON(null, {
+    renderer: L.canvas({ padding: 0.5 }),
+    style: (feature) => standStyle(feature?.properties?.id),
+    onEachFeature: (feature, layer) => {
+      const props = feature.properties || {};
+      layer.bindPopup(`<strong>${props.name || `Stand ${props.id}`}</strong><br>${props.species || ""}`, {
+        autoPan: false,
+      });
+      layer.on("click", () => selectStand(props.id));
+    },
+  }).addTo(map);
+  map.whenReady(() => {
+    requestAnimationFrame(refreshMapLayout);
+  });
+  setTimeout(refreshMapLayout, 150);
+  setTimeout(refreshMapLayout, 600);
+  window.addEventListener("resize", refreshMapLayout);
+}
+
+function refreshMapLayout() {
+  if (!map) return;
+  map.invalidateSize({ pan: false });
+}
+
+function buildSpeciesRows() {
+  const container = $("speciesRows");
+  container.innerHTML = "";
+  const header = document.createElement("div");
+  header.className = "table-row";
+  ["", "Species", "Cohort", "Yield table", "Age", "Top height", "Share", "N/ha", "Mean height", "DBH"].forEach((label) => {
+    const cell = document.createElement("div");
+    cell.className = "table-head";
+    cell.textContent = label;
+    header.appendChild(cell);
+  });
+  container.appendChild(header);
+
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    const row = document.createElement("div");
+    row.className = "table-row";
+    row.innerHTML = `
+      <div class="row-number">${i}</div>
+      <input id="species_${i}" data-mirror="${i}" />
+      <input id="cohort_${i}" data-mirror="${i}" value="${i === 1 ? "30y" : ""}" />
+      <input id="yield_${i}" placeholder="optional" />
+      <input id="age_${i}" type="number" min="0" />
+      <input id="top_height_${i}" type="number" min="0" step="0.1" />
+      <input id="share_${i}" type="number" min="0" max="1" step="0.01" />
+      <input id="stems_${i}" type="number" min="1" />
+      <input id="height_${i}" type="number" min="0" step="0.1" />
+      <input id="dbh_${i}" type="number" min="0" step="0.1" />
+    `;
+    container.appendChild(row);
+  }
+}
+
+function buildThinningRows() {
+  const container = $("thinningRows");
+  container.innerHTML = "";
+  const header = document.createElement("div");
+  header.className = "table-row";
+  ["", "Species", "Cohort", "Yr 1", "Rem. 1", "Yr 2", "Rem. 2", "Yr 3", "Rem. 3", "Yr 4", "Rem. 4"].forEach((label) => {
+    const cell = document.createElement("div");
+    cell.className = "table-head";
+    cell.textContent = label;
+    header.appendChild(cell);
+  });
+  container.appendChild(header);
+
+  const yearRow = document.createElement("div");
+  yearRow.className = "table-row";
+  yearRow.innerHTML = `<div></div><div></div><div></div>${Array.from({ length: thinningCount }, (_, index) => `
+    <input id="thin_year_${index + 1}" type="number" min="1" />
+    <div class="readonly-cell">%</div>
+  `).join("")}`;
+  container.appendChild(yearRow);
+
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    const row = document.createElement("div");
+    row.className = "table-row";
+    row.innerHTML = `
+      <div class="row-number">${i}</div>
+      <div id="thin_species_${i}" class="readonly-cell"></div>
+      <div id="thin_cohort_${i}" class="readonly-cell"></div>
+      ${Array.from({ length: thinningCount }, (_, index) => `
+        <div></div>
+        <input id="thin_percent_${i}_${index + 1}" type="number" min="0" max="100" step="0.1" />
+      `).join("")}
+    `;
+    container.appendChild(row);
+  }
+}
+
+function bindMirrors() {
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    ["species", "cohort"].forEach((field) => {
+      $(`${field}_${i}`).addEventListener("input", syncThinningLabels);
+    });
+  }
+  syncThinningLabels();
+}
+
+function syncThinningLabels() {
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    $(`thin_species_${i}`).textContent = value(`species_${i}`);
+    $(`thin_cohort_${i}`).textContent = value(`cohort_${i}`);
+  }
+}
+
+function speciesEntries() {
+  const entries = [];
+  const stock = numberValue("stockingDegree");
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    const species = value(`species_${i}`);
+    const age = numberValue(`age_${i}`);
+    const topHeight = numberValue(`top_height_${i}`);
+    const stems = numberValue(`stems_${i}`);
+    const height = numberValue(`height_${i}`);
+    const dbh = numberValue(`dbh_${i}`);
+    const active = species && [age, topHeight, stems, height, dbh].some((item) => item !== null);
+    if (!active) continue;
+    const entry = clean({
+      species,
+      cohort_label: value(`cohort_${i}`),
+      yield_table_id: value(`yield_${i}`),
+      age_years: age,
+      top_height_m: topHeight,
+      stocking_degree: stock,
+      share: numberValue(`share_${i}`),
+      stems_per_ha: stems,
+      mean_height_m: height,
+      mean_dbh_cm: dbh,
+    });
+    entries.push(entry);
+  }
+  return entries;
+}
+
+function thinningSchedule() {
+  const schedule = [];
+  for (let row = 1; row <= speciesRowCount; row += 1) {
+    const species = value(`species_${row}`);
+    if (!species) continue;
+    for (let thin = 1; thin <= thinningCount; thin += 1) {
+      const percent = numberValue(`thin_percent_${row}_${thin}`);
+      const year = numberValue(`thin_year_${thin}`);
+      if (percent === null) continue;
+      if (year === null) throw new Error(`Enter year for thinning ${thin}.`);
+      schedule.push(clean({
+        species,
+        cohort_label: value(`cohort_${row}`),
+        year,
+        removal_fraction: percent / 100,
+      }));
+    }
+  }
+  return schedule;
+}
+
+function clean(object) {
+  return Object.fromEntries(
+    Object.entries(object).filter(([, value]) => value !== "" && value !== null && value !== undefined)
+  );
+}
+
+function buildPayload() {
+  const entries = speciesEntries();
+  if (!entries.length) throw new Error("Enter at least one species row.");
+  const fieldInput = clean({
+    altitude: numberValue("altitude"),
+    soil_moisture: value("soilMoisture"),
+    site_fertility: numberValue("siteFertility"),
+    horizon_years: numberValue("horizon"),
+    species_entries: entries,
+    thinning_schedule: thinningSchedule(),
+  });
+  const standId = numberValue("standId");
+  return clean({
+    stand_id: standId,
+    simulator: "r3pg",
+    input_mode: "field",
+    field_input: fieldInput,
+  });
+}
+
+async function saveStand() {
+  const standId = numberValue("standId");
+  if (standId === null) throw new Error("Enter a Stand ID before saving.");
+
+  const firstEntry = speciesEntries()[0] || {};
+  const payload = clean({
+    id: standId,
+    name: value("standName") || `Stand ${standId}`,
+    species: firstEntry.species || value("species_1"),
+    age_years: firstEntry.age_years || numberValue("age_1"),
+    properties: { source: "frontend_panel" },
+  });
+
+  try {
+    const stand = await request("/stands", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    });
+    selectedStandId = stand.id;
+    setStatus(`Stand ${stand.id} saved`);
+  } catch (error) {
+    if (!String(error.message).includes("already exists")) throw error;
+    const stand = await request(`/stands/${standId}`, {
+      method: "PATCH",
+      body: JSON.stringify(clean({
+        name: payload.name,
+        species: payload.species,
+        age_years: payload.age_years,
+        properties: payload.properties,
+      })),
+    });
+    selectedStandId = stand.id;
+    setStatus(`Stand ${stand.id} updated`);
+  }
+  await loadStands();
+}
+
+async function linkStandGeometry() {
+  const standId = numberValue("standId");
+  if (standId === null) throw new Error("Enter the saved Stand ID before linking geometry.");
+  const sourceTable = value("geometrySourceTable");
+  const sourceId = value("geometrySourceId");
+  if (!sourceTable || !sourceId) throw new Error("Enter source table and feature ID.");
+
+  const stand = await request(`/stands/${standId}/link-geometry`, {
+    method: "POST",
+    body: JSON.stringify(clean({
+      source_table: sourceTable,
+      source_id: sourceId,
+      source_id_column: value("geometrySourceIdColumn") || "id",
+      geometry_column: value("geometryColumn") || "geom",
+    })),
+  });
+  selectedStandId = stand.id;
+  setStatus(`Geometry linked to stand ${stand.id}`);
+  await loadStands();
+  await selectStand(stand.id);
+}
+
+async function loadStands() {
+  const [stands, geojson] = await Promise.all([
+    request("/stands"),
+    request("/stands/geojson"),
+  ]);
+  standLayer.clearLayers();
+  standLayersById = new Map();
+  standLayer.addData(geojson);
+  standLayer.eachLayer((layer) => {
+    const id = layer.feature?.properties?.id;
+    if (id !== undefined && id !== null) {
+      standLayersById.set(Number(id), layer);
+    }
+  });
+  renderStandList(stands);
+  if (selectedStandId && standLayersById.has(Number(selectedStandId))) {
+    zoomToStand(selectedStandId);
+  }
+}
+
+function renderStandList(stands) {
+  const list = $("standList");
+  list.innerHTML = "";
+  if (!stands.length) {
+    list.innerHTML = `<div class="message">No stands stored yet.</div>`;
+    return;
+  }
+  stands.forEach((stand) => {
+    const hasGeometry = standLayersById.has(Number(stand.id));
+    const item = document.createElement("div");
+    item.className = `stand-item ${stand.id === selectedStandId ? "active" : ""} ${hasGeometry ? "has-geometry" : "no-geometry"}`;
+    item.dataset.standId = stand.id;
+    item.title = hasGeometry ? "Zoom to stand geometry" : "No geometry stored for this stand";
+    item.innerHTML = `
+      <strong>${stand.name || `Stand ${stand.id}`}</strong>
+      <span>ID ${stand.id}${stand.species ? ` - ${stand.species}` : ""}${stand.age_years ? ` - ${stand.age_years}y` : ""}</span>
+      <em>${hasGeometry ? "geometry" : "no geometry"}</em>
+    `;
+    item.addEventListener("click", () => selectStand(stand.id));
+    list.appendChild(item);
+  });
+}
+
+async function selectStand(id) {
+  selectedStandId = Number(id);
+  $("standId").value = id;
+  renderStandListFromDom();
+  zoomToStand(id);
+  showStandInfo(id);
+  if (observationsVisible) {
+    loadObservations(id);
+  }
+}
+
+function renderStandListFromDom() {
+  document.querySelectorAll(".stand-item").forEach((node) => node.classList.remove("active"));
+  const items = [...document.querySelectorAll(".stand-item")];
+  items.forEach((node) => {
+    if (Number(node.dataset.standId) === Number(selectedStandId)) {
+      node.classList.add("active");
+    }
+  });
+}
+
+function zoomToStand(id) {
+  const layer = standLayersById.get(Number(id));
+  refreshMapLayout();
+  standLayer.setStyle((feature) => standStyle(feature?.properties?.id));
+  if (!layer) {
+    setStatus("Selected stand has no geometry.");
+    return;
+  }
+  layer.setStyle({ color: "#1f5fbf", weight: 3, fillOpacity: 0.28 });
+  layer.bringToFront();
+  const bounds = layer.getBounds?.();
+  if (bounds?.isValid()) {
+    const panelWidth = document.querySelector(".panel-left")?.getBoundingClientRect().width || 0;
+    map.fitBounds(bounds, {
+      paddingTopLeft: [panelWidth + 72, 72],
+      paddingBottomRight: [72, 72],
+      maxZoom: 17,
+      animate: false,
+    });
+  }
+  setTimeout(() => layer.openPopup(), 250);
+}
+
+async function showStandInfo(id) {
+  const panel = $("standInfo");
+  const body = $("standInfoBody");
+  panel.classList.remove("collapsed");
+  body.innerHTML = `<div class="message">Loading spatial information...</div>`;
+  try {
+    const data = await request(`/stands/${id}/spatial-summary`);
+    body.innerHTML = renderStandInfo(data);
+  } catch (error) {
+    body.innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+  }
+}
+
+async function toggleObservationsPanel() {
+  if (!selectedStandId) {
+    setStatus("Select a stand first.");
+    return;
+  }
+  observationsVisible = !observationsVisible;
+  $("observationsPanel").classList.toggle("collapsed", !observationsVisible);
+  if (observationsVisible) {
+    $("observationDate").value = new Date().toISOString().slice(0, 10);
+    await loadObservations(selectedStandId);
+  }
+}
+
+async function loadObservations(standId) {
+  const list = $("observationsList");
+  list.innerHTML = `<div class="message">Loading observations...</div>`;
+  try {
+    const observations = await request(`/stands/${standId}/observations`);
+    if (!observations.length) {
+      list.innerHTML = `<div class="message">No field observations yet.</div>`;
+      return;
+    }
+    list.innerHTML = observations.map(renderObservation).join("");
+  } catch (error) {
+    list.innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+  }
+}
+
+function renderObservation(observation) {
+  const date = observation.observed_at ? new Date(observation.observed_at).toLocaleDateString() : "";
+  const meta = [date, observation.category, observation.observer].filter(Boolean).join(" - ");
+  return `
+    <div class="observation-item">
+      <strong>${escapeHtml(meta || "Observation")}</strong>
+      <span>ID ${observation.id}</span>
+      <div>${escapeHtml(observation.note).replace(/\n/g, "<br>")}</div>
+    </div>
+  `;
+}
+
+async function saveObservation() {
+  if (!selectedStandId) throw new Error("Select a stand first.");
+  const note = value("observationNote");
+  if (!note) throw new Error("Enter an observation note.");
+  const date = value("observationDate");
+  await request(`/stands/${selectedStandId}/observations`, {
+    method: "POST",
+    body: JSON.stringify(clean({
+      observed_at: date ? `${date}T12:00:00` : null,
+      category: value("observationCategory"),
+      observer: value("observationObserver"),
+      note,
+    })),
+  });
+  $("observationNote").value = "";
+  setStatus("Observation saved");
+  await loadObservations(selectedStandId);
+}
+
+function renderStandInfo(data) {
+  const terrain = data.terrain?.rasters?.[0] || {};
+  const altitude = terrain.altitude_m;
+  const slope = terrain.slope_deg;
+  const aspect = terrain.aspect;
+  const ruggedness = terrain.terrain_ruggedness_index_m;
+  const geometry = data.geometry || {};
+  return `
+    <div class="stand-info-grid">
+      ${infoCell("Name", data.name)}
+      ${infoCell("Species", data.species || "")}
+      ${infoCell("Age", data.age_years === null || data.age_years === undefined ? "" : `${data.age_years} years`)}
+      ${infoCell("Area", valueWithUnit(geometry.area_ha_geodesic, "ha"))}
+      ${infoCell("Perimeter", valueWithUnit(geometry.perimeter_m, "m"))}
+      ${infoCell("Centroid", geometry.centroid ? `${formatNullable(geometry.centroid.lat)}, ${formatNullable(geometry.centroid.lon)}` : "")}
+      ${infoCell("Altitude", statsRange(altitude, "m"))}
+      ${infoCell("Altitude mean", statMeanSd(altitude, "m"))}
+      ${infoCell("Slope", statsRange(slope, "deg"))}
+      ${infoCell("Slope mean", statMeanSd(slope, "deg"))}
+      ${infoCell("Terrain ruggedness", statsRange(ruggedness, "m"))}
+      ${infoCell("TRI mean", statMeanSd(ruggedness, "m"))}
+      ${infoCell("Aspect", aspect ? `${aspect.dominant_direction} (${formatNullable(aspect.mean_deg)} deg)` : "")}
+      ${infoCell("Aspect sd", valueWithUnit(aspect?.sd_deg, "deg"))}
+    </div>
+  `;
+}
+
+function infoCell(label, value) {
+  return `<div><strong>${escapeHtml(label)}</strong>${escapeHtml(value || "")}</div>`;
+}
+
+function statsRange(stats, unit) {
+  if (!stats) return "";
+  return `${formatNullable(stats.min)}-${formatNullable(stats.max)} ${unit}`;
+}
+
+function statMeanSd(stats, unit) {
+  if (!stats) return "";
+  return `${formatNullable(stats.mean)} ${unit} (sd ${formatNullable(stats.sd)})`;
+}
+
+function valueWithUnit(value, unit) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "";
+  return `${formatNullable(value)} ${unit}`;
+}
+
+function formatNullable(value) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "";
+  return formatNumber(Number(value));
+}
+
+function standStyle(id) {
+  const active = Number(id) === Number(selectedStandId);
+  return {
+    color: active ? "#1f5fbf" : "#2f6b45",
+    weight: active ? 3 : 2,
+    fillOpacity: active ? 0.28 : 0.18,
+  };
+}
+
+async function previewDefaults() {
+  setStatus("Previewing defaults...");
+  try {
+    const data = await request("/simulation-runs/default-preview", {
+      method: "POST",
+      body: JSON.stringify(buildPayload()),
+    });
+    $("results").innerHTML = `<pre class="message">${escapeHtml(JSON.stringify(data.completed_parameters, null, 2))}</pre>`;
+    setStatus("Defaults ready");
+  } catch (error) {
+    showError(error);
+  }
+}
+
+async function previewTables() {
+  setStatus("Building r3PG tables...");
+  try {
+    const data = await request("/simulation-runs/r3pg-tables", {
+      method: "POST",
+      body: JSON.stringify(buildPayload()),
+    });
+    $("results").innerHTML = `<pre class="message">${escapeHtml(JSON.stringify(data, null, 2))}</pre>`;
+    $("plots").innerHTML = "";
+    setStatus("r3PG tables ready");
+  } catch (error) {
+    showError(error);
+  }
+}
+
+async function runSimulation() {
+  setStatus("Running r3PG...");
+  try {
+    const data = await request("/simulation-runs", {
+      method: "POST",
+      body: JSON.stringify(buildPayload()),
+    });
+    lastRunId = data.id;
+    selectedStandId = data.stand_id ?? null;
+    $("standId").value = data.stand_id ?? "";
+    lastOutputs = data.outputs || [];
+    lastDiagnostics = data.summary?.diagnostics || [];
+    thinningKeys = buildThinningKeys();
+    resultsTableCollapsed = false;
+    renderOutputs(lastOutputs);
+    renderPlots();
+    setStatus(`Run ${data.id} completed`);
+    await loadStands();
+  } catch (error) {
+    showError(error);
+  }
+}
+
+function renderOutputs(outputs) {
+  if (!outputs.length) {
+    $("results").innerHTML = `<div class="message">No outputs returned.</div>`;
+    $("plots").innerHTML = "";
+    return;
+  }
+  const rows = outputs.map((item) => item.output || {});
+  const preview = rows.slice(0, 80);
+  const tableClass = resultsTableCollapsed ? "output-table-wrap collapsed" : "output-table-wrap";
+  $("toggleResultsTable").textContent = resultsTableCollapsed ? "Show years" : "Collapse years";
+  $("results").innerHTML = `
+    <div class="${tableClass}">
+      <table class="output-table">
+        <thead>
+          <tr>
+            <th>Year</th><th>Species</th><th>Age</th><th>N/ha</th><th>BA</th><th>DBH</th><th>Mean height</th><th>Vol</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${preview.map((row) => `
+          <tr class="${thinningKeys.has(`${row.species}::${row.age_years}`) ? "thin-row" : ""}">
+            <td>${cell(row.year)}</td>
+            <td>${cell(row.species)}</td>
+            <td>${cell(row.age_years)}</td>
+            <td>${cell(row.stems_per_ha)}</td>
+            <td>${cell(row.basal_area_m2_ha)}</td>
+            <td>${cell(row.mean_dbh_cm)}</td>
+            <td>${cell(row.mean_height_m)}</td>
+            <td>${cell(row.standing_volume_m3_ha)}</td>
+          </tr>
+        `).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function buildThinningKeys() {
+  const keys = new Set();
+  for (let row = 1; row <= speciesRowCount; row += 1) {
+    const species = value(`species_${row}`);
+    const cohort = value(`cohort_${row}`);
+    const age = numberValue(`age_${row}`);
+    if (!species || age === null) continue;
+    const label = outputSpeciesLabel(species, cohort);
+    for (let thin = 1; thin <= thinningCount; thin += 1) {
+      const percent = numberValue(`thin_percent_${row}_${thin}`);
+      const year = numberValue(`thin_year_${thin}`);
+      if (percent !== null && year !== null) {
+        keys.add(`${label}::${age + year}`);
+      }
+    }
+  }
+  return keys;
+}
+
+function renderPlots() {
+  const plots = $("plots");
+  plots.innerHTML = "";
+  if (!$("showGrowthPlots").checked || !lastOutputs.length) return;
+
+  const rows = lastOutputs.map((item) => item.output || {});
+  const plotSpecs = [
+    ["stems_per_ha", "Stem number", "trees/ha"],
+    ["basal_area_m2_ha", "Basal area", "m2/ha"],
+    ["mean_dbh_cm", "Mean diameter", "cm"],
+    ["mean_height_m", "Mean height", "m"],
+    ["standing_volume_m3_ha", "Standing volume", "m3/ha"],
+  ];
+  plots.innerHTML = `
+    <div class="plot-grid">
+      ${plotSpecs.map(([field, title, unit]) => lineChart(rows, field, title, unit)).join("")}
+      ${lineChart(totalByYear(rows, "standing_volume_m3_ha", "total_volume"), "total_volume", "Total standing volume", "m3/ha")}
+    </div>
+    ${diagnosticCharts(lastDiagnostics)}
+  `;
+}
+
+function diagnosticCharts(diagnostics) {
+  if (!diagnostics.length) return "";
+  const specs = [
+    ["stems_start", "Stem number start", "trees/ha"],
+    ["mort_stress_sum", "Stress mortality sum", "t/ha/y"],
+    ["lai_mean", "Mean leaf area index", "m2/m2"],
+    ["lai_max", "Maximum leaf area index", "m2/m2"],
+    ["mort_thinn_sum", "Self-thinning sum", "trees/ha/y"],
+    ["gamma_n_mean", "Mean gammaN", "factor"],
+    ["biom_tree", "Tree biomass", "t/tree"],
+    ["canopy_volume_fraction", "Canopy occupancy", "proportion"],
+  ];
+  return `
+    <details class="diagnostics">
+      <summary>Diagnostics</summary>
+      <div class="plot-grid">
+        ${specs.map(([field, title, unit]) => lineChart(diagnostics, field, title, unit)).join("")}
+      </div>
+    </details>
+  `;
+}
+
+function lineChart(rows, field, title, unit) {
+  const data = rows
+    .map((row) => ({
+      year: Number(row.year),
+      species: row.species || "Total",
+      value: row[field] === null || row[field] === undefined ? null : Number(row[field]),
+    }))
+    .filter((row) => Number.isFinite(row.year) && Number.isFinite(row.value));
+
+  if (!data.length) {
+    return `<div class="chart-card"><h3>${escapeHtml(title)}</h3><div class="empty-chart">No data</div></div>`;
+  }
+
+  const width = 330;
+  const height = 170;
+  const pad = { left: 42, right: 12, top: 12, bottom: 28 };
+  const years = data.map((row) => row.year);
+  const values = data.map((row) => row.value);
+  const minYear = Math.min(...years);
+  const maxYear = Math.max(...years);
+  const minValue = Math.min(...values);
+  const maxValue = Math.max(...values);
+  const species = [...new Set(data.map((row) => row.species))];
+  const colors = chartColors(species);
+  const x = (year) => {
+    if (maxYear === minYear) return (width - pad.left - pad.right) / 2 + pad.left;
+    return pad.left + ((year - minYear) / (maxYear - minYear)) * (width - pad.left - pad.right);
+  };
+  const y = (value) => {
+    if (maxValue === minValue) return (height - pad.top - pad.bottom) / 2 + pad.top;
+    return height - pad.bottom - ((value - minValue) / (maxValue - minValue)) * (height - pad.top - pad.bottom);
+  };
+  const lines = species.map((name) => {
+    const points = data
+      .filter((row) => row.species === name)
+      .sort((a, b) => a.year - b.year)
+      .map((row) => `${x(row.year).toFixed(1)},${y(row.value).toFixed(1)}`)
+      .join(" ");
+    return `<polyline points="${points}" fill="none" stroke="${colors[name]}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />`;
+  }).join("");
+  const legend = species.map((name) => `
+    <span><i style="background:${colors[name]}"></i>${escapeHtml(name)}</span>
+  `).join("");
+
+  return `
+    <div class="chart-card">
+      <h3>${escapeHtml(title)}</h3>
+      <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(title)}">
+        <line x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}" class="axis" />
+        <line x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}" class="axis" />
+        <text x="${pad.left}" y="${height - 7}" class="axis-label">${minYear}</text>
+        <text x="${width - pad.right}" y="${height - 7}" text-anchor="end" class="axis-label">${maxYear}</text>
+        <text x="4" y="${pad.top + 8}" class="axis-label">${formatNumber(maxValue)}</text>
+        <text x="4" y="${height - pad.bottom}" class="axis-label">${formatNumber(minValue)}</text>
+        ${lines}
+      </svg>
+      <div class="chart-meta">${escapeHtml(unit)}</div>
+      <div class="legend">${legend}</div>
+    </div>
+  `;
+}
+
+function totalByYear(rows, sourceField, targetField) {
+  const totals = new Map();
+  rows.forEach((row) => {
+    const year = Number(row.year);
+    const value = Number(row[sourceField]);
+    if (!Number.isFinite(year) || !Number.isFinite(value)) return;
+    totals.set(year, (totals.get(year) || 0) + value);
+  });
+  return [...totals.entries()].map(([year, value]) => ({ year, species: "Total", [targetField]: value }));
+}
+
+function chartColors(speciesLabels) {
+  const palette = ["#2f6b45", "#bd7b21", "#9b3f35", "#3568a8", "#6f4a8e", "#4f8f8b", "#b45f06", "#5f6f2a", "#8a4f3d"];
+  const baseNames = [];
+  speciesLabels.forEach((label) => {
+    const base = String(label).split("|", 1)[0].trim();
+    if (!baseNames.includes(base)) baseNames.push(base);
+  });
+  const baseColors = Object.fromEntries(baseNames.map((name, index) => [name, palette[index % palette.length]]));
+  return Object.fromEntries(speciesLabels.map((label) => [label, baseColors[String(label).split("|", 1)[0].trim()]]));
+}
+
+async function askChat() {
+  const question = value("question");
+  if (!question) return;
+  $("chatAnswer").innerHTML = `<div class="message">Thinking...</div>`;
+  try {
+    const data = await request("/chat", {
+      method: "POST",
+      body: JSON.stringify(clean({
+        question,
+        stand_id: numberValue("standId"),
+        simulation_run_id: lastRunId,
+        session_id: chatSessionId,
+        top_k: 5,
+      })),
+    });
+    chatSessionId = data.session_id;
+    $("chatAnswer").innerHTML = `<div class="message">${escapeHtml(data.answer).replace(/\n/g, "<br>")}</div>`;
+  } catch (error) {
+    $("chatAnswer").innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+  }
+}
+
+function clearForm() {
+  document.querySelectorAll(".panel-left input, .panel-left select, .panel-left textarea").forEach((node) => {
+    node.value = "";
+  });
+  $("cohort_1").value = "30y";
+  selectedStandId = null;
+  lastRunId = null;
+  chatSessionId = null;
+  lastOutputs = [];
+  lastDiagnostics = [];
+  thinningKeys = new Set();
+  resultsTableCollapsed = false;
+  observationsVisible = false;
+  syncThinningLabels();
+  $("results").innerHTML = "";
+  $("plots").innerHTML = "";
+  $("chatAnswer").innerHTML = "";
+  $("standInfo").classList.add("collapsed");
+  $("observationsPanel").classList.add("collapsed");
+  $("observationsList").innerHTML = "";
+  $("toggleResultsTable").textContent = "Collapse years";
+  setStatus("");
+}
+
+function setStatus(message) {
+  $("runStatus").textContent = message;
+}
+
+function showError(error) {
+  setStatus("Error");
+  $("results").innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+}
+
+function cell(value) {
+  if (value === null || value === undefined) return "";
+  if (typeof value === "number") return Number.isInteger(value) ? value : value.toFixed(2);
+  return escapeHtml(String(value));
+}
+
+function formatNumber(value) {
+  if (!Number.isFinite(value)) return "";
+  if (Math.abs(value) >= 100) return value.toFixed(0);
+  if (Math.abs(value) >= 10) return value.toFixed(1);
+  return value.toFixed(2);
+}
+
+function escapeHtml(text) {
+  return String(text)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  initMap();
+  buildSpeciesRows();
+  buildThinningRows();
+  bindMirrors();
+  $("refreshStands").addEventListener("click", loadStands);
+  $("saveStand").addEventListener("click", () => {
+    saveStand().catch(showError);
+  });
+  $("linkGeometry").addEventListener("click", () => {
+    linkStandGeometry().catch(showError);
+  });
+  $("previewDefaults").addEventListener("click", previewDefaults);
+  $("previewTables").addEventListener("click", previewTables);
+  $("runSimulation").addEventListener("click", runSimulation);
+  $("showGrowthPlots").addEventListener("change", renderPlots);
+  $("toggleResultsTable").addEventListener("click", () => {
+    if (!lastOutputs.length) return;
+    resultsTableCollapsed = !resultsTableCollapsed;
+    renderOutputs(lastOutputs);
+    renderPlots();
+  });
+  $("askChat").addEventListener("click", askChat);
+  $("newChat").addEventListener("click", () => {
+    chatSessionId = null;
+    $("chatAnswer").innerHTML = "";
+  });
+  $("collapseStandInfo").addEventListener("click", () => {
+    $("standInfo").classList.add("collapsed");
+  });
+  $("toggleObservations").addEventListener("click", () => {
+    toggleObservationsPanel().catch(showError);
+  });
+  $("saveObservation").addEventListener("click", () => {
+    saveObservation().catch(showError);
+  });
+  $("clearForm").addEventListener("click", clearForm);
+  loadStands().catch((error) => {
+    $("standList").innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+  });
+});

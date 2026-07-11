@@ -1,0 +1,12 @@
+.DS_Store
+.cache
+.env
+.git
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.RData
+*.Rhistory
+storage/*
+!storage/.gitkeep

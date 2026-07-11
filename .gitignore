@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.DS_Store
+
+storage/
+data/RAG_text_corpus/
+data/Raster_files/
+
+*.RData
+*.Rhistory

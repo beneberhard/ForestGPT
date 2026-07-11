@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ForestGPT</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel panel-left">
+        <header class="panel-header">
+          <div>
+            <h1>ForestGPT</h1>
+            <p>Simulation and retrieval-augmented decision support</p>
+          </div>
+          <button id="clearForm" type="button">Clear</button>
+        </header>
+
+        <section class="block stand-block">
+          <h2>Stand</h2>
+          <div class="form-grid five">
+            <label>
+              Stand ID
+              <input id="standId" type="number" min="1" placeholder="optional" />
+            </label>
+            <label>
+              Stand name
+              <input id="standName" placeholder="optional" />
+            </label>
+            <label>
+              Altitude m
+              <input id="altitude" type="number" placeholder="optional" />
+            </label>
+            <label>
+              Soil moisture
+              <select id="soilMoisture">
+                <option value=""></option>
+                <option value="dry">dry</option>
+                <option value="mesic">mesic</option>
+                <option value="moist">moist</option>
+                <option value="wet">wet</option>
+              </select>
+            </label>
+            <label>
+              Site fertility
+              <input id="siteFertility" type="number" min="0" max="1" step="0.01" placeholder="0.65" />
+            </label>
+            <label>
+              Simulation years
+              <input id="horizon" type="number" min="1" max="100" placeholder="20" />
+            </label>
+          </div>
+          <div class="form-grid four stand-link-grid">
+            <label>
+              Source table
+              <input id="geometrySourceTable" placeholder="e.g. uploaded_stands" />
+            </label>
+            <label>
+              Feature ID
+              <input id="geometrySourceId" placeholder="source id" />
+            </label>
+            <label>
+              ID column
+              <input id="geometrySourceIdColumn" placeholder="id" />
+            </label>
+            <label>
+              Geometry column
+              <input id="geometryColumn" placeholder="geom" />
+            </label>
+          </div>
+          <div class="actions tight">
+            <button id="saveStand" type="button">Save stand</button>
+            <button id="linkGeometry" type="button">Link geometry</button>
+          </div>
+        </section>
+
+        <section class="block stands-block">
+          <div class="block-title">
+            <div>
+              <h2>Available stands</h2>
+              <p class="panel-note">Optional spatial context</p>
+            </div>
+            <button id="refreshStands" type="button">Refresh</button>
+          </div>
+          <div id="standList" class="stand-list"></div>
+        </section>
+
+        <section class="block">
+          <div class="block-title">
+            <h2>Species</h2>
+            <label class="compact-field">
+              Stocking degree
+              <input id="stockingDegree" type="number" min="0" max="1" step="0.01" placeholder="stand" />
+            </label>
+          </div>
+          <p class="available-species">Available species: spruce, larch, beech</p>
+          <p class="available-species">Available yield tables: fichte_bayern, laerche_schweiz, buche_braunschweig</p>
+          <div class="species-table table-like" id="speciesRows"></div>
+        </section>
+
+        <section class="block">
+          <h2>Thinning</h2>
+          <div class="thinning-table table-like" id="thinningRows"></div>
+        </section>
+
+        <section class="plot-toggle">
+          <label>
+            <input id="showGrowthPlots" type="checkbox" />
+            Show growth plots after simulation
+          </label>
+        </section>
+
+        <section class="actions">
+          <button id="previewDefaults" type="button">Preview defaults</button>
+          <button id="previewTables" type="button">Preview r3PG tables</button>
+          <button id="runSimulation" type="button" class="primary">Run r3PG</button>
+        </section>
+
+        <section class="block results-block">
+          <div class="block-title">
+            <h2>Results</h2>
+            <div class="result-tools">
+              <span id="runStatus"></span>
+              <button id="toggleResultsTable" type="button">Collapse years</button>
+            </div>
+          </div>
+          <div id="results"></div>
+          <div id="plots"></div>
+        </section>
+
+        <section class="block chat-block">
+          <h2>Chat</h2>
+          <textarea id="question" rows="3" placeholder="Ask about the simulation, literature, or follow-up context."></textarea>
+          <div class="actions tight">
+            <button id="askChat" type="button">Ask</button>
+            <button id="newChat" type="button">New chat</button>
+          </div>
+          <div id="chatAnswer"></div>
+        </section>
+      </section>
+      <section class="map-shell">
+        <div id="map"></div>
+      </section>
+      <aside id="standInfo" class="stand-info collapsed" aria-live="polite">
+        <div class="stand-info-header">
+          <h2>Stand information</h2>
+          <div class="stand-info-actions">
+            <button id="toggleObservations" type="button">Field observations</button>
+            <button id="collapseStandInfo" type="button">Collapse</button>
+          </div>
+        </div>
+        <div id="standInfoBody"></div>
+        <section id="observationsPanel" class="observations-panel collapsed">
+          <div id="observationsList"></div>
+          <div class="observation-form">
+            <input id="observationDate" type="date" />
+            <input id="observationCategory" placeholder="category" />
+            <input id="observationObserver" placeholder="observer" />
+            <textarea id="observationNote" rows="3" placeholder="Observation note"></textarea>
+            <button id="saveObservation" type="button">Save observation</button>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
