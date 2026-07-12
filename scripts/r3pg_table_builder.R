@@ -23,20 +23,34 @@ normalize_species <- function(value) {
     return("Fagus sylvatica")
   }
   lookup <- list(
-    "Norway spruce" = "Picea abies",
-    "norway spruce" = "Picea abies",
-    "spruce" = "Picea abies",
-    "Picea abies" = "Picea abies",
-    "larch" = "Larix decidua",
-    "laerche" = "Larix decidua",
-    "lärche" = "Larix decidua",
-    "Larix decidua" = "Larix decidua",
     "European beech" = "Fagus sylvatica",
     "beech" = "Fagus sylvatica",
     "buche" = "Fagus sylvatica",
     "Fagus sylvatica" = "Fagus sylvatica",
+    "Douglas fir" = "Pseudotsuga menziesii",
+    "douglas fir" = "Pseudotsuga menziesii",
+    "douglasie" = "Pseudotsuga menziesii",
+    "Pseudotsuga menziesii" = "Pseudotsuga menziesii",
+    "fir" = "Abies alba",
+    "silver fir" = "Abies alba",
+    "tanne" = "Abies alba",
+    "Abies alba" = "Abies alba",
+    "larch" = "Larix decidua",
+    "laerche" = "Larix decidua",
+    "lärche" = "Larix decidua",
+    "Larix decidua" = "Larix decidua",
+    "oak" = "Quercus robur",
+    "eiche" = "Quercus robur",
+    "Quercus robur" = "Quercus robur",
+    "pine" = "Pinus sylvestris",
     "Scots pine" = "Pinus sylvestris",
-    "Pinus sylvestris" = "Pinus sylvestris"
+    "scots pine" = "Pinus sylvestris",
+    "kiefer" = "Pinus sylvestris",
+    "Pinus sylvestris" = "Pinus sylvestris",
+    "Norway spruce" = "Picea abies",
+    "norway spruce" = "Picea abies",
+    "spruce" = "Picea abies",
+    "Picea abies" = "Picea abies"
   )
   if (!is.null(lookup[[value]])) {
     return(lookup[[value]])
@@ -64,7 +78,7 @@ select_parameter_set <- function(overview, params, species_name) {
   preferred_parameter_sets <- list(
     "Picea abies" = 37,
     "Larix decidua" = 36,
-    "Fagus sylvatica" = 34
+    "Fagus sylvatica" = 29
   )
   if (!is.null(preferred_parameter_sets[[species_name]])) {
     selected <- overview[overview$parset_id == preferred_parameter_sets[[species_name]], , drop = FALSE]

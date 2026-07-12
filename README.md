@@ -41,18 +41,34 @@ docker compose logs -f app
 docker compose down
 ```
 
-RAG ingestion is incremental by default. When you add PDFs to `data/RAG_text_corpus`, run:
+RAG ingestion is incremental by default. The Leaflet app can upload and ingest PDF, DOCX, TXT, Markdown, CSV, XLSX, and XLSM files from the **Knowledge base** panel. When you add documents manually to `data/RAG_text_corpus`, run:
 
 ```bash
 docker compose exec app python -m scripts.ingest_rag_corpus
 ```
-
 Existing documents are skipped by stored source path and file hash. Use
+
 ```bash
 docker compose exec app python -m scripts.ingest_rag_corpus --replace
 ``` 
-
 only when you deliberately want to rebuild matching documents.
+
+Embeddings use OpenAI-compatible embeddings by default:
+
+```text
+EMBEDDING_PROVIDER=openai
+EMBEDDING_BASE_URL=https://api.openai.com/v1
+EMBEDDING_MODEL=text-embedding-3-small
+```
+
+The app records the embedding provider and model with each ingested document. If the embedding model changes, existing corpus files are re-embedded the next time ingestion is run.
+
+The Docker image does not install Streamlit. The old `streamlit_app.py` dashboard is kept only as an optional local development helper. To use it locally, install:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
 
 The local `.env` file is not copied into the Docker image. Docker Compose only passes needed environment values to the running container.
 

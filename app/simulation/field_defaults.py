@@ -9,28 +9,50 @@ from app.simulation.schemas import DefaultAssumption, FieldDefaultPreview, Growt
 
 
 YIELD_TABLES = {
-    "fichte_bayern": Path("data/yield_table_forestgpt_fichte_bayern.xlsx"),
-    "laerche_schweiz": Path("data/yield_table_forestgpt_laerche_schweiz.xlsx"),
     "buche_braunschweig": Path("data/yield_table_forestgpt_buche_braunschweig.xlsx"),
+    "douglasie_baden": Path("data/yield_table_forestgpt_douglasie_baden.xlsx"),
+    "fichte_bayern": Path("data/yield_table_forestgpt_fichte_bayern.xlsx"),
+    "kiefer_litschau": Path("data/yield_table_forestgpt_kiefer_litschau.xlsx"),
+    "laerche_schweiz": Path("data/yield_table_forestgpt_laerche_schweiz.xlsx"),
+    "tanne_wuerttemberg": Path("data/yield_table_forestgpt_tanne_wuerttemberg.xlsx"),
+    "eiche_ungarn": Path("data/yield_table_forestgpt_eiche_ungarn.xlsx"),
 }
 SPECIES_ALIASES = {
-    "norway spruce": "Picea abies",
-    "spruce": "Picea abies",
-    "fichte": "Picea abies",
-    "picea abies": "Picea abies",
-    "larch": "Larix decidua",
-    "laerche": "Larix decidua",
-    "lärche": "Larix decidua",
-    "larix decidua": "Larix decidua",
     "beech": "Fagus sylvatica",
     "buche": "Fagus sylvatica",
     "european beech": "Fagus sylvatica",
     "fagus sylvatica": "Fagus sylvatica",
+    "douglas fir": "Pseudotsuga menziesii",
+    "douglasie": "Pseudotsuga menziesii",
+    "pseudotsuga menziesii": "Pseudotsuga menziesii",
+    "fir": "Abies alba",
+    "silver fir": "Abies alba",
+    "tanne": "Abies alba",
+    "abies alba": "Abies alba",
+    "larch": "Larix decidua",
+    "laerche": "Larix decidua",
+    "lärche": "Larix decidua",
+    "larix decidua": "Larix decidua",
+    "oak": "Quercus robur",
+    "eiche": "Quercus robur",
+    "quercus robur": "Quercus robur",
+    "pine": "Pinus sylvestris",
+    "scots pine": "Pinus sylvestris",
+    "kiefer": "Pinus sylvestris",
+    "pinus sylvestris": "Pinus sylvestris",
+    "norway spruce": "Picea abies",
+    "spruce": "Picea abies",
+    "fichte": "Picea abies",
+    "picea abies": "Picea abies",
 }
 DEFAULT_YIELD_TABLE_BY_SPECIES = {
-    "Picea abies": "fichte_bayern",
-    "Larix decidua": "laerche_schweiz",
     "Fagus sylvatica": "buche_braunschweig",
+    "Pseudotsuga menziesii": "douglasie_baden",
+    "Abies alba": "tanne_wuerttemberg",
+    "Larix decidua": "laerche_schweiz",
+    "Quercus robur": "eiche_ungarn",
+    "Pinus sylvestris": "kiefer_litschau",
+    "Picea abies": "fichte_bayern",
 }
 
 
@@ -548,7 +570,7 @@ def _yield_assumption(field: str, value: Any, estimate: dict[str, Any]) -> Defau
     )
 
 
-@lru_cache(maxsize=4)
+@lru_cache(maxsize=8)
 def _load_yield_table(yield_table_id: str) -> pd.DataFrame:
     path = YIELD_TABLES.get(yield_table_id)
     if path is None:

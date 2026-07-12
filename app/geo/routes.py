@@ -159,6 +159,18 @@ def update_stand(stand_id: int, payload: StandUpdate, db: Session = Depends(get_
     return stand
 
 
+@router.delete("/{stand_id}")
+def delete_stand(stand_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
+    stand = db.get(Stand, stand_id)
+    if stand is None:
+        raise HTTPException(status_code=404, detail="Stand not found")
+
+    db.execute(text("UPDATE chat_sessions SET stand_id = NULL WHERE stand_id = :stand_id"), {"stand_id": stand_id})
+    db.delete(stand)
+    db.commit()
+    return {"deleted": True, "id": stand_id}
+
+
 @router.post("/{stand_id}/link-geometry", response_model=StandRead)
 def link_stand_geometry(stand_id: int, payload: StandGeometryLink, db: Session = Depends(get_db)) -> Stand:
     stand = db.get(Stand, stand_id)

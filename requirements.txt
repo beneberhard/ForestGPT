@@ -10,11 +10,7 @@ alembic
 pydantic
 requests
 rasterio
-streamlit
-altair
+pandas
 openpyxl
-llama-index
-llama-index-llms-openai-like
-llama-index-embeddings-openai-like
-llama-index-embeddings-huggingface
 pypdf
+python-docx

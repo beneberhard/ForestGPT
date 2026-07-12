@@ -27,17 +27,31 @@ function numberValue(id) {
 
 function normalizeSpeciesName(name) {
   const aliases = {
-    spruce: "Picea abies",
-    "norway spruce": "Picea abies",
-    "picea abies": "Picea abies",
-    larch: "Larix decidua",
-    laerche: "Larix decidua",
-    "lärche": "Larix decidua",
-    "larix decidua": "Larix decidua",
     beech: "Fagus sylvatica",
     buche: "Fagus sylvatica",
     "european beech": "Fagus sylvatica",
     "fagus sylvatica": "Fagus sylvatica",
+    "douglas fir": "Pseudotsuga menziesii",
+    douglasie: "Pseudotsuga menziesii",
+    "pseudotsuga menziesii": "Pseudotsuga menziesii",
+    fir: "Abies alba",
+    "silver fir": "Abies alba",
+    tanne: "Abies alba",
+    "abies alba": "Abies alba",
+    larch: "Larix decidua",
+    laerche: "Larix decidua",
+    "lärche": "Larix decidua",
+    "larix decidua": "Larix decidua",
+    oak: "Quercus robur",
+    eiche: "Quercus robur",
+    "quercus robur": "Quercus robur",
+    pine: "Pinus sylvestris",
+    "scots pine": "Pinus sylvestris",
+    kiefer: "Pinus sylvestris",
+    "pinus sylvestris": "Pinus sylvestris",
+    spruce: "Picea abies",
+    "norway spruce": "Picea abies",
+    "picea abies": "Picea abies",
   };
   return aliases[String(name).trim().toLowerCase()] || String(name).trim();
 }
@@ -55,6 +69,25 @@ async function request(path, options = {}) {
   const response = await fetch(apiPath(path), {
     headers: { "Content-Type": "application/json", ...(options.headers || {}) },
     ...options,
+  });
+  const text = await response.text();
+  let data = null;
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    data = text;
+  }
+  if (!response.ok) {
+    const detail = data?.detail || data || response.statusText;
+    throw new Error(Array.isArray(detail) ? detail.map((item) => item.msg).join("; ") : detail);
+  }
+  return data;
+}
+
+async function uploadRequest(path, formData) {
+  const response = await fetch(apiPath(path), {
+    method: "POST",
+    body: formData,
   });
   const text = await response.text();
   let data = null;
@@ -364,13 +397,37 @@ function renderStandList(stands) {
     item.dataset.standId = stand.id;
     item.title = hasGeometry ? "Zoom to stand geometry" : "No geometry stored for this stand";
     item.innerHTML = `
+      <button class="stand-remove" type="button" aria-label="Remove stand ${stand.id}" title="Remove stand">x</button>
       <strong>${stand.name || `Stand ${stand.id}`}</strong>
       <span>ID ${stand.id}${stand.species ? ` - ${stand.species}` : ""}${stand.age_years ? ` - ${stand.age_years}y` : ""}</span>
       <em>${hasGeometry ? "geometry" : "no geometry"}</em>
     `;
     item.addEventListener("click", () => selectStand(stand.id));
+    item.querySelector(".stand-remove").addEventListener("click", (event) => {
+      event.stopPropagation();
+      removeStand(stand.id, stand.name);
+    });
     list.appendChild(item);
   });
+}
+
+async function removeStand(id, name) {
+  const label = name || `Stand ${id}`;
+  if (!window.confirm(`Remove ${label}?`)) {
+    return;
+  }
+  try {
+    await request(`/stands/${id}`, { method: "DELETE" });
+    if (Number(selectedStandId) === Number(id)) {
+      selectedStandId = null;
+      $("standId").value = "";
+      $("standInfo").classList.add("collapsed");
+    }
+    setStatus(`${label} removed.`);
+    await loadStands();
+  } catch (error) {
+    setStatus(error.message, true);
+  }
 }
 
 async function selectStand(id) {
@@ -807,6 +864,33 @@ async function askChat() {
   }
 }
 
+async function uploadRagDocument() {
+  const input = $("ragDocumentFile");
+  const file = input.files?.[0];
+  if (!file) throw new Error("Choose a document first.");
+
+  const status = $("ragUploadStatus");
+  status.classList.remove("error");
+  status.textContent = "Uploading and ingesting...";
+
+  const formData = new FormData();
+  formData.append("file", file);
+  const result = await uploadRequest("/documents/upload-ingest", formData);
+
+  if (result.documents_ingested) {
+    status.textContent = `Ingested ${result.file_name}: ${result.chunks_created} chunks created.`;
+  } else {
+    status.textContent = `${result.file_name} was already in the knowledge base.`;
+  }
+  input.value = "";
+}
+
+function showUploadError(error) {
+  const status = $("ragUploadStatus");
+  status.classList.add("error");
+  status.textContent = error.message;
+}
+
 function clearForm() {
   document.querySelectorAll(".panel-left input, .panel-left select, .panel-left textarea").forEach((node) => {
     node.value = "";
@@ -824,6 +908,8 @@ function clearForm() {
   $("results").innerHTML = "";
   $("plots").innerHTML = "";
   $("chatAnswer").innerHTML = "";
+  $("ragUploadStatus").textContent = "";
+  $("ragUploadStatus").classList.remove("error");
   $("standInfo").classList.add("collapsed");
   $("observationsPanel").classList.add("collapsed");
   $("observationsList").innerHTML = "";
@@ -885,6 +971,9 @@ document.addEventListener("DOMContentLoaded", () => {
     renderPlots();
   });
   $("askChat").addEventListener("click", askChat);
+  $("uploadRagDocument").addEventListener("click", () => {
+    uploadRagDocument().catch(showUploadError);
+  });
   $("newChat").addEventListener("click", () => {
     chatSessionId = null;
     $("chatAnswer").innerHTML = "";

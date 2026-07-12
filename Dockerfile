@@ -30,7 +30,6 @@ RUN apt-get update \
 
 COPY requirements.txt .
 RUN python -m pip install --upgrade pip \
-    && python -m pip install --index-url https://download.pytorch.org/whl/cpu torch \
     && python -m pip install -r requirements.txt
 
 RUN Rscript -e "install.packages(c('jsonlite', 'r3PG'), repos='https://cloud.r-project.org')"

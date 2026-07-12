@@ -6,7 +6,7 @@ from app.rag.index import ingest_corpus
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Ingest PDFs from data/RAG_text_corpus into the RAG index.")
+    parser = argparse.ArgumentParser(description="Ingest supported documents from data/RAG_text_corpus into the RAG index.")
     parser.add_argument("--replace", action="store_true", help="Delete and rebuild documents with matching source paths.")
     args = parser.parse_args()
 

@@ -98,8 +98,8 @@
               <input id="stockingDegree" type="number" min="0" max="1" step="0.01" placeholder="stand" />
             </label>
           </div>
-          <p class="available-species">Available species: spruce, larch, beech</p>
-          <p class="available-species">Available yield tables: fichte_bayern, laerche_schweiz, buche_braunschweig</p>
+          <p class="available-species">Available species: beech, Douglas fir, fir, larch, oak, pine, spruce</p>
+          <p class="available-species">Available yield tables: buche_braunschweig, douglasie_baden, tanne_wuerttemberg, laerche_schweiz, eiche_ungarn, kiefer_litschau, fichte_bayern</p>
           <div class="species-table table-like" id="speciesRows"></div>
         </section>
 
@@ -131,6 +131,20 @@
           </div>
           <div id="results"></div>
           <div id="plots"></div>
+        </section>
+
+        <section class="block rag-upload-block">
+          <div class="block-title">
+            <div>
+              <h2>Knowledge base</h2>
+              <p class="panel-note">Company documents for retrieval</p>
+            </div>
+          </div>
+          <div class="rag-upload-row">
+            <input id="ragDocumentFile" type="file" accept=".pdf,.docx,.txt,.md,.csv,.xlsx,.xlsm" />
+            <button id="uploadRagDocument" type="button">Upload and ingest</button>
+          </div>
+          <div id="ragUploadStatus" class="upload-status"></div>
         </section>
 
         <section class="block chat-block">

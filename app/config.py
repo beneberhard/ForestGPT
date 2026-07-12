@@ -12,8 +12,10 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "lm-studio")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "http://localhost:1234/v1")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "local-model")
 OPENAI_MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", "1024"))
-EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "huggingface")
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
+EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "openai")
+EMBEDDING_API_KEY = os.getenv("EMBEDDING_API_KEY") or OPENAI_API_KEY
+EMBEDDING_BASE_URL = os.getenv("EMBEDDING_BASE_URL", "https://api.openai.com/v1")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 SIMULATION_ADAPTER = os.getenv("SIMULATION_ADAPTER", "r3pg")
 R3PG_RUNNER_PATH = Path(os.getenv("R3PG_RUNNER_PATH", "scripts/r3pg_runner.R"))
 R3PG_TABLE_BUILDER_PATH = Path(os.getenv("R3PG_TABLE_BUILDER_PATH", "scripts/r3pg_table_builder.R"))
@@ -24,4 +26,3 @@ if not OPENAI_API_KEY:
 
 DATA_DIR = Path("data")
 STORAGE_DIR = Path("storage")
-MODEL_CACHE_DIR = Path(os.getenv("MODEL_CACHE_DIR", ".cache/llama_index"))

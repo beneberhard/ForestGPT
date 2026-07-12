@@ -196,17 +196,31 @@ def _normalize_species(value: Any) -> str | None:
     if value is None:
         return None
     aliases = {
-        "spruce": "Picea abies",
-        "norway spruce": "Picea abies",
-        "picea abies": "Picea abies",
-        "larch": "Larix decidua",
-        "laerche": "Larix decidua",
-        "lärche": "Larix decidua",
-        "larix decidua": "Larix decidua",
         "beech": "Fagus sylvatica",
         "buche": "Fagus sylvatica",
         "european beech": "Fagus sylvatica",
         "fagus sylvatica": "Fagus sylvatica",
+        "douglas fir": "Pseudotsuga menziesii",
+        "douglasie": "Pseudotsuga menziesii",
+        "pseudotsuga menziesii": "Pseudotsuga menziesii",
+        "fir": "Abies alba",
+        "silver fir": "Abies alba",
+        "tanne": "Abies alba",
+        "abies alba": "Abies alba",
+        "larch": "Larix decidua",
+        "laerche": "Larix decidua",
+        "lärche": "Larix decidua",
+        "larix decidua": "Larix decidua",
+        "oak": "Quercus robur",
+        "eiche": "Quercus robur",
+        "quercus robur": "Quercus robur",
+        "pine": "Pinus sylvestris",
+        "scots pine": "Pinus sylvestris",
+        "kiefer": "Pinus sylvestris",
+        "pinus sylvestris": "Pinus sylvestris",
+        "spruce": "Picea abies",
+        "norway spruce": "Picea abies",
+        "picea abies": "Picea abies",
     }
     return aliases.get(str(value).lower(), str(value))
 
