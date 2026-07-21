@@ -74,6 +74,32 @@ The local `.env` file is not copied into the Docker image. Docker Compose only p
 
 ---
 
+
+From the project folder, you can open the PostGIS database with:
+
+```bash
+docker compose exec db psql -U forestgpt_user -d forestgpt
+```
+
+Then run the update inside psql:
+sql
+UPDATE stands
+SET age_years = 80
+WHERE id = 41;
+
+Check it worked:
+sql
+SELECT id, name, species, age_years
+FROM stands
+WHERE id = 41;
+
+Exit psql with:
+ \q
+
+
+
+
+
 The Python Interpreter is forestgpt_trial
 
 In case of loading (API, Streamlit) difficulties due to a port mismatch (FastAPI starts on 8002, Streamlit calls 8003) do the following:

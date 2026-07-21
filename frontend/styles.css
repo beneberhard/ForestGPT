@@ -225,7 +225,7 @@ button:hover {
 }
 
 .species-table .table-row {
-  grid-template-columns: 28px 1.05fr 0.72fr 1fr 0.48fr 0.58fr 0.52fr 0.62fr 0.62fr 0.62fr;
+  grid-template-columns: 28px 0.74fr 0.48fr 0.68fr 0.48fr 0.4fr 0.48fr 0.44fr 0.5fr 0.5fr 0.5fr;
 }
 
 .thinning-table .table-row {
@@ -291,6 +291,35 @@ button:hover {
   width: auto;
   min-width: 130px;
   padding: 0 12px;
+}
+
+.run-history-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) repeat(5, max-content);
+  gap: 8px;
+  align-items: center;
+}
+
+.run-history-row button {
+  width: auto;
+  min-width: 84px;
+  padding: 0 10px;
+}
+
+.run-history-status {
+  min-height: 18px;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.run-history-status.error {
+  color: var(--danger);
+}
+
+.danger-button {
+  border-color: var(--danger);
+  color: var(--danger);
 }
 
 .rag-upload-row {
@@ -645,6 +674,14 @@ button:hover {
 }
 
 @media (max-width: 760px) {
+  .run-history-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .run-history-row select {
+    grid-column: 1 / -1;
+  }
+
   .rag-upload-row {
     grid-template-columns: 1fr;
   }

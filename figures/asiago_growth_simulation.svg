@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Simulated growth of the Asiago trial stand under two thinning variants</title>
+  <desc id="desc">Four-panel line figure comparing basal area, mean diameter, mean height, and standing volume for moderate and heavy spruce thinning.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #222; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 14px; fill: #555; }
+    .panel-title { font-size: 17px; font-weight: 700; }
+    .axis { stroke: #333; stroke-width: 1.2; }
+    .grid { stroke: #d9d9d9; stroke-width: 1; }
+    .tick { font-size: 12px; fill: #555; }
+    .label { font-size: 13px; fill: #444; }
+    .moderate { fill: none; stroke: #1b7f79; stroke-width: 3; }
+    .heavy { fill: none; stroke: #c44e52; stroke-width: 3; }
+    .moderate-point { fill: #1b7f79; }
+    .heavy-point { fill: #c44e52; }
+    .thin-line { stroke: #777; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .legend { font-size: 13px; }
+  </style>
+
+  <rect width="1200" height="760" fill="#fff"/>
+  <text x="60" y="42" class="title">Asiago trial stand: simulated growth under two thinning variants</text>
+  <text x="60" y="66" class="subtitle">Moderate thinning: run 150, 30% spruce removal in year 5. Heavy thinning: run 149, 50% spruce removal in year 5.</text>
+
+  <g transform="translate(760,38)">
+    <line x1="0" y1="0" x2="34" y2="0" class="moderate"/>
+    <circle cx="17" cy="0" r="4" class="moderate-point"/>
+    <text x="44" y="5" class="legend">Moderate thinning</text>
+    <line x1="0" y1="24" x2="34" y2="24" class="heavy"/>
+    <circle cx="17" cy="24" r="4" class="heavy-point"/>
+    <text x="44" y="29" class="legend">Heavy thinning</text>
+  </g>
+
+  <!-- Panel 1: basal area -->
+  <g transform="translate(60,105)">
+    <text x="0" y="0" class="panel-title">Basal area (m2/ha)</text>
+    <line x1="70" y1="235" x2="530" y2="235" class="axis"/>
+    <line x1="70" y1="35" x2="70" y2="235" class="axis"/>
+    <line x1="70" y1="206.4" x2="530" y2="206.4" class="grid"/>
+    <line x1="70" y1="149.3" x2="530" y2="149.3" class="grid"/>
+    <line x1="70" y1="92.1" x2="530" y2="92.1" class="grid"/>
+    <text x="34" y="210.4" class="tick">25</text>
+    <text x="34" y="153.3" class="tick">35</text>
+    <text x="34" y="96.1" class="tick">45</text>
+    <line x1="274" y1="35" x2="274" y2="235" class="thin-line"/>
+    <text x="246" y="255" class="tick">2031</text>
+    <polyline points="70,122.4 274,167.8 530,46.8" class="moderate"/>
+    <polyline points="70,122.4 274,212.2 530,88.8" class="heavy"/>
+    <circle cx="70" cy="122.4" r="4" class="moderate-point"/>
+    <circle cx="274" cy="167.8" r="4" class="moderate-point"/>
+    <circle cx="530" cy="46.8" r="4" class="moderate-point"/>
+    <circle cx="70" cy="122.4" r="4" class="heavy-point"/>
+    <circle cx="274" cy="212.2" r="4" class="heavy-point"/>
+    <circle cx="530" cy="88.8" r="4" class="heavy-point"/>
+    <text x="58" y="255" class="tick">2026</text>
+    <text x="518" y="255" class="tick">2055</text>
+  </g>
+
+  <!-- Panel 2: mean diameter -->
+  <g transform="translate(620,105)">
+    <text x="0" y="0" class="panel-title">Mean diameter (cm)</text>
+    <line x1="70" y1="235" x2="530" y2="235" class="axis"/>
+    <line x1="70" y1="35" x2="70" y2="235" class="axis"/>
+    <line x1="70" y1="203.6" x2="530" y2="203.6" class="grid"/>
+    <line x1="70" y1="112.7" x2="530" y2="112.7" class="grid"/>
+    <line x1="70" y1="67.3" x2="530" y2="67.3" class="grid"/>
+    <text x="40" y="207.6" class="tick">25</text>
+    <text x="40" y="116.7" class="tick">35</text>
+    <text x="40" y="71.3" class="tick">40</text>
+    <line x1="274" y1="35" x2="274" y2="235" class="thin-line"/>
+    <polyline points="70,225.3 274,209.0 530,115.8" class="moderate"/>
+    <polyline points="70,225.3 274,204.9 530,84.7" class="heavy"/>
+    <circle cx="70" cy="225.3" r="4" class="moderate-point"/>
+    <circle cx="274" cy="209.0" r="4" class="moderate-point"/>
+    <circle cx="530" cy="115.8" r="4" class="moderate-point"/>
+    <circle cx="70" cy="225.3" r="4" class="heavy-point"/>
+    <circle cx="274" cy="204.9" r="4" class="heavy-point"/>
+    <circle cx="530" cy="84.7" r="4" class="heavy-point"/>
+    <text x="58" y="255" class="tick">2026</text>
+    <text x="246" y="255" class="tick">2031</text>
+    <text x="518" y="255" class="tick">2055</text>
+  </g>
+
+  <!-- Panel 3: mean height -->
+  <g transform="translate(60,420)">
+    <text x="0" y="0" class="panel-title">Mean height (m)</text>
+    <line x1="70" y1="235" x2="530" y2="235" class="axis"/>
+    <line x1="70" y1="35" x2="70" y2="235" class="axis"/>
+    <line x1="70" y1="201.7" x2="530" y2="201.7" class="grid"/>
+    <line x1="70" y1="118.3" x2="530" y2="118.3" class="grid"/>
+    <line x1="70" y1="76.7" x2="530" y2="76.7" class="grid"/>
+    <text x="40" y="205.7" class="tick">22</text>
+    <text x="40" y="122.3" class="tick">26</text>
+    <text x="40" y="80.7" class="tick">28</text>
+    <line x1="274" y1="35" x2="274" y2="235" class="thin-line"/>
+    <polyline points="70,229.9 274,216.3 530,76.6" class="moderate"/>
+    <polyline points="70,229.9 274,221.4 530,60.8" class="heavy"/>
+    <circle cx="70" cy="229.9" r="4" class="moderate-point"/>
+    <circle cx="274" cy="216.3" r="4" class="moderate-point"/>
+    <circle cx="530" cy="76.6" r="4" class="moderate-point"/>
+    <circle cx="70" cy="229.9" r="4" class="heavy-point"/>
+    <circle cx="274" cy="221.4" r="4" class="heavy-point"/>
+    <circle cx="530" cy="60.8" r="4" class="heavy-point"/>
+    <text x="58" y="255" class="tick">2026</text>
+    <text x="246" y="255" class="tick">2031</text>
+    <text x="518" y="255" class="tick">2055</text>
+  </g>
+
+  <!-- Panel 4: standing volume -->
+  <g transform="translate(620,420)">
+    <text x="0" y="0" class="panel-title">Standing volume (m3/ha)</text>
+    <line x1="70" y1="235" x2="530" y2="235" class="axis"/>
+    <line x1="70" y1="35" x2="70" y2="235" class="axis"/>
+    <line x1="70" y1="215" x2="530" y2="215" class="grid"/>
+    <line x1="70" y1="115" x2="530" y2="115" class="grid"/>
+    <line x1="70" y1="65" x2="530" y2="65" class="grid"/>
+    <text x="28" y="219" class="tick">250</text>
+    <text x="28" y="119" class="tick">450</text>
+    <text x="28" y="69" class="tick">550</text>
+    <line x1="274" y1="35" x2="274" y2="235" class="thin-line"/>
+    <polyline points="70,165.3 274,193.8 530,54.3" class="moderate"/>
+    <polyline points="70,165.3 274,228.3 530,83.3" class="heavy"/>
+    <circle cx="70" cy="165.3" r="4" class="moderate-point"/>
+    <circle cx="274" cy="193.8" r="4" class="moderate-point"/>
+    <circle cx="530" cy="54.3" r="4" class="moderate-point"/>
+    <circle cx="70" cy="165.3" r="4" class="heavy-point"/>
+    <circle cx="274" cy="228.3" r="4" class="heavy-point"/>
+    <circle cx="530" cy="83.3" r="4" class="heavy-point"/>
+    <text x="58" y="255" class="tick">2026</text>
+    <text x="246" y="255" class="tick">2031</text>
+    <text x="518" y="255" class="tick">2055</text>
+  </g>
+
+  <text x="60" y="720" class="subtitle">Dashed vertical lines indicate the thinning year. Values shown are selected years from saved simulation runs 150 and 149.</text>
+</svg>

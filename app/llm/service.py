@@ -1,6 +1,6 @@
 from openai import OpenAI, OpenAIError
 from sqlalchemy import text
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 
 from app.config import OPENAI_API_KEY, OPENAI_BASE_URL, OPENAI_MAX_TOKENS, OPENAI_MODEL
 from app.geo.models import ChatMessage, ChatSession, SimulationRun, Stand, StandObservation
@@ -13,13 +13,13 @@ from app.spatial.terrain import terrain_summary_for_stand
 def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
     session = _get_or_create_session(db, payload)
     stand = db.get(Stand, payload.stand_id) if payload.stand_id else None
-    simulation = db.get(SimulationRun, payload.simulation_run_id) if payload.simulation_run_id else None
+    simulations = _simulation_context_runs(db, payload)
     retrieved = retrieve_relevant_chunks(db, payload.question, payload.top_k)
     memory = _recent_memory(session)
 
     stand_context = _stand_context(db, stand)
     retrieved_context = [_compact_chunk(chunk.model_dump()) for chunk in retrieved]
-    simulation_summary = _compact_simulation_summary(simulation.summary) if simulation else None
+    simulation_summary = _compact_simulation_context(simulations)
 
     prompt = build_context_prompt(
         question=payload.question,
@@ -28,7 +28,8 @@ def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
         retrieved_chunks=retrieved_context,
         memory=memory,
     )
-    while len(prompt) > 12000 and retrieved_context:
+    min_retrieved_chunks = min(6, len(retrieved_context))
+    while len(prompt) > 60000 and len(retrieved_context) > min_retrieved_chunks:
         retrieved_context = retrieved_context[:-1]
         prompt = build_context_prompt(
             question=payload.question,
@@ -38,6 +39,8 @@ def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
             memory=memory,
         )
     answer = _call_llm(prompt)
+    answer = _ensure_rag_sources_reported(answer, retrieved_context)
+    answer = _ensure_memory_source_reported(answer, memory)
 
     db.add(ChatMessage(session_id=session.id, role="user", content=payload.question))
     db.add(
@@ -48,6 +51,7 @@ def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
             metadata_json={
                 "stand_id": payload.stand_id,
                 "simulation_run_id": payload.simulation_run_id,
+                "simulation_run_ids": [run.id for run in simulations],
                 "retrieved_context": retrieved_context,
             },
         )
@@ -60,6 +64,29 @@ def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
         retrieved_context=retrieved_context,
         simulation_summary=simulation_summary,
     )
+
+
+def _simulation_context_runs(db: Session, payload: ChatRequest) -> list[SimulationRun]:
+    run_ids = []
+    if payload.simulation_run_id:
+        run_ids.append(payload.simulation_run_id)
+    run_ids.extend(payload.simulation_run_ids or [])
+
+    unique_ids = []
+    for run_id in run_ids:
+        if run_id not in unique_ids:
+            unique_ids.append(run_id)
+    if not unique_ids:
+        return []
+
+    runs = (
+        db.query(SimulationRun)
+        .options(selectinload(SimulationRun.outputs))
+        .filter(SimulationRun.id.in_(unique_ids[:8]))
+        .all()
+    )
+    by_id = {run.id: run for run in runs}
+    return [by_id[run_id] for run_id in unique_ids if run_id in by_id]
 
 
 def _get_or_create_session(db: Session, payload: ChatRequest) -> ChatSession:
@@ -394,6 +421,33 @@ def _compact_chunk(chunk: dict) -> dict:
     }
 
 
+def _ensure_rag_sources_reported(answer: str, retrieved_context: list[dict]) -> str:
+    if not retrieved_context:
+        return answer
+
+    titles = []
+    for chunk in retrieved_context:
+        title = chunk.get("title")
+        if title and title not in titles:
+            titles.append(title)
+    if not titles:
+        return answer
+    answer_lower = answer.lower()
+    if "rag text corpus" in answer_lower and any(title.lower() in answer_lower for title in titles):
+        return answer
+
+    return f"{answer.rstrip()}\n\nRAG text corpus: {', '.join(titles)}"
+
+
+def _ensure_memory_source_reported(answer: str, memory: list[dict]) -> str:
+    if not memory:
+        return answer
+    answer_lower = answer.lower()
+    if "previous conversation" in answer_lower or "conversation memory" in answer_lower:
+        return answer
+    return f"{answer.rstrip()}\n\nPrevious conversation: recent messages in this chat session"
+
+
 def _compact_simulation_summary(summary: dict | None) -> dict | None:
     if not summary:
         return None
@@ -415,6 +469,49 @@ def _compact_simulation_summary(summary: dict | None) -> dict | None:
             if key in completed
         }
     return {key: value for key, value in compact.items() if value}
+
+
+def _compact_simulation_context(runs: list[SimulationRun]) -> dict | None:
+    if not runs:
+        return None
+    compact_runs = [_compact_simulation_run(run) for run in runs]
+    return {
+        "selected_run_count": len(compact_runs),
+        "runs": compact_runs,
+        "comparison_note": "Compare runs by their IDs. Use outputs_first_rows and outputs_last_rows to compare early and final development.",
+    }
+
+
+def _compact_simulation_run(run: SimulationRun) -> dict:
+    outputs = sorted(run.outputs, key=lambda output: output.year)
+    output_rows = [output.output for output in outputs]
+    return {
+        "run_id": run.id,
+        "stand_id": run.stand_id,
+        "model_name": run.model_name,
+        "model_version": run.model_version,
+        "status": run.status,
+        "created_at": run.created_at.isoformat() if run.created_at else None,
+        "completed_at": run.completed_at.isoformat() if run.completed_at else None,
+        "input_parameters": _compact_run_input(run.input_parameters),
+        "summary": _compact_simulation_summary(run.summary),
+        "outputs_first_rows": output_rows[:4],
+        "outputs_last_rows": output_rows[-8:] if len(output_rows) > 4 else [],
+    }
+
+
+def _compact_run_input(input_parameters: dict | None) -> dict:
+    if not input_parameters:
+        return {}
+    field_input = input_parameters.get("field_input") or {}
+    return {
+        "input_mode": input_parameters.get("input_mode"),
+        "field_input": {
+            key: field_input.get(key)
+            for key in ("altitude", "soil_moisture", "site_fertility", "horizon_years", "species_entries", "thinning_schedule")
+            if key in field_input
+        },
+    }
 
 
 def _truncate(text: str, limit: int) -> str:

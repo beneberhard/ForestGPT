@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Any
 
 from pydantic import BaseModel, Field
@@ -110,6 +111,8 @@ class SimulationRunRead(BaseModel):
     input_parameters: dict[str, Any]
     summary: dict[str, Any] | None = None
     status: str
+    created_at: datetime
+    completed_at: datetime | None = None
     outputs: list[SimulationOutputRead] = Field(default_factory=list)
 
     model_config = {"from_attributes": True}

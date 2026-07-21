@@ -29,4 +29,4 @@ class RetrievedChunk(BaseModel):
 
 class RetrievalRequest(BaseModel):
     query: str
-    top_k: int = Field(5, ge=1, le=20)
+    top_k: int = Field(12, ge=1, le=50)

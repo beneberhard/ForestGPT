@@ -1,6 +1,7 @@
 const API = window.location.origin;
 const speciesRowCount = 9;
 const thinningCount = 4;
+const defaultSimulationStartYear = 2026;
 
 let map;
 let standLayer;
@@ -13,6 +14,7 @@ let lastDiagnostics = [];
 let thinningKeys = new Set();
 let resultsTableCollapsed = false;
 let observationsVisible = false;
+let savedSimulationRuns = [];
 
 const $ = (id) => document.getElementById(id);
 
@@ -148,7 +150,7 @@ function buildSpeciesRows() {
   container.innerHTML = "";
   const header = document.createElement("div");
   header.className = "table-row";
-  ["", "Species", "Cohort", "Yield table", "Age", "Top height", "Share", "N/ha", "Mean height", "DBH"].forEach((label) => {
+  ["", "Species", "Cohort", "Yield table", "Planted", "Age", "Top h", "Share", "N/ha", "Mean h", "DBH"].forEach((label) => {
     const cell = document.createElement("div");
     cell.className = "table-head";
     cell.textContent = label;
@@ -164,6 +166,7 @@ function buildSpeciesRows() {
       <input id="species_${i}" data-mirror="${i}" />
       <input id="cohort_${i}" data-mirror="${i}" value="${i === 1 ? "30y" : ""}" />
       <input id="yield_${i}" placeholder="optional" />
+      <input id="planted_${i}" type="number" min="0" max="9999" placeholder="year" />
       <input id="age_${i}" type="number" min="0" />
       <input id="top_height_${i}" type="number" min="0" step="0.1" />
       <input id="share_${i}" type="number" min="0" max="1" step="0.01" />
@@ -217,8 +220,32 @@ function bindMirrors() {
     ["species", "cohort"].forEach((field) => {
       $(`${field}_${i}`).addEventListener("input", syncThinningLabels);
     });
+    $(`cohort_${i}`).addEventListener("input", () => {
+      $(`cohort_${i}`).dataset.autoPlanted = "0";
+    });
+    $(`planted_${i}`).addEventListener("input", () => {
+      updateCohortFromPlantedYear(i);
+      syncThinningLabels();
+    });
   }
   syncThinningLabels();
+}
+
+function updateCohortFromPlantedYear(row) {
+  const plantedYear = numberValue(`planted_${row}`);
+  const cohortNode = $(`cohort_${row}`);
+  const isAuto = cohortNode.dataset.autoPlanted === "1";
+  if (plantedYear === null) {
+    if (isAuto) {
+      cohortNode.value = "";
+      cohortNode.dataset.autoPlanted = "0";
+    }
+    return;
+  }
+  if (!cohortNode.value || isAuto) {
+    cohortNode.value = String(defaultSimulationStartYear - plantedYear);
+    cohortNode.dataset.autoPlanted = "1";
+  }
 }
 
 function syncThinningLabels() {
@@ -233,17 +260,19 @@ function speciesEntries() {
   const stock = numberValue("stockingDegree");
   for (let i = 1; i <= speciesRowCount; i += 1) {
     const species = value(`species_${i}`);
+    const plantedYear = numberValue(`planted_${i}`);
     const age = numberValue(`age_${i}`);
     const topHeight = numberValue(`top_height_${i}`);
     const stems = numberValue(`stems_${i}`);
     const height = numberValue(`height_${i}`);
     const dbh = numberValue(`dbh_${i}`);
-    const active = species && [age, topHeight, stems, height, dbh].some((item) => item !== null);
+    const active = species && [plantedYear, age, topHeight, stems, height, dbh].some((item) => item !== null);
     if (!active) continue;
     const entry = clean({
       species,
       cohort_label: value(`cohort_${i}`),
       yield_table_id: value(`yield_${i}`),
+      planted_year: plantedYear,
       age_years: age,
       top_height_m: topHeight,
       stocking_degree: stock,
@@ -304,6 +333,89 @@ function buildPayload() {
   });
 }
 
+function setInputValue(id, value) {
+  const node = $(id);
+  if (!node) return;
+  node.value = value === null || value === undefined ? "" : value;
+}
+
+function plantedYearFromValue(value) {
+  if (value === null || value === undefined || value === "") return "";
+  const match = String(value).match(/^\d{4}/);
+  return match ? match[0] : value;
+}
+
+function resetSimulationInputs() {
+  ["altitude", "soilMoisture", "siteFertility", "horizon", "stockingDegree"].forEach((id) => setInputValue(id, ""));
+  for (let i = 1; i <= speciesRowCount; i += 1) {
+    ["species", "cohort", "yield", "planted", "age", "top_height", "share", "stems", "height", "dbh"].forEach((field) => {
+      setInputValue(`${field}_${i}`, "");
+    });
+    $(`cohort_${i}`).dataset.autoPlanted = "0";
+  }
+  setInputValue("cohort_1", "30y");
+  for (let thin = 1; thin <= thinningCount; thin += 1) {
+    setInputValue(`thin_year_${thin}`, "");
+  }
+  for (let row = 1; row <= speciesRowCount; row += 1) {
+    for (let thin = 1; thin <= thinningCount; thin += 1) {
+      setInputValue(`thin_percent_${row}_${thin}`, "");
+    }
+  }
+  syncThinningLabels();
+}
+
+function applyFieldInputToForm(fieldInput = {}) {
+  resetSimulationInputs();
+  setInputValue("altitude", fieldInput.altitude);
+  setInputValue("soilMoisture", fieldInput.soil_moisture);
+  setInputValue("siteFertility", fieldInput.site_fertility);
+  setInputValue("horizon", fieldInput.horizon_years);
+
+  const entries = fieldInput.species_entries || [];
+  entries.slice(0, speciesRowCount).forEach((entry, index) => {
+    const row = index + 1;
+    setInputValue(`species_${row}`, entry.species);
+    setInputValue(`cohort_${row}`, entry.cohort_label);
+    setInputValue(`yield_${row}`, entry.yield_table_id);
+    setInputValue(`planted_${row}`, entry.planted_year ?? plantedYearFromValue(entry.planted));
+    updateCohortFromPlantedYear(row);
+    setInputValue(`age_${row}`, entry.age_years ?? entry.initial_age_years);
+    setInputValue(`top_height_${row}`, entry.top_height_m);
+    setInputValue(`share_${row}`, entry.share);
+    setInputValue(`stems_${row}`, entry.stems_per_ha);
+    setInputValue(`height_${row}`, entry.mean_height_m);
+    setInputValue(`dbh_${row}`, entry.mean_dbh_cm);
+  });
+
+  const stock = entries.find((entry) => entry.stocking_degree !== undefined)?.stocking_degree;
+  setInputValue("stockingDegree", stock);
+  syncThinningLabels();
+  applyThinningScheduleToForm(fieldInput.thinning_schedule || []);
+}
+
+function applyThinningScheduleToForm(schedule) {
+  const years = [...new Set(schedule.map((item) => item.year).filter((year) => year !== null && year !== undefined))]
+    .sort((a, b) => Number(a) - Number(b))
+    .slice(0, thinningCount);
+  years.forEach((year, index) => {
+    setInputValue(`thin_year_${index + 1}`, year);
+  });
+
+  schedule.forEach((item) => {
+    const column = years.findIndex((year) => Number(year) === Number(item.year)) + 1;
+    if (!column) return;
+    for (let row = 1; row <= speciesRowCount; row += 1) {
+      const speciesMatches = value(`species_${row}`) === (item.species || "");
+      const cohortMatches = (value(`cohort_${row}`) || "") === (item.cohort_label || "");
+      if (speciesMatches && cohortMatches) {
+        setInputValue(`thin_percent_${row}_${column}`, Number(item.removal_fraction || 0) * 100);
+        return;
+      }
+    }
+  });
+}
+
 async function saveStand() {
   const standId = numberValue("standId");
   if (standId === null) throw new Error("Enter a Stand ID before saving.");
@@ -339,6 +451,7 @@ async function saveStand() {
     setStatus(`Stand ${stand.id} updated`);
   }
   await loadStands();
+  await loadSimulationRunsForStand(stand.id);
 }
 
 async function linkStandGeometry() {
@@ -436,6 +549,7 @@ async function selectStand(id) {
   renderStandListFromDom();
   zoomToStand(id);
   showStandInfo(id);
+  loadSimulationRunsForStand(id).catch(showRunHistoryError);
   if (observationsVisible) {
     loadObservations(id);
   }
@@ -651,11 +765,185 @@ async function runSimulation() {
     resultsTableCollapsed = false;
     renderOutputs(lastOutputs);
     renderPlots();
-    setStatus(`Run ${data.id} completed`);
+    setStatus(`Run ${data.id} completed: ${outputSpeciesNames(lastOutputs).join("; ") || "no species output"}`);
     await loadStands();
+    await loadSimulationRunsForStand(data.stand_id);
+    setSelectedSimulationRun(data.id);
   } catch (error) {
     showError(error);
   }
+}
+
+function outputSpeciesNames(outputs) {
+  return [...new Set(
+    (outputs || [])
+      .map((item) => item.output?.species)
+      .filter(Boolean)
+  )];
+}
+
+async function loadSimulationRunsForStand(standId = numberValue("standId")) {
+  const select = $("simulationRunSelect");
+  const status = $("runHistoryStatus");
+  if (!standId) {
+    savedSimulationRuns = [];
+    select.innerHTML = `<option value="">Select a saved run</option>`;
+    status.textContent = "Select a stand to see saved simulations.";
+    return;
+  }
+  status.classList.remove("error");
+  status.textContent = "Loading saved runs...";
+  savedSimulationRuns = await request(`/simulation-runs/stand/${standId}`);
+  renderSimulationRunSelect();
+  status.textContent = savedSimulationRuns.length
+    ? `${savedSimulationRuns.length} saved run${savedSimulationRuns.length === 1 ? "" : "s"} for stand ${standId}.`
+    : `No saved runs for stand ${standId}.`;
+}
+
+function renderSimulationRunSelect() {
+  const select = $("simulationRunSelect");
+  select.innerHTML = "";
+  savedSimulationRuns.forEach((run) => {
+    const option = document.createElement("option");
+    option.value = run.id;
+    option.textContent = simulationRunLabel(run);
+    select.appendChild(option);
+  });
+}
+
+function simulationRunLabel(run) {
+  const created = run.created_at ? new Date(run.created_at).toLocaleString() : "";
+  const input = run.input_parameters?.field_input || {};
+  const entries = input.species_entries || [];
+  const species = entries.map((entry) => entry.cohort_label ? `${entry.species} ${entry.cohort_label}` : entry.species).filter(Boolean).join(", ");
+  const years = input.horizon_years ? `${input.horizon_years}y` : "";
+  return [`Run ${run.id}`, run.status, created, species, years].filter(Boolean).join(" - ");
+}
+
+function setSelectedSimulationRun(runId) {
+  const select = $("simulationRunSelect");
+  if (!select) return;
+  [...select.options].forEach((option) => {
+    option.selected = Number(option.value) === Number(runId);
+  });
+}
+
+function selectedSimulationRunIds() {
+  return [...($("simulationRunSelect")?.selectedOptions || [])]
+    .filter((option) => option.value !== "")
+    .map((option) => Number(option.value))
+    .filter((runId) => Number.isFinite(runId));
+}
+
+function selectedSavedRuns() {
+  const runIds = selectedSimulationRunIds();
+  return runIds
+    .map((runId) => savedSimulationRuns.find((item) => Number(item.id) === Number(runId)))
+    .filter(Boolean);
+}
+
+function selectedSavedRun() {
+  const runId = selectedSimulationRunIds()[0];
+  if (!runId) throw new Error("Select a saved simulation run first.");
+  const run = savedSimulationRuns.find((item) => Number(item.id) === Number(runId));
+  if (!run) throw new Error(`Saved run ${runId} is not loaded. Refresh simulation runs.`);
+  return run;
+}
+
+function displaySimulationRun(run, message) {
+  lastRunId = run.id;
+  selectedStandId = run.stand_id ?? selectedStandId;
+  setInputValue("standId", run.stand_id);
+  applyFieldInputToForm(run.input_parameters?.field_input || {});
+  lastOutputs = run.outputs || [];
+  lastDiagnostics = run.summary?.diagnostics || [];
+  thinningKeys = buildThinningKeys();
+  resultsTableCollapsed = false;
+  renderOutputs(lastOutputs);
+  renderPlots();
+  setSelectedSimulationRun(run.id);
+  setStatus(message || `Run ${run.id} loaded`);
+}
+
+async function loadSelectedSimulationRun() {
+  try {
+    const run = selectedSavedRun();
+    displaySimulationRun(run);
+  } catch (error) {
+    showRunHistoryError(error);
+  }
+}
+
+async function rerunSelectedSimulationRun() {
+  try {
+    const run = selectedSavedRun();
+    setStatus(`Rerunning ${run.id}...`);
+    const data = await request("/simulation-runs", {
+      method: "POST",
+      body: JSON.stringify(run.input_parameters),
+    });
+    lastRunId = data.id;
+    await loadSimulationRunsForStand(data.stand_id);
+    displaySimulationRun(data, `Run ${data.id} completed from run ${run.id}`);
+  } catch (error) {
+    showRunHistoryError(error);
+  }
+}
+
+function useSelectedRunInChat() {
+  try {
+    const runs = selectedSavedRuns();
+    if (!runs.length) throw new Error("Select one or more saved simulation runs first.");
+    lastRunId = runs[0].id;
+    selectedStandId = runs[0].stand_id ?? selectedStandId;
+    setInputValue("standId", runs[0].stand_id);
+    const label = runs.map((run) => run.id).join(", ");
+    setStatus(`Runs ${label} will be used in chat`);
+    $("runHistoryStatus").classList.remove("error");
+    $("runHistoryStatus").textContent = `Chat context set to run${runs.length === 1 ? "" : "s"} ${label}.`;
+  } catch (error) {
+    showRunHistoryError(error);
+  }
+}
+
+function downloadSelectedSimulationRunCsv() {
+  try {
+    const run = selectedSavedRun();
+    window.location.href = `/simulation-runs/${run.id}/outputs.csv`;
+    $("runHistoryStatus").classList.remove("error");
+    $("runHistoryStatus").textContent = `Downloading CSV for run ${run.id}.`;
+  } catch (error) {
+    showRunHistoryError(error);
+  }
+}
+
+async function deleteSelectedSimulationRun() {
+  try {
+    const run = selectedSavedRun();
+    if (!window.confirm(`Delete simulation run ${run.id}?`)) return;
+    await request(`/simulation-runs/${run.id}`, { method: "DELETE" });
+    if (Number(lastRunId) === Number(run.id)) {
+      lastRunId = null;
+      lastOutputs = [];
+      lastDiagnostics = [];
+      thinningKeys = new Set();
+      $("results").innerHTML = "";
+      $("plots").innerHTML = "";
+    }
+    await loadSimulationRunsForStand(run.stand_id || numberValue("standId"));
+    setStatus(`Run ${run.id} deleted`);
+    $("runHistoryStatus").classList.remove("error");
+    $("runHistoryStatus").textContent = `Run ${run.id} deleted.`;
+  } catch (error) {
+    showRunHistoryError(error);
+  }
+}
+
+function showRunHistoryError(error) {
+  const status = $("runHistoryStatus");
+  status.classList.add("error");
+  status.textContent = error.message;
+  setStatus("Error");
 }
 
 function renderOutputs(outputs) {
@@ -847,14 +1135,17 @@ async function askChat() {
   if (!question) return;
   $("chatAnswer").innerHTML = `<div class="message">Thinking...</div>`;
   try {
+    const selectedRunIds = selectedSimulationRunIds();
+    const simulationRunIds = selectedRunIds.length ? selectedRunIds : (lastRunId ? [lastRunId] : []);
     const data = await request("/chat", {
       method: "POST",
       body: JSON.stringify(clean({
         question,
         stand_id: numberValue("standId"),
-        simulation_run_id: lastRunId,
+        simulation_run_id: simulationRunIds[0],
+        simulation_run_ids: simulationRunIds,
         session_id: chatSessionId,
-        top_k: 5,
+        top_k: 12,
       })),
     });
     chatSessionId = data.session_id;
@@ -904,10 +1195,14 @@ function clearForm() {
   thinningKeys = new Set();
   resultsTableCollapsed = false;
   observationsVisible = false;
+  savedSimulationRuns = [];
   syncThinningLabels();
   $("results").innerHTML = "";
   $("plots").innerHTML = "";
   $("chatAnswer").innerHTML = "";
+  $("simulationRunSelect").innerHTML = `<option value="">Select a saved run</option>`;
+  $("runHistoryStatus").textContent = "";
+  $("runHistoryStatus").classList.remove("error");
   $("ragUploadStatus").textContent = "";
   $("ragUploadStatus").classList.remove("error");
   $("standInfo").classList.add("collapsed");
@@ -963,6 +1258,14 @@ document.addEventListener("DOMContentLoaded", () => {
   $("previewDefaults").addEventListener("click", previewDefaults);
   $("previewTables").addEventListener("click", previewTables);
   $("runSimulation").addEventListener("click", runSimulation);
+  $("refreshRuns").addEventListener("click", () => {
+    loadSimulationRunsForStand().catch(showRunHistoryError);
+  });
+  $("loadRun").addEventListener("click", loadSelectedSimulationRun);
+  $("rerunRun").addEventListener("click", rerunSelectedSimulationRun);
+  $("downloadRunCsv").addEventListener("click", downloadSelectedSimulationRunCsv);
+  $("useRunInChat").addEventListener("click", useSelectedRunInChat);
+  $("deleteRun").addEventListener("click", deleteSelectedSimulationRun);
   $("showGrowthPlots").addEventListener("change", renderPlots);
   $("toggleResultsTable").addEventListener("click", () => {
     if (!lastOutputs.length) return;

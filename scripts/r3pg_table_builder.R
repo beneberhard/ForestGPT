@@ -65,6 +65,21 @@ value_or <- function(value, default) {
   value
 }
 
+planted_value <- function(entry, start_year) {
+  if (!is.null(entry$planted) && entry$planted != "") {
+    planted <- as.character(entry$planted)
+    if (grepl("^\\d{4}$", planted)) {
+      return(sprintf("%s-01", planted))
+    }
+    return(planted)
+  }
+  if (!is.null(entry$planted_year) && entry$planted_year != "") {
+    return(sprintf("%04d-01", as.integer(entry$planted_year)))
+  }
+  planted_year <- start_year - as.integer(value_or(entry$initial_age_years, 40))
+  sprintf("%04d-01", planted_year)
+}
+
 select_parameter_set <- function(overview, params, species_name) {
   if (!is.null(params$parameter_set_id)) {
     selected <- overview[overview$parset_id == as.integer(params$parameter_set_id), , drop = FALSE]
@@ -264,13 +279,12 @@ for (i in seq_along(species_entries)) {
   entry <- species_entries[[i]]
   species_name <- species_names[[i]]
   species_base_name <- species_base_names[[i]]
-  planted_year <- start_year - as.integer(value_or(entry$initial_age_years, 40))
   row <- r3PG::d_species[r3PG::d_species$species == species_base_name, , drop = FALSE]
   if (nrow(row) == 0) {
     row <- r3PG::d_species[1, , drop = FALSE]
   }
   row$species <- species_name
-  row$planted <- sprintf("%04d-01", planted_year)
+  row$planted <- planted_value(entry, start_year)
   row$fertility <- as.numeric(value_or(params$site_fertility, row$fertility[1]))
   row$stems_n <- as.numeric(value_or(entry$initial_stems_per_ha, row$stems_n[1]))
   row$biom_stem <- as.numeric(value_or(entry$initial_stem_biomass_t_ha, row$biom_stem[1]))

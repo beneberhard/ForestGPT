@@ -89,24 +89,7 @@ class R3PGAdapter(SimulationAdapter):
             raise RuntimeError(f"r3PG runner script not found: {runner}")
 
         payload = request.model_dump()
-        with tempfile.TemporaryDirectory(prefix="forestgpt_r3pg_") as tmp_dir:
-            input_path = Path(tmp_dir) / "input.json"
-            output_path = Path(tmp_dir) / "output.json"
-            input_path.write_text(json.dumps(payload), encoding="utf-8")
-
-            completed = subprocess.run(
-                [RSCRIPT_BIN, str(runner), str(input_path), str(output_path)],
-                check=False,
-                capture_output=True,
-                text=True,
-            )
-            if completed.returncode != 0:
-                raise RuntimeError(
-                    "r3PG runner failed.\n"
-                    f"stdout:\n{completed.stdout}\n"
-                    f"stderr:\n{completed.stderr}"
-                )
-            result = json.loads(output_path.read_text(encoding="utf-8"))
+        result = _run_r3pg_payload(payload, runner)
 
         outputs = [
             _normalize_annual_output(
@@ -117,6 +100,18 @@ class R3PGAdapter(SimulationAdapter):
             for row in result.get("annual_outputs", [])
         ]
         summary = result.get("summary", {})
+        fallback_outputs = _run_missing_planted_cohorts(payload, outputs, runner)
+        if fallback_outputs:
+            outputs.extend(fallback_outputs)
+            outputs.sort(key=lambda item: (item.year, item.species or ""))
+            summary.setdefault("fallback_cohort_runs", [])
+            for species_name in sorted({output.species for output in fallback_outputs if output.species}):
+                summary["fallback_cohort_runs"].append(
+                    {
+                        "species": species_name,
+                        "note": "Planted cohort was missing from the combined r3PG run and was rerun separately.",
+                    }
+                )
         summary.setdefault(
             "warning",
             "r3PG mixed-stand output normalization is provisional. Validate variable mappings before management use.",
@@ -133,8 +128,99 @@ class R3PGAdapter(SimulationAdapter):
             input_parameters=payload,
             outputs=outputs,
             summary=summary,
-            raw_outputs={"records": result.get("raw_records", [])},
+        raw_outputs={"records": result.get("raw_records", [])},
+    )
+
+
+def _run_r3pg_payload(payload: dict[str, Any], runner: Path) -> dict[str, Any]:
+    with tempfile.TemporaryDirectory(prefix="forestgpt_r3pg_") as tmp_dir:
+        input_path = Path(tmp_dir) / "input.json"
+        output_path = Path(tmp_dir) / "output.json"
+        input_path.write_text(json.dumps(payload), encoding="utf-8")
+
+        completed = subprocess.run(
+            [RSCRIPT_BIN, str(runner), str(input_path), str(output_path)],
+            check=False,
+            capture_output=True,
+            text=True,
         )
+        if completed.returncode != 0:
+            raise RuntimeError(
+                "r3PG runner failed.\n"
+                f"stdout:\n{completed.stdout}\n"
+                f"stderr:\n{completed.stderr}"
+            )
+        return json.loads(output_path.read_text(encoding="utf-8"))
+
+
+def _run_missing_planted_cohorts(
+    payload: dict[str, Any],
+    outputs: list[AnnualSimulationOutput],
+    runner: Path,
+) -> list[AnnualSimulationOutput]:
+    raw_inputs = payload.get("raw_inputs") or {}
+    species_rows = raw_inputs.get("species") or []
+    output_species = {output.species for output in outputs}
+    missing_rows = [
+        row for row in species_rows
+        if row.get("species") not in output_species and _is_future_planted_row(row, raw_inputs)
+    ]
+    fallback_outputs: list[AnnualSimulationOutput] = []
+    for row in missing_rows:
+        species_name = row.get("species")
+        single_payload = {
+            **payload,
+            "raw_inputs": _single_species_raw_inputs(raw_inputs, species_name),
+        }
+        result = _run_r3pg_payload(single_payload, runner)
+        planted_year = _year_from_planted(row.get("planted"))
+        fallback_outputs.extend(
+            _normalize_annual_output(item)
+            for item in result.get("annual_outputs", [])
+            if item.get("species") == species_name and int(item.get("year", 0)) >= planted_year
+        )
+    return fallback_outputs
+
+
+def _single_species_raw_inputs(raw_inputs: dict[str, Any], species_name: str | None) -> dict[str, Any]:
+    if not species_name:
+        return raw_inputs
+    raw_copy = dict(raw_inputs)
+    raw_copy["species"] = [row for row in raw_inputs.get("species", []) if row.get("species") == species_name]
+    raw_copy["parameters"] = _filter_parameter_rows(raw_inputs.get("parameters"), species_name)
+    raw_copy["size_dist"] = _filter_parameter_rows(raw_inputs.get("size_dist"), species_name)
+    raw_copy["thinning"] = [
+        row for row in raw_inputs.get("thinning", [])
+        if row.get("species") == species_name
+    ]
+    metadata = dict(raw_inputs.get("metadata") or {})
+    metadata["dynamic_thinning"] = [
+        row for row in metadata.get("dynamic_thinning", [])
+        if row.get("species") == species_name
+    ]
+    raw_copy["metadata"] = metadata
+    return raw_copy
+
+
+def _filter_parameter_rows(rows: list[dict] | None, species_name: str) -> list[dict]:
+    if not rows:
+        return []
+    return [
+        {"parameter": row.get("parameter"), species_name: row.get(species_name)}
+        for row in rows
+    ]
+
+
+def _is_future_planted_row(row: dict[str, Any], raw_inputs: dict[str, Any]) -> bool:
+    planted_year = _year_from_planted(row.get("planted"))
+    start_year = int((raw_inputs.get("metadata") or {}).get("start_year", 2026))
+    return planted_year > start_year
+
+
+def _year_from_planted(value: Any) -> int:
+    if value is None:
+        return 0
+    return int(str(value)[:4])
 
 def _normalize_annual_output(
     row: dict[str, Any],

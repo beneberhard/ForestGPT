@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260721-planted-cohorts" />
   </head>
   <body>
     <main class="shell">
@@ -121,6 +121,27 @@
           <button id="runSimulation" type="button" class="primary">Run r3PG</button>
         </section>
 
+        <section class="block simulation-history-block">
+          <div class="block-title">
+            <div>
+              <h2>Simulation runs</h2>
+              <p class="panel-note">Select one or several runs for chat comparison</p>
+            </div>
+            <button id="refreshRuns" type="button">Refresh</button>
+          </div>
+          <div class="run-history-row">
+            <select id="simulationRunSelect" multiple size="5">
+              <option value="">Select a saved run</option>
+            </select>
+            <button id="loadRun" type="button">Load</button>
+            <button id="rerunRun" type="button">Rerun</button>
+            <button id="downloadRunCsv" type="button">Download CSV</button>
+            <button id="useRunInChat" type="button">Use in chat</button>
+            <button id="deleteRun" type="button" class="danger-button">Delete</button>
+          </div>
+          <div id="runHistoryStatus" class="run-history-status"></div>
+        </section>
+
         <section class="block results-block">
           <div class="block-title">
             <h2>Results</h2>
@@ -185,6 +206,6 @@
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     ></script>
-    <script src="./app.js"></script>
+    <script src="./app.js?v=20260721-planted-cohorts"></script>
   </body>
 </html>

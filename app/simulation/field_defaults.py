@@ -108,7 +108,20 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
 
     raw_species = take("species", "Picea abies", "Starting species default.")
     species = SPECIES_ALIASES.get(str(raw_species).lower(), raw_species)
+    planted_year = _planted_year(raw.get("planted_year", raw.get("planted")))
     age = raw.get("age_years", raw.get("initial_age_years"))
+    if age is None and planted_year is not None:
+        start_year = int(raw.get("start_year", 2026))
+        age = start_year - planted_year
+        assumptions.append(
+            DefaultAssumption(
+                field="age_years",
+                value=age,
+                reason=f"Derived from planted_year={planted_year} and start_year={start_year}.",
+            )
+        )
+    start_year = int(raw.get("start_year", 2026))
+    is_planting_cohort = planted_year is not None and int(age) <= 0
     if age is None:
         age = 40
         assumptions.append(DefaultAssumption(field="age_years", value=age, reason="Default stand age for first prototype."))
@@ -122,7 +135,7 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
             raw.get("mean_height_m", raw.get("height_m")),
         )
     )
-    if age is not None and raw.get("top_height_m") is not None and not has_inventory_structure:
+    if age is not None and raw.get("top_height_m") is not None and not has_inventory_structure and not is_planting_cohort:
         yield_table_id = raw.get("yield_table_id", "fichte_bayern")
         used_yield_table_id = yield_table_id
         if raw.get("yield_table_id") is None:
@@ -150,8 +163,14 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
         stems = round(yield_estimate["stems_ha"])
         assumptions.append(_yield_assumption("stems_ha", stems, yield_estimate))
     if stems is None:
-        stems = 800
-        assumptions.append(DefaultAssumption(field="stems_per_ha", value=stems, reason="Default Norway spruce stocking."))
+        stems = 1600 if is_planting_cohort else 800
+        assumptions.append(
+            DefaultAssumption(
+                field="stems_per_ha",
+                value=stems,
+                reason="Default planting density." if is_planting_cohort else "Default Norway spruce stocking.",
+            )
+        )
     soil_moisture = str(take("soil_moisture", "mesic", "Default medium soil moisture class.")).lower()
 
     soil_water_by_moisture = {"dry": 80, "mesic": 120, "moist": 160, "wet": 200}
@@ -193,7 +212,20 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
         )
 
     stem_biomass = raw.get("initial_stem_biomass_t_ha")
-    if stem_biomass is None and species == "Picea abies" and dbh is not None and stems is not None:
+    root_biomass = raw.get("initial_root_biomass_t_ha")
+    foliage_biomass = raw.get("initial_foliage_biomass_t_ha")
+    if is_planting_cohort and any(value is None for value in (stem_biomass, root_biomass, foliage_biomass)):
+        planting_biomass = _planting_biomass_defaults(float(stems))
+        if stem_biomass is None:
+            stem_biomass = planting_biomass["stem"]
+            assumptions.append(_planting_biomass_assumption("initial_stem_biomass_t_ha", stem_biomass))
+        if root_biomass is None:
+            root_biomass = planting_biomass["root"]
+            assumptions.append(_planting_biomass_assumption("initial_root_biomass_t_ha", root_biomass))
+        if foliage_biomass is None:
+            foliage_biomass = planting_biomass["foliage"]
+            assumptions.append(_planting_biomass_assumption("initial_foliage_biomass_t_ha", foliage_biomass))
+    elif stem_biomass is None and species == "Picea abies" and dbh is not None and stems is not None:
         stem_biomass = round(0.133 * float(dbh) ** 2.305 * float(stems) / 1000, 2)
         assumptions.append(
             DefaultAssumption(
@@ -216,6 +248,7 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
 
     completed = {
         "species": species,
+        "planted_year": planted_year,
         "initial_age_years": age,
         "horizon_years": take("horizon_years", 20, "Default planning horizon."),
         "initial_stems_per_ha": stems,
@@ -233,8 +266,8 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
         "height_m": height,
         "volume_m3_ha": volume,
         "initial_stem_biomass_t_ha": stem_biomass,
-        "initial_root_biomass_t_ha": raw.get("initial_root_biomass_t_ha", round(stem_biomass * 0.25, 2) if stem_biomass else None),
-        "initial_foliage_biomass_t_ha": raw.get("initial_foliage_biomass_t_ha", round(stem_biomass * 0.03, 2) if stem_biomass else None),
+        "initial_root_biomass_t_ha": root_biomass if root_biomass is not None else round(stem_biomass * 0.25, 2) if stem_biomass else None,
+        "initial_foliage_biomass_t_ha": foliage_biomass if foliage_biomass is not None else round(stem_biomass * 0.03, 2) if stem_biomass else None,
         "thinning_schedule": raw.get("thinning_schedule", []),
     }
     completed = {key: value for key, value in completed.items() if value is not None}
@@ -285,6 +318,38 @@ def _soil_water_capacity(raw: dict[str, Any], assumptions: list[DefaultAssumptio
     return soil_water
 
 
+def _planted_year(value: Any) -> int | None:
+    if value is None or value == "":
+        return None
+    if isinstance(value, (int, float)):
+        return int(value)
+    text = str(value).strip()
+    if not text:
+        return None
+    return int(text[:4])
+
+
+def _planting_biomass_defaults(stems_per_ha: float) -> dict[str, float]:
+    scale = stems_per_ha / 1000
+    return {
+        "stem": round(0.05 * scale, 4),
+        "root": round(0.025 * scale, 4),
+        "foliage": round(0.02 * scale, 4),
+    }
+
+
+def _planting_biomass_assumption(field: str, value: float) -> DefaultAssumption:
+    return DefaultAssumption(
+        field=field,
+        value=value,
+        reason=(
+            "Default seedling biomass for explicitly planted cohorts. "
+            "Assumes 0.05 t/ha stem, 0.025 t/ha root, and 0.02 t/ha foliage per 1000 planted trees/ha."
+        ),
+        confidence="low",
+    )
+
+
 def _complete_species_input(
     entry: dict[str, Any],
     shared: dict[str, Any],
@@ -306,9 +371,21 @@ def _complete_species_input(
         )
     species = SPECIES_ALIASES.get(str(raw_species).lower(), raw_species)
 
+    planted_year = _planted_year(entry.get("planted_year", entry.get("planted")))
     age = entry.get("age_years", entry.get("initial_age_years"))
+    start_year = int(shared.get("start_year", 2026))
+    if age is None and planted_year is not None:
+        age = start_year - planted_year
+        assumptions.append(
+            DefaultAssumption(
+                field=f"{species}.age_years",
+                value=age,
+                reason=f"Derived from planted_year={planted_year} and start_year={start_year}.",
+            )
+        )
     if age is None:
         raise ValueError(f"Species row {index} requires age_years.")
+    is_planting_cohort = planted_year is not None and int(age) <= 0
 
     stems = entry.get("stems_per_ha", entry.get("initial_stems_per_ha"))
     dbh = entry.get("mean_dbh_cm", entry.get("dbh_cm"))
@@ -320,7 +397,7 @@ def _complete_species_input(
     stocking_degree = _stocking_degree(entry)
     species_share = _species_share(entry, active_species_count)
     yield_scale = stocking_degree * species_share
-    if entry.get("top_height_m") is not None and not has_inventory_structure:
+    if entry.get("top_height_m") is not None and not has_inventory_structure and not is_planting_cohort:
         yield_table_id = entry.get("yield_table_id") or DEFAULT_YIELD_TABLE_BY_SPECIES.get(str(species), "fichte_bayern")
         used_yield_table_id = yield_table_id
         if entry.get("yield_table_id") is None:
@@ -344,6 +421,15 @@ def _complete_species_input(
         stems = round(yield_estimate["stems_ha"] * yield_scale)
         assumptions.append(_yield_assumption(f"{species}.stems_ha", stems, yield_estimate))
         _append_scaling_assumptions(species, assumptions, stocking_degree, species_share, yield_scale)
+    if stems is None and is_planting_cohort:
+        stems = 1600
+        assumptions.append(
+            DefaultAssumption(
+                field=f"{species}.stems_ha",
+                value=stems,
+                reason="Default planting density.",
+            )
+        )
     if dbh is None and yield_estimate:
         dbh = round(yield_estimate["mean_dbh_cm"], 1)
         assumptions.append(_yield_assumption(f"{species}.mean_dbh_cm", dbh, yield_estimate))
@@ -351,7 +437,7 @@ def _complete_species_input(
         height = round(yield_estimate["mean_height_m"], 1)
         assumptions.append(_yield_assumption(f"{species}.mean_height_m", height, yield_estimate))
 
-    if stems is None or dbh is None or height is None:
+    if not is_planting_cohort and (stems is None or dbh is None or height is None):
         raise ValueError(
             f"{species} requires either stems/ha, mean DBH, and mean height; or age plus top height for yield-table estimation."
         )
@@ -360,7 +446,7 @@ def _complete_species_input(
     if volume is None and yield_estimate:
         volume = round(yield_estimate["volume_m3_ha"] * yield_scale, 1)
         assumptions.append(_yield_assumption(f"{species}.volume_m3_ha", volume, yield_estimate))
-    if volume is None:
+    if volume is None and not is_planting_cohort:
         form_factor = 0.49 if species == "Fagus sylvatica" else 0.45
         volume = round(pi * (float(dbh) / 100 / 2) ** 2 * float(height) * float(stems) * form_factor, 1)
         assumptions.append(
@@ -373,7 +459,20 @@ def _complete_species_input(
         )
 
     stem_biomass = entry.get("initial_stem_biomass_t_ha")
-    if stem_biomass is None and species == "Picea abies":
+    root_biomass = entry.get("initial_root_biomass_t_ha")
+    foliage_biomass = entry.get("initial_foliage_biomass_t_ha")
+    if is_planting_cohort and any(value is None for value in (stem_biomass, root_biomass, foliage_biomass)):
+        planting_biomass = _planting_biomass_defaults(float(stems))
+        if stem_biomass is None:
+            stem_biomass = planting_biomass["stem"]
+            assumptions.append(_planting_biomass_assumption(f"{species}.initial_stem_biomass_t_ha", stem_biomass))
+        if root_biomass is None:
+            root_biomass = planting_biomass["root"]
+            assumptions.append(_planting_biomass_assumption(f"{species}.initial_root_biomass_t_ha", root_biomass))
+        if foliage_biomass is None:
+            foliage_biomass = planting_biomass["foliage"]
+            assumptions.append(_planting_biomass_assumption(f"{species}.initial_foliage_biomass_t_ha", foliage_biomass))
+    elif stem_biomass is None and species == "Picea abies":
         stem_biomass = round(0.133 * float(dbh) ** 2.305 * float(stems) / 1000, 2)
         assumptions.append(
             DefaultAssumption(
@@ -398,6 +497,7 @@ def _complete_species_input(
     completed = {
         "species": species,
         "cohort_label": entry.get("cohort_label", entry.get("cohort_id")),
+        "planted_year": planted_year,
         "initial_age_years": age,
         "initial_stems_per_ha": stems,
         "dbh_cm": dbh,
@@ -410,14 +510,8 @@ def _complete_species_input(
             "site_class_estimated": yield_estimate.get("site_class_estimated") if yield_estimate else None,
         "volume_m3_ha": volume,
         "initial_stem_biomass_t_ha": stem_biomass,
-        "initial_root_biomass_t_ha": entry.get(
-            "initial_root_biomass_t_ha",
-            round(stem_biomass * 0.25, 2) if stem_biomass else None,
-        ),
-        "initial_foliage_biomass_t_ha": entry.get(
-            "initial_foliage_biomass_t_ha",
-            round(stem_biomass * 0.03, 2) if stem_biomass else None,
-        ),
+        "initial_root_biomass_t_ha": root_biomass if root_biomass is not None else round(stem_biomass * 0.25, 2) if stem_biomass else None,
+        "initial_foliage_biomass_t_ha": foliage_biomass if foliage_biomass is not None else round(stem_biomass * 0.03, 2) if stem_biomass else None,
     }
     return (
         {key: value for key, value in completed.items() if value is not None},

@@ -56,14 +56,19 @@ if (is.null(settings)) {
   )
 }
 
-run_model <- function(thinning_table) {
+run_model <- function(
+  thinning_table,
+  species_table = species,
+  parameters_table = parameters,
+  size_dist_table = size_dist
+) {
   r3PG::run_3PG(
     site = site,
-    species = species,
+    species = species_table,
     climate = climate,
     thinning = thinning_table,
-    parameters = parameters,
-    size_dist = size_dist,
+    parameters = parameters_table,
+    size_dist = size_dist_table,
     settings = settings,
     check_input = TRUE,
     df_out = TRUE
@@ -124,6 +129,72 @@ if (!is.null(dynamic_thinning) && length(dynamic_thinning) > 0) {
 out <- run_model(thinning)
 
 records <- as.data.frame(out, stringsAsFactors = FALSE)
+if ("date" %in% names(records)) {
+  records$year <- as.integer(format(as.Date(records$date), "%Y"))
+}
+fallback_cohort_runs <- list()
+if ("species" %in% names(records) && "species" %in% names(species)) {
+  planted_year_lookup <- setNames(as.integer(substr(species$planted, 1, 4)), species$species)
+  missing_species <- species$species[!vapply(species$species, function(species_name) {
+    planted_year <- planted_year_lookup[[species_name]]
+    species_records <- records[records$species == species_name, , drop = FALSE]
+    if (nrow(species_records) == 0) {
+      return(FALSE)
+    }
+    if ("year" %in% names(species_records) && !is.null(planted_year) && !is.na(planted_year)) {
+      post_planting_records <- species_records[species_records$year >= planted_year, , drop = FALSE]
+      if (nrow(post_planting_records) == 0) {
+        return(FALSE)
+      }
+      if (all(c("variable", "value") %in% names(post_planting_records))) {
+        active_records <- post_planting_records[
+          post_planting_records$variable %in% c("stems_n", "biom_stem", "biom_root", "biom_foliage", "basal_area", "volume") &
+            !is.na(as.numeric(post_planting_records$value)) &
+            as.numeric(post_planting_records$value) > 0,
+          ,
+          drop = FALSE
+        ]
+        return(nrow(active_records) > 0)
+      }
+      return(TRUE)
+    }
+    TRUE
+  }, logical(1))]
+  for (missing_name in missing_species) {
+    if (!missing_name %in% names(parameters)) {
+      next
+    }
+    single_species <- species[species$species == missing_name, , drop = FALSE]
+    single_parameters <- parameters[, c("parameter", missing_name), drop = FALSE]
+    single_size_dist <- NULL
+    if (!is.null(size_dist) && missing_name %in% names(size_dist)) {
+      single_size_dist <- size_dist[, c("parameter", missing_name), drop = FALSE]
+    }
+    single_thinning <- thinning
+    if (!is.null(single_thinning) && nrow(single_thinning) > 0 && "species" %in% names(single_thinning)) {
+      single_thinning <- single_thinning[single_thinning$species == missing_name, , drop = FALSE]
+    }
+    single_out <- tryCatch(
+      run_model(
+        thinning_table = single_thinning,
+        species_table = single_species,
+        parameters_table = single_parameters,
+        size_dist_table = single_size_dist
+      ),
+      error = function(error) NULL
+    )
+    if (!is.null(single_out)) {
+      single_records <- as.data.frame(single_out, stringsAsFactors = FALSE)
+      if (nrow(single_records) > 0 && "species" %in% names(single_records)) {
+        records <- rbind(records, single_records)
+        fallback_cohort_runs[[length(fallback_cohort_runs) + 1]] <- list(
+          species = missing_name,
+          note = "Species/cohort was omitted by the combined r3PG run and was rerun separately."
+        )
+      }
+    }
+  }
+}
 annual_outputs <- list()
 annual_diagnostics <- list()
 
@@ -131,8 +202,13 @@ if (all(c("date", "variable", "value") %in% names(records))) {
   records$year <- as.integer(format(as.Date(records$date), "%Y"))
   years <- sort(unique(records$year))
   species_names <- sort(unique(records$species))
+  planted_years <- setNames(as.integer(substr(species$planted, 1, 4)), species$species)
   for (year in years) {
     for (species_name in species_names) {
+    planted_year <- planted_years[[species_name]]
+    if (!is.null(planted_year) && !is.na(planted_year) && year < planted_year) {
+      next
+    }
     year_rows <- records[records$year == year & records$species == species_name, ]
 
     get_value <- function(variable_names) {
@@ -217,6 +293,7 @@ summary <- list(
   annual_output_count = length(annual_outputs),
   diagnostics = annual_diagnostics,
   resolved_thinning = resolved_thinning,
+  fallback_cohort_runs = fallback_cohort_runs,
   variables = if ("variable" %in% names(records)) unique(records$variable) else list()
 )
 

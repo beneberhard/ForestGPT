@@ -1,6 +1,10 @@
+import csv
+import io
+import json
 from typing import Any
 
 from fastapi import APIRouter, Depends, HTTPException
+from fastapi.responses import Response
 from sqlalchemy.orm import Session, selectinload
 
 from app.geo.db import get_db
@@ -89,6 +93,87 @@ def get_simulation_run(run_id: int, db: Session = Depends(get_db)) -> Simulation
     return run
 
 
+@router.get("/{run_id}/outputs.csv")
+def download_simulation_outputs_csv(run_id: int, db: Session = Depends(get_db)) -> Response:
+    run = (
+        db.query(SimulationRun)
+        .options(selectinload(SimulationRun.outputs))
+        .filter(SimulationRun.id == run_id)
+        .first()
+    )
+    if run is None:
+        raise HTTPException(status_code=404, detail="Simulation run not found")
+
+    metadata_keys = {
+        "run_id",
+        "stand_id",
+        "model_name",
+        "model_version",
+        "status",
+        "created_at",
+        "completed_at",
+        "year",
+    }
+    output_keys = sorted(
+        {
+            key
+            for output in run.outputs
+            for key in (output.output or {}).keys()
+            if key not in metadata_keys
+        }
+    )
+    fieldnames = [
+        "run_id",
+        "stand_id",
+        "model_name",
+        "model_version",
+        "status",
+        "created_at",
+        "completed_at",
+        "year",
+        *output_keys,
+    ]
+    buffer = io.StringIO()
+    writer = csv.DictWriter(buffer, fieldnames=fieldnames, extrasaction="ignore")
+    writer.writeheader()
+    for output in sorted(run.outputs, key=lambda item: (item.year, str((item.output or {}).get("species", "")))):
+        row = {
+            "run_id": run.id,
+            "stand_id": run.stand_id,
+            "model_name": run.model_name,
+            "model_version": run.model_version,
+            "status": run.status,
+            "created_at": run.created_at.isoformat() if run.created_at else "",
+            "completed_at": run.completed_at.isoformat() if run.completed_at else "",
+            "year": output.year,
+            **(output.output or {}),
+        }
+        row["year"] = output.year
+        writer.writerow({key: _csv_value(value) for key, value in row.items()})
+
+    filename = f"forestgpt_simulation_run_{run.id}_outputs.csv"
+    return Response(
+        content=buffer.getvalue(),
+        media_type="text/csv; charset=utf-8",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )
+
+
+@router.delete("/{run_id}")
+def delete_simulation_run(run_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
+    run = db.get(SimulationRun, run_id)
+    if run is None:
+        raise HTTPException(status_code=404, detail="Simulation run not found")
+    db.delete(run)
+    db.commit()
+    return {"deleted": True, "id": run_id}
+
+
 def _parse_simulation_request(payload: dict[str, Any]) -> GrowthSimulationRequest:
     return GrowthSimulationRequest(**payload)
 
+
+def _csv_value(value: Any) -> Any:
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, ensure_ascii=True)
+    return value
