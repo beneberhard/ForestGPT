@@ -93,7 +93,7 @@ select_parameter_set <- function(overview, params, species_name) {
   preferred_parameter_sets <- list(
     "Picea abies" = 37,
     "Larix decidua" = 36,
-    "Fagus sylvatica" = 29
+    "Fagus sylvatica" = 34 #9, 29, 34; 9 is the German even-aged beech set. But in the r3PG package, it has missing allometry parameters
   )
   if (!is.null(preferred_parameter_sets[[species_name]])) {
     selected <- overview[overview$parset_id == preferred_parameter_sets[[species_name]], , drop = FALSE]

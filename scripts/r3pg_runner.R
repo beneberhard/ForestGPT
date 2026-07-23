@@ -81,22 +81,22 @@ if (!is.null(dynamic_thinning) && length(dynamic_thinning) > 0) {
   if (is.data.frame(dynamic_thinning)) {
     dynamic_thinning <- split(dynamic_thinning, seq_len(nrow(dynamic_thinning)))
   }
-  baseline_records <- as.data.frame(run_model(NULL), stringsAsFactors = FALSE)
   for (thin in dynamic_thinning) {
     thin_species <- thin$species
     thin_age <- as.numeric(thin$age)
     removal_fraction <- as.numeric(thin$removal_fraction)
-    rows <- baseline_records[
-      baseline_records$species == thin_species &
-        baseline_records$variable == "stems_n",
+    current_records <- as.data.frame(run_model(thinning), stringsAsFactors = FALSE)
+    rows <- current_records[
+      current_records$species == thin_species &
+        current_records$variable == "stems_n",
     ]
     if (nrow(rows) == 0) {
       next
     }
     rows$age_value <- NA_real_
-    age_rows <- baseline_records[
-      baseline_records$species == thin_species &
-        baseline_records$variable == "age",
+    age_rows <- current_records[
+      current_records$species == thin_species &
+        current_records$variable == "age",
     ]
     if (nrow(age_rows) > 0) {
       rows$age_value <- as.numeric(age_rows$value[match(rows$date, age_rows$date)])
