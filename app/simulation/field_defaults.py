@@ -197,8 +197,12 @@ def complete_field_input(request: GrowthSimulationRequest) -> FieldDefaultPrevie
 
     volume = raw.get("volume_m3_ha")
     if volume is None and yield_estimate:
-        volume = round(yield_estimate["volume_m3_ha"], 1)
-        assumptions.append(_yield_assumption("volume_m3_ha", volume, yield_estimate))
+        yield_volume = round(yield_estimate["volume_m3_ha"], 1)
+        if yield_volume > 0:
+            volume = yield_volume
+            assumptions.append(_yield_assumption("volume_m3_ha", volume, yield_estimate))
+        else:
+            warnings.append("Yield-table volume was zero; volume is derived from stems, DBH, and mean height instead.")
     if volume is None and all(value is not None for value in (stems, dbh, height)):
         form_factor = 0.45 if species == "Picea abies" else 0.49
         volume = round(pi * (float(dbh) / 100 / 2) ** 2 * float(height) * float(stems) * form_factor, 1)
@@ -444,8 +448,14 @@ def _complete_species_input(
 
     volume = entry.get("volume_m3_ha")
     if volume is None and yield_estimate:
-        volume = round(yield_estimate["volume_m3_ha"] * yield_scale, 1)
-        assumptions.append(_yield_assumption(f"{species}.volume_m3_ha", volume, yield_estimate))
+        yield_volume = round(yield_estimate["volume_m3_ha"] * yield_scale, 1)
+        if yield_volume > 0:
+            volume = yield_volume
+            assumptions.append(_yield_assumption(f"{species}.volume_m3_ha", volume, yield_estimate))
+        else:
+            warnings.append(
+                f"{species}: yield-table volume was zero; volume is derived from stems, DBH, and mean height instead."
+            )
     if volume is None and not is_planting_cohort:
         form_factor = 0.49 if species == "Fagus sylvatica" else 0.45
         volume = round(pi * (float(dbh) / 100 / 2) ** 2 * float(height) * float(stems) * form_factor, 1)

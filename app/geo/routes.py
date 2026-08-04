@@ -43,8 +43,27 @@ def create_stand(payload: StandCreate, db: Session = Depends(get_db)) -> Stand:
 
 
 @router.get("", response_model=list[StandRead])
-def list_stands(db: Session = Depends(get_db)) -> list[Stand]:
-    return db.query(Stand).order_by(Stand.created_at.desc()).all()
+def list_stands(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
+    rows = db.execute(
+        text(
+            """
+            SELECT
+                id,
+                name,
+                species,
+                area_ha,
+                age_years,
+                properties
+            FROM stands
+            ORDER BY
+                CASE WHEN geometry IS NULL THEN 1 ELSE 0 END,
+                ST_X(ST_Centroid(geometry)),
+                ST_Y(ST_Centroid(geometry)),
+                id
+            """
+        )
+    ).mappings()
+    return [dict(row) for row in rows]
 
 
 @router.get("/geojson")
@@ -62,7 +81,10 @@ def list_stands_geojson(db: Session = Depends(get_db)) -> dict[str, Any]:
                 ST_AsGeoJSON(geometry)::json AS geometry
             FROM stands
             WHERE geometry IS NOT NULL
-            ORDER BY created_at DESC
+            ORDER BY
+                ST_X(ST_Centroid(geometry)),
+                ST_Y(ST_Centroid(geometry)),
+                id
             """
         )
     ).mappings()

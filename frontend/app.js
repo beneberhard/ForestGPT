@@ -1070,6 +1070,7 @@ function lineChart(rows, field, title, unit) {
   const maxValue = Math.max(...values);
   const species = [...new Set(data.map((row) => row.species))];
   const colors = chartColors(species);
+  const lineStyles = chartLineStyles(species);
   const x = (year) => {
     if (maxYear === minYear) return (width - pad.left - pad.right) / 2 + pad.left;
     return pad.left + ((year - minYear) / (maxYear - minYear)) * (width - pad.left - pad.right);
@@ -1084,10 +1085,16 @@ function lineChart(rows, field, title, unit) {
       .sort((a, b) => a.year - b.year)
       .map((row) => `${x(row.year).toFixed(1)},${y(row.value).toFixed(1)}`)
       .join(" ");
-    return `<polyline points="${points}" fill="none" stroke="${colors[name]}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />`;
+    const dash = lineStyles[name];
+    return `<polyline points="${points}" fill="none" stroke="${colors[name]}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"${dash ? ` stroke-dasharray="${dash}"` : ""} />`;
   }).join("");
   const legend = species.map((name) => `
-    <span><i style="background:${colors[name]}"></i>${escapeHtml(name)}</span>
+    <span>
+      <svg viewBox="0 0 22 6" aria-hidden="true">
+        <line x1="1" y1="3" x2="21" y2="3" stroke="${colors[name]}" stroke-width="3" stroke-linecap="round"${lineStyles[name] ? ` stroke-dasharray="${lineStyles[name]}"` : ""} />
+      </svg>
+      ${escapeHtml(name)}
+    </span>
   `).join("");
 
   return `
@@ -1128,6 +1135,23 @@ function chartColors(speciesLabels) {
   });
   const baseColors = Object.fromEntries(baseNames.map((name, index) => [name, palette[index % palette.length]]));
   return Object.fromEntries(speciesLabels.map((label) => [label, baseColors[String(label).split("|", 1)[0].trim()]]));
+}
+
+function chartLineStyles(speciesLabels) {
+  const patterns = ["", "5 4", "2 4", "8 3 2 3", "10 4", "3 2 1 2"];
+  const byBase = new Map();
+  speciesLabels.forEach((label) => {
+    const base = String(label).split("|", 1)[0].trim();
+    if (!byBase.has(base)) byBase.set(base, []);
+    byBase.get(base).push(label);
+  });
+  const styles = {};
+  byBase.forEach((labels) => {
+    labels.forEach((label, index) => {
+      styles[label] = labels.length > 1 ? patterns[index % patterns.length] : "";
+    });
+  });
+  return styles;
 }
 
 async function askChat() {

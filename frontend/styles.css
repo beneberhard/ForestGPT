@@ -465,10 +465,10 @@ button:hover {
   gap: 4px;
 }
 
-.legend i {
-  display: inline-block;
-  width: 10px;
-  height: 3px;
+.legend svg {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 6px;
 }
 
 .empty-chart {
