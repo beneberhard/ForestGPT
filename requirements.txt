@@ -14,3 +14,6 @@ pandas
 openpyxl
 pypdf
 python-docx
+Pillow
+PyMuPDF
+pytesseract

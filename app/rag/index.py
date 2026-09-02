@@ -7,13 +7,24 @@ from functools import lru_cache
 from pathlib import Path
 from typing import BinaryIO
 
+import pymupdf
+import pytesseract
 from docx import Document as DocxDocument
 from openai import OpenAI
 from openpyxl import load_workbook
+from PIL import Image
 from pypdf import PdfReader
 from sqlalchemy.orm import Session
 
-from app.config import EMBEDDING_API_KEY, EMBEDDING_BASE_URL, EMBEDDING_MODEL, EMBEDDING_PROVIDER
+from app.config import (
+    EMBEDDING_API_KEY,
+    EMBEDDING_BASE_URL,
+    EMBEDDING_MODEL,
+    EMBEDDING_PROVIDER,
+    OCR_DPI,
+    OCR_LANGUAGES,
+    OCR_MIN_TEXT_CHARACTERS,
+)
 from app.geo.models import Document, DocumentChunk
 
 
@@ -199,11 +210,51 @@ def extract_document_text(path: Path) -> str:
 def extract_pdf_text(path: Path) -> str:
     reader = PdfReader(str(path))
     pages = []
-    for page in reader.pages:
-        text = page.extract_text() or ""
-        if text.strip():
-            pages.append(text)
+    rendered_pdf = None
+    try:
+        for page_number, page in enumerate(reader.pages):
+            native_text = page.extract_text() or ""
+            if has_meaningful_text(native_text):
+                pages.append(native_text.strip())
+                continue
+
+            if rendered_pdf is None:
+                rendered_pdf = pymupdf.open(path)
+            ocr_text = extract_pdf_page_with_ocr(rendered_pdf, page_number)
+            text = ocr_text if has_meaningful_text(ocr_text) else native_text
+            if text.strip():
+                pages.append(text.strip())
+    finally:
+        if rendered_pdf is not None:
+            rendered_pdf.close()
+
+    if not pages:
+        raise ValueError(
+            "No readable text was found in the PDF. The file may be blank, "
+            "damaged, or use an OCR language that is not configured."
+        )
     return "\n\n".join(pages)
+
+
+def has_meaningful_text(text: str) -> bool:
+    return sum(character.isalnum() for character in text) >= OCR_MIN_TEXT_CHARACTERS
+
+
+def extract_pdf_page_with_ocr(document: pymupdf.Document, page_number: int) -> str:
+    page = document.load_page(page_number)
+    scale = OCR_DPI / 72
+    pixmap = page.get_pixmap(matrix=pymupdf.Matrix(scale, scale), alpha=False)
+    image = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
+    try:
+        return pytesseract.image_to_string(image, lang=OCR_LANGUAGES)
+    except pytesseract.TesseractNotFoundError as exc:
+        raise ValueError(
+            "This PDF contains image-only pages, but the OCR engine is not installed."
+        ) from exc
+    except pytesseract.TesseractError as exc:
+        raise ValueError(
+            f"OCR failed for PDF page {page_number + 1}: {exc}"
+        ) from exc
 
 
 def extract_text_file(path: Path) -> str:

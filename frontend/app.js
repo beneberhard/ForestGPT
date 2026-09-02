@@ -1161,6 +1161,9 @@ async function askChat() {
   try {
     const selectedRunIds = selectedSimulationRunIds();
     const simulationRunIds = selectedRunIds.length ? selectedRunIds : (lastRunId ? [lastRunId] : []);
+    const documentIds = Array.from($("chatDocumentSelect").selectedOptions)
+      .map((option) => Number(option.value))
+      .filter(Number.isFinite);
     const data = await request("/chat", {
       method: "POST",
       body: JSON.stringify(clean({
@@ -1168,6 +1171,7 @@ async function askChat() {
         stand_id: numberValue("standId"),
         simulation_run_id: simulationRunIds[0],
         simulation_run_ids: simulationRunIds,
+        document_ids: documentIds,
         session_id: chatSessionId,
         top_k: 12,
       })),
@@ -1198,6 +1202,19 @@ async function uploadRagDocument() {
     status.textContent = `${result.file_name} was already in the knowledge base.`;
   }
   input.value = "";
+  await loadKnowledgeBaseDocuments();
+}
+
+async function loadKnowledgeBaseDocuments() {
+  const select = $("chatDocumentSelect");
+  const selected = new Set(Array.from(select.selectedOptions).map((option) => Number(option.value)));
+  const documents = await request("/documents");
+  select.innerHTML = documents.length
+    ? documents.map((document) => {
+        const isSelected = selected.has(document.id) ? " selected" : "";
+        return `<option value="${document.id}"${isSelected}>${escapeHtml(document.title)}</option>`;
+      }).join("")
+    : `<option value="" disabled>No documents ingested</option>`;
 }
 
 function showUploadError(error) {
@@ -1317,5 +1334,8 @@ document.addEventListener("DOMContentLoaded", () => {
   $("clearForm").addEventListener("click", clearForm);
   loadStands().catch((error) => {
     $("standList").innerHTML = `<div class="message error">${escapeHtml(error.message)}</div>`;
+  });
+  loadKnowledgeBaseDocuments().catch((error) => {
+    $("chatDocumentSelect").innerHTML = `<option value="" disabled>${escapeHtml(error.message)}</option>`;
   });
 });

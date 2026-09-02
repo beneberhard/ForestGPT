@@ -34,6 +34,9 @@ services:
       EMBEDDING_API_KEY: ${EMBEDDING_API_KEY:-}
       EMBEDDING_BASE_URL: ${EMBEDDING_BASE_URL:-https://api.openai.com/v1}
       EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-3-small}
+      OCR_LANGUAGES: ${OCR_LANGUAGES:-eng+deu+ita}
+      OCR_DPI: ${OCR_DPI:-250}
+      OCR_MIN_TEXT_CHARACTERS: ${OCR_MIN_TEXT_CHARACTERS:-40}
       SIMULATION_ADAPTER: ${SIMULATION_ADAPTER:-r3pg}
       APP_PORT: 8005
     ports:

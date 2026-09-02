@@ -346,6 +346,14 @@ button:hover {
   color: var(--danger);
 }
 
+.chat-block #chatDocumentSelect {
+  margin: 4px 0;
+}
+
+.chat-block #chatDocumentHelp {
+  margin: 0 0 7px;
+}
+
 #runStatus {
   color: var(--muted);
   font-size: 12px;

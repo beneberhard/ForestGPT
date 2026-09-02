@@ -26,6 +26,10 @@ RUN apt-get update \
         libtiff-dev \
         libxml2-dev \
         r-base \
+        tesseract-ocr \
+        tesseract-ocr-deu \
+        tesseract-ocr-eng \
+        tesseract-ocr-ita \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .

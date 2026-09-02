@@ -6,7 +6,7 @@ from app.config import OPENAI_API_KEY, OPENAI_BASE_URL, OPENAI_MAX_TOKENS, OPENA
 from app.geo.models import ChatMessage, ChatSession, SimulationRun, Stand, StandObservation
 from app.llm.prompts import SYSTEM_PROMPT, build_context_prompt
 from app.llm.schemas import ChatRequest, ChatResponse
-from app.rag.retrieve import retrieve_relevant_chunks
+from app.rag.retrieve import retrieve_relevant_chunks, retrieve_selected_document_chunks
 from app.spatial.terrain import terrain_summary_for_stand
 
 
@@ -14,7 +14,13 @@ def answer_manager_question(db: Session, payload: ChatRequest) -> ChatResponse:
     session = _get_or_create_session(db, payload)
     stand = db.get(Stand, payload.stand_id) if payload.stand_id else None
     simulations = _simulation_context_runs(db, payload)
-    retrieved = retrieve_relevant_chunks(db, payload.question, payload.top_k)
+    selected_document_chunks = retrieve_selected_document_chunks(db, payload.document_ids)
+    retrieved = selected_document_chunks + retrieve_relevant_chunks(
+        db,
+        payload.question,
+        max(payload.top_k - len(selected_document_chunks), 0),
+        exclude_document_ids=payload.document_ids,
+    )
     memory = _recent_memory(session)
 
     stand_context = _stand_context(db, stand)

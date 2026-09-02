@@ -170,6 +170,9 @@
 
         <section class="block chat-block">
           <h2>Chat</h2>
+          <label for="chatDocumentSelect">Use specific knowledge-base documents (optional)</label>
+          <select id="chatDocumentSelect" multiple size="4" aria-describedby="chatDocumentHelp"></select>
+          <p id="chatDocumentHelp" class="panel-note">Selected documents are added directly to the chat context.</p>
           <textarea id="question" rows="3" placeholder="Ask about the simulation, literature, or follow-up context."></textarea>
           <div class="actions tight">
             <button id="askChat" type="button">Ask</button>
@@ -206,6 +209,6 @@
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     ></script>
-    <script src="./app.js?v=20260721-planted-cohorts"></script>
+    <script src="./app.js?v=20260901-document-selection"></script>
   </body>
 </html>

@@ -1,8 +1,9 @@
 import re
 from collections import Counter
 from math import log
+from pathlib import Path
 
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 
 from app.geo.models import DocumentChunk
 from app.rag.index import cosine_similarity, embed_query
@@ -12,12 +13,23 @@ from app.rag.schemas import RetrievedChunk
 TOKEN_RE = re.compile(r"[^\W\d_][^\W\d_-]{2,}", re.UNICODE)
 
 
-def retrieve_relevant_chunks(db: Session, query: str, top_k: int = 5) -> list[RetrievedChunk]:
+def retrieve_relevant_chunks(
+    db: Session,
+    query: str,
+    top_k: int = 5,
+    exclude_document_ids: list[int] | None = None,
+) -> list[RetrievedChunk]:
+    if top_k <= 0:
+        return []
+
     query_terms = Counter(_tokenize(query))
     if not query_terms:
         return []
 
-    chunks = db.query(DocumentChunk).limit(2000).all()
+    chunks_query = db.query(DocumentChunk).options(selectinload(DocumentChunk.document))
+    if exclude_document_ids:
+        chunks_query = chunks_query.filter(~DocumentChunk.document_id.in_(exclude_document_ids))
+    chunks = chunks_query.all()
     if not chunks:
         return []
 
@@ -55,7 +67,7 @@ def retrieve_relevant_chunks(db: Session, query: str, top_k: int = 5) -> list[Re
 def _bm25_scores(query_terms: Counter, chunks: list[DocumentChunk]) -> dict[int, float]:
     k1 = 1.5
     b = 0.75
-    tokenized = {chunk.id: _tokenize(chunk.chunk_text) for chunk in chunks}
+    tokenized = {chunk.id: _tokenize(_searchable_text(chunk)) for chunk in chunks}
     lengths = {chunk_id: len(tokens) for chunk_id, tokens in tokenized.items()}
     average_length = sum(lengths.values()) / max(len(lengths), 1)
     document_frequency = Counter()
@@ -89,4 +101,56 @@ def _normalize_scores(scores: dict[int, float]) -> dict[int, float]:
 
 
 def _tokenize(text: str) -> list[str]:
-    return [match.group(0).lower() for match in TOKEN_RE.finditer(text)]
+    normalized = text.replace("_", " ").replace("-", " ")
+    return [match.group(0).lower() for match in TOKEN_RE.finditer(normalized)]
+
+
+def _searchable_text(chunk: DocumentChunk) -> str:
+    document = chunk.document
+    metadata = document.metadata_json or {}
+    source_name = Path(document.source_path).name if document.source_path else ""
+    return "\n".join(
+        part
+        for part in (
+            document.title,
+            source_name,
+            str(metadata.get("file_name") or ""),
+            chunk.chunk_text,
+        )
+        if part
+    )
+
+
+def retrieve_selected_document_chunks(
+    db: Session,
+    document_ids: list[int],
+    max_chunks_per_document: int = 6,
+) -> list[RetrievedChunk]:
+    unique_ids = list(dict.fromkeys(document_ids))[:5]
+    if not unique_ids:
+        return []
+
+    chunks = []
+    for document_id in unique_ids:
+        chunks.extend(
+            db.query(DocumentChunk)
+            .options(selectinload(DocumentChunk.document))
+            .filter(DocumentChunk.document_id == document_id)
+            .order_by(DocumentChunk.id)
+            .limit(max_chunks_per_document)
+            .all()
+        )
+    return [
+        RetrievedChunk(
+            document_id=chunk.document_id,
+            title=chunk.document.title,
+            chunk_text=chunk.chunk_text,
+            score=1.0,
+            metadata_json={
+                **(chunk.document.metadata_json or {}),
+                **(chunk.metadata_json or {}),
+                "retrieval_mode": "explicit_document_selection",
+            },
+        )
+        for chunk in chunks
+    ]

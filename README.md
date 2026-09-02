@@ -46,6 +46,17 @@ RAG ingestion is incremental by default. The Leaflet app can upload and ingest P
 ```bash
 docker compose exec app python -m scripts.ingest_rag_corpus
 ```
+
+PDF ingestion extracts embedded text directly. Pages without sufficient
+machine-readable text, including scanned PDFs and PDFs created from JPEG
+images, are processed automatically with Tesseract OCR. The Docker image
+includes English, German, and Italian OCR data. These defaults can be adjusted
+with `OCR_LANGUAGES`, `OCR_DPI`, and `OCR_MIN_TEXT_CHARACTERS`.
+
+Chat retrieval considers the complete chunk collection and includes document
+titles and uploaded filenames in lexical matching. Users can also select one
+or more knowledge-base documents in the Chat panel; selected document chunks
+are inserted directly into the prompt before general similarity retrieval.
 Existing documents are skipped by stored source path and file hash. Use
 
 ```bash

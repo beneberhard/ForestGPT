@@ -11,3 +11,4 @@ data/Raster_files/
 
 *.RData
 *.Rhistory
+.codex/
