@@ -1,12 +1,88 @@
-.DS_Store
-.cache
-.env
+# Version-control metadata
 .git
-.pytest_cache
+.gitignore
+.gitattributes
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Python caches and local environments
 __pycache__
-*.pyc
-*.pyo
-*.RData
-*.Rhistory
+**/__pycache__
+*.py[cod]
+*$py.class
+.venv
+venv
+env
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+.coverage.*
+htmlcov
+build
+dist
+*.egg-info
+
+# Jupyter and R-generated files
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+
+# Application and model caches
+.cache
+**/.cache
+
+# Runtime storage and generated outputs
 storage/*
 !storage/.gitkeep
+outputs
+exports
+data/outputs
+data/exports
+*_simulation_outputs.csv
+*_simulation_results.csv
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Local knowledge corpus and uploaded documents
+data/RAG_text_corpus
+data/uploads
+
+# Large local geospatial data
+data/Raster_files
+*.tif
+*.tiff
+
+# Obsolete local Streamlit development interface
+scripts/dev.sh
+streamlit_app.py
+requirements-dev.txt
+
+# Internal documentation and local AI-tool files
+README_1.md
+.codex
+.claude
+.cursor
