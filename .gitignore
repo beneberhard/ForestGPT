@@ -12,3 +12,4 @@ data/Raster_files/
 *.RData
 *.Rhistory
 .codex/
+README_1.md
