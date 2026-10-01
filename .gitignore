@@ -82,8 +82,7 @@ data/Raster_files/*
 
 # --------------------------------------------------
 # Yield tables
-# Remove these rules only when redistribution rights
-# have been confirmed.
+# 
 # --------------------------------------------------
 data/yield_table_forestgpt_*.xlsx
 
@@ -113,7 +112,7 @@ README_1.md
 
 # --------------------------------------------------
 # Obsolete local Streamlit development interface
-# Remove these rules if Streamlit remains supported.
+# 
 # --------------------------------------------------
 scripts/dev.sh
 streamlit_app.py
