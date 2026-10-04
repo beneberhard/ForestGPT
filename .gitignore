@@ -1,6 +1,4 @@
-# --------------------------------------------------
-# Secrets and local configuration
-# --------------------------------------------------
+
 .env
 .env.*
 !.env.example
@@ -9,25 +7,19 @@
 *.p12
 *.pfx
 
-# --------------------------------------------------
-# Operating-system files
-# --------------------------------------------------
+
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-# --------------------------------------------------
-# Editor and IDE settings
-# --------------------------------------------------
+
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# --------------------------------------------------
-# Python
-# --------------------------------------------------
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -44,51 +36,35 @@ build/
 dist/
 *.egg-info/
 
-# --------------------------------------------------
-# Jupyter
-# --------------------------------------------------
+
 .ipynb_checkpoints/
 
-# --------------------------------------------------
-# R
-# --------------------------------------------------
+
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
 
-# --------------------------------------------------
-# Application caches and runtime storage
-# --------------------------------------------------
+
 .cache/
 storage/*
 !storage/.gitkeep
 
-# --------------------------------------------------
-# Uploaded and ingested knowledge-base documents
-# These may contain copyrighted or private material.
-# --------------------------------------------------
+
 data/RAG_text_corpus/*
 !data/RAG_text_corpus/.gitkeep
 data/uploads/
 
-# --------------------------------------------------
-# Local spatial and raster data
-# --------------------------------------------------
+
 data/Raster_files/*
 !data/Raster_files/.gitkeep
 *.tif
 *.tiff
 
-# --------------------------------------------------
-# Yield tables
-# 
-# --------------------------------------------------
+
 data/yield_table_forestgpt_*.xlsx
 
-# --------------------------------------------------
-# Generated results and exports
-# --------------------------------------------------
+
 outputs/
 exports/
 data/outputs/
@@ -96,31 +72,22 @@ data/exports/
 *_simulation_outputs.csv
 *_simulation_results.csv
 
-# --------------------------------------------------
-# Logs and local databases
-# --------------------------------------------------
+
 *.log
 *.sqlite
 *.sqlite3
 *.db
 *.dump
 
-# --------------------------------------------------
-# Internal notes and archived documentation
-# --------------------------------------------------
+
 README_1.md
 
-# --------------------------------------------------
-# Obsolete local Streamlit development interface
-# 
-# --------------------------------------------------
+
 scripts/dev.sh
 streamlit_app.py
 requirements-dev.txt
 
-# --------------------------------------------------
-# Codex and other local AI-tool directories
-# --------------------------------------------------
+
 .codex/
 .claude/
 .cursor/
