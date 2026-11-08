@@ -423,7 +423,7 @@ def _compact_chunk(chunk: dict) -> dict:
     return {
         "title": chunk.get("title"),
         "score": chunk.get("score"),
-        "chunk_text": _truncate(chunk.get("chunk_text") or "", 700),
+        "chunk_text": chunk.get("chunk_text") or "",
     }
 
 

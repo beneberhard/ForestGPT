@@ -1,0 +1,535 @@
+11: Knowledge card 1.1: Wälder als Gegenstand internationaler Politik ....................... 2 
+12: Knowledge card 1.2: Fehlende Waldkonvention und institutionelle Fragmentierung 3 
+13: Knowledge card 1.3: Soziale Konstruktion politischer Waldprobleme .................... 4 
+14: Knowledge card 1.4: Diskursanalyse als theoretischer Zugang zur Waldpolitik ....... 5 
+18: Knowledge Card 2.1: Vom unbegrenzten Ressourcenverbrauch zu 
+20: Knowledge Card 2.2: Die Herausbildung der internationalen Umweltpolitik ........... 8 
+21: Knowledge Card 2.3: Nachhaltige Entwicklung als politisches Leitbild .................. 9 
+22: Knowledge Card 2.4: Diskursive Ordnung natürlicher Ressourcen ....................... 10 
+26: Knowledge Card 3.1: Die Konstruktion des globalen Waldproblems .................... 12 
+27: Knowledge Card 3.2: Tropenholz, Handel und internationale Aufmerksamkeit ..... 13 
+28: Knowledge Card 3.3: Umweltorganisation und Politisierung des Tropenwaldes .... 14 
+29: Knowledge Card 3.4: Vom Tropenwald zum globalen Waldkonzept ...................... 15 
+39: Knowledge card 1.1: Wälder als Gegenstand internationaler Politik 
+79: Knowledge card 1.2: Fehlende Waldkonvention und institutionelle 
+118: Knowledge card 1.3: Soziale Konstruktion politischer Waldprobleme 
+154: Knowledge card 1.4: Diskursanalyse als theoretischer Zugang zur 
+213: Knowledge Card 2.1: Vom unbegrenzten Ressourcenverbrauch zu 
+249: Knowledge Card 2.2: Die Herausbildung der internationalen Umweltpolitik 
+282: Knowledge Card 2.3: Nachhaltige Entwicklung als politisches Leitbild 
+320: Knowledge Card 2.4: Diskursive Ordnung natürlicher Ressourcen 
+370: Knowledge Card 3.1: Die Konstruktion des globalen Waldproblems 
+407: Knowledge Card 3.2: Tropenholz, Handel und internationale 
+442: Knowledge Card 3.3: Umweltorganisation und Politisierung des 
+476: Knowledge Card 3.4: Vom Tropenwald zum globalen Waldkonzept 
+530: Knowledge Card 1.1: Vorrang der Waldbewirtschaftung im rechtlichen Rahmen .... 2 
+531: Knowledge Card 1.2: Jagdrecht im engeren und weiteren Sinn ..............................  3 
+532: Knowledge Card 1.3: Gesetzliche Vorgaben zum Wald-Wild-Konflikt ..................... 4 
+533: Knowledge Card 1.4: Gesellschaftliche Ziele und Verantwortlichkeiten ................. 5 
+537: Knowledge Card 2.1: Schalenwildverbiss als ökologischer Einflussfaktor .............. 7 
+538: Knowledge Card 2.2: Auswirkungen auf Biodiversität und Waldstruktur ................. 8 
+539: Knowledge Card 2.3: Ökonomische Folgen von Verbissschäden ...........................  9 
+540: Knowledge Card 2.4: Zusammenhang von Wildbeständen und Waldentwicklung . 10 
+545: Knowledge Card 3.1: Abweichungen zwischen Rechtslage und Praxis ................. 12 
+546: Knowledge Card 3.2: Institutionelle und soziale Ursachen des Konflikts .............. 13 
+547: Knowledge Card 3.3: Ansätze zur Verbesserung des Vollzugs ..............................  14 
+548: Knowledge Card 3.4: Kooperative und adaptive Konfliktlösungsstrategien ........... 15 
+555: Knowledge Card 1.1: Vorrang der Waldbewirtschaftung im rechtlichen 
+591: Knowledge Card 1.2: Jagdrecht im engeren und weiteren Sinn 
+625: Knowledge Card 1.3: Gesetzliche Vorgaben zum Wald-Wild-Konflikt 
+657: Knowledge Card 1.4: Gesellschaftliche Ziele und Verantwortlichkeiten 
+705: Knowledge Card 2.1: Schalenwildverbiss als ökologischer Einflussfaktor 
+738: Knowledge Card 2.2: Auswirkungen auf Biodiversität und Waldstruktur 
+770: Knowledge Card 2.3: Ökonomische Folgen von Verbissschäden 
+802: Knowledge Card 2.4: Zusammenhang von Wildbeständen und 
+852: Knowledge Card 3.1: Abweichungen zwischen Rechtslage und Praxis 
+886: Knowledge Card 3.2: Institutionelle und soziale Ursachen des Konflikts 
+919: Knowledge Card 3.3: Ansätze zur Verbesserung des Vollzugs 
+951: Knowledge Card 3.4: Kooperative und adaptive Konfliktlösungsstrategien 
+1004: Knowledge Card 1.1: Waldeigentum als rechtlich definierte Kategorie ................... 2 
+1005: Knowledge Card 1.2: Verteilung und Konzentration des Waldeigentums ................ 3 
+1006: Knowledge Card 1.3: Privat-, Gemeinschafts- und öffentlicher Wald ..................... 4 
+1007: Knowledge Card 1.3: Traditionelle und neue WaldeigentümerInnen ...................... 5 
+1011: Knowledge Card 2.1: Der Wald als Produktionsraum konkurrierender Nutzungen ... 7 
+1012: Knowledge Card 2.2: Ökonomische Modellierung konkurrierender Nutzungen ....... 8 
+1013: Knowledge Card 2.3: Zielkonflikte zwischen Ökonomie und Ökologie .................... 9 
+1014: Knowledge Card 2.4: Politische Steuerung konkurrierender Interessen ................ 10 
+1018: Knowledge Card 3.1: Verbände als kollektive Interessensvertretung .................... 12 
+1019: Knowledge Card 3.2: Struktur und Typen waldpolitischer Verbände .................... 13 
+1020: Knowledge Card 3.3: Rolle der Verbände im politischen Entscheidungsprozess ... 14 
+1021: Knowledge Card 3.4: Verbände zwischen Kooperation und Konkurrenz ............... 15 
+1028: Knowledge Card 1.1: Waldeigentum als rechtlich definierte Kategorie 
+1062: Knowledge Card 1.2: Verteilung und Konzentration des Waldeigentums 
+1094: Knowledge Card 1.3: Privat-, Gemeinschafts- und öffentlicher Wald 
+1132: Knowledge Card 1.3: Traditionelle und neue WaldeigentümerInnen 
+1181: Knowledge Card 2.1: Der Wald als Produktionsraum konkurrierender 
+1217: Knowledge Card 2.2: Ökonomische Modellierung konkurrierender 
+1254: Knowledge Card 2.3: Zielkonflikte zwischen Ökonomie und Ökologie 
+1286: Knowledge Card 2.4: Politische Steuerung konkurrierender Interessen 
+1334: Knowledge Card 3.1: Verbände als kollektive Interessensvertretung 
+1366: Knowledge Card 3.2: Struktur und Typen waldpolitischer Verbände 
+1399: Knowledge Card 3.3: Rolle der Verbände im politischen 
+1432: Knowledge Card 3.4: Verbände zwischen Kooperation und Konkurrenz 
+1485: Knowledge Card 1.1: Holzzuwachs und Holzeinschlag als Maß der Produktivität.... 2 
+1486: Knowledge Card 1.2: Rundholz und Märkte der Forstwirtschaft .............................  3 
+1487: Knowledge Card 1.3: Nichtholzprodukte und Dienstleistungen des Waldes ........... 4 
+1488: Knowledge Card 1.4: Zertifizierung und Planungsinstrumente als ökonomische 
+1493: Knowledge Card 2.1: Beschäftigung und Wertschöpfung im Forst- und Holzsektor . 7 
+1494: Knowledge Card 2.2: Soziale Funktionen und gesellschaftlicher Nutzen des Waldes
+1496: Knowledge Card 2.3: Öffentliche Leistungen und volkswirtschaftliche Bewertung .. 9 
+1497: Knowledge Card 2.4: Gesellschaftliche Erwartungen und politische Steuerung ... 10 
+1501: Knowledge Card 3.1: Internationale Verpflichtungen Österreichs im Forstbereich 12 
+1502: Knowledge Card 3.2: Beitrag Österreichs zu globaler Waldgovernance ................ 13 
+1503: Knowledge Card 3.3: Internationale Verantwortung durch Handel und 
+1512: Knowledge Card 1.1: Holzzuwachs und Holzeinschlag als Maß der 
+1548: Knowledge Card 1.2: Rundholz und Märkte der Forstwirtschaft 
+1582: Knowledge Card 1.3: Nichtholzprodukte und Dienstleistungen des Waldes 
+1614: Knowledge Card 1.4: Zertifizierung und Planungsinstrumente als 
+1663: Knowledge Card 2.1: Beschäftigung und Wertschöpfung im Forst- und 
+1699: Knowledge Card 2.2: Soziale Funktionen und gesellschaftlicher Nutzen des 
+1733: Knowledge Card 2.3: Öffentliche Leistungen und volkswirtschaftliche 
+1766: Knowledge Card 2.4: Gesellschaftliche Erwartungen und politische 
+1815: Knowledge Card 3.1: Internationale Verpflichtungen Österreichs im 
+1848: Knowledge Card 3.2: Beitrag Österreichs zu globaler Waldgovernance 
+1880: Knowledge Card 3.3: Internationale Verantwortung durch Handel und 
+1937: Knowledge Card 1.1: Waldbegriff als juristischer Anker der Forstpolitik 
+1971: Knowledge Card 1.2: Waldfunktionen und forstliche Raumplanung als Politik-
+2008: Knowledge Card 1.3: Wiederbewaldungspflicht, Waldverwüstung und 
+2044: Knowledge Card 1.4: Rodung als Interessenkonflikt-Management im Forstrecht 
+2101: Knowledge Card 2.1: Kompetenzverteilung und Ziele – warum Naturschutz 
+2135: Knowledge Card 2.2: Schutzinstrumente – Gebiete, Objekte und Natura-2000-
+2170: Knowledge Card 2.3: Genehmigung, Verträglichkeitsprüfung und 
+2229: Knowledge Card 3.1: Von UNFCCC über Kyoto zu Paris – Wandel der 
+2265: Knowledge Card 3.2: EU-Klimarecht – ETS, Lastenteilung und LULUCF als 
+2300: Knowledge Card 3.3: Klimaschutzrecht in Österreich – Instrumente und 
+2363: Knowledge Card 1.1: Waldpolitik als verbindliche Regelung gesellschaftlicher 
+2393: Knowledge Card 1.2: Die drei Dimensionen der Waldpolitik – Polity, Politics, 
+2443: Knowledge Card 2.1: Nachhaltige Waldwirtschaft als historisch gewachsenes 
+2472: Knowledge Card 2.2: Gesellschaftliche Interessen und Problemfelder der 
+2512: Knowledge Card 3.1: Waldleistungen als Umweltgüter und externe Effekte 
+2539: Knowledge Card 3.2: Eigentumsrechte, Sozialpflichtigkeit und 
+2585: Knowledge Card 1.1: Waldpolitik als Reaktion auf globale Umweltprobleme 
+2611: Knowledge Card 1.2: Internationalisierung der Waldpolitik 
+2633: Knowledge Card 1.3: Globalisierung als Wandel politischer Steuerung 
+2656: Knowledge Card 1.4: Kooperationszwang ohne Durchsetzungsautorität 
+2677: Knowledge Card 1.5: Transformation der Rolle des Nationalstaats 
+2698: Knowledge Card 1.6: Waldpolitik als Teil globaler Umwelt-Governance 
+2750: Knowledge Card 2.1: Internationale Regime als politische Ordnungsrahmen 
+2768: Knowledge Card 2.2: Entstehung des internationalen Waldregimes 
+2786: Knowledge Card 2.3: Fragmentierung des Waldregimes 
+2802: Knowledge Card 2.4: Geringe Verbindlichkeit und „weiche“ Steuerung 
+2821: Knowledge Card 2.5: Rolle nicht-staatlicher Akteure 
+2836: Knowledge Card 2.6: Nachhaltigkeit als integratives Leitbild 
+2884: Knowledge Card 3.1: Waldpolitik als Mehrebenensystem 
+2897: Knowledge Card 3.2: Nationale Umsetzung internationaler Waldpolitik 
+2914: Knowledge Card 3.3: Föderale Strukturen als Umsetzungsrahmen 
+2926: Knowledge Card 3.4: Rolle der Verwaltung 
+2943: Knowledge Card 3.5: Wahrnehmung internationaler Waldpolitik 
+2955: Knowledge Card 3.6: Anpassung statt Harmonisierung 
+2995: Knowledge Card 4.1: Regimewirkungen jenseits von Zwang 
+3005: Knowledge Card 4.2: Lernen als Wirkungsmechanismus 
+3018: Knowledge Card 4.3: Autoritätszuschreibung 
+3028: Knowledge Card 4.4: Veränderung von Akteursrollen 
+3038: Knowledge Card 4.5: Diskursive Wirkungen 
+3051: Knowledge Card 4.6: Langfristiger institutioneller Wandel 
+3091: Knowledge Card 1.1: Holz als zentrale erneuerbare Energiequelle ..................................... 2 
+3092: Knowledge Card 1.2: Vergleich fossiler und biogener Rohstoffverfügbarkeit ....................... 3 
+3093: Knowledge Card 1.3: Holz zwischen stofflicher und energetischer Nutzung ........................ 4 
+3096: Knowledge Card 2.1: Struktur und Dynamik der Holzverwendung ....................................... 6 
+3097: Knowledge Card 2.2: Rolle der Holzindustrie im Energiesystem ......................................... 7 
+3098: Knowledge Card 2.3: Marktlogik versus politische Steuerung ............................................. 8 
+3101: Knowledge Card 3.1: Begriff und Ziel von Ressourceneffizienz ......................................... 10 
+3102: Knowledge Card 3.2: Kaskadennutzung als politisches Leitkonzept ................................. 11 
+3103: Knowledge Card 3.3: Zielkonflikte durch Kaskadenzwang ................................................ 12 
+3106: Knowledge Card 4.1: Zielkonflikte zwischen Energie- und Ressourcenpolitik .................... 14 
+3107: Knowledge Card 4.2: Klimapolitik und die Rolle von Holz ................................................. 15 
+3108: Knowledge Card 4.3: Politische Kohärenz und integrierte Steuerung ................................ 16 
+3111: Knowledge Card 5.1: Kritik am Kaskadenzwang als politischem Instrument...................... 18 
+3112: Knowledge Card 5.2: Rolle von Märkten und Anreizen ...................................................... 19 
+3113: Knowledge Card 5.3: Empfehlungen für eine integrierte Ressourcenpolitik ....................... 20 
+3119: Knowledge Card 1.1: Holz als zentrale erneuerbare Energiequelle 
+3160: Knowledge Card 1.2: Vergleich fossiler und biogener Rohstoffverfügbarkeit 
+3194: Knowledge Card 1.3: Holz zwischen stofflicher und energetischer Nutzung 
+3253: Knowledge Card 2.1: Struktur und Dynamik der Holzverwendung 
+3294: Knowledge Card 2.2: Rolle der Holzindustrie im Energiesystem 
+3338: Knowledge Card 2.3: Marktlogik versus politische Steuerung 
+3389: Knowledge Card 3.1: Begriff und Ziel von Ressourceneffizienz 
+3429: Knowledge Card 3.2: Kaskadennutzung als politisches Leitkonzept 
+3463: Knowledge Card 3.3: Zielkonflikte durch Kaskadenzwang 
+3523: Knowledge Card 4.1: Zielkonflikte zwischen Energie- und Ressourcenpolitik 
+3564: Knowledge Card 4.2: Klimapolitik und die Rolle von Holz 
+3608: Knowledge Card 4.3: Politische Kohärenz und integrierte Steuerung 
+3658: Knowledge Card 5.1: Kritik am Kaskadenzwang als politischem Instrument 
+3699: Knowledge Card 5.2: Rolle von Märkten und Anreizen 
+3733: Knowledge Card 5.3: Empfehlungen für eine integrierte Ressourcenpolitik 
+3787: Knowledge Card 1.1: Der europäische Forstsektor als multifunktionales System ................ 2 
+3788: Knowledge Card 1.2: Wirtschaftliche Bedeutung des Forst- und Holzsektors ...................... 3 
+3789: Knowledge Card 1.3: Politischer und gesellschaftlicher Kontext des Forstsektors .............. 4 
+3792: Knowledge Card 2.1: Nachfrageentwicklung nach Holz und Holzprodukten ....................... 6 
+3793: Knowledge Card 2.2: Bioenergie und der Einfluss der Energiepolitik ................................... 7 
+3794: Knowledge Card 2.3: Technologischer Wandel und Innovation ........................................... 8 
+3797: Knowledge Card 3.1: Szenarien als Werkzeug der Zukunftsanalyse .................................. 10 
+3798: Knowledge Card 3.2: Angebots- und Nachfragedynamik bis 2030 .................................... 11 
+3799: Knowledge Card 3.3: Risiken und Unsicherheiten in der Langfristperspektive ................... 12 
+3802: Knowledge Card 4.1: Anforderungen an Forest Policy im langfristigen Kontext .................. 15 
+3803: Knowledge Card 4.2: Governance-Strukturen und Multi-Level-Koordination ..................... 16 
+3804: Knowledge Card 4.3: Umgang mit Zielkonflikten und Unsicherheiten ............................... 17 
+3807: Knowledge Card 5.1: Strategische Orientierung für die europäische Waldpolitik ............... 19 
+3808: Knowledge Card 5.2: Bedeutung von Anpassungsfähigkeit und Resilienz .......................... 20 
+3809: Knowledge Card 5.3: Rolle von Politik, Märkten und Akteuren .......................................... 21 
+3817: Knowledge Card 1.1: Der europäische Forstsektor als multifunktionales 
+3858: Knowledge Card 1.2: Wirtschaftliche Bedeutung des Forst- und Holzsektors 
+3902: Knowledge Card 1.3: Politischer und gesellschaftlicher Kontext des 
+3953: Knowledge Card 2.1: Nachfrageentwicklung nach Holz und Holzprodukten 
+3994: Knowledge Card 2.2: Bioenergie und der Einfluss der Energiepolitik 
+4038: Knowledge Card 2.3: Technologischer Wandel und Innovation 
+4089: Knowledge Card 3.1: Szenarien als Werkzeug der Zukunftsanalyse 
+4130: Knowledge Card 3.2: Angebots- und Nachfragedynamik bis 2030 
+4174: Knowledge Card 3.3: Risiken und Unsicherheiten in der 
+4237: Knowledge Card 4.1: Anforderungen an Forest Policy im langfristigen 
+4278: Knowledge Card 4.2: Governance-Strukturen und Multi-Level-Koordination 
+4312: Knowledge Card 4.3: Umgang mit Zielkonflikten und Unsicherheiten 
+4362: Knowledge Card 5.1: Strategische Orientierung für die europäische 
+4403: Knowledge Card 5.2: Bedeutung von Anpassungsfähigkeit und Resilienz 
+4447: Knowledge Card 5.3: Rolle von Politik, Märkten und Akteuren 
+4503: Knowledge Card 1.1: Bedeutung und Funktion von Waldpolitik .......................................... 2 
+4504: Knowledge Card 1.2: Abgrenzung von Waldpolitik, Waldmanagement und Governance ...... 3 
+4505: Knowledge Card 1.3: Gesellschaftliche Interessen und Zielkonflikte im Wald ..................... 4 
+4506: Knowledge Card 1.4: Rolle des Staates und Legitimation von Waldpolitik ........................... 6 
+4509: Knowledge Card 2.1: Staatliche Akteure in der Waldpolitik ................................................ 8 
+4510: Knowledge Card 2.2: Nicht-staatliche Akteure und Interessensgruppen ............................. 9 
+4511: Knowledge Card 2.3: Institutionelle Rahmenbedingungen und Zuständigkeiten ................ 10 
+4512: Knowledge Card 2.4: Internationale Institutionen und transnationale Prozesse ................ 11 
+4515: Knowledge Card 3.1: Rechtliche Instrumente der Waldpolitik .......................................... 14 
+4516: Knowledge Card 3.2: Ökonomische Instrumente und Anreizsysteme ............................... 15 
+4517: Knowledge Card 3.3: Informelle und freiwillige Instrumente der Waldpolitik ..................... 16 
+4518: Knowledge Card 3.4: Kombination und Wirkungsweise von Politikinstrumenten ............... 17 
+4521: Knowledge Card 4.1: Der politische Entscheidungsprozess in der Waldpolitik .................. 20 
+4522: Knowledge Card 4.2: Umsetzung und Vollzug waldpolitischer Maßnahmen ...................... 21 
+4523: Knowledge Card 4.3: Monitoring, Evaluation und politisches Lernen ................................ 22 
+4524: Knowledge Card 4.4: Anpassungsfähigkeit und Weiterentwicklung von Waldpolitik .......... 23 
+4532: Knowledge Card 1.1: Bedeutung und Funktion von Waldpolitik 
+4573: Knowledge Card 1.2: Abgrenzung von Waldpolitik, Waldmanagement und 
+4617: Knowledge Card 1.3: Gesellschaftliche Interessen und Zielkonflikte im Wald 
+4665: Knowledge Card 1.4: Rolle des Staates und Legitimation von Waldpolitik 
+4728: Knowledge Card 2.1: Staatliche Akteure in der Waldpolitik 
+4769: Knowledge Card 2.2: Nicht-staatliche Akteure und Interessensgruppen 
+4813: Knowledge Card 2.3: Institutionelle Rahmenbedingungen und 
+4857: Knowledge Card 2.4: Internationale Institutionen und transnationale 
+4926: Knowledge Card 3.1: Rechtliche Instrumente der Waldpolitik 
+4967: Knowledge Card 3.2: Ökonomische Instrumente und Anreizsysteme 
+5011: Knowledge Card 3.3: Informelle und freiwillige Instrumente der Waldpolitik 
+5052: Knowledge Card 3.4: Kombination und Wirkungsweise von 
+5113: Knowledge Card 4.1: Der politische Entscheidungsprozess in der Waldpolitik 
+5154: Knowledge Card 4.2: Umsetzung und Vollzug waldpolitischer Maßnahmen 
+5198: Knowledge Card 4.3: Monitoring, Evaluation und politisches Lernen 
+5236: Knowledge Card 4.4: Anpassungsfähigkeit und Weiterentwicklung von 
+5304: Knowledge Card 1.1: Bedeutung von Forest Policy und Economics für Good Governance ... 2 
+5305: Knowledge Card 1.2: Zusammenspiel von Markt, Staat und Governance im Forstsektor ..... 3 
+5306: Knowledge Card 1.3: Normative Grundlagen und Ziele von Good Governance .................... 5 
+5307: Knowledge Card 1.4: Rolle von Wissen und Analyse in der Governance .............................. 6 
+5311: Knowledge Card 2.1: Marktversagen im Forstsektor ........................................................... 8 
+5312: Knowledge Card 2.2: Externe Effekte und ihre Bedeutung für Waldpolitik ........................... 9 
+5313: Knowledge Card 2.3: Öffentliche Güter und kollektives Handeln ...................................... 10 
+5314: Knowledge Card 2.4: Politische Rechtfertigung von Forest Policy ..................................... 12 
+5317: Knowledge Card 3.1: Regulative Instrumente der Forest Policy ........................................ 14 
+5318: Knowledge Card 3.2: Ökonomische Anreize als Steuerungsinstrument ............................ 15 
+5319: Knowledge Card 3.3: Informelle Instrumente und freiwillige Ansätze ................................ 16 
+5320: Knowledge Card 3.4: Kombination von Politikinstrumenten ............................................. 17 
+5323: Knowledge Card 4.1: Institutionelle Grundlagen von Forest Governance .......................... 20 
+5324: Knowledge Card 4.2: Akteursvielfalt und Rollen in der Waldpolitik ................................... 21 
+5325: Knowledge Card 4.3: Multi-Level-Governance im Forstsektor .......................................... 22 
+5326: Knowledge Card 4.4: Macht, Interessen und Konflikte in der Governance ......................... 24 
+5329: Knowledge Card 5.1: Policy Learning als Bestandteil von Forest Governance ................... 26 
+5332: Knowledge Card 5.2: Evaluation und Feedback in der Forest Policy .................................. 27 
+5333: Knowledge Card 5.3: Institutionelle Voraussetzungen für Lernen ..................................... 28 
+5334: Knowledge Card 5.4: Good Governance als lernender Prozess ......................................... 29 
+5339: Knowledge Card 1.1: Bedeutung von Forest Policy und Economics für Good 
+5384: Knowledge Card 1.2: Zusammenspiel von Markt, Staat und Governance im 
+5431: Knowledge Card 1.3: Normative Grundlagen und Ziele von Good 
+5473: Knowledge Card 1.4: Rolle von Wissen und Analyse in der Governance 
+5531: Knowledge Card 2.1: Marktversagen im Forstsektor 
+5572: Knowledge Card 2.2: Externe Effekte und ihre Bedeutung für Waldpolitik 
+5611: Knowledge Card 2.3: Öffentliche Güter und kollektives Handeln 
+5664: Knowledge Card 2.4: Politische Rechtfertigung von Forest Policy 
+5723: Knowledge Card 3.1: Regulative Instrumente der Forest Policy 
+5764: Knowledge Card 3.2: Ökonomische Anreize als Steuerungsinstrument 
+5808: Knowledge Card 3.3: Informelle Instrumente und freiwillige Ansätze 
+5845: Knowledge Card 3.4: Kombination von Politikinstrumenten 
+5907: Knowledge Card 4.1: Institutionelle Grundlagen von Forest Governance 
+5948: Knowledge Card 4.2: Akteursvielfalt und Rollen in der Waldpolitik 
+5992: Knowledge Card 4.3: Multi-Level-Governance im Forstsektor 
+6039: Knowledge Card 4.4: Macht, Interessen und Konflikte in der Governance 
+6099: Knowledge Card 5.1: Policy Learning als Bestandteil von Forest Governance 
+6140: Knowledge Card 5.2: Evaluation und Feedback in der Forest Policy 
+6184: Knowledge Card 5.3: Institutionelle Voraussetzungen für Lernen 
+6220: Knowledge Card 5.4: Good Governance als lernender Prozess 
+6292: 1.1 Knowledge Card: Earth Summit 1992 – Agenda 21 und Forest Principles .... 5 
+6293: 1.2 Knowledge Card: Nachfolgekonferenzen – Rio+5, Rio+10 und Rio+20 ........ 6 
+6294: 1.3 Knowledge Card: UNFF – United Nations Forum on Forests ........................ 7 
+6295: 1.4 Knowledge Card: MCPFE (Minsterial Confernce on the Protection of Forests 
+6297: 1.5 Knowledge Card: Ministerkonferenzen FOREST EUROPE bis 2003 ............ 9 
+6298: 1.6 Knowledge Card: Ministerkonferenzen FOREST EUROPE / Versuch einer 
+6300: 1.7 Knowledge Card: Internationale Kooperationen und Partnerschaften von 
+6304: 2.1 Knowledge Card: Geschichte des Forstrechts ............................................ 14 
+6305: 2.2 Knowledge Card: erstes Forstgesetz 1852 und 
+6307: 2.3 Knowledge Card: Forstgesetz 1975 ............................................................ 16 
+6308: 2.4 Knowledge Card: ForstG Novellen 2003 bis 2007 ....................................... 17 
+6309: 2.5 Knowledge Card: Forstgesetz-Novellen 2013–2016 ................................... 18 
+6312: 3.1 Knowledge Card: Grundlage des Forstgesetzes durch die Verfassung....... 20 
+6313: 3.2 Knowledge Card : Nachhaltigkeit (§ 1 ForstG) ............................................ 21 
+6314: 3.3 Knowledge Card: Der Waldbegriff im Forstgesetz (§ 1a–§ 3) ...................... 22 
+6315: 3.4 Knowledge Card: Neubewaldung und behördliche Waldfeststellung (§ 4 - § 
+6317: 3.5 Knowledge Card: Forstliche Raumplanung – Waldentwicklungsplan (WEP) & 
+6319: 3.6 Knowledge Card: Waldfachplan (WFP) (§ 10) ............................................. 25 
+6322: 4.1 Knowledge Card: Wiederbewaldung (§ 13 ForstG) ..................................... 27 
+6323: 4.2 Knowledge Card: Deckungsschutz (§ 14 ForstG)........................................ 28 
+6324: 4.3 Knowledge Card: Waldteilung (§§ 15, 15a ForstG) ..................................... 29 
+6325: 4.4 Knowledge Card: Knowledge Card: Verbot der Waldverwüstung (§ 16 
+6327: 4.5 Knowledge Card: Rodung – Begriff, Rodungsverbot und Waldkultur (§ 17) 31 
+6328: 4.6 Knowledge Card: Abgrenzung Rodung – zulässige Mitnutzung des Waldes32 
+6329: 4.7 Knowledge Card: Rodungsarten und Rodungsverfahren (§§ 17–18 ForstG)
+6335: 5.1 Knowledge Card: Besondere Wälder – Systematik & Überblick (B. Wälder 
+6337: 5.2 Knowledge Card: Standortschutzwald und Objektschutzwald (§§ 21–22) ... 36 
+6338: 5.3 Knowledge Card: Bannwald (§§ 27–29) ...................................................... 37 
+6339: 5 4 Knowledge Card: Einforstungswald und Biotopschutzwald (§§ 32, 32a) ..... 38 
+6433: 1.1 Knowledge Card: Earth Summit 1992 – Agenda 21 und Forest 
+6476: 1.2 Knowledge Card: Nachfolgekonferenzen – Rio+5, Rio+10 und 
+6519: 1.3 Knowledge Card: UNFF – United Nations Forum on Forests 
+6561: 1.4 Knowledge Card: MCPFE (Minsterial Confernce on the 
+6607: 1.5 Knowledge Card: Ministerkonferenzen FOREST EUROPE bis 
+6653: 1.6 Knowledge Card: Ministerkonferenzen FOREST EUROPE / 
+6699: 1.7 Knowledge Card: Internationale Kooperationen und 
+6845: 2.1 Knowledge Card: Geschichte des Forstrechts 
+6885: 2.2 Knowledge Card: erstes Forstgesetz 1852 und 
+6927: 2.3 Knowledge Card: Forstgesetz 1975 
+6970: 2.4 Knowledge Card: ForstG Novellen 2003 bis 2007 
+7013: 2.5 Knowledge Card: Forstgesetz-Novellen 2013–2016 
+7109: 3.1 Knowledge Card: Grundlage des Forstgesetzes durch die 
+7149: 3.2 Knowledge Card : Nachhaltigkeit (§ 1 ForstG) 
+7192: 3.3 Knowledge Card: Der Waldbegriff im Forstgesetz (§ 1a–§ 3) 
+7236: 3.4 Knowledge Card: Neubewaldung und behördliche 
+7277: 3.5 Knowledge Card: Forstliche Raumplanung – 
+7321: 3.6 Knowledge Card: Waldfachplan (WFP) (§ 10) 
+7417: 4.1 Knowledge Card: Wiederbewaldung (§ 13 ForstG) 
+7457: 4.2 Knowledge Card: Deckungsschutz (§ 14 ForstG) 
+7500: 4.3 Knowledge Card: Waldteilung (§§ 15, 15a ForstG) 
+7544: 4.4 Knowledge Card: Knowledge Card: Verbot der Waldverwüstung 
+7588: 4.5 Knowledge Card: Rodung – Begriff, Rodungsverbot und 
+7632: 4.6 Knowledge Card: Abgrenzung Rodung – zulässige Mitnutzung 
+7676: 4.7 Knowledge Card: Rodungsarten und Rodungsverfahren (§§ 17–
+7769: 5.1 Knowledge Card: Besondere Wälder – Systematik & Überblick 
+7810: 5.2 Knowledge Card: Standortschutzwald und Objektschutzwald (§§ 
+7854: 5.3 Knowledge Card: Bannwald (§§ 27–29) 
+7897: 5 4 Knowledge Card: Einforstungswald und Biotopschutzwald (§§ 
+7988: Ich erkläre hiermit, dass ich bei der Erstellung der Knowledge Cards, Entity Lists, 
+8013: 1.1 Knowledge Card: Wer führt Beratungen für Waldbesitzer durch ................... 4 
+8014: 1.2 Knowledge Card: Beratungsprodukte und Forstberatung der 
+8016: 1.3 Knowledge Card: Waldverband, aktives Zugehen und Netzwerke ................ 6 
+8017: 1.4 Knowledge Card: Landjugend als Netzwerk für Beratung und Projekte ........ 7 
+8018: 1.5 Knowledge Card: Bäuerinnen als Netzwerk für Beratung und Projekte ......... 8 
+8019: 1.6 Knowledge Card: Bildungsprojekt Biodiversität der Landwirtschaftskammer 
+8021: 1.7 Knowledge Card: Projekt Gemeindewald .................................................... 10 
+8024: 2.1 Knowledge Card: Organisation der Forstabteilung in der 
+8026: 2.2 Knowledge Card: Was ist ein Forstberater der Landwirtschaftskammer 
+8028: 2.3 Knowledge Card: Rechtliche und administrative Beratung durch den 
+8030: 2.4 Knowledge Card: Standardisierte Beratungsprodukte und notwendige 
+8032: 2.5 Knowledge Card: Prozess der Forstberatung und weitere Aufgaben des 
+8036: 3.1 Knowledge Card: Organisation des Landesforstdienstes Niederösterreich 
+8038: 3.2 Knowledge Card: Aufgabenbereiche der Landesforstdirektion 
+8040: 3.3 Knowledge Card: Stellenprofil eines Bezirksforsttechnikers ........................ 20 
+8041: 3.4 Knowledge Card: Kernaufgaben und Amtssachverständigentätigkeit des 
+8043: 3.5 Knowledge Card: Forstliche Raumplanung, Schlägerung, Vollzug des 
+8045: 3.6 Knowledge Card: Waldverwüstung und Wiederbewaldung ......................... 23 
+8046: 3.7 Knowledge Card: Phytosanitäre Kontrollen, Waldbrandprävention und 
+8048: 3.8 Knowledge Card: Jagdangelegenheiten, Abschusspläne und Wildschäden 25 
+8103: 1.1 Knowledge Card: Wer führt Beratungen für Waldbesitzer durch 
+8142: 1.2 Knowledge Card: Beratungsprodukte und Forstberatung der 
+8186: 1.3 Knowledge Card: Waldverband, aktives Zugehen und Netzwerke 
+8230: 1.4 Knowledge Card: Landjugend als Netzwerk für Beratung und 
+8273: 1.5 Knowledge Card: Bäuerinnen als Netzwerk für Beratung und 
+8318: 1.6 Knowledge Card: Bildungsprojekt Biodiversität der 
+8364: 1.7 Knowledge Card: Projekt Gemeindewald  
+8457: 2.1 Knowledge Card: Organisation der Forstabteilung in der 
+8497: 2.2 Knowledge Card: Was ist ein Forstberater der 
+8541: 2.3 Knowledge Card: Rechtliche und administrative Beratung durch 
+8587: 2.4 Knowledge Card: Standardisierte Beratungsprodukte und 
+8631: 2.5 Knowledge Card: Prozess der Forstberatung und weitere 
+8726: 3.1 Knowledge Card: Organisation des Landesforstdienstes 
+8765: 3.2 Knowledge Card: Aufgabenbereiche der Landesforstdirektion 
+8810: 3.3 Knowledge Card: Stellenprofil eines Bezirksforsttechnikers 
+8851: 3.4 Knowledge Card: Kernaufgaben und 
+8896: 3.5 Knowledge Card: Forstliche Raumplanung, Schlägerung, 
+8938: 3.6 Knowledge Card: Waldverwüstung und Wiederbewaldung 
+8981: 3.7 Knowledge Card: Phytosanitäre Kontrollen, 
+9025: 3.8 Knowledge Card: Jagdangelegenheiten, Abschusspläne und 
+9120: Ich erkläre hiermit, dass ich bei der Erstellung der Knowledge Cards, Entity Lists, 
+9144: 1.1 Knowledge Card: Globalisierung als Rahmen globaler Umweltpolitik ........... 4 
+9145: 1.2 Knowledge Card: Was sind die heute wichtigsten globalen Umweltprobleme?
+9147: 1.3 Knowledge Card: Ursprüngliche Lösungsansätze und frühe Vorstöße 
+9149: 1.4 Knowledge Card 4: Internationale Umweltabkommen als problembezogene 
+9151: 1.5 Knowledge Card 5: Geopolitischer Wandel und Ausweitung globaler 
+9155: 2.1 Knowledge Card: World Summit on Sustainable Development (WSSD) in 
+9157: 2.2 Knowledge Card: WSSD Johannesburg – kaum verbindliche 
+9159: 2.3 Knowledge Card: Bilanz von deutschen Vertreter zum WSSD / Themen von 
+9161: 2.3 Knowledge Card: Bewertung des WSSD Johannesburg 2002 durch Klaus 
+9163: 2.4 Knowledge Card: Einseitige Kritik an den USA beim WSSD Johannesburg 
+9165: 2.5 Knowledge Card 5 Koalition der Willigen – Erklärung zur erneuerbaren 
+9167: 2.6 Knowledge Card 6 – notwendige Reform der UN-Institution und globale 
+9169: 2.7 Knowledge Card 7 Entscheidungen getroffen trotz unilateraler Staaten ..... 18 
+9170: 2.7 Knowledge Card 7 Kyoto-Protokoll – als Beispiel für Unilateralität .............. 19 
+9232: 1.1 Knowledge Card: Globalisierung als Rahmen globaler 
+9318: 1.2 Knowledge Card: Was sind die heute wichtigsten globalen 
+9362: 1.3 Knowledge Card: Ursprüngliche Lösungsansätze und frühe 
+9406: 1.4 Knowledge Card 4: Internationale Umweltabkommen als 
+9448: 1.5 Knowledge Card 5: Geopolitischer Wandel und Ausweitung 
+9543: 2.1 Knowledge Card: World Summit on Sustainable Development 
+9584: 2.2 Knowledge Card: WSSD Johannesburg – kaum verbindliche 
+9630: 2.3 Knowledge Card: Bilanz von deutschen Vertreter zum WSSD / 
+9674: 2.3 Knowledge Card: Bewertung des WSSD Johannesburg 2002 
+9720: 2.4 Knowledge Card: Einseitige Kritik an den USA beim WSSD 
+9765: 2.5 Knowledge Card 5 Koalition der Willigen – Erklärung zur 
+9807: 2.6 Knowledge Card 6 – notwendige Reform der UN-Institution und 
+9855: 2.7 Knowledge Card 7 Entscheidungen getroffen trotz unilateraler 
+9904: 2.7 Knowledge Card 7 Kyoto-Protokoll – als Beispiel für 
+10000: Ich erkläre hiermit, dass ich bei der Erstellung der Knowledge Cards, Entity Lists, 
+10027: 1.1 Knowledge Card: Bedeutung der Forstpolitik im „Dritten Reich“ ................... 5 
+10028: 1.2 Knowledge Card: Abkehr von Liberalismus und Bezug auf den 
+10030: 1.3 Knowledge Card: Diskrepanz zwischen forstpolitischem Anspruch und 
+10032: 1.4 Knowledge Card: Staatliche Förderung des Privatwaldes als Kernziel der 
+10034: 1.5 Knowledge Card: Zentralisierung, Nutzungskonflikte und vorweggenommene 
+10036: 1.6 Knowledge Card: Forstliche Aufgaben, Nachhaltigkeit und autoritärer 
+10041: 2.1 Knowledge Card: Forstpolitik als machtgestützte Steuerung und 
+10043: 2.2 Knowledge Card: Nachhaltigkeit, Psychologie und immaterielle 
+10045: 2.3 Knowledge Card: Nachhaltigkeit als betriebswirtschaftliches Prinzip statt 
+10047: 2.4 Knowledge Card: Bedarfsdeckung und Marktordnung als zentrale 
+10049: 2.5 Knowledge Card: Bodenreinertragslehre, Nutzungstiming und Grenzen der 
+10053: 3.1 Knowledge Card: Generationeller Bruch und Ablehnung älterer 
+10055: 3.2 Knowledge Card: Ablehnung mathematischer Forstmodelle und 
+10057: 3.3 Knowledge Card: Politischer Kampfbegriff und Verschmelzung von Politik 
+10059: 3.4 Knowledge Card: Forstwirtschaftspolitik als staatlich gelenkte Volksaufgabe
+10063: 3.5 Knowledge Card : Ablehnung ökonomischer Universalgesetze und 
+10134: 1.1 Knowledge Card: Bedeutung der Forstpolitik im „Dritten Reich“ 
+10172: 1.2 Knowledge Card: Abkehr von Liberalismus und Bezug auf den 
+10213: 1.3 Knowledge Card: Diskrepanz zwischen forstpolitischem 
+10252: 1.4 Knowledge Card: Staatliche Förderung des Privatwaldes als 
+10296: 1.5 Knowledge Card: Zentralisierung, Nutzungskonflikte und 
+10342: 1.6 Knowledge Card: Forstliche Aufgaben, Nachhaltigkeit und 
+10427: 2.1 Knowledge Card: Forstpolitik als machtgestützte Steuerung und 
+10466: 2.2 Knowledge Card: Nachhaltigkeit, Psychologie und immaterielle 
+10512: 2.3 Knowledge Card: Nachhaltigkeit als betriebswirtschaftliches 
+10554: 2.4 Knowledge Card: Bedarfsdeckung und Marktordnung als 
+10594: 2.5 Knowledge Card: Bodenreinertragslehre, Nutzungstiming und 
+10677: 3.1 Knowledge Card: Generationeller Bruch und Ablehnung älterer 
+10720: 3.2 Knowledge Card: Ablehnung mathematischer Forstmodelle und 
+10761: 3.3 Knowledge Card: Politischer Kampfbegriff und Verschmelzung 
+10805: 3.4 Knowledge Card: Forstwirtschaftspolitik als staatlich gelenkte 
+10845: 3.5 Knowledge Card : Ablehnung ökonomischer Universalgesetze 
+10938: Ich erkläre hiermit, dass ich bei der Erstellung der Knowledge Cards, Entity Lists, 
+10984: Knowledge Card 1: Paradigmenwechsel zur Integrierten Ländlichen Entwicklung 
+11006: Knowledge Card 2: Regional Governance und der Schatten der Hierarchie 
+11031: Knowledge Card 3: Ökonomische Steuerung durch Additionalität und Wettbewerb 
+11053: Knowledge Card 4: Innovation durch Intersektoralität und Pilotcharakter 
+11109: Knowledge Card 1: Gemeinwohlverpﬂichtung und das Trittbrettfahrer-Problem 
+11134: Knowledge Card 2: Diskrepanz zwischen Planungszeiträumen und Förderzyklen 
+11160: Knowledge Card 3: Nachhaltigkeit als forstliche Schlüsselkompetenz 
+11186: Knowledge Card 4: Forstreformen und Ressourcenknappheit 
+11210: Knowledge Card 5: Formale und Informale Wirklichkeit der Verwaltung 
+11269: Knowledge Card 1: Kooperation als Tauschprozess und Problemlösung 
+11293: Knowledge Card 2: Der Forstpromotor als Policy Entrepreneur 
+11319: Knowledge Card 3: Machtressourcen: Geld, Wissen und Waldﬂäche 
+11344: Knowledge Card 4: Strategische Allianzen: Bündnispartner und Fürsprecher 
+11368: Knowledge Card 5: Handlungsleitende Interessen und Anreizstrukturen 
+11456: Knowledge Card 1: Marktdeﬁnition und Funktionsweise  
+11480: Knowledge Card 2: Marktklassiﬁzierung und die Rolle der Holzbörse 
+11505: Knowledge Card 3: Quantitative Marktformen (Polypol, Oligopol, Monopol)  
+11526: Knowledge Card 4: Handelsfunktionen und Absatz  
+11548: Knowledge Card 5: Elastizität und Angebotsverhalten  
+11572: Knowledge Card 6: Preisbildung und PreisdiƯerenzierung  
+11615: Knowledge Card 1: Struktur der Holzwirtschaft  
+11639: Knowledge Card 2: Der Schnittholzmarkt  
+11663: Knowledge Card 3: Markt für Sägenebenprodukte 
+11683: Knowledge Card 4: Holzplattenmarkt (Span- und Faserplatten)  
+11705: Knowledge Card 5: Markt für Papier und ZellstoƯ  
+11725: Knowledge Card 6: Altholzmarkt und Kaskadennutzung  
+11773: Knowledge Card 1: Angebotsverhalten der Forstwirtschaft  
+11795: Knowledge Card 2: Absatzorganisation und Paritäten  
+11817: Knowledge Card 3: Verkaufsverfahren (Freihand vs. Versteigerung)  
+11836: Knowledge Card 4: Abgeleitete Nachfrage und Preisbildung  
+11857: Knowledge Card 5: Einﬂuss von Schadereignissen (Marktgleichgewicht)  
+11897: Knowledge Card 1: Bestimmungsgründe des Außenhandels  
+11919: Knowledge Card 2: Messung der Wettbewerbsfähigkeit (RCA-Werte)  
+11940: Knowledge Card 3: Exportförderung und Finanzierung  
+11959: Knowledge Card 4: Handelsbeschränkungen und Zölle  
+11978: Knowledge Card 5: Empirie der Export- und Importnachfrage 
+12045: Knowledge Card 1: Politik als Konﬂiktregelung  
+12067: Knowledge Card 2: Herrschaft und Legitimität  
+12090: Knowledge Card 3: Macht und Agenda Setting, 1. und 2. Gesicht der Macht  
+12110: Knowledge Card 4: Manipulation und Diskursmacht, das 3. und 4. Gesicht der 
+12132: Knowledge Card 5: Die drei Dimensionen des Politischen (Polity, Politics, Policy)  
+12171: Knowledge Card 1: Akteurzentrierter Institutionalismus  
+12199: Knowledge Card 2: Typologie komplexer Akteure (Kollektiv vs. Korporativ)  
+12221: Knowledge Card 3: Interaktionsformen (Hierarchie, Wettbewerb, Verhandlung) 
+12245: Knowledge Card 4: Verwaltung und New Public Management  
+12264: Knowledge Card 5: Verbände und die Logik des kollektiven Handelns  
+12308: Knowledge Card 1: Politik als Prozess der Problemverarbeitung  
+12332: Knowledge Card 2: Der Policy Cycle und das Phasenmodell  
+12350: Knowledge Card 3: Agenda Setting und Selektionsmechanismen  
+12374: Knowledge Card 4: Politikformulierung und Garbage Can Theory  
+12393: Knowledge Card 5: Implementation und Output  
+12413: Knowledge Card 6: Evaluierung, Outcome und Terminierung  
+12453: Knowledge Card 1: Governance und Staatsmodelle  
+12478: Knowledge Card 2: Typologie der Steuerungsinstrumente  
+12499: Knowledge Card 3: Regulative Instrumente  
+12520: Knowledge Card 4: Finanzielle Anreize und Internalisierung  
+12539: Knowledge Card 5: Strukturierung und Information  
+12561: Knowledge Card 6: Privatisierung und New Public Management  
+12636: Knowledge Card 1: Klassiﬁzierung von Vertragspartnern und Geschäften  
+12660: Knowledge Card 2: Österreichische Holzhandelsusancen (ÖHHU)  
+12684: Knowledge Card 3: Normenwesen im Holzsektor (ÖNORM und EN)  
+12740: Knowledge Card 1: Rohholzsortierung und Güteklassen 
+12764: Knowledge Card 2: Holzvermessung und Werksabmaß  
+12784: Knowledge Card 3: Schnittholz und Normung  
+12827: Knowledge Card 1: Zustandekommen und Formen des Vertrages  
+12851: Knowledge Card 2: Pﬂichten, Übergabe und Übernahme  
+12872: Knowledge Card 3: Vertragsbestandteile und Lieferklauseln (Incoterms)  
+12919: Knowledge Card 1: Zentrale Handels- und Transportdokumente 
+12938: Knowledge Card 2: Zölle und Phytosanitäre Kontrolle 
+12959: Knowledge Card 3: Exportstrategien und Vertriebssysteme 
+13002: Knowledge Card 1: Formen der Zahlungssicherung 
+13023: Knowledge Card 2: Das Dokumentenakkreditiv 
+13043: Knowledge Card 3: Bonitätsprüfung und Inkasso 
+13089: Knowledge Card 1: Deﬁnitionen und Straßentransport (LKW) 
+13109: Knowledge Card 2: Bahntransport und Kostenvergleich 
+13129: Knowledge Card 3: SchiƯstransport und Bewertungsmethoden 
+13177: Knowledge Card 1: Der Wechsel als Kreditinstrument 
+13197: Knowledge Card 2: Der Scheck als Zahlungsmittel 
+13216: Knowledge Card 3: Factoring zur Liquiditätssicherung 
+13258: Knowledge Card 1: Gewährleistung und Beweislast 
+13278: Knowledge Card 2: Vertragsbruch und ÖHHU-Speziﬁka 
+13297: Knowledge Card 3: Börsenschiedsgericht und Expertise 
+
+SOURCES
+3: Quelle Textbook 1: 
+8: Quelle Textbook 1: ................................ ................................ ................................ .... 1 
+523: Quelle Textbook 2: 
+528: Quelle Textbook 2: ................................ ................................ ................................ .... 1 
+997: Quelle grey-literature 1: 
+1002: Quelle grey-literature 1: ................................ ................................ ............................  1 
+1477: Quelle grey-literature 2: 
+1483: Quelle grey-literature 2: ................................ ................................ ............................  1 
+1928: Quelle (Grey Literature) 
+2357: Quelle (Grey Literature) 
+2577: Quelle (Textbook):  
+3084: QUELLE GRAUE LITERATUR 1: 
+3781: QUELLE GRAUE LITERATUR 2: 
+4496: QUELLE TEXTBOOK 1: 
+5296: QUELLE TEXTBOOK 2: 
+6282: Quelle 1 „grey literature“ 
+8003: Quelle 2 „grey literature“ 
+9134: Quelle 1 „Text book“ 
+10017: Quelle 2 „Text book“ 
+11422: Quelle: Ortner, M. (2008). Erfolgsfaktoren für die Beteiligung forstlicher Akteure an der 
+12015: Quelle: Holzmarktlehre; Nach Vorlesungsunterlagen von Peter Schwarzbauer  
+12602: Quelle: Studienunterlage zur Vorlesung Grundlagen der Politik zusammengestellt 
+13351: Quelle: Waren- und Zahlungsverkehr mit Holzprodukten I von Stefan Weinfurter 

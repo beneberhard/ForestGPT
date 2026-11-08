@@ -1,0 +1,4283 @@
+
+--- PAGE 1 ---
+29.01.2026  Simon Gegenleithner  1 
+Inhaltsverzeichnis 
+ 
+Information zur Literatur: ............................................................................................................. 1 
+Kapitel 1: Ausbreitung von Schadorganismen im Wald unter Einfluss des Klimawandels ............ 2 
+1. Knowledge Card  ................................................................................................................... 2 
+2. Knowledge Card  ................................................................................................................... 3 
+3. Knowledge Card  ................................................................................................................... 4 
+Kapitel 1 Zusammenfassung .................................................................................................... 5 
+Kapitel 1 Literaturnachweis:  .................................................................................................... 5 
+Kapitel 2: Borkenkäferdynamik im Klimawandel:  die Bedeutung der Landschaftsebene  ............ 6 
+1. Knowledge Card  ................................................................................................................... 6 
+2. Knowledge Card  ................................................................................................................... 7 
+3. Knowledge Card  ................................................................................................................... 8 
+Kapitel 2 Zusammenfassung .................................................................................................... 9 
+Kapitel 2 Literaturnachweis:  .................................................................................................... 9 
+Kapitel 3: Forstliche Schadorganismen im Zeichen des Klimawandels  ..................................... 10 
+1. Knowledge Card  ................................................................................................................. 10 
+2.  Knowledge Card  ................................................................................................................ 11 
+3. Knowledge Card  ................................................................................................................. 12 
+Kapitel 3 Zusammenfassung: ................................................................................................. 13 
+Kapitel 3 Literaturnachweis:  .................................................................................................. 13 
+ 
+ 
+Information zur Literatur: 
+Fachliteratur, drei Kapiteln aus Artikeln der Schweizer Zeitung für Forstwesen .  
+Nachweis Literatur siehe je Kapitel.  
+  
+
+--- PAGE 2 ---
+29.01.2026  Simon Gegenleithner  2 
+Kapitel 1: Ausbreitung von Schadorganismen im Wald unter Einfluss des 
+Klimawandels 
+1. Knowledge Card 
+Titel: 
+Bioklimatische Simulationssoftware  
+ 
+Text: 
+Die aktuelle und potenzielle Ausbreitung von Schadorganismen unter dem Einfluss des 
+Klimawandels kann mithilfe bioklimatischer Simulationssoftware abgeschätzt werden. Zentrale 
+Einflussfaktoren sind dabei das jährliche Wachstumspotenzial eines Organismus so wie 
+verschiedene Stressfaktoren, die das Überleben an einem Standort begrenzen. Dazu zählen 
+insbesondere Hitze , Kälte, Bodenkälte sowie Boden nässe. Hochaufgelöste Klimadaten 
+ermöglichen in Kombination mit artspezifischen ökologischen Anforderungen und der  
+Verbreitung der jeweiligen Wirtsbaumarten, räumliche Muster der potenziellen Ausbreitung zu 
+modellieren. Diese  Simulationen sind wichtige Grundlage n für Monitoring, Prävention und die 
+Risikobeurteilung. In der Schweiz wird hierfür unter anderem die Simulationssoftware CLIMAX 
+eingesetzt.  
+ 
+Entity List: 
+- Ausbreitung Schadorganismen  
+- jährliches Wachstumspotenzial  
+- Stressfaktoren  
+- Hitze 
+- Kälte 
+- Bodenkälte  
+- Bodennässe 
+- Verbreitung Wirtsbaumart  
+- räumliche Muster  
+ 
+Relationship Triplets: 
+Ausbreitung Schadorganismen -> abhängig -> jährliches Wachstumspotenzial  
+Ausbreitung Schadorganismen -> abhängig > Stressfaktoren  
+Bioklimatische Simulationssoftwäre -> benötigen -> hochauflösende Klimadaten  
+Bioklimatische Simulationssoftwäre -> benötigt -> artspezi fische Anforderung der Wirtsbaumart  
+Bioklimatische Simulationssoftware -> liefern -> räumliche Muster  
+  
+
+--- PAGE 3 ---
+29.01.2026  Simon Gegenleithner  3 
+2. Knowledge Card 
+Titel: 
+Kiefernholznematode  
+ 
+Text: 
+Der Kiefernholznematode  (Bursaphelenchus xylophilus ) ist eine aus Nordamerika stammende 
+invasive Art, die weltweit Kiefernarten befällt. In der Schweiz wurde er bisher noch nicht 
+nachgewiesen. Besonders gefährdet ist die Pinus sylvestris , während ein Befall der Pinus mugo 
+bislang nicht bekannt ist. In Südeuropa verursacht die Nematoden  vor allem unter trockenen 
+Bedingungen erhebliche Schäden , da Bäume anfälliger sind und mehrere Generationen 
+abgeschlossen werden können . Die Ausbreitung erfolgt über Bockkäfer, die den Erreger beim 
+Reifungsfraß auf gesunde Bäu me übertragen.  
+ 
+Entity List: 
+- Kiefernholznematode  
+- Bursaphelenchus xylophilus  
+- Nordamerika 
+- Pinus sylvestris  
+- Südeuropa 
+- Borkenkäfer  
+- Trockenheit 
+ 
+Relationship Triplets: 
+Kiefernholznematode -> stammt aus -> Nordamerika  
+Befall -> hauptsächlich -> Pinus silvestris  
+Verbreitung -> abhängig -> Trockenheit  
+Ausbreitung -> abhängig -> Bockkäfer 
+Trockenheit -> stärkt -> mehrere Generationen  
+Bockkäfer -> Verbreitung -> Reifungsfraß 
+  
+
+--- PAGE 4 ---
+29.01.2026  Simon Gegenleithner  4 
+3. Knowledge Card 
+Titel: 
+Schwammspinner 
+ 
+Text: 
+Der Schwammspinner ( Lymantria dispar)  ist eine Trägerspinnenart,  die nach warmen und 
+trockenen Perioden im Mai und Juni potenziale zur Massenvermehr ung bildet  und dabei durch 
+Kahlfrass erhebliche Blattverluste verursacht. Er bildet nur eine Generation pro Jahr und frisst vor 
+allem an Laubbäumen. Einmaliger Kahlfraß wird meist gut verkraftet, wiederholter Befall erhöht 
+jedoch das Risiko für Baumschäden, besonders bei zusätzlichem Stress  wie Witterung extremen . 
+Durch den Klimawandel nimmt die klimatisch geeignete Fläche deutlich zu, wodurch Eichen - und 
+Kastanienwälder stärker gefährdet sind. Die Ausbreitung wird weiters bei einen feuchten Frühjahr 
+stark von den nicht heimischen Pilz ( Entomophaga maimaga ) eingeschränkt, der in Österreich 
+2019 das erste Mal nachgewiesen wurden  
+ 
+Entity List: 
+- Schwammspinner 
+- Lymantria dispar  Nordamerika 
+- Kahlfrass 
+- Witterungsextreme  
+- Trockenheit 
+- Frühjahr 
+- Entomophaga maimaga  
+ 
+Relationship Triplets: 
+Schwammspinner -> gehört zu-> Trägerspinnenart  
+Befall -> hauptsächlich -> Laubbaumarten  
+Schaden -> mittels -> Kahlfrass  
+Verbreitung -> abhängig -> Trockenheit  im Frühjahr  
+Ausbreitung -> abhängig -> Witterungsextreme im Frühjahr 
+Bockkäfer -> Verbreitung über -> Reifungsfraß 
+  
+
+--- PAGE 5 ---
+29.01.2026  Simon Gegenleithner  5 
+Kapitel 1 Zusammenfassung 
+Der Klimawandel beeinflusst die Ausbreitung von Schadorganismen stark und Lebensräume 
+werden in neuen Regionen verschoben. Mithilfe der bioklimatischen Simulationssoftware wie das 
+Schweizer CLIMEX  lassen sich potenziell geeignete Verbreitungsräume unter aktuellen und 
+zukünftigen Klimabedingungen modellieren.  Für die Kiefernholznematoden  wird aufgrund 
+zunehmender Trockenheit eine großes Ausbreitungspotenzial in Mitteleuropa erwartet 
+besonders in Waldföhrenbeständen. Beim  einheimischen Schwammspinner macht die 
+Modellierung sichtbar, dass wä rmere und trockenere Bedingungen seine Massenvermehrung 
+begünstigen und die Gefährdung von Eichen - und Kastanienwäldern zunimmt. Mithilfe 
+Simulationssoftware ist wird frühzeitige Risikoerkennung und die gezielte Planung von Monitoring 
+und Schutzmaßnahmen erleichtert.  
+ 
+Kapitel 1 Literaturnachweis: 
+Könz, Gianna, et al. “Ausbreitung von Schadorganismen Im Wald Unter Einfluss des 
+Klimawandels.” Schweizerische Zeitschrift Für Forstwesen , vol. 173, no. 2, 2022, pp. 88 –91, 
+https://doi.org/10.3188/szf.2022.0088.  
+  
+
+--- PAGE 6 ---
+29.01.2026  Simon Gegenleithner  6 
+Kapitel 2: Borkenkäferdynamik im Klimawandel:  die Bedeutung der 
+Landschaftsebene  
+1. Knowledge Card 
+Titel: 
+Einfluss Klimawandels auf Waldentwicklung und  Borkenkäferarten  
+ 
+Text: 
+Der Klimawandel beeinflusst die Waldentwicklung aufgrund steigenden  Temperaturen und 
+veränderte Niederschlagsmuster . Höhere Temperaturen begünstigen die Entwicklung von 
+Borkenkäferarten , da mehr Generationen pro Jahr möglich sind. Gleichzeitig führen geringere 
+Sommerniederschläge zu Trockenstress bei Fichten, wodurch ihre physiologische 
+Widerstandskraft geschwächt wird. Diese Kombination führt unter Klimawandelszenarien zu 
+einer erhöhten Fichtenmortalität im Vergleich zum historischen Klima. Für die  Schweiz wird 
+angenommen, dass die Fichtenbiomasse bis zum Jahr 2200 unter den Bedingungen des 
+Klimawandels um etwa 25  % abnimmt. Unter historischen Klima wäre der Rückgang von etwa 4 % 
+zu erwarten . Dies zeigt eine direkte Wechselwirkung zwischen Borkenk äferbefall und 
+Klimawandel. 
+ 
+Entity List: 
+ 
+- Klimawandel 
+- Niederschlagsmuster  
+- physiologische Widerstandskraft  
+- steigende Temperaturen  
+- Borkenkäfer  
+- Fichtenbiomasse 
+- Fichtenmortalität 
+ 
+Relationship Triplets: 
+Klimawandel -> beeinflusst -> Waldentwicklung  
+Klimawandel -> führt zu -> steigenden Temperaturen  
+Klimawandel -> führt zu -> veränderten Niederschlagsmuster  
+Steigende Temperatur -> führt zu -> mehrere Generationen  
+Geringer Sommerniederschlag -> führt zu -> Trockenstress bei Fichte  
+Klimawandel-> führt zu ->erhöhter Fichtenmortalität  
+Fichtenmortalität -> führt zu -> Rückgang Fichtenbiomasse  
+Borkenkäfferbefall -> steht direkt zu -> Klimawandel  
+
+--- PAGE 7 ---
+29.01.2026  Simon Gegenleithner  7 
+2. Knowledge Card 
+Titel: 
+Wechselwirkungen zwischen Buchdrucker und anderen Störungen  
+ 
+Text: 
+Der Borkenkäferbefall hängt vom verfügbaren Brutmaterial ab, was zu starken Wechselwirkungen 
+mit anderen Störungen, wie etwa Windwurf, führt. Sturmereignisse erzeugen zusätzliches 
+Brutmaterial in Form von frischem Sturmholz, wodurch das  Risko für einen Befall  deutlich steigt. 
+Unter historischem Klima blieb dieser Effekt jedoch begrenzt, da die Temperaturen, insbesondere 
+in höheren Lagen, für Massenvermehrungen oft zu niedrig waren. Unter dem Klimawandel 
+hingegen verstärken sich Windwurf und Borkenkäferarten  gegenseitig, was zu großflächigen 
+Schadereignissen führt. Diese Wechselwirkung ist ein wesentlicher Treiber für den starken 
+Rückgang der Fichte in zukünftigen Klimaszenarien.  
+ 
+Entity List: 
+- Borkenkäfer  
+- Störungen 
+- Windwurf 
+- Brutmaterial 
+- Temperatur 
+- Schadereignisse 
+- Wechselwirkung 
+- Rückgang Fichte 
+- Zukünftige Klimazenarien  
+ 
+Relationship Triplets: 
+Borkenkäfferbefall -> abhängig -> Brutmaterial  
+Sturmereigniss -> erzeugt -> Brutmaterial  
+Frisches Brutmaterial -> erhöht -> Befall Risiko  
+Befall -> aufgrund Klimawandel -> auch in höheren Lagen  
+Borkenkäfer -> direkte Wechselwirkung -> Störungsereignisse  
+
+--- PAGE 8 ---
+29.01.2026  Simon Gegenleithner  8 
+3. Knowledge Card 
+Titel: 
+Bedeutung der Landschaftsebene und Modellierung  
+ 
+Text: 
+Prozesse wie Samenverbreitung, forstliche Bewirtschaftung und großflächige Störungen wirken 
+über einzelne Waldbestände hinaus und beeinflussen damit die räumliche Ausbreitung des 
+Borkenkäfers  stark. Die Samenverbreitung hat Einfluss  welche Baumart nach  Störungen 
+aufkommt und prägt damit die Anfälligkeit des Waldes  gegenüber Käferbefall. Die 
+Bewirtschaftung steuert Baumartenzusammensetzung, Bestandesstruktur und das Brutmaterial 
+und kann das  Risiko für eine Befall  erhöhen oder verringern. Landschaftsmodelle  erfassen diese 
+Prozesse und zeigen, dass nicht einzelne Faktoren entscheidend sind, sondern deren 
+Zusammenspiel für die zukünftige Waldentwicklung.  
+ 
+Entity List: 
+- Landschaftsmodelle  
+- Landschaftsebene  
+- Störungen 
+- Samenverbreitung 
+- Bewirtschaftung 
+- Klima  
+- Brutmaterial  
+- Zusammenspiel 
+ 
+Relationship Triplets: 
+Räumliche Ausbreitung -> abhängig -> vieler Faktoren  
+Landschaftsebenen -> Betrachtung > über einzelnen Waldflächen  
+Bewirtschaftung -> beeinflusst -> Landschaftsebenen  
+Samenverbreitung -> beeinflusst -> Baumarten  
+Baumarten -> beeinflusst -> Käferbefalle  
+  
+
+--- PAGE 9 ---
+29.01.2026  Simon Gegenleithner  9 
+Kapitel 2 Zusammenfassung 
+Der Klimawandel verändert die Waldentwicklung aufgrund steigender Temperaturen und 
+veränderte Niederschl agsformen. Dies hat in fichtendominierten Wälder oftmals Auswirkungen 
+auf den Borkenkäfer. Höhere Temperaturen ermöglichen mehrere Generationen pro Jahr, 
+während zunehmender Sommertrockenstress die Widerstandskraft der Fichte schwächt. 
+Dadurch steigt die käferbedingte Mortalität unter Klimawandelszenarien deutlich stärker an als 
+unter historischem Klima. Modellierungen zeigen, dass d ie Fichtenbiomasse langfristig stark 
+zurückgehen wird. Zusätzlich verstärken andere Störungen wie Windwurf den Befall, da große 
+Mengen an  Brutmaterial verfügbar gemacht w erden. Landschaftsmodelle verdeutlichen zudem, 
+dass Prozesse wie Samenverbreitung und forstliche Bewirtschaftung die 
+Baumartenzusammensetzung und damit die Anfälligkeit gegenüber Störungen maßgeblich 
+verändern. Entscheidend sind nicht ein einzelner Faktor, sondern das Zusammenspiel von Klima, 
+Störungen und Management für die zukünftige Waldentwicklung.  
+ 
+Kapitel 2 Literaturnachweis: 
+Temperli, Christian, and Harald Bugmann. “Borkenkäferdynamik Im Klimawandel: Die Bedeutung 
+Der Landschaftsebene.”  Schweizerische Zeitschrift Für Forstwesen , vol. 171, no. 3, 2020, pp. 
+142–50, https://doi.org/10.3188/szf.2020.0142.  
+ 
+  
+
+--- PAGE 10 ---
+29.01.2026  Simon Gegenleithner  10 
+Kapitel 3: Forstliche Schadorganismen im Zeichen des Klimawandels  
+1. Knowledge Card 
+Titel: 
+Rinden- und Wurzelkrankheiten  
+ 
+Text:  
+Rinden- und Wurzelkrankheiten gewinnen im Zuge des Klimawandels zunehmend an Bedeutung, 
+da milde Winter und trockene Sommer das Gleichgewicht zwischen Bäumen und 
+Krankheitserregern verschieben. Milde Winter erhöhen die Überlebenschance  und die 
+Vermehrung pilzlicher Erreger . Gründe dafür ist das Frost als natürlicher Regulationsfaktor 
+weitgehend ausbleibt und sich Sporen in feuchten Böden stark ausbreiten können. Trockene 
+Sommer schwächen zudem den Wasserhaushalt der Bäume, reduzieren die Abwehrkräfte und 
+führen zum Absterben der Feinwurzeln. Dies führt zu einer eingeschränkten  Wasser- und 
+Nährstoffaufnahme, das wiederum Krankheitserreger ermöglicht leichter in Rinde und Wurzeln 
+einzudringen. 
+ 
+Entity List: 
+- Rindenkrankheit  
+- Wurzelkrankheit  
+- Klimawandel 
+- Milde Winter 
+- Trockene Sommer 
+- Wasserhaushalt  
+- Feinwurzel 
+- Wasseraufnahme  
+- Nährstoffaufnahme 
+- Regulationsfaktoren  
+ 
+Relationship Triplets: 
+milde Winter -> begünstigen -> besser Vermehrung 
+trockene Sommer > verschlechtern -> Wasser  Haushalt  
+Wasserhaushalt -> reduziert -> Feinwurzel 
+weniger Feinwurzeln -> verschlechtern -> Nährstoffaufnahme  
+schlechte Nährstoffaufnahme -> vermindert -> Abwehr 
+  
+
+--- PAGE 11 ---
+29.01.2026  Simon Gegenleithner  11 
+2.  Knowledge Card 
+Titel:  
+Invasive Arten  
+ 
+Text:  
+Invasive Arten stellen im Zusammenhang mit Klimawandel und globalem Handel ein großes 
+Problem dar. Durch internationalen Warenverkehr werden immer öfters fremde Insekten und 
+Krankheitserreger eingeschleppt, die in Europa auf geeignete Wirtsbäume treffen. Mildere Winter 
+erhöhen ihre Überlebenschancen, höhere Temperaturen ihre Ausbreitung begünstigen. Da  in 
+Europa oftmals natürliche Gegenspieler fehlen, können sich invasive Arten rasch etablieren und 
+große ökologische sowie wirtschaftliche Schäden verursachen . Beispiele sind eingeschleppte 
+Bockkäferarten oder pilzliche Krankheitserreger wie Phytophthora. Für den Waldschutz gewinnen 
+daher Prävention, konsequente Importkontrollen und eine frühzeitige Überwachung der 
+Bestände zunehmend an Bedeutung.  
+ 
+Entity List: 
+- Invasive Arten  
+- Klimawandel  
+- Globaler Handel  
+- Warenverkehr  
+- Natürliche Gegenspieler  
+- Importkontrolle  
+- ökologischer Schaden  
+- wirtschaftlicher Schaden  
+ 
+Relationship Triplets: 
+Globaler Handel -> Zunahme ->Warenverkehr  
+Warenverkehr -> fördert -> Einschleppung Krankheiten  
+Höhere Temperaturen -> positiv Auswirkung -> invasive Arten 
+Invasive Arten -> ausbleiben spezifischer Gegenspieler  
+Prävention->Schutz -> Importkontrolle  
+  
+
+--- PAGE 12 ---
+29.01.2026  Simon Gegenleithner  12 
+3. Knowledge Card 
+Titel: 
+Beispiele Invasiver Arten:  
+ 
+Text:  
+Invasive Arten mit hohem Schadpotenzial stellen eine große Bedrohung für Waldökosysteme dar. 
+Zu den für die Forstwirtschaft bedeutendsten Insekten zählen der Citrusbockkäfer ( Anoplophora 
+chinensis) und der Asiatische Laubholzbockkäfer ( Anoplophora glabripennis ), die seit den 
+2000er -Jahren in Europa vor allem Laubbäume wie Acer spp., Aesculus hippocastanum  und 
+Populus spp. vorkommen. Besonders gravierend ist der Asiatische Eschenprachtkäfer ( Agrilus 
+planipennis), der in Nordamerika bereits Millionen von Esch en ( Fraxinus spp.) zum Absterben 
+gebracht hat und in Europa als Quarantäneorganismus gilt. Bei den Pathogenen besitzen vor 
+allem Phytophthora ramorum  sowie der Fadenwurm Bursaphelenchus xylophilus  ein großes 
+Gefährdungspotenzial, da sie ein großflächiges Absterben bezwingen können.  
+ 
+Entity List: 
+ 
+- Invasive Arten  
+- Citrusbockkäfer 
+- Laubholzbockkäfer 
+- Asiatischer Eschenprachtkäfer  
+- Quarantäneorganismus  
+- Phytopyhthora Arten 
+- Fadenwürmer 
+ 
+Relationship Triplets: 
+Laubbaumarten -> betroffen -> Citrusbockkäfer  
+Laubbaumarten ->betroffen -> asiatischer Laubholzblockkäfer  
+Nordamerika -> stark betroffen -> asiatischer Eschenprachtkäfer  
+Fadenwürmer -> führen -> Baumverlust  
+  
+
+--- PAGE 13 ---
+29.01.2026  Simon Gegenleithner  13 
+Kapitel 3 Zusammenfassung: 
+Zukünftig werden aufgrund des Klimawandels vermehrt Epidemien und Schadorganismen in der 
+Forstwirtschaft erwartet. Besonders betroffen sind Borkenkäfer und wärmeliebende Nadel und 
+Blattfresser. Um das Risiko zu minimieren ist eine hohe Baumartenvielfalt, h ohe genetische 
+Variabilität und stabile Bestandes Strukturen von Bedeutung. Gruppenweise Mischung reduziert 
+dabei Konkurrenzstress. Hinsichtlich Konkurrenz ist zudem wichtig das forstliche Eingriffe keinen 
+zusätzlichen Stress für Bäume bewirken, besonders während Hitze und Trockenperioden. Zudem 
+ist die Kontrolle des Handels mit Pflanzen und Holz wichtig, um die Einschleppung fremder 
+Schadorganismen zu begrenzen . Hinsichtlich klimatischer Ausweichung auf fremdländischen 
+Baumarten ist zudem auf die Anfälligkeit von Parasiten und Pathogenen zu achten . 
+ 
+ 
+ 
+Kapitel 3 Literaturnachweis: 
+Engesser, Roland, et al. “Forstliche Schadorganismen Im Zeichen des 
+Klimawandels.” Schweizerische Zeitschrift Für Forstwesen , vol. 159, no. 10, 2008, pp. 344 –51, 
+https://doi.org/10.3188/szf.2008.0344.  
+ 
+
+--- PAGE 14 ---
+Inhaltsverzeichnis 
+ 
+Information zur Literatur: ............................................................................................................. 1 
+Kapitel 1: Neophyten im Klimawandel  ......................................................................................... 2 
+1. Knowledge Card  ................................................................................................................... 2 
+2. Knowledge Card  ................................................................................................................... 3 
+3. Knowledge Card  ................................................................................................................... 4 
+Zusammenfassung Kapitel 1: ................................................................................................... 5 
+Literaturnachweis Kapitel 1:  .................................................................................................... 5 
+Kapitel 2: Klimakrise Insekten und Parasiten  ............................................................................... 6 
+1.  Knowledge Card  .................................................................................................................. 6 
+2.  Knowledge Card  .................................................................................................................. 7 
+3. Knowledge Card  ................................................................................................................... 8 
+Zusammenfassung Kapitel 2: ................................................................................................... 9 
+Literaturnachweis Kapitel 2:  .................................................................................................... 9 
+Kapitel 3: Bekämpfung von Pflanzenkrankheiten  ....................................................................... 10 
+1. Knowledge Card  ................................................................................................................. 10 
+2. Knowledge Card  ................................................................................................................. 11 
+Zusammenfassung Kapitel 3 .................................................................................................. 12 
+Literaturnachweis Kapitel 3:  .................................................................................................. 12 
+ 
+ 
+ 
+ 
+Information zur Literatur:  
+Lehrbuch über Anthropogene Ausbreitung Von Pflanzen, Ihren Pathogenen und Parasiten . 
+Nachweis Literatur siehe je Kapitel.  
+  
+
+--- PAGE 15 ---
+ 
+Kapitel 1: Neophyten im Klimawandel  
+1. Knowledge Card 
+Titel: 
+Einführung und Ausbreitung invasiver Arten  
+ 
+Text:  
+Invasive Pflanzenarten sind stark von menschlichen Aktivitäten beeinflusst. Die Hälfte der 
+etablierten Neophyten wurde absichtlich als Zier pflanze oder Nutzpflanzen eingeführt. Die 
+andere Hälfte wurde durch Beimischungen im Saatgut oder durch verunreinigten Warenverkehr 
+eingeschleppt. Die Abgrenzung der Neophyten von den Archäophyten wird zeitlich mit der 
+Entdeckung Amerikas vorgenommen. Zu problematisch en Invasoren zählen nur etwa 0,1 % der 
+Neophyten. Neophyten schließen häufig ökologische Lücken und werden von Pflanzenfressern, 
+Parasiten und Schädlingen gemieden. Flüsse, Straßen und gestörte Flächen wie Waldränder und 
+Kahlschläge begünstigen zudem die Ausbreitung.  
+ 
+Entity List: 
+- Einführung invasiver Arten  
+- Zierpflanzen 
+- Nutzpflanzen 
+- Saatgut 
+- Warenverkehr  
+- Entdeckung Amerikas  
+- Straßen 
+- Kahlschläge  
+- Waldränder 
+ 
+Relationship Triplets: 
+Neophyten -> Einführung -> Zierpflanze 
+Neophyten -> Einführung -> Nutzpflanze  
+Neophyten -> Abgrenzung -> Entdeckung Amerikas  
+Neophyten -> schließen -> Lücken 
+Waldrand -> begünstigt -> Neophyten 
+Kahlschlag -> begünstigt -> Neophyten 
+  
+
+--- PAGE 16 ---
+2. Knowledge Card 
+Titel: 
+Auswirkung Ökosystem  Neophyten 
+ 
+Text:  
+Invasive Pflanzenarten stören durch die Verdrängung einheimischer Arten, die Gefährdung von 
+Lebensräumen sowie durch wirtschaftliche Schäden. Ökologische Veränderungen entstehen 
+unter anderem durch die Veränderung der Lichtverhältnisse infolge von Überwuch erung, hohe 
+Samenproduktion, die Absonderung wachstumshemmender Stoffe, Veränderungen des pH -
+Werts sowie eine erhöhte Brandgefahr durch ölhaltige Pflanzenteile. Dies führt zu einem 
+Artenrückgang und einer Vereinheitlichung der Artengemeinschaften . Ein Rückgang der Diversität 
+verringert die Widerstandsfähigkeit gegenüber Trockenheit, Hitze oder Überschwemmungen.  
+ 
+Entity List: 
+- Ökosystem 
+- Lebensraum 
+- Wirtschaftliche Schäden  
+- Überwucherung 
+- Samenproduktion 
+- Artenrückgang  
+- Widerstandsfähigkeit  
+- Umwelteinflüsse 
+ 
+Relationship Triplets: 
+Neophyten -> Überwucherung -> Licht 
+Neophyten -> Samenproduktion -> hohe Ausbreitung  
+Neophyten -> Aussonderung wachstumshemmender Stoffe -> Verdrängung  
+Neophyten -> Rückgang -> Diversität  
+Geringe Diversität -> Zunahme -> Umweltschäden  
+  
+
+--- PAGE 17 ---
+3. Knowledge Card 
+Titel: 
+Bekämpfung Neophyten  
+ 
+Text:  
+Die Bekämpfung von Neophyten gilt als sehr schwierig. Sie erfordert ein frühes Erkennen, um eine 
+Massenvermehrung zu verhindern. Eingesetzt wird vor allem die mechanische Bekämpfung 
+durch Ausreißen oder Abmähen vor der Samenreife. Zudem können chemische He rbizide 
+eingesetzt werden. In Naturschutzgebieten werden oftmals Schafe zur Beweidung eingesetzt. Im 
+privaten Bereich ist es wichtig, Grünschnitt fachgemäß zu entsorgen und nicht zu kompostieren. 
+Weiterhin ist eine Aufklärung der Öffentlichkeit über das Pr oblem von großer Bedeutung.  
+ 
+Entity List: 
+- Neophyten 
+- Massenvermehrung  
+- Ausreißen 
+- Abmähen 
+- Herbizide 
+- Schafe 
+- Kompost 
+- Öffentlichkeit 
+ 
+Relationship Triplets: 
+Neophyten -> Bekämpfung -> sehr schwierig  
+Bekämpfung-> mechanisch -> abmähen  
+Bekämpfung -> mechanisch -> ausreißen  
+Bekämpfung -> Chemie -> Herbizide 
+Grünschnitt -> Entsorgung -> nicht Kompost 
+Neophyten -> Vorsorge -> Öffentlichkeitsarbeit  
+  
+
+--- PAGE 18 ---
+Zusammenfassung Kapitel 1: 
+Neophyten gelangen durch menschliche Nutzung, Handel und Verkehr in neue Regionen. Ihre 
+schnelle Verbreitung wird durch das Fehlen natürlicher Gegenspieler sowie durch ihre 
+Anpassung an Störflächen begünstigt. Sie beeinflussen zudem den Boden und die 
+Lichtverhältnisse und sind oftmals effizienter in der Vermehrung. Dadurch wird die natürliche 
+Waldverjüngung erschwert und die ökologische Stabilität geschwächt. Der Rückgang der 
+Diversität verstärkt den schädlichen Einfluss von Umwelteinflüssen. Hinsichtlich d er 
+Bekämpfung ist eine frühe Eingrenzung entscheidend. In der Forstwirtschaft ist eine vollständige 
+Ausrottung meist nicht möglich.  
+ 
+Literaturnachweis Kapitel 1:  
+Miedaner, Thomas.  Anthropogene Ausbreitung Von Pflanzen, Ihren Pathogenen und Parasiten . 1. 
+Aufl., Springer Berlin / Heidelberg, 2025, https://doi.org/10.1007/978 -3-662-69715 -3. 
+ 
+  
+
+--- PAGE 19 ---
+Kapitel 2: Klimakrise Insekten und Parasiten  
+1.  Knowledge Card 
+Titel:  
+Klimawandel Einfluss auf Insektenentwicklung  
+ 
+Text:  
+Steigende Temperaturen beschleunigen die Entwicklung von Insekten, da sie ihre 
+Entwicklungsstadien schneller durchlaufen. Dadurch beginnen viele Arten früher im Jahr und 
+können mehr Generationen pro Jahr ausbilden. Dies kann die Häufigkeit und Intensität v on 
+Schädlingsbefall erhöhen, wie zum Beispiel beim Buchdrucker ( Ips typographus ), der künftig bis 
+zu drei Generationen pro Jahr entwickeln kann.  Jedoch haben höhere Temperaturen bei manchen 
+Insektenarten auch einen negativen Einfluss. Hohe Temperaturen w ährend der Schwärmzeit 
+verkürzen diese und damit das Imaginalstadium als Endstadium der Metamorphose. Dadurch 
+kommt es zu einer unvollständigen Eiablage und folglich zu weniger Nachkommen . 
+ 
+Entity List: 
+- Klimawandel  
+- Entwicklungsstadien  
+- Schwärmzeit 
+- Imaginalstadium 
+- Eiablage 
+- Nachkommen 
+- Generationen  
+- Insektenentwicklung  
+- Buchdrucker 
+- Steigende Temperatur  
+ 
+ 
+Relationship Triplets: 
+Steigende Temperatur -> führt zu -> schnelleren Entwicklung  
+Steigende Temperatur -> führt zu -> mehr Generationen  
+Steigende Temperatur -> verkürzen -> Schwärmzeit 
+Kurze Schwärmzeit -> führt zu -> kurzes Imaginalstadium  
+Kurzes Imaginalstadium führt zu -> unvollständige Eiablage  
+Unvollständige Eiablage -> führt zu-> weniger Nachkommen   
+
+--- PAGE 20 ---
+2.  Knowledge Card 
+Titel:  
+Klimawandel Einfluss auf Insektenverbreitung  
+ 
+Text:  
+Der Klimawandel wirkt sich besonders auf die Ausbreitung tropischer Insekten aus. Ein gutes 
+Beispiel dafür ist die Asiatische Tigermücke die ursprünglich in süd - und südostasiatischen 
+Tropen und Subtropen beheimatet war. Ab den 1990 Jahren breitete sie sic h in Südeuropa aus 
+und würde mittlerweile in den Benelux -Länder nachgewiesen. Die Tigermücke ist Vektor von 
+Viruskrankheit Zika-, Chikungunya - und Dengue -Fieber was zukünftig ein Problem darstellen 
+kann, wenn sich infizierte Rückkehrer in bestehende Populationen etablieren.  
+ 
+Entity List: 
+- Klimawandel  
+- Tropische Insekten  
+- Tigermücke 
+- Viruskrankheiten  
+- Ausbreitung 
+- Südeuropa 
+- Problem  
+ 
+ 
+Relationship Triplets: 
+Klimawandel -> Ausbreitung -> einheimischer Arten  
+Asiatische Tigermücke -> ursprünglich-> südostasitischen Tropen  
+Asiatische Tigermücke -> ursprünglich-> südostasitischen Tropen  
+Asiatische Tigermücke -> verbreitet -> Südeuropa 
+Asiatische Tigermücke -> nachgewiesen -> Benelux -Länder 
+Asiatische Tigermücke -> Vektor -> Viruskrankheiten  
+Viruskrankheiten -> zukünftig -> Problem 
+  
+
+--- PAGE 21 ---
+3. Knowledge Card 
+Titel: 
+Klimawandel Einfluss auf Parasiten und Pathogene  
+ 
+Text:  
+In wenigen Jahrzenten werden alle pflanzlichen Pathogene und Parasiten, die es weltweit  gibt, in 
+allen Klimazonen, die für sie geeignet sind und in denen ihre Wirte  vorkommen vorherrschen . 
+Dieser Punkt wird als Sättigung bezeichnet. In den USA lag  im Jahr 2000  die Sättigung bei 67 %, in 
+Australien bei 51 %, während sie im Kongo erst 19 % betrug. Im Bezug auf Parasiten ist der  
+Getreidemehltau Spitzenreiter, der im Jahr 2000 bereits 98 der für ihn potenziell geeigneten 124 
+Länder besiedelt hat. 
+ 
+Entity List: 
+- Pathogen 
+- Parasiten 
+- Klimazonen 
+- Sättigung 
+- Ausbreitung 
+- Getreidemehltau  
+- Migration 
+- Handelbeziehung  
+ 
+ 
+Relationship Triplets: 
+Sättigung -> Pathogen e -> Vertretung in allen  Klimazonen für sie geeignet  
+Sättigung Pathogene  -> abhängig -> vorkommen Wirte 
+Sättigung -> Parasiten -> Vertretung in allen Klimazonen für sie geeignet  
+Sättigung Parasiten -> abhängig -> vorkommen Wirte  
+wenigen Jahrzenten -> Global -> Sättigungspunkt  erreicht 
+  
+
+--- PAGE 22 ---
+Zusammenfassung Kapitel 2: 
+Der Klimawandel beschleunigt die Entwicklung und Ausbreitung von Insekten stark. 
+Hinsichtlich ihrer Entwicklung werden sie früher im Jahr aktiv und können mehr 
+Generationen pro Jahr ausbilden. Gleichzeitig können hohe Temperaturen bei einigen 
+Insektenarten  auch negativ wirken, da verkürzte Schwärmzeiten und ein reduziertes 
+Imaginalstadium zu unvollständiger Eiablage und damit zu weniger Nachkommen 
+führen. Hinsichtlich ihrer Ausbreitung begünstigt der Klimawandel Insekten und 
+Pathogene. Aufgrund höherer Temp eraturen und des internationalen Handels können 
+sich Insekten und Pathogene in geeigneten Klimazonen nahezu weltweit etablieren.  
+ 
+ 
+Literaturnachweis Kapitel 2: 
+Miedaner, Thomas.  Anthropogene Ausbreitung Von Pflanzen, Ihren Pathogenen und 
+Parasiten . 1. Aufl., Springer Berlin / Heidelberg, 2025, https://doi.org/10.1007/978 -3-
+662-69715-3. 
+ 
+
+--- PAGE 23 ---
+Kapitel 3: Bekämpfung von Pflanzenkrankheiten  
+1. Knowledge Card 
+Titel: 
+Resistenzzucht 
+ 
+Text:  
+Resistenz ist Erhöhung der Widerstandsfähigkeit. Die Resistenzzüchtung ist bei der Bekämpfung 
+von Viren, Bakterien und Nematode  wichtig, da diese chemisch nicht bekämpft werden können,  
+sondern nur über den Vektor . Bei der Resistenzzüchtung wird zwischen monogener und 
+polygener Resistenz unterschieden. Monogene, qualitative Resistenz beruht auf der Wirkung 
+eines einzigen Gens , jedoch kann der Erreger sich schnell anpassen. Polygene, quantitative 
+Resistenz ist aufwendig und zeitintensiv zu bearbeiten, dafür j edoch deutlich dauerhafter. 
+Voraussetzung für eine erfolgreiche Resistenzzüchtung ist das Vorhandensein geeigneter 
+Resistenzquellen.  
+ 
+Entity List: 
+- Polygene Resistenz  
+- Monogene Resistenz  
+- Virus  
+- Bakterien  
+- Nematoden  
+- quantitative Resistenz  
+- qualitative Resistenz  
+- Resistenzquellen.  
+ 
+Relationship Triplets: 
+Resistenz -> beschreibt -> Erhöhung Widerstandsfähigkeit  
+Viren -> Bekämpfung -> chemisch nicht möglich  
+Monogene Resistenz -> Wirkung über-> einziges Gen  
+Polygene Resistenz -> Wirkung über -> mehrerer Gene  
+Polygene Resistenz -> Wirkung -> dauerhaft  
+Polygene Resistenz -> Aufwand -> hoch 
+  
+
+--- PAGE 24 ---
+2. Knowledge Card 
+Titel: 
+Gentechnik 
+ 
+Text:  
+Züchtung ist auf die Kreuzungen nah verwandter Arten beschränkt . Gentechnik erlaubt die 
+gezielte Nutzung einzelner Gene unabhängig von ihrer Herkunft. Mithilfe der Genomeditierung 
+können Gene gezielt verändert oder ausgeschaltet werden, sodass Anfälligkeiten gegenüber 
+Krankheitserregern reduziert werden. Die Veränderungen  ähneln natürlicher Mutationen. Wo 
+klassische Züchtung an genetische Grenzen stößt oder kaum Variabilität vorhanden kann 
+Gentechnik Resistenzgene aus verwandten Arten nutzbar machen oder vorhandene, inaktive 
+Gene aktivieren.  
+ 
+ 
+Entity List: 
+- Gentechnik 
+- Genomeditierung 
+- Variabilität  
+- Resistenzgene  
+- Krankheitserregern  
+- Mutation 
+- Inaktive Gene  
+ 
+Relationship Triplets: 
+Genomeditierung -> verändert -> Gene  
+Genomeditierung -> löscht -> Gene  
+Genomeditierung -> ähnelt -> natürliche Mutation  
+Gentechnik -> hilfreich -> bei geringe Variabilität  
+Gentechnik -> aktiviert -> vorhanden Gene  
+ 
+  
+
+--- PAGE 25 ---
+Zusammenfassung Kapitel 3 
+Durch den Klimawandel und die Ausbreitung von Parasiten und Pathogenen wird Züchtung und 
+Gentechnik immer wichtig. Resistenz bedeutet die erhöhte Widerstandsfähigkeit von Pflanzen 
+gegenüber Krankheitserregern. Resistenzzüchtung ist besonders wichtig bei Viren, Bakterien und 
+Nematoden, da diese nicht direkt chemisch bekämpft werden können. Es wir  unterschieden  
+zwischen monogener Resistenz, Wirkung auf einen Gen , und polygen er Resistenz, Wirkung auf 
+mehrere Gene . Da Züchtung auf nahe Verwandten beschränkt is t wird oftmals auf Gentechnik 
+gegriffen. Gentechnik und Genomeditierung ermöglichen hingegen die gezielte Nutzung und 
+Veränderung einzelner Gene, um Anfälligkeiten zu verringern.  
+ 
+ 
+ 
+Literaturnachweis Kapitel 3: 
+Miedaner, Thomas.  Anthropogene Ausbreitung Von Pflanzen, Ihren Pathogenen und 
+Parasiten . 1. Aufl., Springer Berlin / Heidelberg, 2025, https://doi.org/10.1007/978 -3-
+662-69715-3. 
+ 
+
+--- PAGE 26 ---
+ 
+29.01.2026  Simon Gegenleithner  1 
+Inhaltsverzeichnis 
+ 
+Information zur Literatur: ............................................................................................................. 1 
+Kapitel 1: Klimawandel Einfluss auf ektotherme Organismen ...................................................... 2 
+1. Knowledge Card  ................................................................................................................... 2 
+2. Knowledge Card  ................................................................................................................... 3 
+3. Knowledge Card  ................................................................................................................... 4 
+4. Knowledge Card  ................................................................................................................... 5 
+Kapitel 1 Zusammenfassung: ................................................................................................... 6 
+Kapitel 1 Literaturnachweis:  .................................................................................................... 6 
+Kapitel 2: Phänologie im Klimawandel  ......................................................................................... 7 
+5. Knowledge Card  ................................................................................................................... 7 
+6. Knowledge Card  ................................................................................................................... 8 
+7. Knowledge Card  ................................................................................................................... 9 
+Kapitel 2 Zusammenfassung: ................................................................................................. 10 
+Kapitel 2 Literaturnachweis:  .................................................................................................. 10 
+Kapitel 3: VO -Waldökologie, Klimaänderung 2022  .................................................................... 11 
+8. Knowledge Card  ................................................................................................................. 11 
+9. Knowledge Card  ................................................................................................................. 12 
+Kapitel 3 Zusammenfassung: ................................................................................................. 13 
+Kapitel 3 Literaturnachweis:  .................................................................................................. 13 
+ 
+ 
+ 
+Information zur Literatur:  
+Grey-Literaturen: Vorlesungsunterlagen Ökologie II, Martin Schebeck  
+Nachweis Literatur siehe je Kapitel.  
+  
+
+--- PAGE 27 ---
+ 
+29.01.2026  Simon Gegenleithner  2 
+Kapitel 1: Klimawandel Einfluss auf ektotherme Organismen  
+1. Knowledge Card 
+Titel: 
+Mountain Pine Beetle ( Dendroctonus ponderosae ) 
+Text: 
+Der Mountain Pine Beetle ( Dendroctonus ponderosae ) ist ein bedeutender Borkenkäfer in 
+Nordamerika. Aufgrund höherer Temperaturen gelingt ihm eine schnellere Entwicklung, und es 
+kommt zu einer geringeren Wintermortalität. Im Jahr 2005 schaffte er die Überquerung der Rocky 
+Mountains und verursachte in der Folge massive Befälle einer neuen Kiefernart, der Jack Pine.  
+ 
+Entity List: 
+- Borkenkäfer  
+- Nordamerika 
+- Klimawandel  
+- Wintermortalität  
+- Rocky Moutains 
+- Jack Pine 
+- Kieferarten 
+- Entwicklung 
+- Waldökosystem 
+ 
+ 
+Relationship Triplets: 
+Mountain Pine Beetle -> Vorkommen -> Nord-Amerika 
+Höhere Temperaturen ->ermöglichen ->schnellere Entwicklung  
+Höhere Temperaturen -> verringern -> Wintermortalität 
+Mountain Pine Beetle  - > überquert > Rocky Mountains 
+Mountain Pine Beetle > befällt -> Jack Pine 
+Ausbreitung -> verursacht -> neue Kiefern-Befälle  
+  
+
+--- PAGE 28 ---
+ 
+29.01.2026  Simon Gegenleithner  3 
+2. Knowledge Card 
+Titel: 
+Insekten in hohen Lagen 
+Text: 
+Manche Insekten sind gut an kühle Bedingungen angepasst, wie zum Beispiel die Hummel. Diese 
+Arten wandern in höhere Höhenlagen und verdrängen dadurch andere Arten. Dabei kommt es 
+jedoch häufig zu einem Verlust ihrer Nahrungsgrundlage. Grundsätzlich ist das  
+Migrationspotenzial abhängig vom Ausbreitungsvermögen der jeweiligen Art. Bei der Hummel 
+wurde in den Pyrenäen in den letzten 115 Jahren eine Wanderung von etwa 130 m nach oben 
+festgestellt, bei einem durchschnittlichen Temperaturanstieg von 2,3 °C.  
+ 
+Entity List: 
+- Insekten  
+- Klimawandel 
+- Hummel 
+- Höhenlagen  
+- Migration 
+- Artenverdrängung  
+- Nahrungsgrundlage  
+- Migrationspotenzial  
+- Pyrenäen 
+- Tempertaturanstieg  
+ 
+ 
+Relationship Triplets: 
+Hummel -> angepasst -> kühle Bedingungen  
+Temperaturanstieg  -> Migration -> höhere Höhenlagen  
+Migration -> führt zu -> Artenverd rängung 
+Migration -> verursacht ->oftmaligen Verlust Nahrungsgrundlage  
+Pyrenäen -> Hummel- > Höhenverschiebung 130m letzten 115 Jahre  
+  
+
+--- PAGE 29 ---
+ 
+29.01.2026  Simon Gegenleithner  4 
+3. Knowledge Card 
+Titel: 
+Einfluss höheren Wintertemperaturen auf Insekten  
+Text: 
+Eine höhere Wintertemperatur führt zu einer geringeren kältebedingten Mortalität. Während 
+dieser Zeit wird keine Nahrung aufgenommen, dennoch findet ein Stoffwechsel statt. Höhere 
+Temperaturen führen zu einer höheren Stoffwechselrate und wiederum zu einem schnelleren und 
+früheren Aufbrauchen der Energiereserven. Eine geringere Schneedecke im Winter hat zudem 
+Auswirkungen auf die Mikrohabitate.  
+ 
+Entity List: 
+- Klimawandel 
+- Wintertemperatur  
+- Kältebedingte Mortalität  
+- Stoffwechsel  
+- Nahrungsaufnahme  
+- Stoffwechselrate 
+- Energiereserven  
+- Schneedecke  
+- Stoffwechsel 
+- Temperaturanstieg  
+ 
+ 
+Relationship Triplets: 
+Höhere Wintertemperatur -> verringert -> kältebedingte Mortalität  
+Höhere Temperaturen -> erhöhen -> Stoffwechselrate 
+Erhöhte Stoffwechselrate -> führt zu -> schnellerem Aufbrauchen der Energiereserven  
+Winter -> keine -> Nahrungsaufnahme  
+Geringe Schneedecke -> beeinflusst -> Mikrohabitate 
+  
+
+--- PAGE 30 ---
+ 
+29.01.2026  Simon Gegenleithner  5 
+4. Knowledge Card 
+Titel: 
+Ausbreitung Pinien-Prozessionsspinner  
+ 
+Text: 
+Das Verbreitungsgebiet des Pinienprozessionsspinners (Thaumetopoea pityocampa) wird 
+maßgeblich durch die Klimafaktoren jährliche Sonnenstrahlung und Temperatur bestimmt. 
+Besonders entscheidend sind die Winterbedingungen für die Larvenentwicklung. Die Verpu ppung 
+im Boden erfordert im März und April Temperaturen von 20 –22 °C in einer Tiefe von 5 –10 cm. Die 
+Klimaerwärmung führt zu einer Ausbreitung.  Im Winter 2016/17 wurde in Österreich in Dobratsch 
+die erste Massenvermehrung nachgewiesen. In dieser Region sind vor allem Schwarzföhren 
+stärker betroffen als Weißföhren.  
+ 
+ 
+Entity List: 
+- Pinienprozessionsspinner 
+- Thaumetopoea pityocampa ) 
+-  Verbreitungsgebiet  
+- Sonnenstrahlung  
+- Temperatur 
+- Ausbreitung 
+- Klimaerwärmung 
+- Ausbreitung Kärnten  
+ 
+ 
+Relationship Triplets: 
+Wassermangel -> schwächt -> Fichte 
+Trockenheit -> verringert -> Harzangebot  
+Wenig Harz -> bewirkt -> Schache Abwehr  
+Fichte -> trocken -> wenig attraktiv  
+Attraktiv -> Fichte -> mit mäßigen Trockenstress  
+  
+
+--- PAGE 31 ---
+ 
+29.01.2026  Simon Gegenleithner  6 
+Kapitel 1 Zusammenfassung: 
+Der Klimawandel hat großen Einfluss auf ektotherme Organismen. Viele Insektenarten profitieren 
+von höheren Temperaturen und geringerer Wintermortalität, was zu schnellerer Entwicklung und 
+Massenvermehrungen führt. Der Mountain Pine Beetle konnte dadurch ne ue Lebensräume und 
+neue Kiefernarten erschließen.  Bei kälteangepassten Insekten wie Hummeln ist eine starke 
+Wanderung in höhere Lagen zu beobachten. Dabei verlieren sie jedoch oft ihre 
+Nahrungsgrundlage, was zu großen Problemen führen kann. Höhere Temperat uren im Winter 
+erhöhen zwar das Überleben, führen aber auch zu einem schnelleren Verbrauch der 
+Energiereserve n, was wiederum zu Probleme führen kann.  
+ 
+ 
+Kapitel 1 Literaturnachweis: 
+Schebeck, Martin. Grundlagen der Ökologie II: Ökophysiologie und Ökologie der 
+Lebensgemeinschaften . Institut für Forstentomologie, Forstpathologie und Forstschutz, 
+Universität für Bodenkultur Wien, Vorlesungsfolien.   
+
+--- PAGE 32 ---
+ 
+29.01.2026  Simon Gegenleithner  7 
+Kapitel 2: Phänologie im Klimawandel  
+ 
+5. Knowledge Card 
+Titel: 
+Phenological mismatches  Fichtenblattwespe  
+Text: 
+Phänologie beschreibt den zeitlichen Ablauf der Lebensphasen von Organismen während eines 
+Jahres. Dabei sind Interaktionen zwischen Räuber und Beute, Herbivoren und Pflanzen sowie 
+Parasiten und Wirten von Bedeutung. Durch den Klimawandel verschieben sich d iese Zeitpunkte 
+infolge veränderter Umweltbedingungen. Ein Beispiel für einen phenological Mismatch ist die 
+Fichtenblattwespe ( Pristiphora abietina ) in mittleren Höhenlagen. Flug, Paarung und Eiablage 
+erfolgen im April und Mai und fallen normalerweise mit dem Austrieb der Fichte zusammen. 
+Durch den Klimawandel geht diese zeitliche Übereinstimmung verloren.  
+ 
+Entity List: 
+- Klimawandel 
+- Lebensphasen  
+- Umweltbedingungen  
+- Phänologie  
+- Phenological mismatches  
+- Fichtenblattwespe  
+- Pristiphora abietina  
+- Mittlere Höhenlage  
+- Fichtenaustrieb 
+- Flug  
+- Paarung 
+ 
+ 
+ 
+Relationship Triplets: 
+Phänologie -> beschreibt -> zeitlichen Ablauf der Lebensphasen  
+Klimawandel -> verursacht -> Verschiebung der Phänologie  
+Klimawandel -> führt zu -> phänologischem Mismatch  
+Fichtenblattwespe -> Klimawandel-> phänologischen Mismatch 
+Klimawandel -> früherer Austrieb -> Fichte  
+
+--- PAGE 33 ---
+ 
+29.01.2026  Simon Gegenleithner  8 
+6. Knowledge Card 
+Titel: 
+Phenological mismatches  Borkenkäfer  
+Text: 
+Phänologie beschreibt den zeitlichen Ablauf der Lebensphasen von Organismen während eines 
+Jahres. Durch den Klimawandel verschieben sich diese Zeitpunkte infolge veränderter 
+Umweltbedingungen. Ein Beispiel dafür ist der Buchdrucker. Dieser überlebt tiefe T emperaturen 
+nur als Imago. Prä -Imaginalstadien sterben bereits bei geringen milden Minusgraden. Wärmere 
+Luft führt zu zusätzlichen Generationen, die jedoch zum Überleben das Imaginalstadium 
+erreichen müssen.  
+ 
+Entity List: 
+- Klimawandel 
+- Lebensphasen  
+- Phänologie 
+- Buchdrucker 
+- Imago 
+- Prä-Imaginalstadien  
+- Imaginalstadium 
+- Umweltbedingung 
+- Minusgraden 
+- Entwicklungszyklus 
+ 
+Relationship Triplets: 
+Klimawandel -> verursacht ->Verschiebung der Phänologie  
+Klimawandel ->Buchdrucker -> zusätzliche Generationen  
+Buchdrucker -> überlebt nur als -> Imago 
+Minusgrade → töten → Prä -Imaginalstadien  
+Zusätzliche Generationen → müssen → Imaginalstadium ereichen 
+  
+
+--- PAGE 34 ---
+ 
+29.01.2026  Simon Gegenleithner  9 
+7. Knowledge Card 
+Titel: 
+Diapause Borkenkäfer  
+ 
+Text: 
+Die fakultative Diapause (von externen Faktoren induziert) beim Buchdrucker ist eine 
+Anpassung gegenüber ungünstigen Bedingungen während des Winters. Induzierende Signale 
+sind kurze Tageslichtlängen: in Mitteleuropa etwa 15 Stunden, in Nordeuropa etwa 19 S tunden. 
+Warme Temperaturen durch den Klimawandel verzögern die Induktion der Diapause. Dabei 
+kommt es zur Einstellung der Reproduktion und der Flugaktivität, zu einem verminderten 
+Metabolismus und zu erhöhten Energiereserven. Dadurch steuert die Diapause d ie Phänologie  
+ 
+ 
+Entity List: 
+- Klimawandel 
+- Buchdrucker 
+- Winter 
+- Tageslicht 
+- Diapause 
+- Reproduktion 
+- Flugakivität 
+- Metabolismus 
+- Energiereserven  
+- Phänologie 
+ 
+Relationship Triplets: 
+Fakultative Diapause -> Anpassung-> ungünstige Winterbedingungen  
+Kurze Tageslichtlänge -> induziert ->Diapause 
+Klimawandel -> verzögert -> Induktion der Diapause  
+Diapause -> bewirkt -> Einstellung von Reproduktion und Flugaktivität  
+Diapause -> steuert -> Phänologie 
+  
+
+--- PAGE 35 ---
+ 
+29.01.2026  Simon Gegenleithner  10 
+Kapitel 2 Zusammenfassung: 
+Phänologie beschreibt den zeitlichen Ablauf der Lebensphasen von Organismen während eines 
+Jahres. Dabei sind Interaktionen zwischen Räuber und Beute, Herbivoren und Pflanzen sowie 
+Parasiten und Wirten von Bedeutung. Durch den Klimawandel verschieben sich d iese Zeitpunkte, 
+was zu sogenannten phänologischen Mismatches führen kann, wenn Organismen nicht mehr 
+gleichzeitig aktiv sind.  Die Phänologie wird unter anderem durch die Diapause gesteuert. Die 
+Diapause ist eine Anpassung an ungünstige Bedingungen. Infolge des Klimawandels wird ihre 
+Induktion verzögert. Während der Diapause werden Fortpflanzung und Flugaktivität eingestellt, 
+der Stoffwechsel reduziert und Energiereserven aufgebaut.  
+ 
+ 
+ 
+Kapitel 2 Literaturnachweis : 
+Schebeck, Martin. Grundlagen der Ökologie II: Ökophysiologie und Ökologie der 
+Lebensgemeinschaften . Institut für Forstentomologie, Forstpathologie und Forstschutz, 
+Universität für Bodenkultur Wien, Vorlesungsfolien.   
+
+--- PAGE 36 ---
+ 
+29.01.2026  Simon Gegenleithner  11 
+ 
+Kapitel 3: VO-Waldökologie, Klimaänderung 202 2 
+8. Knowledge Card 
+Titel: 
+Wassermangel Borkenkäfer  
+ 
+Text: 
+Wassermangel beeinflusst die Abwehrkräfte der Fichte gegenüber dem Buchdrucker negativ. 
+Durch Trockenheit sinkt der Wassergehalt im Baum und die Harzproduktion nimmt ab. Harz ist 
+ein wichtiger Schutzmechanismus zur Abwehr des Buchdruckers. Je geringer der Wasserstatus 
+des Baumes ist, desto schlechter kann er Käferangriffe abwehren.  Bäume mit mäßigem 
+Trockenstress werden am häufigsten erfolgreich befallen, da ihre Abwehr geschwächt ist, jedoch 
+noch für den Buchdrucker attraktiv . Bei sehr starkem Trockenstres s nimmt die Attraktivität der 
+Bäume für den Buchdrucker hingegen wieder ab, obwohl ihre Abwehr stark reduziert ist.  
+ 
+Entity List: 
+- Buchdrucker 
+- Klimaänderung 
+- Ips typophus  
+- Harz 
+- Wassermangel  
+- Trockenheit 
+- Trockenstress  
+- Abwehrkraft 
+- Attraktivität 
+ 
+ 
+ 
+Relationship Triplets: 
+Wassermangel -> schwächt -> Fichte 
+Trockenheit -> verringert -> Harzangebot  
+Wenig Harz -> bewirkt -> Schache Abwehr  
+Fichte -> trocken -> wenig attraktiv  
+Attraktiv -> Fichte -> mit mäßigen Trockenstress  
+  
+
+--- PAGE 37 ---
+ 
+29.01.2026  Simon Gegenleithner  12 
+9. Knowledge Card 
+Titel: 
+Klimawandel und Ektomykorrhizen  
+ 
+Text: 
+Eine Zunahme des Kohlenstoffdioxids in der Luft führt zu einem verstärkten Wachstum von 
+Ektomykorrhizen und  einer Zunahme von Mikroben . Durch diese Entwicklung können Streu und 
+organisches Material schneller abgebaut werden, wodurch gebundener Stickstoff und 
+Kohlenstoff verfügbar gemacht werden. Es entsteht eine positive Rückkopplung zwischen 
+Kohlenstoffzufuhr, mikrobieller Aktivität und  Stickstoffkreislauf, sodass eine bessere 
+Nährstoffversorgung der Pflanze gewährleistet ist.  
+ 
+Entity List: 
+- Ektomykorrhizen 
+- Kohlenstoffdioxid 
+- Mikroben 
+- Gebundes Kohlenstoff  
+- Stickstoffkreislauf  
+- Nährstoffversorgung  
+- Kohlenstoff 
+- Wurzel  
+- Klimawandel  
+- Pilze 
+ 
+ 
+Relationship Triplets: 
+Zunahme -> Kohlenstoffdioxid-> Wachstum Ektomykorrhiza  
+Zunahme -> Kohlenstoffdioxid -> Zunahme Mikroben  
+Mehr Ektomykorrhiza -> positiv Einfluss -> Streu und organische Materialen  
+Mehr Ektomykorrhiza -> höhere Aufnahme -> Stickstoff und Kohlenstoff  
+Mehr Kohlenstoffdioxid -> höhere -> Nährstoffaufnahme bei Ektomykorrhiza -Arten 
+  
+
+--- PAGE 38 ---
+ 
+29.01.2026  Simon Gegenleithner  13 
+Kapitel 3 Zusammenfassung: 
+Der Klimawandel spielt in der Waldökologie eine gewichtige Rolle. Vor allem Wasser - und 
+Nährstoffkreisläufe sind davon betroffen. Eine erhöhte CO₂ -Konzentration fördert 
+Ektomykorrhizen und Mikroorganismen. Dadurch wird organisches Material schneller abgeba ut, 
+Nährstoffe werden freigesetzt und die Nährstoffversorgung der Pflanzen verbessert sich durch 
+eine positive Rückkopplung zwischen Kohlenstoffzufuhr und mikrobieller Aktivität. Ein Beispiel 
+für die Auswirkungen auf den Wasserkreislauf ist die Fichte: Was sermangel schwächt ihre 
+Abwehr gegen den Buchdrucker, da der Wassergehalt und die Harzproduktion sinken. Besonders 
+Bäume mit mäßigem Trockenstress sind anfällig für Befall, während stark geschädigte Bäume für 
+den Buchdrucker weniger attraktiv werden.  
+ 
+Kapitel 3 Literaturnachweis : 
+Sanden, Hans. Waldökologie : Klimaänderung. Department für Wald - und 
+Bodenwissenschaften , Universität für Bodenkultur Wien, Vorlesungsfolien.  
+
+--- PAGE 39 ---
+ 
+29.01.2026  Simon Gegenleithner  1 
+Inhaltsverzeichnis: 
+ 
+Information zur Literatur: ............................................................................................................. 1 
+Kapitel 1: Österreichs Wald im Klimawandel  ............................................................................... 2 
+1. Knowledge Card  ................................................................................................................... 2 
+2. Knowledge Card  ................................................................................................................... 3 
+3. Knowledge Card  ................................................................................................................... 4 
+Kapitel 1 Zusammenfassung .................................................................................................... 5 
+Kapitel 1 Literaturnachweis  ..................................................................................................... 5 
+Kapitel 2: Ökosystemlandschaft Wald im Klimawandel ............................................................... 6 
+1. Knowledge Card  ................................................................................................................... 6 
+2. Knowledge Card  ................................................................................................................... 7 
+3. Knowledge Card  ................................................................................................................... 8 
+Kapitel 2: Zusammenfassung ................................................................................................... 9 
+Kapitel 2: Literaturnachweis  .................................................................................................... 9 
+Kapitel 3: Österreichs Gewässer im Klimawandel  ..................................................................... 10 
+1. Knowledge Card  ................................................................................................................. 10 
+2. Knowledge Card  ................................................................................................................. 11 
+3. Knowledge Card  ................................................................................................................. 12 
+Kapitel 3: Zusammenfassung ................................................................................................. 13 
+Kapitel 3: Literaturnachweis  .................................................................................................. 13 
+ 
+ 
+ 
+Information zur Literatur:  
+Grey-Literaturen: Inhaltliche Kapitel aus Arbeitsunterlagen Österreichische Bundesforste.  
+Nachweis Literatur siehe je Kapitel.  
+  
+
+--- PAGE 40 ---
+ 
+29.01.2026  Simon Gegenleithner  2 
+Kapitel 1: Österreichs Wald im Klimawandel  
+1. Knowledge Card 
+Titel: 
+Auswirkung auf Österreichs Hauptbaumart Fichte  
+ 
+Text:  
+In Österreich ist die Fichte mit ca. 50 % Flächenanteil die häufigste Baumart. Unter 
+prognostizierten Klimaänderungen wird ihre Eignung in niedrigen und mittleren Seehöhen stark 
+eingeschränkt. Nicht mehr geeignet aufgrund von Stress sind vor allem der somm erwarme Osten 
+Österreichs, das Subillyrische Hügelland sowie der Donauraum. Eine geregelte Bewirtschaftung 
+wird zudem im Mühl - und Waldviertel aufgrund von Trockenstress nicht möglich sein. Dies führt 
+dazu, dass Fichten hauptsächlich in höheren Lagen im Al penraum übrigbleiben, was gleichzeitig 
+eine Verschiebung des Borkenkäfers in die Höhe mit sich führt.  
+ 
+Entity List: 
+- Fichte 
+- Hauptbaumart 
+- Österreich 
+- Seehöhe 
+- Sommerwarme Osten  
+- Subillyrische Hügelland  
+- Donauraum 
+- Trockenstress  
+- Borkenkäfer  
+- Mühlviertel  
+- Waldviertel 
+ 
+Relationship Triplets: 
+Österreich -> Hauptbaumart -> Fichte 
+Klimawandel -> Fichte -> Rückgang niedrigen und mittleren Seehöhen  
+Stress -> Rückgang Fichte-> sommerwarmer Osten  
+Stress -> Rückgang Fichte-> Subillyrische Hügelland  
+Stress -> Rückgang Fichte-> Wald und Mühlviertel  
+Fichte -> Rückzug -> Alpenraum  
+Borkenkäfer  vorkommen -> Zunahme -> höhen Lage    
+
+--- PAGE 41 ---
+ 
+29.01.2026  Simon Gegenleithner  3 
+2. Knowledge Card 
+Titel: 
+Auswirkung auf die Baumart Buche  
+ 
+Text: 
+Die Klimaerwärmung führt zu einer Änderung der Standorte  für die Buche in den Ostalpen. 
+Begrenzt wird die Buche  in den Ostalpen  hauptsächlich durch Extremstandorte aufgrund von 
+Kälte. Weiters gerät sie vermehrt in Trockenstress im Osten Österreichs, da sie einen 
+Jahresniederschlag von 600 mm benötigt.  Dabei sind Gebiete am Ostrand der Alpe sowie im 
+Waldviertel betroffen.  Über ganz Österreich ist jedoch mit einer Ausdehnung der 
+Bestandesfläche zu rechnen.  
+ 
+Entity List: 
+- Buche  
+- Klimaerwärmung 
+- Standortserweiterung  
+- Extremstandorte  
+- Kälte 
+- Trockenstress  
+- 600mm 
+- Alpenraum 
+- Ostalpen 
+ 
+ 
+Relationship Triplets: 
+Buche -> Ostalpen -> Ausbreitung  
+Buche -> begrenzt -> Kälte  
+Buche -> begrenzt -> 600 mm Niederschlaf  
+Buche -> Rückgang -> Waldviertel  
+Buche -> Rückgang ->Ostalpenrand  
+Österreich -> Ausdehnung -> besiedelbare Areale  
+  
+
+--- PAGE 42 ---
+ 
+29.01.2026  Simon Gegenleithner  4 
+3. Knowledge Card 
+Titel:  
+Waldbau im Klimawandel 
+ 
+Text:  
+Der Waldbau im Klimawandel ist gekennzeichnet durch gezielte Anpassungsstrategien aufgrund 
+der langen Vorlaufzeit in der Forstwirtschaft. So benötigen neue Baumarten zur 
+Risikominimierung eine lange Vorlaufzeit, bis sie aufgrund von Artenvielfalt, Struktur vielfalt und 
+der Erhöhung der genetischen Diversität Wirkung zeigen.  Weiter ist die Vernetzung von Waldbau 
+und Klimaschutz unter Berücksichtigung der Waldeigenschaften als Kohlenstoffspeicher, 
+Wasserspeicher und Substitution für fossile Energieträge r wichtig. Bei der Nutzung von Biomasse 
+als Energiequelle ist darauf zu achten, dass keine zusätzliche Belastung für das Ökosysteme 
+entsteht.  
+ 
+ 
+Entity List: 
+- Klimaerwärmung 
+- Vorlaufzeit  
+- Waldbau 
+- Artenvielfalt  
+- Strukturvielfalt 
+- Diversität 
+- Kohlenstoffspeicher 
+- Wasserspeicher  
+- Biomasse 
+ 
+ 
+Relationship Triplets: 
+Forstwirtschaft -> neu Baumarten -> hohe Vorlaufzeit  
+Waldbau -> soll erhöhen -> Kohlenstoffspeicher  
+Waldbau ->soll erhöhen -> Wasserspeicher  
+Waldbau -> soll verringern -> fossiler Energieträger  
+Biomassenutzung -> Ökosystem -> nicht belasten  
+ 
+ 
+  
+
+--- PAGE 43 ---
+ 
+29.01.2026  Simon Gegenleithner  5 
+Kapitel 1 Zusammenfassung 
+Die Klimaerwärmung wird Österreichs Wälder stark beeinflussen. Trockenstress und 
+Insektenschäden werden zunehmen und die Fichte unter Druck setzen. Die Fichte als 
+Hauptbaumart in Österreich gilt zukünftig als klarer Verlierer, vor allem in niederen und mit tleren 
+Höhenlagen. In trockenen Regionen Ostösterreichs gewinnen hingegen trockenheitstolerante 
+Baumarten wie Eiche und Kiefer an Bedeutung. In den Ostalpen wird die Buche ihr 
+Verbreitungsareal erweitern können, ist jedoch durch Niederschlag und Kälte eing eschränkt. 
+Grundsätzlich vergrößert sich die Zahl potenziell geeigneter Baumarten im Gebirge, was neue 
+Herausforderungen für die Waldbewirtschaftung mit sich bringt. Die Waldgrenze wird weiter nach 
+oben rücken. Das Potenzial für neue Baumarten nimmt zu, wä hrend zugleich Störungen durch 
+Schadorganismen und Risiken im Gebirge höher werden.  
+ 
+Kapitel 1 Literaturnachweis 
+Niedermair, Markus, und Peter Hirschberger.  Klimawandel & Artenvielfalt : wie klimafit sind 
+Österreichs W älder, Flüsse und Alpenlandschaften?  Österr. Bundesforste AG   
+
+--- PAGE 44 ---
+ 
+29.01.2026  Simon Gegenleithner  6 
+Kapitel 2: Ökosystemlandschaft Wald im Klimawandel  
+1. Knowledge Card 
+Titel: 
+Auswirkung Klimawandel Alpenraum Pflanzen  
+ 
+Text:  
+In Europa befinden sich 20 Prozent aller Pflanzenarten in den Alpen über der Waldgrenze. In den 
+letzten 100 Jahren sind Grasarten als Reaktion auf die Klimaerwärmung um ca. 4 Meter pro 
+Jahrzehnt nach oben gewandert. Somit ist mit einem Verschwinden kälteli ebender Arten wie zum 
+Beispiel Alpenmannsschild, Gletscher -Hahnenfuß oder Moos -Steinbrech zu rechnen. Bei einer 
+Temperaturerhöhung von 3 bis 5 Grad Celsius wird zudem eine Verschiebung der 
+Vegetationsgürtel um 400 bis 700 Meter nach oben erwartet.  Wenig mobile Arten und Arten ohne 
+Auswanderungsmöglichkeit werden verschwinden  
+ 
+ 
+Entity List: 
+- Waldgrenze  
+- Grasarten  
+- Klimaerwärmung 
+- Vegetationsgürtel  
+- Alpen 
+- Kälteliebende Arten  
+- Alpenmannschild 
+- Gletscher-Hahnenfuß 
+- Moos-Steinbrech 
+- Europa 
+ 
+ 
+ 
+Relationship Triplets: 
+Pflanzen Europa -> 20% ->über Waldgrenze  
+Grasarten -> Ausbreitung -> 4m / 10 Jahre  in die Höhe 
+Klimaerwärmung -> verschwinden -> kälteliebende Arten  
+Temperurerwärmung -> Verschiebung ->Vegetationsgürtel  
+Auswanderungsmöglichkeit -> nicht vorhanden -> verschwinden der Art  
+  
+
+--- PAGE 45 ---
+ 
+29.01.2026  Simon Gegenleithner  7 
+2. Knowledge Card 
+Titel: 
+Auswirkung Klimawandel Alpenraum Moore 
+ 
+Text:  
+In Bezug auf Hochmoore ist im Zusammenhang mit höheren Temperaturen und längeren 
+Trockenperioden eine große Gefährdung zu erwarten. Es ist damit zu rechnen, dass für 
+Hochmoore untypische Arten in diesen Lebensraum vordringen könnten, was zugleich einen 
+Ökosystemumbau bewirkt. In Bezug auf Flachmoore ist die fehlende Wasserspeisung das 
+Hauptproblem, das zu einer Abnahme der Fläche und der artspezifischen Tierwelt führt. 
+Zusätzlich ist neben der Temperaturzunahme die Eutrophierung von großer Bedeutung, da diese  
+eine starke Störung sowie einen Rückgang des Lebensraums Moor bewirkt.  
+ 
+ 
+Entity List: 
+- Klimaerwärmung 
+- Hochmoore 
+- Ökosystemumbau 
+- Flachmoore 
+- Wasserspeisung  
+- Eutrophierung 
+- Lebensraum 
+- Temperaturzunahme  
+- Trockenperioden 
+- Tierwelt 
+ 
+ 
+ 
+Relationship Triplets: 
+Hochmoore -> Trockenperioden -> stark Gefährdet  
+Hochmoore -> neu Arten -> Ökosystemumbau  
+Flächenmoore -> wenig Wasserzufluss -> starker Rückgang  
+Flächenmoore -> Klimawandel -> Rückgang artspezifischer Tiere  
+Flächenmoore -> beeinflusst -> Eutrophierung 
+  
+
+--- PAGE 46 ---
+ 
+29.01.2026  Simon Gegenleithner  8 
+3. Knowledge Card 
+Titel: 
+Auswirkung Klimaänderung auf Ökosystem  Weltweit 
+ 
+Text:  
+Trends zeigen, dass weltweit zurzeit 1700 Arten aufgrund der Klimaänderung polwärts wandern, 
+mit einer Geschwindigkeit von sechs Kilometern pro Jahrzehnt. Klimazonen wandern  hingegen 
+derzeit mit ca. 50 km pro Jahrzehnt und zukünftig mit bis zu 100 km pro Jahrzehnt, was einen 
+wesentlichen Unterschied darstellt. Dies stellt einen großen Lebensraumverlust dar.  Bei einer 
+globalen Temperaturerhöhung von 2 Grad wird mit einem Artenverlust von 25 % gerechnet, bei 3 
+Grad mit einem Verlust von 33 %. Besonders gefährdet sind dabei die Arten, die keine Chance zur 
+Wanderung haben, wie im Alpenraum oder in den Polarregion  
+ 
+Entity List: 
+- Klimaerwärmung 
+- Klimazonen 
+- Lebensraumverlust  
+- Artenverlust  
+- polwärts Wanderung  
+- Alpenraum  
+- Polarregionen 
+- Korallenriff 
+- Temperaturerhöhung  
+ 
+ 
+Relationship Triplets: 
+Klimaerwärmung -> Artenwanderung -> polwärts  
+Artenwanderung ->polwärts -> 6km/ pro Jahrzehnt  
+Klimazone -> Verschiebung polwärts -> 60km/ pro Jahrzehnt  
+Artenwanderung -> Klimazonenverschiebung -> Lebensraumverlust  
+Lebensraumverlust -> hoch -> Alpenraum  
+Lebensraumverlust -> hoch -> Polarregion  
+  
+
+--- PAGE 47 ---
+ 
+29.01.2026  Simon Gegenleithner  9 
+Kapitel 2: Zusammenfassung 
+Der Klimawandel wird sowohl die Klima - als auch die Vegetationszonen in Österreich deutlich 
+verschieben und die biologische Vielfalt langfristig verändern. Besonders betroffen sind 
+kälteangepasste Pflanzen der Alpen, die nicht in höhere Lagen ausweichen kö nnen und dadurch 
+ihren Lebensraum verlieren. Wenig mobile Arten sind am stärksten gefährdet, lokal oder 
+vollständig auszusterben. Gleichzeitig wandern aufgrund steigender Temperaturen neue 
+Pflanzenarten nach Österreich ein. In nah Bezug auf Hochmoore sind s teigende Temperaturen 
+und längere Trockenperioden problematisch, da standortfremde Arten eindringen und das 
+Ökosystem verändern können. Flachmoore leiden vor allem unter Wassermangel und 
+Eutrophierung, was zu Flächenverlust und einem Rückgang moortypischer  Arten führt. 
+ 
+ 
+Kapitel 2: Literaturnachweis 
+Niedermair, Markus, und Peter Hirschberger.  Klimawandel & Artenvielfalt : wie klimafit sind 
+Österreichs W älder, Flüsse und Alpenlandschaften?  Österr. Bundesforste AG  
+ 
+  
+
+--- PAGE 48 ---
+ 
+29.01.2026  Simon Gegenleithner  10 
+Kapitel 3: Österreichs Gewässer im Klimawandel  
+1. Knowledge Card 
+Titel: 
+Auwald und Niedrigwasser im Klimawandel  
+ 
+Text:  
+Klimawandel bewirkt eine Zunahme von heißen Sommern und eine Abnahme der 
+Sommerniederschläge. Dies führt in Österreich vermehrt zu niedrigen Wasserständen in Seen 
+und Fließgewässern. Zudem ist ein Rückgang der Gletscher und des Schmelzwassers für 
+Tiefstände in niederschlagsarmen Sommermonaten verantwortlich. Dies führt bei 
+bachbegleitenden Gehölzen und im Auwald zu großen Veränderungen. Auwälder haben eine 
+hohe strukturelle Dynamik und schaffen dadurch auf kleinem Raum zahlreiche ökologische 
+Nischen. Eine V eränderung von Niedrigwasserstände  bewirkt daher bereits große Unterschiede.  
+ 
+Entity List: 
+- Klimawandel 
+- Sommerniederschläge  
+- Niedrigwasserstände  
+- Fließgewässer  
+- Auwald 
+- Gletscherrückgang  
+- Bachbegleitende Gehölze  
+- Strukturelle Dynamik  
+- Ökologische Nischen  
+ 
+ 
+ 
+Relationship Triplets: 
+Klimawandel → Vegetationsverschiebung → Änderung des Abflussverhaltens  
+Kalamität → Fichtenbestände → Erosion  
+Starke Erosion → Kalkalpen → Verkarstung  
+Verkarstung → geringe Wasserspeicherung  
+Geringe Bodenwasserkapazität → Trockenstress  
+Trockenperioden → Trockenstress → schlechte ökologische Stabilität  
+  
+
+--- PAGE 49 ---
+ 
+29.01.2026  Simon Gegenleithner  11 
+2. Knowledge Card 
+Titel: 
+Klimawandel und Gewässerökologie  
+ 
+Text:  
+Bis 2050 wird im Alpenraum in Flüssen und Seen ein Temperaturanstieg von etwa 2 Grad Celsius 
+erwartet. Dadurch verkleinert sich der Lebensraum für Kaltwasserfische um 20 –25 Prozent, und 
+es kommt zu einer Verschiebung der Verbreitungsgebiete um 40 –50 km. In  Kombination mit 
+anthropogenen Eingriffen sind viele Arten, wie die Äsche, bereits stark gefährdet und stehen am 
+Rand der Existenz. In Flüssen sind zudem Huchen und Forellen betroffen, in Seen vor allem 
+Felchen und Barsche. Hingegen werden Gewässer durch d ie steigenden Temperaturen 
+zunehmend geeigneter für Karpfen und exotische Fischarten.  
+ 
+Entity List: 
+- Klimawandel  
+- Alpenraum 
+- Flüsse 
+- Seen  
+- Temperaturanstieg  
+- Verbreitungsgebiet  
+- Äschen 
+- Anthropogene Eingriffe  
+- Exotische Arten  
+ 
+ 
+Relationship Triplets: 
+Temperatur -> Erhöhung -> Anstieg Wassertemperatur  
+2050 -> Alpenraum Flüsse -> + 2°C  
+Anstieg -> Wassertemperatur -> Verschiebung Artenverbreitung  
+Klimawandel → Einfluss → Karpfen und exotische Fischarten  
+Veränderung → Wassertemperatur → Umstrukturierung Gewässerökosysteme  
+ 
+  
+
+--- PAGE 50 ---
+ 
+29.01.2026  Simon Gegenleithner  12 
+3. Knowledge Card 
+Titel: 
+Wasserhaushalt alpiner Einzugsgebiete  
+ 
+Text:  
+Klimawandel und Vegetationsverschiebung bewirken eine Veränderung des Abflussverhaltens 
+alpiner Einzugsgebiete. Durch Kalamitäten in Fichtenbeständen verstärkt sich die Erosion und 
+führt zu einer Abnahme der Wasserspeicherkapazität der Böden. Bei starker B odenerosion kann 
+es insbesondere in den südlichen und nördlichen Kalkalpen zu einer Verkarstung kommen, was 
+die Wasserspeicherung weiter verschlechtert. Eine Verringerung der Bodenwasserkapazität 
+verstärkt während Trockenperioden den Trockenstress und führ t zu Schäden an der Vegetation. 
+Dadurch beeinträchtigt die Klimaerwärmung sowohl die ökologische Stabilität als auch den 
+Wasserhaushalt der betroffenen Regionen.  
+ 
+Entity List: 
+- Klimawandel 
+- Vegetationsverschiebung  
+- Abflussverhalten  
+- Einzugsgebiet 
+- Verkarstung  
+- Wasserspeicherkapazität  
+- Trockenstress  
+- Trockenperioden 
+- Wasserhaushalt  
+- Fichtenbestände 
+ 
+ 
+Relationship Triplets: 
+Klimawandel → Vegetationsverschiebung → Änderung des Abflussverhaltens  
+Kalamität → Fichtenbestände → Erosion  
+Starke Erosion → Kalkalpen → Verkarstung  
+Verkarstung → geringe Wasserspeicherung  
+Geringe Bodenwasserkapazität → Trockenstress  
+Trockenperioden → Trockenstress → schlechte ökologische Stabilität  
+  
+
+--- PAGE 51 ---
+ 
+29.01.2026  Simon Gegenleithner  13 
+Kapitel 3: Zusammenfassung 
+Der Klimawandel verringert die Bodenwasserspeicherkapazität, insbesondere 
+durchzunehmende Fichtenkalamitäten und verstärkte Bodenerosion, vor allem in Kalkgebieten. 
+Dadurch wird weniger Wasser im Boden gespeichert, was die Trockenstressbelastung der 
+Vegeta tion erhöht. In Auwäldern und Bachbereichen führen steigende Wassertemperaturen, 
+geringere Sommerabflüsse und häufigere Hochwasser zu zusätzlichem Stress für die 
+Ufervegetation und flussnahe Waldökosysteme. Die durch Regulierungen und Segmentierung 
+oftmals geschädigten Lebensräume werden dadurch weiter belastet, was langfristig einen 
+großen Rückgang der Artenvielfalt von Pflanzen und Tieren zur Folge hat.  
+ 
+ 
+Kapitel 3: Literaturnachweis 
+Niedermair, Markus, und Peter Hirschberger.  Klimawandel & Artenvielfalt : wie klimafit sind 
+Österreichs W älder, Flüsse und Alpenlandschaften?  Österr. Bundesforste AG  
+ 
+
+--- PAGE 52 ---
+Task 3 
+Felix Kraß          Mr:12003442 
+ 
+Source 1  
+Eine Information der Bayerischen Staatsregierung (1984). 
+Wald in Gefahr. 
+Herausgegeben von den Bayerischen Staatsministerien für Ernährung, Landwirtschaft 
+und Forsten (Ludwigstraße 2) sowie für Landesentwicklung und Umweltfragen 
+(Rosenkavalierplatz2) 
+Knowledge Card 1: 
+Titel: Schutzwirkungen des Waldes   
+Text:  Der Wald hat eine regulierende, ausgleichende Wirkung auf das Klima. Durch ihn 
+werden Wetter Ereignisse abgepuffert. Er hat eine kühlende Wirkung bei heißen 
+Temperaturen und kann außerdem starke Winde abbremsen. Er schützt den 
+Boden vor Nährstoff Auswaschung und Erosion. Der Wald filtert und reinigt das 
+Niederschlagswasser und sorgt für die gleichmäßige Wasserversorgung von 
+Menschen. Er versorgt uns mit Holz und ist ein wichtiger Erholungsort. 
+Desweitern bietet er einen guten Schutz vor Lärm. Außerdem filtert der Wald die 
+Luft und sorgt so für eine bessere Qualität. Durch Nassschnee, Sturm, 
+Trockenheit oder Frost, kann es Im Wald jedoch zu hohen Schäden kommen  
+ 
+Entitys: 
+Schutzwirkung 
+Boden  
+Wasser  
+Luft  
+Lärm  
+Erosion 
+Nährstoffauswaschung  
+ 
+ 
+ 
+
+--- PAGE 53 ---
+ 
+Relationship Triplets: 
+Schutzwirkung Wald → Regulieren → Ausgleichen  
+Hohe Temperatur → Kühlende Wirkung → Abpuffern 
+Schutzwirkung → Boden → Nährstoffauswaschung  
+Schutzwirkung → Wasser → Filterung  
+Schutzwirkung → Lärm → Erholung  
+Schutzwirkung → Luftqualität → Lebensqualität 
+ 
+Knowledge Card 2  
+Title:  Pathogene  
+Text: Das Leben der Pathogene, hängt stark von den gegebenen Witterungseinflüssen 
+ab, welche durch die richtige Waldbewirtschaftung, Standortsgemäße 
+Baumartenwahl und Bestandes Struktur und vielseitigen weiteren Maßnahmen 
+abgepuffert werden können. Durch Bedingungen, die zu eine Massenvermehrung 
+von Pathogenen führen, kann es im Wald zu erheblichen Schäden kommen. Viele 
+dieser Bedingungen verschärfen ihre Intensität zusammen mit dem Wandel des 
+Klimas und der Veränderung der Niederschlagsmenge und der Verschiebung der 
+Wetterereignisse. Ein Artenreicher Mischwald ist gegen die schwankenden 
+Witterungsverhältnisse und den Klimatischen Veränderungen der Beste Schutz 
+gegen Pathogene. Aber auch verschiedene Integrale Waldbauliche Methoden wie 
+die Etablierung biodiverser Dauerwald Systeme mit starker Naturverjüngung und 
+integralem Wald Management sind wichtig, um den Wald in der Zukunft zu 
+schützen und nachhaltig durch ihn, mit ihm zu profitieren.   
+ 
+Entitys: 
+Pathogene  
+Klima 
+Witterungseinflüsse  
+Massenvermehrung 
+Dauerwaldsystem  
+Baumartenwahl  
+
+--- PAGE 54 ---
+Bestandes Struktur 
+Integrales Waldmanagement   
+Bedrohung  
+ 
+Relationship Triplets: 
+Lebensweise Pathogene → Klima→ Witterungseinflüsse  
+Maßnahmen gegen Witterungseinflüsse→ Baumartenwahl→ Bestandes Struktur  
+Klimawandel → Veränderung der Lebensbedingungen→ Zunahme von 
+Massenvermehrung  
+Massenvermehrung→ Durchschnittlich höhere Schadens Disposition→ Erhöhte Schaden  
+Dauerwaldsystem→ Naturverjüngung → Höherer Schutz  
+Bedrohung → Vielschichtig → Integrales Waldmanagement  
+ 
+Knowledge Card 3  
+Titel:  Borkenkäfer  
+Text: Borkenkäfer gehören, zu den Tierischen Schädlingen in einem forstlich 
+genutztem Ökosystem. Sie verursachen im Wald zusätzlich zu den 
+Naturereignissen und den schädlichen Umwelteinflüssen Schäden an Bäumen. 
+Durch klimatische Veränderungen, die das Leben und die Überlebenschancen 
+der schädlichen Insekten verbessern, erhöht sich die von ihnen ausgehende 
+Gefahr für Wälder. Die Borkenkäfer Brüten vor allem in Fichten und legen dort, vor 
+allem in der Rinde Brutgänge an, die bis ins Kambium des Baumes reichen und 
+die lebenswichtige Versorgung mit Wasser und Nährstoffen zerstören. Die Folge 
+ist ein Absterben des Baumes. Es gibt verschiedenen Maßnahmen einen 
+Borkenkäfer befall zu bearbeiten. Beginnend mit dem Monitoring durch 
+Borkenkäfer Fallen, mit der Fachkundlichen effizienten Identifikation und der 
+raschen Beseitigung befallener Bäume. Durch den Borkenkäfer Befall, sind die 
+Bäume geschwächt und es entstehen Eintrittspforten für weitere Folgepathogene 
+wie Schimmel und Fäule Pilze. 
+ 
+Entitys 
+Borkenkäfer  
+Biotische Einflüsse  
+
+--- PAGE 55 ---
+Abiotische Einflüsse  
+Klimatische Veränderungen  
+Ökosystem  
+Kambium  
+Nährstoffversorgung  
+Wasserversorgung  
+Monitoring  
+Identifikation  
+Disposition  
+Folgepathogene 
+ 
+Relationship Triplets: 
+Borkenkäfer→ Tierischer Schädling→ Forstlich genutztes Ökosystem  
+Abiotische Einflüsse→ Biotische Einflüsse→ Schaden  
+Klimatische Veränderungen→ Verbesserung der Überlebenschancen für Insekten→   
+erhöht die Gefahr für Wälder   
+Brüten in Borke→ Brutgänge→ Verletzung des Kambiums 
+Versorgung Störung Wasser→ Versorgung Störung Nährstoffe→ Absterben des Baumes  
+Baum schwach→ erhöhte Disposition→ Eintrittspforte für folgepathogene  
+Monitoring→ Fallen→ Populationsgröße  
+Identifikation→ Fällung→ Abtransport  
+ 
+Zusammenfassung von Source 1.  
+Vom Wald werden viele Schutz und Ausgleichungsfunktionen für den Menschen und 
+seine Umwelt übernommen. Dadurch, dass er extreme Wetterereignisse abpuffern 
+kann, bei hohen Temperaturen kühlend wirkt und starke Winde bremst, wirkt er dem 
+Klima gegenüber Regulierend. Auch für die Wasserversorgung ist er sehr wichtig, da er 
+das Niederschlagswasser reinigt und filtert, während er für einen durchschnittlich 
+gleichmäßigeren Abfluss wirkt. Der Wald schützt auch den Boden vor Erosion und 
+Nährstoffauswaschung. Er übernimmt auch die Aufgabe der Luftfilterung und sorgt 
+dadurch für eine gute Luftqualität. Des Weiteren ist der Wald für den Menschen ein 
+
+--- PAGE 56 ---
+wichtiger Rohstofflieferant und bietet in seiner Natürlichkeit einen wichtigen 
+Erholungsort für die psychische Gesundheit. Naturereignisse wie Nassschnee, Sturm, 
+Frost oder Trockenheit gefährden den Wald und damit die, die auf ihn angewiesen sind. 
+Eine Weitere Bedrohung stellen die so genannten biotischen Schädlinge, die Pathogene 
+dar. Es wird immer klarer, dass ihre Entwicklung und ihre Vermehrung stark and dem 
+Witterungseinflusse und an die Klimatischen Bedingungen gebunden sind, denen sie, 
+während Ihrem Lebenszyklus ausgesetzt sind.  Es wird befürchtet, dass es durch den 
+Klimawandel vermehrt zu Bedingungen kommen könnte, die eine Massenvermehrung 
+der Biotischen Schaderreger begünstigen und sich somit die Schadensdisposition (die 
+Möglichkeit schaden zu nehmen) erhöht. Es ist möglich diese Schadensdisposition, 
+angesichts des Klimawandels durch waldbauliche Maßnahmen entgegenzuwirken. 
+Dazu gehören unter anderem des Standorts gerechte Baumartenwahl, angepasste 
+Bestandes Strukturen und ein integrales Waldmanagement. Artenreiche Mischwälder 
+und biodiverse Dauerwaldsysteme mit hoher Naturverjüngungsdichte bieten einen 
+guten Schutz gegen die Pathogene und erhöhen damit den Schutz des Waldes, indem 
+sie ihn Weniger anfällig für Schäden machen. Zu den bedeutendsten biotischen 
+Schädlingen, zumindest an der Fichte, Zählen die vielen verschiedenen 
+Borkenkäferarten. Sie Brüten in den Baumrinden und legen dafür Brutsysteme an, die 
+das Kambium des Brutbaumes schädigen. Dadurch kommt es im Baum zu einem 
+Wasser und Nährstoff Versorgungsstörung. Duch eine Vielzahl solcher Störungen 
+kommt es schließlich zum Absterben des Baumes und damit ganzer Waldbestände. 
+Klimatische Veränderungen verbessern die Überlebenschancen der Käfer, was 
+wiederum zu einer höheren Schadensdisposition führt. Ein Fachkundiges Kalamitäten 
+Management ist demnach von großer Bedeutung.  
+ 
+Source 2  
+Nordwestdeutsche Forstliche Versuchsanstalt (2015) 
+Beiträge aus der Nordwestdeutsche Forstliche Versuchsanstalt, Band 13: Pilotstudie zu 
+den lokalen Auswirkungen des Klimawandels auf die Forstwirtschaft in ausgewählten 
+Regionen Sachsen-Anhalts. Universitätsverlag Göttingen. 
+ISBN: 978-3-86395-2395-239-6 
+ 
+Knowledge Card 1 
+Title:  Zusammenhänge und Grundannahmen  
+Text:  Die Populationsdynamik von Insekten und Pathogenen, wird grundlegend von 
+Klima und Witterung beeinflusst. Sie sind maßgeblich für deren Verbreitung, die 
+Dichte der Population und das Gradationsgeschehen verantwortlich. Da die 
+
+--- PAGE 57 ---
+Abwehrkräfte der Bäume unter Trockenstress nachlassen, ist das Klima ein 
+wesentlicher Faktor für die Schadensdisposition der Wälder. Insekten sind 
+wechselwarme Tiere. Daraus geht hervor, dass die Temperatur von besonderer 
+Bedeutung für das Wachstum, die Entwicklung und die Reproduktion ist. Die 
+Feuchtigkeit hat auch Auswirkungen und modifiziert die Temperatur. Die durch 
+die Insekten erfolgte Gradation ist in der Regel an bestimmte Standorte und vor 
+allem an sensitive Entwicklungsständen der Waldbestände Gebunden. 
+ 
+  Entitys: 
+Klima  
+Trockenstress  
+Abwehrkräfte  
+Gradation  
+Temperaturanfällig  
+Feuchteanfällig  
+Waldentwicklungsstadium  
+ 
+Relationship Triplets: 
+Klima→ Population Dynamik→ Insekten 
+Klima→ Population → Gradation 
+Trockenstress→ Verminderung der Abwehrkräfte →Erhöhung der Schadens Disposition 
+Insekten→ Wechsel warm→ Temperaturanfällig 
+Feuchte→ modifiziert→ Temperatur  
+Gradation→ bestimmte Standorte→ Waldentwicklungsstadien 
+ 
+Knowledge Card 2 
+Title:  Integrale Wechselwirkungen bei biotischen Risiken 
+Text:  Die Schadensdisposition also die Anfälligkeit eines Waldbestandes einen 
+Schaden zu nehmen, wird durch Klima und Wetter, sowohl direkt als auch 
+indirekt beeinflusst. Klima und Wetter wirken sich dazu auch auf die 
+Populationsdynamik von Borkenkäfern aus, wobei die jene multifaktoriell geregelt 
+wird. Unter anderem durch den natürlichen Baum und Bestandes Disposition, 
+
+--- PAGE 58 ---
+auf zufälligen Ereignissen, der Präsenz von natürlichen Feinden und Parasiten 
+und sowohl auf der Inter als auch der Intra spezifischen Wechselwirkung. 
+ 
+Entitys: 
+Klima  
+Wetter  
+Schadensdisposition 
+Direkteinfluss  
+Indirekteinfluss  
+Populationsdynamik 
+Multifaktoriell 
+Interspezifisch  
+Intraspezifisch  
+Wechselwirkungen  
+ 
+ Relationship Triplets: 
+Wetter→ Klima→ Schaden disposition 
+Einfluss→ Direkt → Indirekt  
+Populationsdynamik→ Borkenkäfer→ Multifaktoriell 
+Multifaktoriell→ natürliche Disposition→ Zufällige Ereignisse  
+Multifaktoriell→ Natürliche Feinde→ Parasiten  
+Multifaktoriell→ Inter→ Intra  
+ 
+Knowledge Card 3: 
+Titel:  Anstieg der Schäden durch erhöhtes Brutmaterial- Windwurf und Bruchholz und 
+vorgeschädigte Bäume  
+Text:  Duch den Anstieg der Extrem Wetter Ereignisse, wie Stürme erhöht sich die 
+Gefährdung durch biotische Pathogene. Dadurch, dass nach diesen Ereignissen 
+große Mengen an Bruchholz anfallen, finden die Insekten perfekte 
+Brutbedingungen und nutzen ihre Biologische Brut Kapazität voll aus. Oft ist es 
+
+--- PAGE 59 ---
+zudem schwierig und gefährlich diese Flächen fachgerecht aufzuarbeiten und 
+dem entsprechend mit längeren Zeitfenstern verbunden, was wiederum zu einem 
+potenziellen Anstieg der pathogenen Populationen führen kann. Des Weiteren 
+führen die milderen Temperaturen und die sich ändernden Niederschlags 
+Verhältnisse zu lokalen Trockenzeiten, die die Bäume selbst vorschädigen und 
+wiederum die Ausbreitung von Pilzen wie dem dunklen Hallimasch (Armillaria 
+ostoyae) antreiben. Dieser befällt Bäume, die wiederum in Folge vorgeschädigt, 
+gerne von Borkenkäferarten befallen werden. 
+ 
+Entitys: 
+Extremwetter  
+Bruchholz  
+Besiedlung  
+Zeitfenster  
+Besiedlungsdichte  
+Niederschlagsverschiebung  
+Trockenzeit  
+Schaden  
+ 
+Relationship Triplets: 
+Extremwetter→ Stürme→ Bruchholz 
+Bruchholz→ Vorgeschwächt→ Borkenkäfer Besiedlung  
+Aufarbeitung→ Gefährlich→ lange Zeitfenster   
+Lange Zeitfenster→ Biologische Biotopkapazität→ hohe Besiedlungsdichte  
+Ausbleibende Niederschläge→ Verschiebung der Niederschläge→ Trockenheit  
+Trockenheit→ Disposition→ Schaden  
+ 
+Zusammenfassung Quelle 2  
+Das Klima und die Witterung sind mit der Populationsdynamik von Insekten und anderen 
+Pathogenen eng verbunden. Von Ihnen wird die Verbreitung, die Populationsdichte und 
+das Auftreten von Gradationen in einem hohen Maß beeinflusst. Die Abwehrkräfte der 
+Bäume werden durch Trockenstress zusätzlich geschwächt und es erhöht sich 
+
+--- PAGE 60 ---
+automatisch die Schadensdisposition des Waldes. Die Reproduktion, die Entwicklung 
+und das Wachstum der Insekten, steht in engem Zusammenhang mit der Temperatur, da 
+sie zu den Wechselwarmen Tieren gehören. Da die Feuchtigkeit Temperaturen 
+modifiziert, hat auch sie einen Einfluss auf die Populationsdynamik der Insekten. 
+Gradationen sind häufig eng mit dem Standort verbunden und sind an die kritischen 
+Entwicklungsstadien der Waldbestände geknüpft. Die Schadensdisposition eines 
+Waldbestandes, wir vom Klima direkt und indirekt beeinflusst. Die Direkten und 
+indirekten Klimatischen Einwirkungen auf die Waldbestände wirken sich auch auf die 
+Populationsdynamiken aus, wobei diese multifaktoriell beeinflusst werden. 
+Einflussfaktoren wie die natürliche Schadens Disposition der Wirtsbaume, zufällige 
+Naturereignisse, das Auftreten Natürlicher Feinde sowie die Inter und Intra spezifischen 
+Wechselwirkungen spielen außerdem eine wichtige Rolle. Ein Schaden im Wald entsteht 
+normalerweise aus einem Zusammenspiel dieser Faktoren.  
+Ein bedeutender Faktor ist der klimatisch beeinflusste Anstieg der 
+Extremwetterereignisse in form von Stürmen. Duch die Stürme, kommt es zu großen 
+Mengen an Windwurf und Bruchholz, welches im Gegenzug wieder ein optimales 
+Bruthabitat für Insekten bietet. In solchen fällen ist eine schnelle Problem Identifikation, 
+eine professionelle Aufarbeitung und ein schnellstmöglicher Holz Abtransport aus dem 
+Wald unerlässlich, um weiteren Schaden zu vermeiden. Klimawandel bedingte mildere 
+Temperaturen, verändern zusätzlich das Niederschlagsmuster, wodurch es zu lokalen 
+Trockenperioden und zeitweisen Großen Niederschlagsereignissen in Form von 
+Starkregen kommt.  
+ 
+Source 3 
+Hasenauer, H. 
+Waldbau 2 (UE). 
+Lecture notes by Felix Kraß, University of Natural Resources and Life Sciences, Vienna. 
+(2024) 
+ 
+Knowledge Card 1  
+Title: Klima Änderungen und Phänologie  
+Text:  Die zu erwarteten Änderungen sind Höhere Durchschnittstemperaturen, 
+geändertes Strahlungsangebot, Zunahme der CO2 Konzentration, Zunahme von 
+Extremwetterereignissen (Variablere Witterung, kaum Änderung der 
+Niederschlagsmengen, jedoch eine Änderung in der Niederschlagsverteilung. 
+Das A2 Szenario Globaler Klimamodelle Zeitpunkt 2085 (Mittel 2070 – 2100) 
+Quelle EU Projekt PRUDENCE geht davon aus, dass die Anzahl der Hitzetage 
+
+--- PAGE 61 ---
+zunimmt, Die Anzahl der Frosttage abnimmt, die Anzahl der Trockenperioden 
+zunimmt und die Anzahl der Starkniederschläge auch zunimmt. Zur Folge wird 
+davon ausgegangen, dass es zu einer Verfrühung der Blühphase Kommt (ca. 21 
+Tage). Des Weiteren kommt es zu einer früheren Blattentfaltung und 
+Nadelaustrieb (ca. 15 Tage), Wobei sich die Blattverfärbung hinauszögert (ca. 9 
+Tage). Es wird davon ausgegangen, dass sich dadurch auch der Blattfall verspätet 
+(ca. 3 Tage) 
+ 
+Entitys: 
+Durchschnittstemperaturen  
+Strahlungsangebot  
+CO2 Konzentration  
+Extremwetterereignisse  
+Niederschlagsverteilung  
+Hitzetage  
+Frosttage  
+Trockenperiode  
+Starkniederschläge 
+Phänologie 
+Blühphase  
+Blattentfaltung  
+Nadelaustrieb  
+Blattfärbung  
+Blattfall  
+ 
+Relationship Triplets: 
+Klimaänderung→ Durchschnittstemperatur→ Höher  
+Klimaänderung→ Strahlungsangebot→ Verändert  
+Klimaänderung→ CO2 Konzentration→ Zunahme   
+Klimaänderung→ Extremwetterereignisse→ Zunahme  
+
+--- PAGE 62 ---
+Klimaänderung→ Niederschlagsverteilung→ Verändert 
+Klimaänderung→ Hitzetage→ Zunahme  
+Klimaänderung→ Frosttage→ Abnahme   
+Klimaänderung→ Trockenperiode→ Zunahme  
+Klimaänderung→ Starkniederschläge→ Zunahme  
+Phänologie→ Blattentfaltung→ Früher   
+Phänologie→ Nadelaustrieb→ Früher   
+Phänologie→ Blattfärbung→ Später   
+Phänologie→ Blattfall→ Später   
+ 
+Knowledge Card 2  
+Titel:  Klimaänderung und Genetik  
+Text:  Veränderungen haben immer auch Reaktionen zur Folge. Es wird davon 
+ausgegangen, dass manche Arten versuchen, werden sich durch Physiologische 
+Anpassung zu Akklimatisieren. Die Evolution zeigt, dass es bei Arten, die zu wenig 
+an ihre Umgebung angepasst sind zum Aussterben kommt. Als Lösung bleibt oft 
+nur mehr die Migration, das Ausweichen in andere, besser geeignetere 
+Lebensräume, wobei dazu oft sehr lange Zeiträume nötig sind. Bei Reaktionen auf 
+Klimatische Veränderungen, geht es vor allem um die Genetische Varianz in einer 
+Population. Eine Hohe genetische Varianz, führt zu einer hohen 
+Anpassungsfähigkeit. Ist das Leben an die Verbreitungsgrenze angepasst, ist die 
+genetische Varianz oft gering (Spezialisierung), wobei sie vergleichsweise hoch 
+ist, wenn das Leben im Optimum ist und wenig angepasst ist (Generalisierung) 
+Reaktion→ Physiologische Anpassung→ Akklimatisierung 
+ 
+Entitys: 
+Evolution  
+Arten  
+Anpassung  
+Aussterben  
+Migration  
+Genetische Varianz 
+
+--- PAGE 63 ---
+Verbreitungsgrenze  
+ 
+Relationship Triplets: 
+Evolution→ Unangepasste Arten→ Aussterben 
+Migration→ Bessere Lebensräume→ Zeitaufwändig 
+Klimaveränderung→ Reaktion→ Genetische Varianz 
+Klimaveränderung→ Hohe genetische Varianz→ Gute Anpassungsfähigkeit  
+Klimaveränderung→ Niedrige genetische Varianz→ Schlechte Anpassungsfähigkeit 
+Verbreitungsgrenze→ Genetische Varianz→ Gering  
+Leben im Optimum→ Genetische Varianz→ Hoch  
+ 
+Knowledge Card 3  
+Title: Klimaänderung und biotische Schäden  
+Text:  Durch die Veränderung Klimatischer Bedingungen, kommt es vielerorts zu 
+Schwankungen, die die verschiedensten Arten zur Migration bewegen. So wird 
+davon ausgegangen, dass es zur Einwanderung von biotischen Schädlingen aus 
+Ursprünglichen Sekundärarealen kommt (z.B. Der japanische Eichen- 
+Seidenspinner aus dem Sekundärareal Italien). Des Weiteren kommt es auch 
+durch Einschleppung/ Etablierung von Schädlingen zu neuen Befällen (Z.B. Wie 
+beim Asiatischen Laubholzbockkäfer, der sich gerne im Umkreis von 
+Handelsfirmen und Gärtnereien aufhält. Die möglichen Auswirkungen, die dabei 
+in Betracht gezogen werden, sind unter anderem die Verdrängung heimischer 
+Arten und aber auch vor allem die Gefahr für die mit den Insekten in Verbindung 
+Stehenden Wirtspflanzen. Es wird geschätzt, dass Insekten ihre Habitate Pro +1 
+Grad Celsius um bis zu 200km Nordwärts und um 180 m in der Höhe 
+verschieben. Die Geschwindigkeit von 1700 polwärts ziehenden Arten wird dabei 
+im Durchschnitt auf ca. 6 km pro 10 Jahren geschätzt. 
+ 
+Entitys:  
+Klimatische Bedingungen  
+Schwankung 
+Migration 
+Einwanderung  
+
+--- PAGE 64 ---
+Biotische Schädlinge  
+Sekundärareal 
+Einschleppung  
+Etablierung 
+Verdrängung  
+Heimische Arten  
+ 
+Relationship Triplets: 
+Klimatische Veränderungen→ Schwankungen→ Migration 
+Verdrängung→ Biotische Konkurrenz→ Schaden   
+Sekundärareal→ Schädling→ Einwanderung  
+Einschleppung→ Etablierung→ Verdrängung  
+Habitat Veränderung→ Nordwärts→ Höhenlage  
+ 
+Zusammenfassung Quelle 3 
+Es wird erwartet, dass es durch den Klimawandel zu tiefgreifenden Änderungen der 
+Umweltbedingungen kommt. Diese Erwartungen, konzentrieren sich vor allem darauf, 
+dass die CO2 Konzentration in der Atmosphäre zunimmt, die Extremwetterereignisse 
+häufiger werden, sich das Strahlungskonzentration ändert, sowie dass die 
+durchschnittliche Temperatur steigt. Während sich die Niederschlagsmenge nur 
+geringfügig ändert, kommt es zu einer signifikanten Änderung, wenn man die 
+Niederschlags Verteilung betrachtet. Klimamodelle, wie das A2-Szenario, Zeitraum 
+2070-2100 zeigen, dass in Zukunft mit einer Zunahme der Hitzetage, einer Abnahme der 
+Frosttage, häufigeren Trockenperioden, und häufigeren Starkregenereignissen zu 
+rechnen ist. Diese Veränderungen, wirken sich auch auf die Phänologie von Pflanzen 
+aus. Festgestellt wurde ein früherer Beginn der Blütephase, ein früherer Beginn der 
+Blattentfaltung und des Nadelaustriebs, während sich die Blattverfärbung und der 
+Blattfall verzögern. Gesamtheitlich führt dies zu einer Ausdehnung der 
+Vegetationsperiode, was wiederum die andere ökologische Wechselwirkung und die 
+Schadens Disposition von Waldbeständen beeinflusst. Klimatische Veränderungen, 
+lösen auf der genetischen ebene unterschiedliche Veränderungen aus. Es kommt zu 
+einer physiologischen Anpassung der Art, durch den versuch sich zu akklimatisieren. 
+Andere Arten, tendieren zur Migration. Gelingt beides nicht stirbt die Art aus.  Oft 
+entscheidet die genetische Varianz innerhalb einer Population über die Zukunft, das 
+Fortbestehen einer art. Eine hohe genetische Varianz bedeutet eine bessere Chance 
+
+--- PAGE 65 ---
+sich erfolgreich an neue Umweltbedingungen anpassen zu können. Eine geringe 
+genetische Varianz kommt häufig bei spezialisierten Arten vor, die stark an ihre 
+Umgebung angepasst sind. Bei diesen arten ist die Anpassungsfähigkeit aufgrund der 
+fehlenden genetischen Varianz als gering einzustufen. Als Reaktion auf die Veränderung 
+bleibt ihnen oft nur die Migration in Besser geeignete Lebensräume. Durch die 
+Veränderungen der Klimatischen Bedingungen werden biotische Schäden begünstigt 
+Die Schwankungen im Klima bringen viele Insekten dazu neue Areale aufzusuchen. Dies 
+kann zu einer Verdrängung der dort lebenden Arten führen. Durch die steigenden 
+Temperaturen kommt es zu einer Habitats Verlagerung der Insekten Populationen 
+sowohl Richtung Norden als auch in höhere Lagen. Damit ist ein erhöhter schaden in 
+bisher schwach betroffenen Gebieten zu erwarten.   
+ 
+Source 4  
+Wagner, M.R., Cancy, K.M., Lieutier, F ., & Paine, T.D. (Eds). 
+Mechanisms and Deployment of Resistance in Trees to Insects. 
+Kluwer Academic Publishers. 
+ISBN: 1-4020-06-18-7. 
+ 
+Knowledge Card 1  
+Title:  Mechanisms of Resistance in conifers and bark beetle attack strategies  
+Text:  Bark beetles are the most damaging Pest for coniferous forests worldwide. One of 
+the main aspects for their population dynamics, is the quantity of food that is 
+available during their lifecycles. But the trees have like any other organism ways 
+to defend themselves against bark beetle attacks. The Bugs must overcome 
+those defence mechanisms to be able to successful colonize an area. While the 
+quantity of the food that is available is depending on the trees defense 
+mechanism. To further understand the mechanism, its important to also 
+consider the relationships between the Bark beetles, their associated 
+phytopathogenic fungi and their host trees.  
+ 
+Entitys:  
+Bark beetles  
+Population dynamics  
+Lifecycle 
+
+--- PAGE 66 ---
+Organism  
+Attacks 
+Defense Mechanism  
+Phytopathogenic fungi 
+Host Trees  
+ 
+Relationship Triplets: 
+Bakr beetles→ Damage→ Conifers 
+Population dynamics→ Food quantity→ Lifecycle  
+Trees→ Defend→ Bark Beetle attacks  
+Overcome→ Defense mechanism→ Colonize  
+Food quantity→ Depending on→ Tree defense mechanism  
+Bark beetle→ Phytopathogenic fungi→ Host tree  
+ 
+Knowledge card 2  
+Title:  Level of Tree resistance 
+Text:  Resistance is often distinguished as a defense. While we look at the bark beetle’s 
+perspective which wants to establish it Selfe in the host, the hosts defense is 
+facing the beetles. It is important to understand, that defense often supposes an 
+active mechanism like a response to an aggression while resistance can also 
+include a passive non-induced phenomenon. We categorize resistance by plants, 
+who are facing an attack by living organisms in 2 main types. 1. The performed 
+resistance mechanism, which also exists in the absence of an attack by the 
+beetles. The has invested resources in defense before damage occurred 
+(performed defense). And 2. The Induced defenses, which are include the “turned 
+on” mechanisms of defence which are active only in the case of a bark beetle 
+attack. Genes are activated by the damage which is resulting in an increased 
+syntheses of the specific compounds there for the plant invests its resources 
+after the damage was done.  
+ 
+Entitys:  
+Resistance  
+
+--- PAGE 67 ---
+Defense 
+Aggression 
+Passive 
+Performed Resistance 
+Included defense 
+Syntheses 
+Resources  
+ 
+Relationship Triplets: 
+Resistance→ distinguished→ Defense 
+Host→ Defense→ Bark beetle 
+Defense→ Active→ Mechanism  
+Resistance→ Passive→ Mechanism  
+Plants→ faced by attack→ Two Mechanisms  
+Performed Resistance→ attackers→ absent  
+Resource use→ Before→ Attack  
+Included defences→ Turn on mode→ after/ while Attack 
+Resource use→ While/ after→ Attack  
+ 
+Knowledge card 3 
+Title: The performed defenses 
+Text: The plant cells, which are responsible to produce the chemicals involved in 
+performed defenses are secretory structures. They are already specialised in 
+producing the needed chemicals. Therefor there is no change in the metabolism 
+of the secretory cells which are located in well defined tissues. They are to be 
+found in any tree organ, and they are responsible for the first line of resistance 
+caused by the invading beetles and fungi.  
+ 
+Entitys:  
+Plant cells 
+
+--- PAGE 68 ---
+Chemicals 
+Defense 
+Secretory  
+Structures  
+Metabolism 
+Tissues 
+Organ 
+Resistance  
+ 
+Relationship Triplets: 
+Plant cells→ produce→ Chemicals  
+Chemicals→ perform→ Defense 
+Plant cells→ secretory→ Structure 
+Performed defense→ Specialized production→ Needed chemicals 
+Performed defense→ Metabolism→ No change  
+Secretory cells→ Located→ Defined tissue 
+Defined tissue→ Located→ In any tree organ  
+Secretory cells→ First line→ Resistance  
+ 
+Zusammenfassung Source 4 
+Worldwide Bark beetles represent the most destructive group of pests for coniferous   
+forests Worldwide. The population is significantly influenced by the available food 
+sources their habitat is providing. For Bark beetles this is their Conifer host trees. They 
+must be able to defense themselves against the Bark beetles and have therefore 
+different mechanisms. In addition, bark beetle- host interactions are further shaped by 
+complex interaction between the insect their associated phytopathogenic fungi, and the 
+host tree. When we hear about resistance we think about defense but to clear up, these 
+mechanisms are not the same. A defense is seen more like an active response which is 
+triggered by an attack, while a resistance is more a passive non induced mechanism. 
+Resistance can be divided into two main categories. The constitutive (performed) 
+resistance is present, even though there has not been an attack. The tree has invested 
+resources into mechanisms to be protected against them. Induced defenses are 
+
+--- PAGE 69 ---
+activated in case of an attack. Genes are activated to respond to the damage leading to 
+increased synthesis of defensive compounds.  
+The performed defenses are the work of specialized secretory plant cells, which 
+produce defensive chemicals. These cells are structurally and functionally adapted. 
+Therefore, there is no change of their metabolism when an attack occurs. Secretory 
+cells are the first line of resistance against invading pathogenic insects and their 
+associated fungal Pathogens. They are therefore located in a fine tissue in all tree organs 
+throughout the tree.  
+
+--- PAGE 70 ---
+  Lang Maximilian 
+  
+Implications for the distributional range of the European 
+bark beetles under future climate change 
+(Quelle: https://www.nature.com/articles/s41598-025-15546-z) 
+ 
+1. Knowledge Card 
+Titel: 
+Klimawandel und potenzielle Verbreitung europäischer Borkenkäfer 
+ 
+Text: 
+Der Klimawandel beeinflusst die räumliche Verbreitung von Borkenkäferarten in 
+Europa erheblich. Steigende Temperaturen verändern die klimatische Eignung vieler 
+Regionen und ermöglichen es wärmeliebenden Arten, neue Gebiete zu b esiedeln. In 
+der Studie werden neun in Europa weit verbreitete Borkenkäferarten untersucht, 
+deren aktuelle und zukünftige potenzielle Verbreitung mithilfe von Habitat -
+Eignungsmodellen abgeschätzt wird. Zentrale Zielsetzung ist es, zu analysieren, wie 
+stark sich die Verbreitungsareale unter verschiedenen Klimaszenarien bis zum Ende 
+des 21. Jahrhunderts verändern. Dabei zeigt sich, dass Temperaturvariablen eine 
+entscheidende Rolle spielen, während Niederschlagsfaktoren eine untergeordnete 
+Bedeutung haben. Bes onders nördliche und höher gelegene Regionen Europas 
+gewinnen unter zukünftigen Klimabedingungen an Bedeutung als potenziell 
+geeignete Lebensräume. 
+ 
+Entity List: 
+Klimawandel 
+Borkenkäferarten 
+Europa 
+Temperatur 
+Niederschlag 
+Habitat-Eignung 
+Verbreitungsgebiet 
+Klimaszenarien 
+
+--- PAGE 71 ---
+  Lang Maximilian 
+  
+ 
+Relationship Triplets: 
+Klimawandel -> beeinflusst -> Verbreitung von Borkenkäfern 
+Temperatur -> bestimmt -> Habitat-Eignung 
+Klimaszenarien -> verändern -> Verbreitungsgebiete 
+Steigende Temperaturen -> begünstigen -> Ausbreitung nach Norden 
+Borkenkäferarten -> reagieren sensibel auf -> klimatische Veränderungen 
+ 
+ 
+2. Knowledge Card 
+Titel: 
+Modellierung zukünftiger Borkenkäfer-Habitate 
+ 
+Text: 
+Zur Abschätzung der aktuellen und zukünftigen Verbreitung von Borkenkäferarten 
+wird das statistische Modell MaxEnt eingesetzt. Dieses Modell nutzt bekannte 
+Vorkommensdaten der Arten in Kombination mit Umwelt- und Klimavariablen, um die 
+Habitat-Eignung räumlich darzustellen. Insgesamt fließen 21 Umweltvariablen in die 
+Analyse ein, wobei insbesondere temperaturbezogene Parameter wie 
+Jahresmitteltemperatur, Temperatur -Extreme und saisonale Schwankungen einen 
+hohen Einfluss besitzen. Die Modellierung erfolgt für vier verschiedene zukünftige 
+Klimaszenarien für den Zeitraum 2081 –2100. Die Ergebnisse zeigen, dass sich für 
+die meisten untersuchten Arten die potenziell geeigneten Flächen deutlich 
+vergrößern. Gleichzeiti g verschieben sich diese Flächen räumlich, vor allem in 
+Richtung Nord- und Nordosteuropa. Die Modelle liefern damit wichtige Grundlagen 
+für Risikobewertungen und forstliche Planung. 
+ 
+Entity List: 
+MaxEnt-Modell 
+Habitat-Eignung 
+Umweltvariablen 
+
+--- PAGE 72 ---
+  Lang Maximilian 
+  
+Temperatur-Extreme 
+Klimaszenarien 
+Zukunftsprojektionen 
+Nord- und Nordeuropa 
+Risikobewertung 
+ 
+Relationship Triplets: 
+MaxEnt-Modell -> kombiniert -> Vorkommensdaten und Umweltvariablen 
+Umweltvariablen -> bestimmen -> Habitat-Eignung 
+Temperaturvariablen -> haben großen Einfluss -> Modellresultate 
+Klimaszenarien -> projizieren -> zukünftige Verbreitung 
+Modellierung -> unterstützt -> forstliche Risikobewertung^ 
+ 
+ 
+3. Knowledge Card 
+Titel: 
+Ökologische und forstliche Bedeutung der Verbreitungsverschiebung 
+ 
+Text: 
+Die prognostizierte Ausweitung und Verschiebung der Verbreitungsgebiete 
+europäischer Borkenkäferarten hat weitreichende ökologische und 
+forstwirtschaftliche Konsequenzen. In Regionen, die bislang nur gerin g oder gar 
+nicht von bestimmten Arten betroffen waren, kann es zukünftig zu neuen 
+Befallsereignissen kommen. Besonders problematisch ist, dass sich mehrere 
+Borkenkäferarten in denselben Regionen überlappen könnten, was das Risiko von 
+Massenvermehrungen und  großflächigen Waldschäden erhöht. Arten mit bereits 
+großen Verbreitungsgebieten zeigen eine höhere Anpassungsfähigkeit an 
+klimatische Veränderungen, während Arten mit engem Areal potenziell stärker unter 
+Druck geraten. Die Ergebnisse verdeutlichen, dass d er Klimawandel als zentraler 
+Treiber zukünftiger Borkenkäferdynamiken betrachtet werden muss und 
+
+--- PAGE 73 ---
+  Lang Maximilian 
+  
+unterstreichen die Bedeutung eines frühzeitigen Monitorings sowie angepasster 
+Managementstrategien im Waldschutz. 
+ 
+Entity List: 
+Waldökosysteme 
+Borkenkäferbefall 
+Massenvermehrung 
+Verbreitungsverschiebung 
+Artenüberlappung 
+Waldschäden 
+Monitoring 
+Waldmanagement 
+ 
+Relationship Triplets: 
+Verbreitungsverschiebung -> erhöht -> Befallsrisiko 
+Artenüberlappung -> verstärkt -> Massenvermehrung 
+Borkenkäferbefall -> verursacht -> Waldschäden 
+Klimawandel -> wirkt als Treiber -> Borkenkäferdynamik 
+Monitoring -> unterstützt -> frühzeitige Risikoerkennung 
+ 
+ 
+ 
+ 
+  
+
+--- PAGE 74 ---
+  Lang Maximilian 
+  
+Features predisposing forest to bark beetle outbreaks and 
+their dynamics during drought 
+(Quelle:https://www.sciencedirect.com/science/article/pii/S0378112722004741?via%
+3Dihub) 
+ 
+Knowledge Card 1  
+Titel: 
+Umweltfaktoren, die das Risiko von Borkenkäferbefall in Fichtenw äldern 
+beeinflussen 
+ 
+Text: 
+In dem Artikel wird untersucht, welche Umwelt - und Waldbiometrie -Eigenschaften 
+lokale Wald­bestände für Befall durch den Europäischen Fichtenborkenkäfer (Ips 
+typographus L.) prädisponieren. Dabei werden Daten aus einer Fläche von  über 48 
+600 km² in Südost -Schweden analysiert, um zu erkennen, welche Merkmale mit 
+einem erhöhten Befallsrisiko während eines Dürrejahres und danach verbunden 
+sind. Klimatische Veränderungen, insbesondere häufiger auftretende Dürreperioden 
+infolge des Kli mawandels, werden als beschleunigende Faktoren für Stress bei 
+Norway Spruce (Picea abies)" gesehen, der die Bäume anfälliger für Käferbefall 
+macht. Die Studie nutzt maschinelles Random -Forest-Modellieren, um die relative 
+Bedeutung von Faktoren wie Baumart­ enzusammensetzung, Kronenhöhe, 
+Bodenfeuchte, Topographie und früheren Befallspopulationen zu quantifizieren. Die 
+Ergebnisse zeigen, dass sowohl strukturelle Waldmerkmale (z. B. hohe 
+Baumkronen) als auch Landschaftsfaktoren eine klare Rolle beim Risiko spie len, 
+wobei ihre relative Bedeutung mit variierenden Wetterbedingungen – etwa während 
+Dürre vs. normaler Jahre – unterschiedlich ist. 
+ 
+Entity List: 
+Europäischer Fichtenborkenkäfer (Ips typographus) 
+Norway Spruce (Picea abies) 
+Dürrejahr 
+Random Forest Modell 
+Waldbestand 
+
+--- PAGE 75 ---
+  Lang Maximilian 
+  
+Topographie 
+Bodenfeuchte 
+Baumartenzusammensetzung 
+ 
+Relationship Triplets: 
+Ips typographus – befällt – Norway Spruce 
+Dürrejahr – erhöht – Stressniveau der Bäume 
+Stressniveau der Bäume – steigert – Befallsrisiko 
+Waldbestandseigenschaften – beeinflussen – Befallswahrscheinlichkeit 
+Random Forest Modell – quantifiziert – Einflussfaktoren 
+ 
+ 
+Knowledge Card 2  
+Titel: 
+Modellierung und Identifikation von Risikofaktoren für Borkenkäferbefall 
+ 
+Text: 
+Die Analyse basiert auf einem Random -Forest-Algorithmus, der trainiert wurde, um 
+die Bedeutung verschiedener Umwelt - und Waldstrukturvariablen in Bezug auf die 
+lokale Prädisposition für Borkenkäferangriffe zu bestimmen. Dabei wurden Attribute 
+wie Baumarten zusammensetzung, Kronenhöhe, Bodenfeuchte, Topographie, Nähe 
+zu Waldlichtungen (Clear -Cuts) sowie historische Befallsdaten berücksichtigt. In 
+trockenheitsbelasteten Jahren sowie in Jahren mit normalen Wetterbedingungen 
+identifizierte das Modell ähnliche Ha uptrisikofaktoren: Fichten - und gemischte 
+Nadelwaldflächen zeigen ein höheres Risiko im Vergleich zu gemischten Laub -
+Nadelwäldern, während Flächen mit ausgeprägterer Kronenhöhe ebenfalls anfälliger 
+waren. Interessanterweise variiert die Bedeutung einzelner  Merkmale mit den 
+meteorologischen Bedingungen: Während in Dürrejahren auch Bestände mit 
+geringerer Kronenhöhe ein erhöhtes Risiko aufweisen, dominieren in normalen 
+Jahren Hochwaldstrukturen stärker als Risikomerkmal. Dies betont die dynamische 
+Natur ökolo gischer Risikofaktoren und die Notwendigkeit, sie im Kontext ihres 
+meteorologischen Umfelds zu betrachten. 
+
+--- PAGE 76 ---
+  Lang Maximilian 
+  
+Entity List: 
+Random Forest 
+Baumartenzusammensetzung 
+Kronenhöhe 
+Bodenfeuchte 
+Topographie 
+Clear-Cuts 
+historische Befallsdaten 
+ 
+Relationship Triplets: 
+Random Forest – identifiziert – Risikofaktoren 
+Baumartenzusammensetzung – beeinflusst – Befallswahrscheinlichkeit 
+Kronenhöhe – korreliert – mit Befallsrisiko 
+Bodenfeuchte – moduliert – Anfälligkeit 
+Clear-Cuts – beeinflussen – lokale Risikomuster 
+ 
+ 
+Knowledge Card 3  
+Titel: 
+Praktische Bedeutung der Risikomodellierung für Waldmanagement 
+ 
+Text: 
+Die Ergebnisse der Studie liefern entscheidende Informationen für ein 
+klimawandelangepasstes Waldmanagement. Die Identifikation von Wald - und 
+Geländeparametern, die d as Befallsrisiko durch Ips typographus erhöhen, kann 
+forstlichen Planern helfen, präventive Maßnahmen in besonders gefährdeten 
+Beständen zu priorisieren. Beispielsweise können Waldflächen mit hohen 
+Nadelbaumanteilen, ausgeprägten Kronenhöhen oder mit nahen  Clear-Cuts als 
+Schwerpunkte für Monitoring und präventive Maßnahmen angesehen werden, 
+insbesondere während oder nach Dürreperioden. Ähnlich kann die Kenntnis darüber, 
+
+--- PAGE 77 ---
+  Lang Maximilian 
+  
+dass Standorte mit höherer Bodenfeuchte und anderen Topographiebedingungen 
+variieren, ge nutzt werden, um adaptive Managementstrategien zu entwickeln. Die 
+Nutzung von Geodaten und maschinellen Lernmodellen eröffnet darüber hinaus 
+neue Möglichkeiten zur Digitalisierung der Forstwirtschaft und zur flächendeckenden 
+Bewertung von Befallsrisiken in unterschiedlichen Umwelt- und Klimaszenarien. 
+ 
+Entity List: 
+Klimawandel 
+Waldmanagement 
+Präventive Maßnahmen 
+Monitoring 
+Geodaten 
+Digitales Forstwesen 
+Risikobewertung 
+Befallspopulationen 
+ 
+Relationship Triplets: 
+Klimawandel – verschärft – Befallsrisiken 
+Waldmanagement – nutzt – Risikofaktordaten 
+Monitoring – fokussiert – gefährdete Bestände 
+Geodaten – erleichtern – Risikobewertung 
+Präventive Maßnahmen – reduzieren – potenzielle Schäden 
+ 
+ 
+ 
+ 
+  
+
+--- PAGE 78 ---
+  Lang Maximilian 
+  
+Climate change impacts on forest health 
+(Quelle:https://www.fao.org/forestryfao/159050dc804ee7d97e656f06507bdcecddc72
+1.pdf) 
+ 
+Knowledge Card 1  
+Titel: 
+Klimawandel und Waldgesundheit – Globale Auswirkungen auf Wälder und 
+Schädlinge 
+ 
+Text: 
+Das FAO-Working-Paper „Climate change impacts on forest health“ liefert einen breit 
+angelegten Überblick darüber, wie sich der  Klimawandel auf die Gesundheit von 
+Wäldern weltweit auswirkt. Es wurde im Rahmen der FAO -Initiativen zur 
+Waldgesundheit und Biosecurity veröffentlicht und richtet sich an 
+Entscheidungsträger und Fachleute im Forstschutz. Der Bericht betont, dass 
+steigende Temperaturen, veränderte Niederschlagsmuster, häufiger auftretende 
+extreme Wetterereignisse und erhöhte CO ₂-Konzentrationen nicht nur die physische 
+Vitalität von Bäumen verändern, sondern auch direkt und indirekt das Auftreten, die 
+Verbreitung und die Wir kung von Forstschädlingen beeinflussen. Dazu gehören 
+Insekten, Pathogene und andere biotische Störfaktoren, deren Aktivität und 
+Schadpotenzial sich durch klimatische Veränderungen verstärken können. 
+ 
+Entity List: 
+FAO (Food and Agriculture Organization) 
+Klimawandel 
+Waldgesundheit 
+Schädlinge 
+Insekten 
+Pathogene 
+CO₂-Konzentration 
+Extreme Wetterereignisse 
+
+--- PAGE 79 ---
+  Lang Maximilian 
+  
+ 
+Relationship Triplets: 
+Klimawandel – verändert – Waldgesundheit 
+Steigende Temperaturen – beeinflussen – Schädlingsaktivität 
+CO₂-Konzentration – beeinflusst – Baumphysiologie 
+Extreme Wetterereignisse – erhöhen – Stress bei Bäumen 
+Schädlinge – verstärken – Baumsterblichkeit 
+ 
+ 
+Knowledge Card 2  
+Titel: 
+Wie Klimaänderungen Waldschädlinge beeinflussen 
+ 
+Text: 
+Das Workin g Paper beschreibt, dass sich Klimafaktoren wie Temperatur und 
+Niederschlag auf mehrere Wege direkt und indirekt auf Insekten - und 
+Pathogenpopulationen auswirken. Durch höhere Temperaturen können sich 
+Insekten schneller entwickeln, häufiger reproduzieren und über längere Jahreszeiten 
+aktiv bleiben. Gleichzeitig verändern sich die phenologischen Zyklen (z. B. Zeitpunkt 
+des Schlüpfens) vieler Schädlinge, was ihre Lebenszyklen besser an 
+Baumwachstumsphasen koppelt. Klimabedingte Veränderungen der 
+Vegetationsstruktur – etwa durch Dürre oder erhöhte Wasserverdunstung – können 
+die Abwehrkräfte von Bäumen schwächen, wodurch sie empfindlicher gegenüber 
+Befall werden. Zusätzlich können wärmere Winter die Überlebensraten von 
+Schädlingspopulationen erhöhen, was zu stär keren Ausbrüchen führt. Diese Effekte 
+variieren jedoch je nach geografischer Region und Schädlingstyp sowie in 
+Abhängigkeit von lokalen meteorologischen Bedingungen. 
+ 
+Entity List: 
+Temperatur 
+Schädlingsentwicklung 
+
+--- PAGE 80 ---
+  Lang Maximilian 
+  
+Reproduktionsrate 
+Phänologie 
+Dürre 
+Baumabwehr 
+Winterüberleben 
+Regionale Variation 
+ 
+Relationship Triplets: 
+Temperatur – beschleunigt – Schädlingsentwicklung 
+Höhere Wintertemperaturen – erhöhen – Überlebensrate 
+Dürre – schwächt – Baumabwehr 
+Veränderte Phänologie – beeinflusst – Schädlingsaktivität 
+Regionale Variation – moduliert – Klimaeffekte 
+ 
+ 
+Knowledge Card 3  
+Titel: 
+Schutz der Wälder im Zeitalter des Klimawandels 
+ 
+Text: 
+Die Ergebnisse des FAO -Papers unterstreichen die kritische Bedeutung eines 
+adaptiven Waldmanagements angesichts des fortschreitenden Klimawandels. Da 
+klimatische Veränderungen die Dynamik von Schädlingen und Krankheiten zu 
+verstärken drohen, müssen  Schutz- und Präventionsstrategien weiterentwickelt 
+werden. Dazu gehören verstärktes Monitoring von Schädlings - und 
+Krankheitspopulationen, frühzeitige Erkennung von Befallsmustern, Förderung von 
+Baumarten-Diversität zur Erhöhung der Resilienz sowie der Ei nsatz von biosecurity-
+Maßnahmen zur Kontrolle invasiver Arten. Zudem ist die Integration klimatischer 
+Prognosen in forstwirtschaftliche Planungssysteme notwendig, um Risiken frühzeitig 
+zu antizipieren und adaptive Maßnahmen rechtzeitig umzusetzen. Das Pape r fordert 
+
+--- PAGE 81 ---
+  Lang Maximilian 
+  
+eine verstärkte internationale Kooperation, um Wissen und Ressourcen zur 
+Bewältigung dieser globalen Herausforderung effektiv zu nutzen. 
+ 
+Entity List: 
+Adaptives Management 
+Monitoring 
+Früherkennung 
+Baumarten-Diversität 
+Biosecurity 
+Forstplanung 
+Internationale Kooperation 
+Risikoabschätzung 
+ 
+Relationship Triplets: 
+Adaptives Management – steigert – Waldresilienz 
+Monitoring – unterstützt – Früherkennung 
+Baumarten-Diversität – erhöht – Resistenz gegen Schädlinge 
+Biosecurity – begrenzt – invasive Arten 
+Internationale Kooperation – fördert – Wissenstransfer 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 82 ---
+  Lang Maximilian 
+  
+Potential impacts of plant pests and diseases on trees and 
+forests in the United Kingdom 
+(Quelle: https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.70023) 
+ 
+Knowledge Card 1 — Thema & Kontext 
+Titel: 
+Potenzielle Auswirkungen von Pflanzen -Schädlingen und –Krankheiten auf Bäume 
+und Wälder im Vereinigten Königreich 
+ 
+Text: 
+Der Artikel untersucht die Gefährdung von Bäumen und Wäldern im Vereinigten 
+Königreich durch Pflanzen -Schädlinge und -Krankheiten (PPDs : Plant Pests and 
+Diseases). Grundlage ist der UK Plant Health Risk Register (PHRR), der derzeit 636 
+PPD-Einträge umfasst, die 74 in Großbritannien vorkommende Baumarten potenziell 
+bedrohen. Ziel der Studie ist es, aus den semiquantitativen Risiko -Scores der PHRR 
+quantitative Prognosen zur Wahrscheinlichkeit von Einschleppungen und den damit 
+verbundenen Verlusten für Baumwachstum oder erhöhte Mortalität zu erstellen. Die 
+Analyse geht davon aus, dass die kombinierten Effekte mehrerer PPDs die 
+Produktivität und Integrität wichtiger Baumarten, darunter Eiche (oak), Apfel (apple), 
+Pappel (poplar) und Kiefer (pine), erheblich beeinträchtigen könnten. 
+ 
+Entity List: 
+UK Plant Health Risk Register (PHRR) 
+Plant Pests and Diseases (PPDs) 
+Baumarten (Eiche, Apfel, Pappel, Kiefer) 
+Vereinigtes Königreich 
+Risiko-Scores 
+Invasion 
+Produktivität 
+Waldgesundheit 
+ 
+
+--- PAGE 83 ---
+  Lang Maximilian 
+  
+Relationship Triplets: 
+PHRR → listet auf → PPDs 
+PPDs → bedrohen → Baumarten 
+Invasion → führt zu → Produktivitätsverlust 
+Risiko-Scores → quantifizieren → Invasionswahrscheinlichkeit 
+Mehrere PPDs → verschärfen → Waldgesundheit 
+ 
+ 
+Knowledge Card 2  
+Titel: 
+Quantitative Prognose von Invasionen und Baumverlusten 
+ 
+Text: 
+Die Studie nimmt die semikategorischen PHRR-Risk-Scores und wandelt sie mithilfe 
+historischer Daten in quantitative Schätzwerte um, um 
+Einwanderungswahrscheinlichkeiten und erwartete Verluste an Baumwachstum oder 
+erhöhte Sterblichkeit innerhalb der nächsten 25 Jahre abzuschätzen. Dabei w erden 
+historische Beobachtungen über PPD -Einschleppungen und ihre Auswirkungen als 
+Grundlage genutzt, um bekannte Trends zu extrapolieren. Unter der Annahme, dass 
+sich die Effekte mehrerer PPDs unabhängig addieren, zeigen die Simulationen, dass 
+viele Baumarten schwere Produktivitätsrückgänge oder erhöhte Mortalität innerhalb 
+der Prognosezeit erleben könnten. Besonders betroffen wären ökologisch und 
+ökonomisch wichtige Arten wie Eiche, Pappel und Kiefer. 
+ 
+Entity List: 
+Historische Daten 
+Quantitative Schätzwerte 
+Invasionswahrscheinlichkeit 
+Produktivitätsverlust 
+Baumsterblichkeit 
+
+--- PAGE 84 ---
+  Lang Maximilian 
+  
+Simulation 
+Extrapolation 
+Baumarten 
+ 
+Relationship Triplets: 
+Historische Daten → dienen als → Grundlage 
+Quantitative Schätzung → berechnet → Invasion & Verluste 
+Simulation → zeigt → Produktivitätsrückgang 
+Mehrere PPDs → erhöhen → kumulative Auswirkungen 
+Betroffene Baumarten → erleben → erhöhte Mortalität 
+ 
+ 
+Knowledge Card 3 
+Titel: 
+Ökologische und forstliche Bedeutung der Ergebnisse 
+ 
+Text: 
+Die Ergebnisse der Studie verdeutlichen, dass Pflanzen -Schädlinge und –
+Krankheiten eine signif ikante Bedrohung für Bäume und Wälder im Vereinigten 
+Königreich darstellen, insbesondere wenn man zukünftige Einschleppungen und 
+kumulative Effekte berücksichtigt. Die Prognosen zeigen, dass – selbst unter 
+konservativen Annahmen – in den kommenden Jahrzehn ten starke Rückgänge des 
+Baumwachstums und erhöhte Sterblichkeitsraten möglich sind, was letztlich auch die 
+Biodiversität, Ökosystemleistungen und forstwirtschaftliche Produktivität 
+beeinträchtigt. Angesichts dieser Risiken betont die Arbeit die Notwendigk eit 
+gezielter Biosecurity -Maßnahmen, langfristiger Überwachung sowie robuster 
+Managementstrategien, um Waldgesundheit und Baumarten vor invasiven PPDs zu 
+schützen. Zudem unterstreicht sie, dass globaler Handel und sich ändernde 
+klimatische Bedingungen die Herausforderungen verstärken können (z. B. durch 
+vermehrte Einschleppungsereignisse). 
+ 
+
+--- PAGE 85 ---
+  Lang Maximilian 
+  
+Entity List: 
+Biosecurity 
+Waldgesundheit 
+Überwachung 
+Managementstrategien 
+Biodiversität 
+Ökosystemleistungen 
+Klimawandel 
+Globaler Handel 
+ 
+Relationship Triplets: 
+Biosecurity → schützt → Waldgesundheit 
+Überwachung → ermöglicht → frühzeitige Erkennung 
+Managementstrategien → reduzieren → Schaden 
+PPDs → beeinträchtigen → Biodiversität 
+Globaler Handel → fördert → Einschleppungsrisiken 
+
+--- PAGE 86 ---
+Nil Robol 
+ 
+1 
+ 
+Invasive Forest Insects, Introduced Forest Trees and 
+Altered Ecosystems 
+ 
+Quelle: Paine, Timothy D. (2006):  Invasive Forest Insects, Introduced Forest Trees, and 
+Altered Ecosystems, [online] doi:10.1007/1-4020-5162-x. 
+ 
+Knowledge Card 
+The data on how the tree composition effects the Density of herbivore insects is mixed. 
+Some say mixed stands are more resilient to insect herbivory and others say there is no 
+difference. where there is a difference is when it comes to monophagus and polyphagus 
+herbivore species. Monophagous herbivore insects are those who are specialised on a 
+specific type of Food while polyphagous are not. With decreasing diversity in tree species 
+monophagus herbivour insects having higher Population densities then in high er ones. 
+Also, higher antagonists Density is situated in such high diversified forests. For 
+polypaghous Species Counts the contrary. Important is to consider. 
+ 
+Entity List 
+Composition, monophagous, polyphagous, Antagonist, diverse, density 
+ 
+Triplets 
+High diversity - higher - Polyphagous 
+Low diversity - higher - Monophagous 
+High diversity - higher - Antagonists 
+Monophagous - specific - Food 
+Polyphagous - general - Food 
+  
+
+--- PAGE 87 ---
+Nil Robol 
+ 
+2 
+ 
+  
+Knowledge Card 
+On one Hand the removal of dead trees is recommended, because it is potential breeding 
+material for herbivore insects. On the other hand, it is important for Micro Habitats and 
+therefore inhabit a high diversity of different species. In Scandinavia they tried how wind-
+felled trees effect the Population of bark beetle (Ips typographus) and found out that as 
+long as it is not a big area of felled trees and just a small number, the number of 
+infestations did not change a lot. Also, with purposely felled trees on the Edge of a forest 
+the Outcome did not Change immensely. A possible conclusion is that small amounts 
+and widely spread accumulations of dead trees do not affect the bark beetle in a way that 
+the economy would suffer from. On the contrary the biodiversity would probably profit 
+from it. 
+ 
+Entities 
+Dead trees, amount, danger, diversity, accumulations, Innocents 
+ 
+Triplets 
+Dead tree - enriches - diversity 
+Dead tree – enriches – danger 
+Accumulations – imply – Dangers 
+Small amount – seems – innocent 
+Infestation number – unchanged – after small felling 
+ 
+ 
+  
+
+--- PAGE 88 ---
+Nil Robol 
+ 
+3 
+ 
+ 
+Knowledge Card 
+The Climate Change, more precisely the global warming, is having an effect on insects. 
+The range of effects is wide and very complex. One effect of global warming is the 
+spreading into higher altitudes and northward. These changes can vary from species to 
+species. For some Insects the time for different development stages can Change. The 
+growth could be accelerated while the Duration of the diaspore Extended. Important is to 
+acknowledge that the consequences of Climate Change can vary also on behalf of the 
+hostplants and is therefore very hard to include into predictive models. An example for 
+the profiting from the Climate Change is the pine processionary moth (thaumetopoea 
+pityocampa), which did Profit a lot from warming and expanded immensely in south 
+Europe at higher latitude and altitude. 
+ 
+Entities 
+Climate Change, insects, Effects, prediction, Climate warming, diaspore 
+ 
+Triplets 
+Climate Change - effect - insects 
+Climate warming - spreading - northward 
+Climate warming - spreading - higher Altitude 
+Climate warming - accelerated - growth 
+Climate warming - Extended - diaspore 
+Effects - hard to - predict 
+ 
+ 
+  
+
+--- PAGE 89 ---
+Nil Robol 
+ 
+4 
+ 
+ 
+Schädigung von Waldökosystemen 
+Quelle: Elling, Wolfram/Ulrich Heber/Andrea Polle/Friedrich Beese (2007): Schädigung 
+von Waldökosystemen , Spektrum Akademischer Verlag eBooks, [online] 
+doi:10.1007/978-3-8274-3070-0. 
+Knowledge Card 
+Das Ökosystem Wald ist durch viele verschiedene Prozesse der Schädigung betroffen. 
+Der Fraß an Blättern von Insekten, welche hierdurch dem Baum Reservestoffe entnehmen 
+ist nur einen kleinen Aspekt. Als konkretes Beispiel kann hier die Eiche genannt werden, 
+welche stark unter der Eichenwickler Gesellschaft leidet. Diese schädigen den Baum 
+durch teils kompletten Kahlfraß welche zu sehr hohen Zuwachsverlusten führen. 
+Ebenfalls kann der Borkenkäfer hier genannt werden welcher anfänglich auf schon 
+geschwächte Bäume, vorrangig Fichte, und bei einer gewissen Populationsgröße, auch 
+auf gesunde Bäume geht. Gefördert wurde der Borkenkäfer durch die längeren 
+Trockenperioden, welche durch den Klimawandel häufiger vorkommen.  
+ 
+Entities 
+Ökosystem Wald, Schädigungen, Blätterfra ß, Eichenwickler, Eiche, Borkenkäfer, 
+Trockenperiode, Befall, Zuwachsverluste 
+ 
+Triplets 
+Ökosystem Wald - betroffen - Schädigungen 
+Blätterfraß - Schwächung - Baum 
+Eichenwickler - befällt - Eiche 
+Eichenwickler - führt zu - Zuwachsverluste 
+Borkenkäfer - befällt - Fichte 
+Trockenperiode - führt zu – Befall 
+  
+
+--- PAGE 90 ---
+Nil Robol 
+ 
+5 
+ 
+Störungsökologie 
+Quelle: Wohlgemuth, Thomas/Anke Jentsch/Rupert Seidl (2019):  Störungsökologie, utb 
+GmbH. 
+ 
+Knowledge Card 
+Pathogene und Bäume brauchen für ihr auftreten bestimmte klimatische Bedingungen. 
+Demnach ist die Verteilung, genauso wie die Häufigkeit und die Intensität vom Klima 
+abhängig. Damit es überhaupt zu einer Infektion kommt braucht es bestimmte 
+Feuchtigkeits- und Temperaturverhältnisse. Sind diese besagten Gegebenheiten erfüllt so 
+kann es zu einer Infektion kommen und zum Beispiel dem Ausbruch einer Krankheit. 
+Stress, welcher durch klimatische Veränderungen hervorgerufen werden kann, begünstigt 
+des Weiteren eine  solche Infektion. Da sich Pathogene meist schneller an solche 
+Änderungen des Klimas anpassen profitieren sie an der langsameren Weiterentwicklung 
+der Bäume. Limitierend wirken die noch meist niedrigen Wintertemperaturen, welche das 
+Ausbreitungsgebiet und die Ausbreitungsgeschwindigkeit verlangsamen, jedoch würde 
+die Klimaerwärmung dies verhindern. 
+ 
+Entities 
+Klimaerwärmung, Anpassung Pathogene, Anpassung Baum, Baum, Pathogen, Klima, 
+Stress, Infektion 
+ 
+Triplets 
+Klimaerwärmung – schneller – Anpassung Pathogene 
+Klimaerwärmung - langsamere – Anpassung Baum 
+Baum – Abhängig – Klima 
+Pathogen – Abhängig – Klima 
+Stress – begünstigt – Infektion 
+  
+
+--- PAGE 91 ---
+Nil Robol 
+ 
+6 
+ 
+Knowledge Card 
+ 
+Die Beziehung zwischen Pathogen, Wirt und Umweltbedingungen ist sehr komplex. 
+Dementsprechend ist der Nachweis eines einzelnen Parameters welche den Ausbruch 
+einer Krankheit begünstigt, schwer. Um hier eine wissenschaftlich basierte These 
+zwischen dem Bäumen und Baumkrankheiten aufstellen zu können, braucht es eine  
+großräumige und standardisierte Langzeitbeobachtung.  Das Diplodia -Triebsterben an 
+der Kiefer in Frankreich, konnte bereits in Verbindung mit dem Klimawandel gesetzt 
+werden. Der Pilz profitiert durch die erhöhten Sommerniederschläge sowie die steigende 
+Temperatur im Winter. Als weiteres Beispiel kann hier die Dothistroma -Nadelbräune 
+genannt werden, welche aufgrund von feuchteren und wärmeren Bedingungen durch das 
+El-Niño-Southern-Oscillation-Ereignis die Ausbreitung auf neue Gebiete ausweiten 
+konnte. 
+ 
+Entities 
+Dothistroma-Nadelbräune, Klimaänderung, Diplodia -Triebsterben, Einzelparameter, 
+schwer, Pilz, erhöhte Niederschläge, erhöhte Feuchtigkeit 
+ 
+Triplets 
+Dothistroma-Nadelbräune – profitiert von – Klimaänderung 
+Diplodia-Triebsterben – profitiert von – Klimaänderung 
+Einzelparameter – Nachweis – schwer 
+Pilz – profitiert – erhöhte Niederschläge 
+Pilz – profitiert – erhöhte Feuchtigkeit 
+  
+
+--- PAGE 92 ---
+Nil Robol 
+ 
+7 
+ 
+ 
+Knowledge Card 
+Aufgrund von noch unklaren Vorhersagen bezüglich der Niederschlagsänderung gestaltet 
+sich die Vorhersage über die zukünftige Entwicklung von Baumkrankheiten als schwierig. 
+Aufgrund der Beziehung zwischen steigender Feuchtigkeit und der Entwicklung von vielen 
+Pathogenen, lässt sich sagen das die Infektionsrate, Ausbreitung und Reproduktionsrate 
+positiv mit der Luftfeuchtigkeit zusammenhängen.  Ebenfalls können 
+Extremwetterereignisse den Befall fördern. Hierzu zählen vor allem Überschwemmungen 
+und Starkniederschläge können die Eintrittswahrscheinlichkeit und die Gravität 
+beeinflussen. Ein weiterer wichtiger Punkt bezüglich dem Klima sind die genannten 
+Extrema, welche laut Prognosen immer häufiger auftreten werden und Eintrittspforten 
+bilden und Bäume schwächen und somit die Infektionsrate erhöhen. 
+ 
+Entities 
+Feuchtigkeit, Entwicklung , Extremwetterer eignisse, Eintrittspforte, Bäume , 
+Starkniederschläge 
+ 
+Triplets 
+Steigende Feuchtigkeit – führt zu – Entwicklung von Pathogenen 
+Extremwetterereignisse – führt zu – Steigerung von Infektionsrisiko 
+Starkniederschläge – steigende – Eintrittswahrscheinlichkeit 
+Eintrittspforten – gefördert durch – Extremwetterereignisse 
+Bäume – geschwächt - Extremwetterereignisse 
+ 
+  
+
+--- PAGE 93 ---
+Nil Robol 
+ 
+8 
+ 
+Der Buchdrucker – Biologie, Ökologie, Management 
+Quelle: Baier, Peter/Gernot Hoch/Thomas Kirisits/Sigrid Netherer/Martin Schebeck/Axel 
+Schopf/Rudolf Wegensteiner/Gerlinde Weizer (2019): “Der” Buchdrucker: Biologie, 
+Ökologie, Management. 
+ 
+Knowledge Card 
+Der Buchdrucker ist, wie die meisten Borkenkäfer , ein Sekundärschädli ng. D ies hat zu 
+bedeuten, dass physiologisch vorgeschwächte oder schon abgestorbene Bäume von ihm 
+befallen werden. Aufgrund seiner hohen Ansprüche an die Na hrungsqualität ist der 
+Buchdrucker oft der erste welcher einen Baum besiedelt, nicht so wie die meisten andern 
+europäischen Borkenkäferarten. Solche B äume sind oft räumlich weiten Verbreitungen 
+unterlegen und nur für kurze Zeit von Interesse, bis sie wieder zu ausgetrocknet sind oder 
+entfernt wurden. Die Suche nach solchen Bäumen ist mit hohen Verlusten verbunden und 
+wird durch die hohe Rate an Nachkommen kompensiert. Hier spielen abiotische 
+Störungsfaktoren wie Sturmereignisse oder auch Trockenereignisse für den Buchdrucker 
+eine wichtige Rolle. Durch die Erhöhung von loka l gehäufter potenziellen Nahrung kann 
+es, in Abhängigkeit von den Wettergegebenheiten, zu einer Massenvermehrung kommen. 
+ 
+Entities 
+Buchdrucker, physiologisch geschwächte Bäum e, Na hrungssuche, gute Bedingungen, 
+Sturmereignis, Trockenperiode, hohe Verluste 
+ 
+Triplets 
+Buchdrucker – befällt – physiologisch geschwächte Bäume  
+Buchdrucker – besitzt- hohe Nahrungsansprüche 
+Nahrungssuche – verlangt – hohe Verluste 
+Sturmereignis – schafft – gute Bedingungen 
+Trockenperiode – schafft – gute Bedingungen 
+  
+
+--- PAGE 94 ---
+Nil Robol 
+ 
+9 
+ 
+ 
+Knowledge Card 
+Wenn eine Massenvermehrung  stattgefunden hat, so wird m ehr Nahrung für weitere 
+Generationen benötigt. Wenn dies eintritt und keine weiteren abiotischen Störungen 
+aufgetreten sind, so verändert der Buchdrucker sein Verhalten und befällt vitale Bäume. 
+Durch einen so genannt en Mass enangriff, versucht der Buchdrucker die Abwehr von 
+vitalen Bäumen zu überwinden. Der Buchdrucker ist also von der Latenzphase, in welcher 
+er nur Sekundärschädling ist zur Gradationsphase übergegangen in welchem er gesunde 
+Bäume befällt. Die Phase der Gradation kann sich ungestört über mehrere Jahre ziehen. 
+Das Einbohren in gesunde Bäume zieht Opfer auf Seiten der Buchdruckerpopulation mit 
+sich und hohe Besiedlungsdichte führt ebenfalls zu Verlusten. Mit dem rasanten Anstieg 
+der Buchdrucker, steigt ebenfalls , leicht verzögert, die Anzahl an Antagonisten , welche 
+ebenfalls zu einer Minimierung der Borkenkäferpopulation führt. 
+ 
+Entities 
+Massenvermehrung, Nahrungsbedarf, Massenangri ff, Vitale Bäume, Latenzphase, 
+Gradationsphase, Buchdrucker, Antagonisten, Besiedlungsdichte 
+ 
+Triplets 
+Massenvermehrung – führt zu – erhöhter Nahrungsbedarf 
+Massenangriff – gegenüber – vitaler Bäume 
+Latenzphase – wechselt zu – Gradationsphase 
+Massenvermehrung Buchdrucker – führt zu – Anstieg Antagonisten 
+Hohe Besiedlungsdichte – führt zu – Verluste 
+  
+
+--- PAGE 95 ---
+Nil Robol 
+ 
+10 
+ 
+ 
+Knowledge Card 
+Für de n Buchdrucker und seine Ausbreit ung sind Temperatur und Luftfeuchtigkeit 
+ausschlaggebend. Die Temperatur ist vor allem für die Schwärmaktivität 
+ausschlaggebend. Der Flugbeginn bei Temperaturen von über 16,5 °C und steigt mit der 
+Temperatur bis zu zi rka 30 °C . Die Optimaltemperatur für die Flugaktivität des 
+Buchdruckers liegt zwischen 22 °C und 26 °C. Ein Anstieg der Luftfeuchtigkeit bewirkt ein 
+Rückgang der Flugaktivität. Windgeschwindigkeiten wirkt sowohl positiv als auch negativ. 
+Sie entscheidet ebenfalls über den Energieaufwand, welcher ge tätigt werd en mu ss. 
+Wichtig ist, dass Wind ein wichtiger Faktor, was die Verbreitung von Pheromonen angeht 
+und demnach auch ausschlaggeben d bei der Suchen nach Brut bäumen für den 
+Buchdrucker. 
+ 
+Entities 
+Flugaktivität, Temperatur, Luftfeuchtigkeit, Energieaufwand, Pheromon Verteilung , 
+Klimatische Faktoren, Windgeschwindigkeit 
+ 
+Triplets 
+Flugaktivität – abhängig von – Temperatur 
+Flugaktivität – abhängig von – Luftfeuchtigkeit 
+Windgeschwindigkeit – bestimmt – Energieaufwand 
+Windgeschwindigkeit – bestimmt – Pheromon Verteilung 
+Klimatische Faktoren – bestimmen – Ausbreitung 
+  
+
+--- PAGE 96 ---
+Nil Robol 
+ 
+11 
+ 
+Knowledge Card 
+Neben der Gemeinen Fichte (Picea Abies), kann der Buchdrucker ebenfalls Lärchen 
+sowie Kiefern befallen. Das Brutsystem wird vom Männchen begonnen und beginnt mit 
+einer Begattungskammer. Für die Anlockung von weiteren Borkenkäfern werden 
+Aggregationspheromone durch den Kot freigesetzt. Die dadurch angelockten 
+Buchdrucker beider Geschlechter, bilden weitere Begattungskammern und verursachen 
+eine noch stärkere Anziehungskraft für wiederum weitere Käfer. Die Konzentration der 
+Pheromone erreicht den Höhepunkt bereits nach einer Woche. Die Angelockten 
+Weibchen versuchen nun in den von den Männchen erschaffenen Begattungskammern 
+einzutreten. Vorerst versperrt vom Männchen selbst, doch schlussendlich werden zwei 
+bis drei eingelassen. Dann findet die Paarung statt und jedes der Weibchen beginnt einen 
+Muttergang in Faserrichtung zu nagen. 
+ 
+Entities 
+Buchdrucker, Fichte, Erster, Begattungskammer, Aggregationspheromon, Muttergang 
+ 
+Triplets 
+Buchdrucker - befällt - Fichte 
+Männlicher Buchdrucker - befällt - als Erster 
+Begattungskammer - gebildet von - Männlicher Buchdrucker 
+Aggregationspheromone - lockt - weitere Borkenkäfer an 
+Muttergang - gebildet von - weiblichem Borkenkäfer 
+  
+
+--- PAGE 97 ---
+Nil Robol 
+ 
+12 
+ 
+Knowledge Card 
+Die Einischen werden abwechselnd rechts und links im Muttergang angelegt und jeweils 
+mit einem Borkenkäfer Ei ausgestattet. Für den Vorgang der Eiablage, muss das Weibchen 
+sich in der Begattungskammer umdrehen, um Rückwärts entlang des Mutterganges bis 
+zur Einische zu gelangen. Nach einer weiteren Umdrehung  nagt sich das Weibchen im 
+Muttergang weiter fort bis zur Anlage einer neuen Einische. Das ständige Umdrehen in der 
+Begattungskammer führt zur Ansammlung vom Bohrmehl in dieser. Währenddessen sind 
+die Aufgaben des Männchens die Wiederbegattung der Weibchen und die Beförderung 
+des Bohrmehls nach außen. Die Produktion der Eier setzt direkt an die Geschlechtsreife 
+an. Die Anzahl der produzierten und demnach abgelegten Eier ist abhängig von der 
+Fitness der Weibchen. Ein Muttergang kann zwischen 50 und 80 Eiern auf einer Länge von 
+zirka 15 cm beinhalten. 
+ 
+Entities 
+Einische, Borkenkäfer, Muttergang, Bohrmehl, Eiproduktion, Fitness 
+ 
+Triplets 
+Einische - genagt von - weiblichem Borkenkäfer 
+Muttergang - genagt von - weiblicher Borkenkäfer 
+Männlicher Borkenkäffer - begattet - weiblichen Borkenkäfer 
+Bohrmehl - entfernt von - Männlichem Borkenkäfer 
+Eiproduktion - abhängig von - Fitness der Weibchen 
+  
+
+--- PAGE 98 ---
+Nil Robol 
+ 
+13 
+ 
+ 
+Knowledge Card 
+Der Brutvorgang der Borkenkäfer ist, daher sie wechselwarme Organismen sind, von der 
+Umgebungstemperatur abhängig. Die Dauer kann von 6-7 Wochen bei konstanten 15 °C, 
+über 4 Wochen bei einer Temperatur von 20 °C und nur 2 -3 Wochen bei 30 °C reichen. 
+Aufgrund der zeitlichen Versetzung der Eiablage, kommt es dazu, dass während die ersten 
+abgelegten Eier schon knapp vor der Verpuppung sein können, während die zuletzt 
+gelegten gerade erst einmal geschlüpft sind. Grundsätzlich lässt sich sagen das die 
+Larvengang normal auf den Muttergang sind und umso weiter sie von d iesem entfernt 
+sind, umso breiter sind sie. Am Ende jedes Larvenganges befindet sich die Puppenwiege, 
+in welcher die Puppenhäutung und ebenfalls die Häutung zum Jungkäfer stattfindet. Ein 
+weiteres Unterscheidungsmerkmal zwischen dem Muttergang und dem Larvengang ist 
+das im Muttergang fehlende und im Larvenganggang vorhandene Bohrmehl. 
+ 
+Entities 
+Brutdauer, Umgebungs temperatur, Entwicklungsstadium, Bohrmehl, Larv engang, 
+Puppenwiege, Muttergang, Eiablage, Brutdauer 
+ 
+Triplets 
+Brutdauer - abhängig von - Umgebungstemperatur 
+Eiablage - führt zu - unterschiedlichen Entwicklungsstadien 
+Larvengang - besitzt - Bohrmehl 
+Muttergang - ohne - Bohrmehl 
+Larvengang - besitzt – Puppenwiege 
+  
+
+--- PAGE 99 ---
+Nil Robol 
+ 
+14 
+ 
+ 
+Knowledge Card 
+Die steigende Borkenkäferpopulation auf einem Baumindividuum führt zur 
+Verschlechterung der Nahrungsqualität und aus diesem Grund verlassen zwei Drittel der 
+Parentalgeneration den Wirtsbaum, sobald die Verpuppung der ersten Larven einsetzt. 
+Geschwisterbruten sind jene Bruten, welche daran nun anschließen. Meist an anderen 
+Bäumen oder an einer noch nicht befallenen Stelle des bereits besiedelten Baumes. Vor 
+dem Verlassen des Brutsystems, findet im Anschluss des Mutterganges der 
+Regenerationsfraß statt. Wie lange es bis zum Verlassen des Brutsystems braucht, ist von 
+der Umgebungstemperatur und von der Besiedlungsdichte abhängig. Die Brutleistung der 
+Weibchen unterscheidet sich nicht zwischen der ersten und der Geschwisterbrut unter 
+gleichen Bedingungen nicht. Die Wahrscheinlichkeit das nach der ersten 
+Geschwisterbrut noch eine weitere zustande kommt ist sehr niedrig. 
+ 
+Entities 
+Borkenkäferpopulation, Nahrungsqualität, Mutte rgang, Regenerationsfraß, Wirtsbaum, 
+Parentalgenereation, Verlassen, Brutleistung, Umgebungstemperatur 
+ 
+Triplets 
+Steigende Borkenkäferpopulation – führt zu – Verschlechterung Nahrungsqualität 
+Regenerationsfraß – anschließend – an Muttergang 
+Parentalgeneration – verlässt – Wirtsbaum 
+Verlassen – abhängig von – Umgebungstemperatur 
+Brutleistung – sinkt nicht – Erste und Geschwisterbrut 
+  
+
+--- PAGE 100 ---
+Nil Robol 
+ 
+15 
+ 
+ 
+ 
+Knowledge Card 
+Die Umgebungstemperatur kann sich von der Lufttemperatur stark unterscheiden, weil 
+die Temperatur der Rinde stark von der Exposition abhängig ist. Dies trifft nur selten nicht 
+zu, wie zum Beispiel am im Schatten liegenden Teil eines Baumes in einem di chten 
+Bestand. Der Buchdrucker hat prinzipiell einen Spielraum an Temperatur in welche er sich 
+Entwickelt. Dieser ist durch eine n oberen und einen  unteren Entwicklungsnullpunkt 
+begrenzt. Wichtig ist nun, dass mit steigender Temperatur sich ebenfalls die Entwicklung 
+beschleunigt bis zu einem Kipppunkt, an welchem sich die Geschwindigkeit wieder 
+verringert bis zum Stillstand. Das hat zur Folge, dass Temperaturen über und unter zirka 
+30 °C sich negativ, beziehungsweise verlangsamend auf die Entwicklung des 
+Buchdruckers auswirken. 
+ 
+Entities 
+Umgebungstemperatur, Lufttemperatur,  Exposition, Entwicklu ng, 
+Entwicklungsnullpunkte, Entwicklungsgeschwindigkeit, Kipppunkt 
+ 
+Triplets 
+Umgebungstemperatur – anders als – Lufttemperatur 
+Umgebungstemperatur – abhängig – Exposition 
+Entwicklung – beschränkt durch – Entwicklungsnullpunkte 
+Entwicklungsgeschwindigkeit – steigt – bis Kipppunkt 
+Entwicklungsgeschwindigkeit – sinkt – ab Kipppunkt 
+  
+
+--- PAGE 101 ---
+Nil Robol 
+ 
+16 
+ 
+ 
+Knowledge Card 
+Nicht nur die Umgebungstemperatur, sondern ebenfalls die Photoperiode sind von 
+Bedeutung, wenn es um die Entwicklung des Buchdruckers geht. Trotz der Lebensweise 
+unter der Baumrinde, kann er die Lichtperioden wahr. Einfluss hat dies auf den 
+Hormonhaushalt und demnach auf die gesamte Entwicklung des Buchdruckers. Vom 
+Trieb sich zu vermehren bei älteren Käfern über erst die Bildung der Reproduktionsorgane 
+bei Jungen Käfern. Die starke Auswirkung der Photoperiode wird durch eine andauernde 
+Temperatur von 23 °C überschrieben und zeigt keine starke Auswirkung  mehr. Diese 
+Ergebnisse stammen jedoch rein aus Laborversuchen in welchen Temperatur 
+Feuchtigkeit und vieles mehr angepasst werden können. Auswirkungen von 
+unterschiedlichen Tagtemperaturen und Nachttemperatur ist generell noch wenig 
+geforscht. 
+ 
+Entities 
+Entwicklung Buchdrucker, Photoperiode, Hormonhaushalt, Buchdrucker, Laborversuche 
+ 
+Triplets 
+Entwicklung Buchdrucker - abhängig von - Photoperiode 
+Photoperiode - beeinflusst - Hormonhaushalt 
+Effekt durch Photoperiode - abgeschwächt - ab 23 °C 
+Ergebnisse – aus – Laborversuchen 
+Hormonhaushalt – beeinflusst - Buchdrucker 
+
+--- PAGE 102 ---
+1 Ausgangslage des Waldes in Deutschland 
+1.1 Waldzustand und Altersstruktur 
+Der Wald in Deutschland nimmt rund ein Drittel der Landesﬂäche ein und weist eine 
+historisch gewachsene Alters- und Bestandesstruktur auf. Ein bedeutender Anteil der 
+Wälder besteht aus älteren Beständen, während gleichzeitig große Flächen von 
+zuwachskräftigen mittelalten Wäldern geprägt sind. Diese Struktur ist Ergebnis 
+jahrzehntelanger nachhaltiger Bewirtschaftung und gezielter Waldumbauprogramme. In 
+den vergangenen Jahren hat sich der Zustand des Waldes jedoch deutlich verschlechtert. 
+Extreme Wetterereignisse wie langanhaltende Trockenperioden, Hitze und Stürme führten 
+zu erheblichen Vitalitätsverlusten und großﬂächigem Schadholzanfall. Besonders 
+betroﬀen waren gleichförmige Nadelholzbestände, deren geringe strukturelle Vielfalt eine 
+hohe Anfälligkeit gegenüber klimatischen Stressfaktoren begünstigt. Die Schadereignisse 
+markieren eine Zäsur in der Waldentwicklung und verdeutlichen, dass bestehende Alters- 
+und Bestandesstrukturen unter den aktuellen Klimabedingungen nur eingeschränkt stabil 
+sind. Daraus ergibt sich ein erheblicher Handlungsbedarf zur Weiterentwicklung der 
+Waldstrukturen hin zu höherer Widerstandsfähigkeit.
+Entity List 
+Waldzustand; Altersstruktur; Waldﬂäche; Schadholz; Extremwetter; Trockenheit; 
+Nadelholzbestände; Waldentwicklung
+Relationship Triplets 
+Altersstruktur prägt Waldzustand 
+Extremwetter verursacht Schadholz 
+Trockenheit schwächt Waldzustand 
+Nadelholzbestände erhöhen Schadrisiko 
+Waldentwicklung reagiert auf Extremwetter
+1.2 Klimawandel als Treiber der Waldentwicklung 
+Der Klimawandel stellt den zentralen Treiber für die gegenwärtigen und zukünftigen 
+Veränderungen der Wälder in Deutschland dar. Steigende Durchschnittstemperaturen, 
+häuﬁgere Trockenperioden und eine Zunahme extremer Wetterereignisse führen zu einer 
+dauerhaften Belastung der Waldökosysteme. Diese Stressfaktoren wirken nicht nur 
+kurzfristig, sondern beeinträchtigen langfristig Zuwachs, Vitalität und Stabilität der 
+Bestände. Die klimabedingten Schäden haben weitreichende Folgen, da sie nicht nur 
+einzelne Baumarten oder Regionen betreﬀen, sondern großﬂächig auftreten. Infolge 
+geschwächter Bestände nimmt auch die Anfälligkeit gegenüber Schadorganismen zu. Der 
+Klimawandel wirkt somit als Verstärker bestehender struktureller Schwächen und macht 
+deutlich, dass eine Fortführung bisheriger Bewirtschaftungsstrategien nicht ausreicht. Die 
+Anpassung der Wälder an veränderte Klimabedingungen wird daher zu einer zentralen 
+Voraussetzung für den Erhalt ihrer ökologischen und gesellschaftlichen Funktionen.
+Entity List 
+Klimawandel; Waldökosysteme; Temperaturen; Trockenperioden; Schadorganismen; 
+Zuwachsverluste; Stabilität
+Relationship Triplets 
+Klimawandel beeinﬂusst Waldökosysteme 
+Trockenperioden reduzieren Zuwachs 
+Temperaturen erhöhen Stressbelastung 
+
+--- PAGE 103 ---
+Schadorganismen schwächen Waldökosysteme 
+Zuwachsverluste mindern Stabilität
+1.3 Ökosystemleistungen des Waldes 
+Wälder erbringen eine Vielzahl von Ökosystemleistungen, die für Gesellschaft, Wirtschaft 
+und Umwelt von zentraler Bedeutung sind. Dazu zählen insbesondere Klimaschutz durch 
+Kohlenstoﬀspeicherung, die Bereitstellung des nachwachsenden Rohstoﬀs Holz, der 
+Schutz von Boden und Wasser sowie Leistungen für Erholung, Gesundheit und 
+Biodiversität. Der Wald fungiert als bedeutender Kohlenstoﬀspeicher in Biomasse, Totholz 
+und Boden und leistet damit einen wesentlichen Beitrag zur Minderung von 
+Treibhausgasemissionen. Die Fähigkeit des Waldes, diese Leistungen dauerhaft zu 
+erbringen, hängt eng mit seinem Zustand und seiner Bewirtschaftung zusammen. 
+Klimabedingte Schäden gefährden nicht nur die Holznutzung, sondern das gesamte 
+Spektrum an Ökosystemleistungen. Die Sicherung dieser Leistungen wird daher als 
+zentrale Aufgabe zukünftiger Waldpolitik verstanden, da sie unmittelbar mit 
+gesellschaftlichem Wohlergehen und nachhaltiger Entwicklung verknüpft ist.
+Entity List 
+Ökosystemleistungen; Klimaschutz; Kohlenstoﬀspeicher; Biomasse; Boden; Biodiversität; 
+Erholung; Rohstoﬀ Holz
+Relationship Triplets 
+Wald erbringt Ökosystemleistungen 
+Kohlenstoﬀspeicher unterstützt Klimaschutz 
+Biomasse enthält Kohlenstoﬀspeicher 
+Boden stabilisiert Ökosystemleistungen 
+Biodiversität stärkt Wald
+Summary  
+Der Wald in Deutschland beﬁndet sich in einer Phase tiefgreifender Veränderungen. 
+Historisch gewachsene Alters- und Bestandesstrukturen, die lange Zeit als stabil galten, 
+stoßen unter den aktuellen Klimabedingungen zunehmend an ihre Grenzen. Extreme 
+Wetterereignisse wie Trockenperioden, Hitze und Stürme haben in den vergangenen 
+Jahren zu erheblichen Vitalitätsverlusten und großﬂächigem Schadholzanfall geführt. 
+Besonders anfällig zeigen sich strukturarme und gleichförmige Nadelholzbestände.
+Gleichzeitig erbringt der Wald eine Vielzahl zentraler Ökosystemleistungen, darunter 
+Klimaschutz durch Kohlenstoﬀspeicherung, Rohstoﬀbereitstellung, Biodiversitätsschutz 
+sowie Erholungsfunktionen. Diese Leistungen sind eng an den Zustand und die 
+Bewirtschaftung der Wälder gekoppelt. Die zunehmenden klimabedingten Belastungen 
+verdeutlichen, dass eine Weiterentwicklung der Waldstrukturen hin zu höherer 
+Widerstandsfähigkeit erforderlich ist, um ökologische und gesellschaftliche Funktionen 
+langfristig zu sichern.
+2 Leitbild Wald 2050 
+2.1 Nachhaltigkeit als normativer Orientierungsrahmen 
+Das Leitbild Wald 2050 bildet den normativen Orientierungsrahmen der zukünftigen 
+Waldpolitik in Deutschland. Es basiert auf dem Grundsatz der Nachhaltigkeit, der 
+ökologische, ökonomische und soziale Zielsetzungen gleichrangig berücksichtigt. Wälder 
+sollen langfristig leistungsfähig bleiben und gleichzeitig ihre vielfältigen Funktionen für 
+Gesellschaft, Natur und Wirtschaft erfüllen. 
+Besondere Bedeutung kommt der Langfristigkeit waldökologischer Prozesse zu. 
+
+--- PAGE 104 ---
+Waldentwicklung vollzieht sich über Jahrzehnte bis Jahrhunderte, weshalb heutige 
+Entscheidungen langfristige Wirkungen entfalten. Das Leitbild fordert daher 
+vorausschauendes Handeln und eine Abkehr von kurzfristig orientierten 
+Nutzungsstrategien. Nachhaltigkeit wird als dynamischer Prozess verstanden, der 
+kontinuierliche Anpassung an neue Erkenntnisse und veränderte Rahmenbedingungen 
+erfordert. Das Leitbild dient damit als verbindende Grundlage für politische 
+Entscheidungen und strategische Weiterentwicklungen der Waldpolitik bis 2050.
+Entity List 
+Leitbild Wald 2050; Nachhaltigkeit; Ökologie; Ökonomie; Soziales; Langfristigkeit; 
+Waldpolitik; Generationengerechtigkeit
+Relationship Triplets 
+Leitbild Wald 2050 deﬁniert Nachhaltigkeit 
+Nachhaltigkeit verbindet Ökologie 
+Nachhaltigkeit verbindet Ökonomie 
+Nachhaltigkeit verbindet Soziales 
+Langfristigkeit prägt Waldpolitik
+2.2 Anpassung der Wälder an den Klimawandel 
+Die Anpassung der Wälder an den Klimawandel stellt einen zentralen Bestandteil des 
+Leitbildes Wald 2050 dar. Ziel ist es, Wälder widerstandsfähiger gegenüber zukünftigen 
+Belastungen zu machen und ihre Stabilität langfristig zu sichern. Angesichts 
+zunehmender Extremereignisse wird deutlich, dass bestehende Strukturen vielerorts an 
+ihre Belastungsgrenzen stoßen. Im Fokus stehen strukturreiche und artenreiche 
+Mischwälder, die Risiken besser verteilen und ﬂexibler auf klimatische Stressfaktoren 
+reagieren können. Die standortgerechte Baumartenwahl spielt dabei eine entscheidende 
+Rolle. Anpassung wird als kontinuierlicher Lernprozess verstanden, der wissenschaftliche 
+Erkenntnisse integriert und regionale Unterschiede berücksichtigt. Durch adaptives 
+Management sollen Wälder so entwickelt werden, dass sie auch unter unsicheren 
+Klimabedingungen ihre Funktionen erfüllen können.
+Entity List 
+Klimawandelanpassung; Stabilität; Mischwälder; Baumarten; Standort; Waldumbau; 
+Extremereignisse
+Relationship Triplets 
+Klimawandelanpassung erhöht Stabilität 
+Mischwälder fördern Stabilität 
+Standort bestimmt Baumarten 
+Waldumbau unterstützt Klimawandelanpassung 
+Extremereignisse gefährden Stabilität
+2.3 Gesellschaftliche Ansprüche und Zielkonﬂikte 
+Der Wald steht im Spannungsfeld vielfältiger gesellschaftlicher Ansprüche. Neben der 
+Holznutzung gewinnen Klimaschutz, Biodiversität, Erholung und gesundheitliche 
+Funktionen zunehmend an Bedeutung. Diese Ansprüche sind nicht immer miteinander 
+vereinbar und führen zu Zielkonﬂikten, da einzelne Nutzungen oder Schutzmaßnahmen 
+andere Funktionen einschränken können. 
+Das Leitbild Wald 2050 erkennt diese Zielkonﬂikte ausdrücklich an und fordert einen 
+transparenten Umgang mit konkurrierenden Interessen. Ziel ist es, ausgewogene 
+
+--- PAGE 105 ---
+Lösungen zu entwickeln, die langfristig tragfähig sind. Der Wald wird dabei als 
+gemeinschaftliches Gut verstanden, dessen Leistungen der gesamten Gesellschaft 
+zugutekommen. Daraus ergibt sich eine besondere Verantwortung für Politik und 
+Waldbesitzende, Entscheidungen nachvollziehbar zu gestalten und gesellschaftliche 
+Dialoge zu fördern.
+Entity List 
+Gesellschaft; Holznutzung; Klimaschutz; Biodiversität; Erholung; Zielkonﬂikte; 
+Waldbesitzende; Verantwortung
+Relationship Triplets 
+Gesellschaft formuliert Ansprüche 
+Zielkonﬂikte betreﬀen Holznutzung 
+Zielkonﬂikte betreﬀen Klimaschutz 
+Zielkonﬂikte betreﬀen Biodiversität 
+Waldbesitzende tragen Verantwortung
+Summary 
+Das Leitbild Wald 2050 bildet den normativen Orientierungsrahmen für die zukünftige 
+Waldpolitik in Deutschland. Es basiert auf dem Nachhaltigkeitsprinzip, das ökologische, 
+ökonomische und soziale Zielsetzungen gleichrangig berücksichtigt. Zentrale Bedeutung 
+kommt der Langfristigkeit waldökologischer Prozesse zu, da heutige Entscheidungen 
+über Jahrzehnte hinweg Wirkung entfalten.
+Ein Schwerpunkt liegt auf der Anpassung der Wälder an den Klimawandel. Strukturreiche, 
+artenreiche Mischwälder und eine standortgerechte Baumartenwahl gelten als 
+wesentliche Voraussetzungen für Stabilität und Resilienz. Gleichzeitig wird anerkannt, 
+dass der Wald vielfältigen gesellschaftlichen Ansprüchen unterliegt, die nicht immer 
+konﬂiktfrei miteinander vereinbar sind. Das Leitbild fordert daher einen transparenten 
+Umgang mit Zielkonﬂikten und die Entwicklung ausgewogener, langfristig tragfähiger 
+Lösungen. Der Wald wird als gemeinschaftliches Gut verstanden, dessen nachhaltige 
+Nutzung eine besondere Verantwortung für Politik und Waldbesitzende begründet.
+3 Handlungsfelder und Meilensteine 
+3.1 Handlungsfelder als strategischer Rahmen 
+Zur Umsetzung des Leitbildes Wald 2050 wurden mehrere Handlungsfelder deﬁniert, die 
+als strategischer Rahmen der deutschen Waldpolitik dienen. Sie bündeln zentrale 
+Themenbereiche wie Klimaschutz, Biodiversität, Holznutzung und gesellschaftliche 
+Ansprüche und ermöglichen eine systematische Bearbeitung der komplexen 
+Herausforderungen, denen der Wald gegenübersteht. Die einzelnen Handlungsfelder sind 
+eng miteinander verknüpft und können nicht isoliert betrachtet werden, da Maßnahmen in 
+einem Bereich häuﬁg Auswirkungen auf andere Bereiche haben.
+Durch diese strukturierte Gliederung wird eine koordinierte Umsetzung der Waldstrategie 
+auf Bundes- und Länderebene erleichtert. Ökologische, ökonomische und soziale 
+Aspekte werden dabei integrativ berücksichtigt, um Zielkonﬂikte sichtbar zu machen und 
+ausgewogene Lösungen zu entwickeln. Die Handlungsfelder schaﬀen Transparenz über 
+politische Prioritäten, bieten Orientierung für Akteure und ermöglichen eine gezielte 
+Ableitung von Maßnahmen und Programmen. Damit bilden sie die zentrale Grundlage für 
+eine langfristig ausgerichtete und kohärente Waldpolitik.
+Entity List 
+Handlungsfelder; Waldstrategie 2050; Strategie; Maßnahmen; Koordination; Steuerung
+
+
+--- PAGE 106 ---
+Relationship Triplets 
+Waldstrategie 2050 deﬁniert Handlungsfelder 
+Handlungsfelder strukturieren Strategie 
+Strategie steuert Maßnahmen 
+Koordination verbindet Handlungsfelder 
+Steuerung unterstützt Umsetzung
+3.2 Meilensteine als Instrument der Erfolgskontrolle 
+Meilensteine dienen als konkrete Etappenziele zur Überprüfung des Fortschritts der 
+Waldstrategie 2050. Sie übersetzen langfristige Zielsetzungen in klar deﬁnierte, 
+überprüfbare Zustände für bestimmte Zeitpunkte und machen die Umsetzung der 
+Strategie damit messbar und nachvollziehbar. Durch die Festlegung von Meilensteinen 
+können Entwicklungen systematisch beobachtet und bewertet werden.
+Ein zentraler Vorteil dieses Instruments liegt in der Möglichkeit, auf veränderte 
+Rahmenbedingungen zu reagieren. Wenn Maßnahmen nicht die gewünschte Wirkung 
+entfalten oder sich ökologische, ökonomische oder gesellschaftliche Bedingungen 
+ändern, erlauben Meilensteine gezielte Anpassungen. Gleichzeitig fördern sie Transparenz 
+und Rechenschaft, da Fortschritte und Deﬁzite oﬀen sichtbar werden.
+Gerade im Wald, dessen Entwicklungszyklen langfristig verlaufen, bilden Meilensteine ein 
+wichtiges Bindeglied zwischen langfristiger Vision und praktischer Umsetzung. Sie 
+unterstützen Lernprozesse innerhalb der Waldpolitik und tragen zu einer adaptiven, 
+zukunftsorientierten Steuerung bei.
+Entity List 
+Meilensteine; Etappenziele; Fortschritt; Erfolgskontrolle; Transparenz; Anpassung
+Relationship Triplets 
+Meilensteine deﬁnieren Etappenziele 
+Etappenziele messen Fortschritt 
+Fortschritt ermöglicht Erfolgskontrolle 
+Transparenz stärkt Waldpolitik 
+Anpassung folgt Erfolgskontrolle
+3.3 Rollenverteilung und Governance 
+Die Umsetzung der Waldstrategie 2050 erfordert das koordinierte Zusammenwirken 
+unterschiedlicher Akteure auf verschiedenen Ebenen. Bund und Länder sind dabei für die 
+Gestaltung rechtlicher, ﬁnanzieller und strategischer Rahmenbedingungen verantwortlich, 
+während Waldbesitzende die konkreten Maßnahmen in der Fläche umsetzen. Ergänzend 
+tragen Wissenschaft, Verbände und zivilgesellschaftliche Organisationen durch Beratung, 
+Forschung, Evaluation und gesellschaftlichen Dialog wesentlich zur Weiterentwicklung 
+und Legitimation der Strategie bei. Dieses kooperative Governance-Verständnis erkennt 
+an, dass die komplexen Herausforderungen des Waldumbaus nicht von einzelnen 
+Akteuren allein bewältigt werden können. Durch die Einbindung unterschiedlicher 
+Perspektiven werden Wissen gebündelt, Interessenskonﬂikte frühzeitig sichtbar gemacht 
+und Lernprozesse gefördert. Die geteilte Verantwortung stärkt die Akzeptanz politischer 
+Entscheidungen und unterstützt adaptive Anpassungen der Strategie. Auf diese Weise 
+trägt Governance wesentlich dazu bei, die langfristigen Ziele der Waldstrategie 2050 
+wirksam und nachhaltig zu erreichen.
+
+
+--- PAGE 107 ---
+Entity List 
+Bund; Länder; Waldbesitzende; Wissenschaft; Verbände; Zivilgesellschaft; Governance
+Relationship Triplets 
+Bund setzt Rahmenbedingungen 
+Länder konkretisieren Umsetzung 
+Waldbesitzende realisieren Maßnahmen 
+Wissenschaft unterstützt Governance 
+Zivilgesellschaft beteiligt Governance
+Summary 
+Die Umsetzung des Leitbildes Wald 2050 erfolgt über klar deﬁnierte Handlungsfelder und 
+Meilensteine, die als strategischer Rahmen der Waldpolitik dienen. Handlungsfelder 
+bündeln zentrale Themenbereiche und ermöglichen eine koordinierte Bearbeitung 
+komplexer Herausforderungen auf Bundes- und Länderebene. Durch ihre enge 
+Verknüpfung wird eine integrative Betrachtung ökologischer, ökonomischer und sozialer 
+Aspekte gefördert. Meilensteine übersetzen langfristige Zielsetzungen in überprüfbare 
+Etappenziele und machen Fortschritte sowie Deﬁzite transparent. Sie unterstützen 
+adaptive Anpassungen bei veränderten Rahmenbedingungen und fördern Lernprozesse 
+innerhalb der Waldpolitik. Die erfolgreiche Umsetzung erfordert zudem ein kooperatives 
+Governance-Verständnis. Bund, Länder, Waldbesitzende, Wissenschaft, Verbände und 
+Zivilgesellschaft tragen gemeinsam Verantwortung für die Zielerreichung. Durch die 
+Bündelung von Wissen und Perspektiven wird die Akzeptanz politischer Entscheidungen 
+gestärkt und eine langfristig wirksame Waldpolitik ermöglicht.
+Quelle 
+Bundesministerium für Ernährung und Landwirtschaft (BMEL) (2021). 
+Waldstrategie 2050 – Nachhaltige Waldbewirtschaftung: Herausforderungen und Chancen 
+für Mensch, Natur und Klima. 
+Berlin: BMEL.
+
+
+--- PAGE 108 ---
+1 Die Buche 
+1.1 Rotbuche als Schlüsselart des Waldökosystems 
+Die Rotbuche nimmt im mitteleuropäischen Waldökosystem eine zentrale Rolle ein und 
+gilt als Schlüsselart auf potenziellen Naturwaldstandorten. Ihre große ökologische 
+Amplitude erlaubt ihr das Vorkommen auf sehr unterschiedlichen Böden und in einem 
+breiten Höhenspektrum. Besonders prägend ist ihr tiefreichendes Herzwurzelsystem, das 
+Nährstoﬀe aus tieferen Bodenschichten erschließt und damit den Nährstoﬀhaushalt des 
+gesamten Bestandes beeinﬂusst. Dieser Eﬀekt trägt wesentlich zu stabilem Wachstum, 
+hoher Vitalität und einer vergleichsweise geringen Anfälligkeit gegenüber 
+Schadorganismen bei. Darüber hinaus formt die Rotbuche charakteristische 
+Bestandesstrukturen, die sich auf Mikroklima, Bodenprozesse und Lebensräume anderer 
+Arten auswirken. In tieferen Lagen dominieren oft buchengeprägte Bestände, während sie 
+in montanen Lagen häuﬁg in Mischbeständen auftritt. Durch diese strukturelle Vielfalt 
+trägt die Rotbuche wesentlich zur ökologischen Stabilität und Funktionsfähigkeit von 
+Waldökosystemen bei und stellt eine wichtige Grundlage für nachhaltige 
+Waldbewirtschaftung dar.
+Entity List 
+Rotbuche; Waldökosystem; ökologische Amplitude; Herzwurzelsystem; 
+Nährstoﬀhaushalt; Wachstum; Stabilität; Schadorganismen; Bestandesstruktur
+Relationship Triplets 
+Rotbuche prägt Waldökosystem 
+Rotbuche besitzt ökologische Amplitude 
+Herzwurzelsystem beeinﬂusst Nährstoﬀhaushalt 
+Nährstoﬀhaushalt unterstützt Wachstum 
+Wachstum erhöht Stabilität 
+Stabilität reduziert Schadorganismen
+1.2 Klimawandel und zukünftige Verbreitung der Rotbuche 
+Der Klimawandel stellt einen entscheidenden Faktor für die zukünftige Verbreitung der 
+Rotbuche dar. Klimaszenarien zeigen, dass sich ihr potenzielles Areal unter moderaten 
+Erwärmungsbedingungen zunächst ausweiten kann, insbesondere in höheren Lagen. 
+Gleichzeitig ist die Rotbuche trotz ihrer höheren Toleranz gegenüber Trockenheit im 
+Vergleich zur Fichte empﬁndlich gegenüber langanhaltenden und extremen 
+Trockenperioden. 
+Unter stark ausgeprägten Erwärmungsszenarien kann es daher zu einer Verringerung ihrer 
+Konkurrenzfähigkeit kommen, insbesondere gegenüber trockenresistenteren Baumarten 
+wie der Eiche. Diese Dynamik verdeutlicht, dass Klimawandel nicht nur 
+Arealverschiebungen verursacht, sondern auch die Zusammensetzung von 
+Waldgesellschaften langfristig verändert. Für die forstliche Praxis bedeutet dies, dass die 
+Rotbuche zwar eine wichtige Zielbaumart darstellt, ihre Förderung jedoch 
+standortspeziﬁsch erfolgen muss. Anpassungsstrategien müssen klimatische 
+Unsicherheiten berücksichtigen, um langfristige Stabilität und Funktionsfähigkeit der 
+Bestände sicherzustellen.
+Entity List 
+Rotbuche; Klimawandel; Klimaszenarien; Areal; Trockenheit; Konkurrenzfähigkeit; 
+Waldgesellschaften; Standort
+
+
+--- PAGE 109 ---
+Relationship Triplets 
+Klimawandel beeinﬂusst Klimaszenarien 
+Klimaszenarien verändern Areal 
+Trockenheit begrenzt Rotbuche 
+Trockenheit reduziert Konkurrenzfähigkeit 
+Konkurrenzfähigkeit prägt Waldgesellschaften 
+Standort bestimmt Areal
+1.3 Marktchancen von Buchenholz und Baumartenwahl 
+Die Entwicklung des Buchenanteils in österreichischen Wäldern wird nicht allein durch 
+ökologische Faktoren bestimmt, sondern wesentlich durch ökonomische 
+Rahmenbedingungen beeinﬂusst. Ein zentraler Aspekt ist das Vertrauen der 
+Waldbewirtschafter:innen in die Marktchancen von Buchenholz. Obwohl die Rotbuche auf 
+großen Flächen potenziell standortgerecht wäre, ist ihr Anteil am stehenden Holzvolumen 
+vergleichsweise gering. Technologische Entwicklungen, neue Verarbeitungsmöglichkeiten 
+und eine steigende Nachfrage nach hochwertigen Holzprodukten können die 
+wirtschaftliche Attraktivität von Buchenholz erhöhen. Dadurch wird die Baumartenwahl in 
+der Waldbewirtschaftung beeinﬂusst und langfristig auch die Waldstruktur verändert. 
+Marktimpulse wirken somit als Steuerungsmechanismus für waldbauliche 
+Entscheidungen. Die Rotbuche wird damit nicht nur als klimaangepasste Baumart 
+relevant, sondern auch als Teil einer sich wandelnden Wertschöpfungskette, die 
+ökologische und ökonomische Ziele miteinander verknüpft.
+Entity List 
+Buchenholz; Marktchancen; Waldbewirtschaftung; Holzvolumen; Wertschöpfungskette; 
+Baumartenwahl; technische Entwicklung
+Relationship Triplets 
+Marktchancen beeinﬂussen Baumartenwahl 
+Baumartenwahl prägt Waldbewirtschaftung 
+Waldbewirtschaftung verändert Holzvolumen 
+technische Entwicklung stärkt Marktchancen 
+Wertschöpfungskette erhöht Marktchancen
+Summary 
+Die Rotbuche nimmt als Schlüsselart eine zentrale Rolle in mitteleuropäischen 
+Waldökosystemen ein. Ihre große ökologische Amplitude, ihr tiefreichendes 
+Herzwurzelsystem und ihre Fähigkeit zur Ausbildung stabiler Bestandesstrukturen 
+machen sie zu einer wichtigen Grundlage für ökologisch stabile und funktionsfähige 
+Wälder. Diese Eigenschaften tragen zu einer hohen Widerstandsfähigkeit gegenüber 
+Schadorganismen und zu einer nachhaltigen Nährstoﬀ- und Wachstumsdynamik bei.
+Der Klimawandel beeinﬂusst jedoch zunehmend die zukünftige Verbreitung der Rotbuche. 
+Während moderate Erwärmung eine Arealausweitung begünstigen kann, führen extreme 
+Trockenperioden zu Einschränkungen der Konkurrenzfähigkeit. Gleichzeitig spielen 
+ökonomische Faktoren eine entscheidende Rolle für die Baumartenwahl. Marktchancen, 
+technologische Entwicklungen und neue Verwendungswege beeinﬂussen den 
+Buchenanteil in der Waldbewirtschaftung maßgeblich. Die Rotbuche ist damit sowohl 
+ökologisch als auch ökonomisch ein zentraler Baustein klimaangepasster 
+Waldentwicklung.
+2 Optimierung von Klima- und Naturschutz 
+
+--- PAGE 110 ---
+2.1 Baumartenwechsel von Fichte zu Buche 
+Der Baumartenwechsel von Fichte zu Buche gilt als eine der wichtigsten Maßnahmen zur 
+gleichzeitigen Förderung von Klimaschutz und Naturschutz. Hintergrund ist die hohe 
+Störungsanfälligkeit vieler Fichtenbestände, die bei großﬂächigen Ausfällen erhebliche 
+CO₂-Emissionen verursachen können. Buchenbestände sind auf vielen Standorten 
+stabiler und weisen eine kontinuierliche Kohlenstoﬀbindung auf. 
+Zusätzlich fördert der Baumartenwechsel autochthone Waldgesellschaften, die aus 
+naturschutzfachlicher Sicht als wertvoll gelten. Die Maßnahme trägt dazu bei, Risiken 
+durch Stürme, Trockenheit und Schädlingsbefall zu reduzieren und gleichzeitig langfristige 
+Senkenleistungen zu stabilisieren. Allerdings verändern sich durch den Klimawandel auch 
+die potenziellen Verbreitungsgebiete von Buchenwald-Lebensraumtypen, was eine 
+vorausschauende Planung erforderlich macht. Insgesamt verbindet der 
+Baumartenwechsel Risikominimierung, Klimaschutz und Biodiversitätsförderung.
+Entity List 
+Baumartenwechsel; Fichte; Buche; Klimaschutz; Naturschutz; Kohlenstoﬀbindung; CO2-
+Emissionen; Waldgesellschaften; Störungsanfälligkeit
+Relationship Triplets 
+Baumartenwechsel reduziert Störungsanfälligkeit 
+Störungsanfälligkeit erhöht CO2-Emissionen 
+Buche verbessert Kohlenstoﬀbindung 
+Baumartenwechsel stärkt Klimaschutz 
+Baumartenwechsel unterstützt Naturschutz 
+Waldgesellschaften proﬁtieren von Baumartenwechsel
+2.2 Kaskadische Nutzung von Buchenholz 
+Mit zunehmendem Buchenanteil gewinnt die kaskadische Nutzung von Buchenholz an 
+Bedeutung. Ziel dieses Ansatzes ist es, Holz zunächst stoﬄich in langlebigen Produkten 
+einzusetzen, bevor es energetisch verwertet wird. Dadurch bleibt der im Holz gebundene 
+Kohlenstoﬀ über längere Zeiträume gespeichert, und gleichzeitig können energieintensive 
+Materialien substituiert werden. 
+Derzeit wird Buchenholz häuﬁg direkt energetisch genutzt, was zu einer raschen 
+Freisetzung des gebundenen Kohlenstoﬀs führt. Durch technologische Innovationen und 
+neue Einsatzmöglichkeiten in der Bauwirtschaft kann die stoﬄiche Nutzung jedoch 
+ausgeweitet werden. Die kaskadische Nutzung verbindet somit Waldbau, Industrie und 
+Klimaschutz entlang der gesamten Wertschöpfungskette und stellt einen wichtigen Hebel 
+zur Optimierung der Klimawirkung von Buchenwäldern dar.
+Entity List 
+kaskadische Holznutzung; Buchenholz; Holzprodukte; Kohlenstoﬀ; Substitution; 
+Bauwirtschaft; Wertschöpfungskette
+Relationship Triplets 
+kaskadische Holznutzung verlängert Kohlenstoﬀspeicherung 
+Holzprodukte speichern Kohlenstoﬀ 
+Substitution senkt Treibhausgasemissionen 
+Bauwirtschaft nutzt Holzprodukte 
+Wertschöpfungskette integriert Buchenholz
+2.3 Biodiversitätsmaßnahmen im Wirtschaftswald 
+
+--- PAGE 111 ---
+Biodiversitätsmaßnahmen im bewirtschafteten Buchenwald sind ein zentrales Instrument 
+für großﬂächigen Artenschutz. Maßnahmen wie Totholzanreicherung, Veteranenbäume 
+und Altholzinseln schaﬀen wichtige Lebensräume für spezialisierte Arten und fördern die 
+Vernetzung zwischen Schutzgebieten. Dadurch können stabile Populationen auch 
+außerhalb streng geschützter Flächen erhalten werden. 
+Aus Klimaschutzsicht sind diese Maßnahmen jedoch ambivalent. Während sie den 
+langfristigen Kohlenstoﬀspeicher im Wald erhöhen, verringern sie teilweise die jährliche 
+CO₂-Senkenleistung durch reduzierte Zuwächse und geringeren Holzeinschlag. 
+Gleichzeitig sinkt das Potenzial der Kohlenstoﬀbindung in Holzprodukten. Diese 
+Zielkonﬂikte verdeutlichen, dass Biodiversität und Klimaschutz nicht automatisch 
+deckungsgleich sind. Eine bewusste Priorisierung und räumliche Planung ist daher 
+notwendig, um beide Ziele sinnvoll miteinander zu verbinden.
+Entity List 
+Biodiversitätsmaßnahmen; Wirtschaftswald; Totholz; Veteranenbäume; Altholzinseln; 
+Artenschutz; Kohlenstoﬀspeicher; CO2-Senke; Holzprodukte
+Relationship Triplets 
+Biodiversitätsmaßnahmen fördern Artenschutz 
+Totholz erhöht Kohlenstoﬀspeicher 
+Kohlenstoﬀspeicher stabilisiert Wald 
+Biodiversitätsmaßnahmen verringern CO2-Senke 
+Holzprodukte beeinﬂussen CO2-Senke
+Summary 
+Die gleichzeitige Optimierung von Klima- und Naturschutz stellt eine zentrale 
+Herausforderung der Waldbewirtschaftung dar. Der Baumartenwechsel von Fichte zu 
+Buche gilt als wichtige Maßnahme zur Reduktion von Störungsrisiken und zur 
+Stabilisierung der Kohlenstoﬀbindung. Buchenbestände weisen auf vielen Standorten 
+eine höhere Widerstandsfähigkeit gegenüber klimatischen Extremereignissen auf und 
+fördern standorttypische Waldgesellschaften.
+Ein weiterer Schlüsselansatz ist die kaskadische Nutzung von Buchenholz, bei der 
+stoﬄiche Nutzung priorisiert und energetische Nutzung nachgelagert erfolgt. Dadurch 
+wird die Kohlenstoﬀspeicherung verlängert und Substitutionseﬀekte werden maximiert. 
+Biodiversitätsmaßnahmen wie Totholzanreicherung und Veteranenbäume leisten einen 
+wichtigen Beitrag zum Artenschutz, stehen jedoch teilweise in Zielkonﬂikt mit der 
+kurzfristigen CO₂-Senkenleistung. Eine bewusste Priorisierung und räumliche 
+Diﬀerenzierung ist erforderlich, um Klima- und Biodiversitätsziele langfristig miteinander 
+zu verbinden.
+3 Forstpolitische Instrumente 
+3.1 Integrierte Beratung und Fortbildung 
+Die Umsetzung klima- und biodiversitätsrelevanter Maßnahmen erfordert gezielte 
+Beratung und Fortbildung. Bestehende Informationsangebote konzentrieren sich häuﬁg 
+auf waldbauliche Einzelaspekte und verknüpfen Naturschutz und Klimaschutz nur 
+unzureichend. Ein integrierter Ansatz soll diese Themen gemeinsam adressieren und 
+Waldbesitzer:innen bei langfristigen Entscheidungen unterstützen. 
+Besonders hoﬀerne und kleinstrukturierte Waldbesitzer:innen proﬁtieren von 
+niedrigschwelligen Beratungsangeboten, praxisnahen Beispielen und kontinuierlicher 
+Begleitung. Qualiﬁzierte Berater:innen spielen dabei eine Schlüsselrolle, da sie komplexe 
+Zielkonﬂikte verständlich vermitteln und in betriebliche Konzepte übersetzen können. 
+
+--- PAGE 112 ---
+Beratung wird somit als zentraler Hebel verstanden, um Wissen, Motivation und 
+Umsetzungskompetenz zu bündeln.
+Entity List 
+Beratung; Fortbildung; Waldbesitzer:innen; Wissen; Naturschutz; Klimaschutz; 
+Umsetzungskompetenz
+Relationship Triplets 
+Beratung stärkt Umsetzungskompetenz 
+Fortbildung erhöht Wissen 
+Wissen unterstützt Waldbesitzer:innen 
+Beratung verbindet Naturschutz 
+Beratung verbindet Klimaschutz
+3.2 Zielorientierte Förderinstrumente 
+Förderinstrumente sollen gezielt Maßnahmen unterstützen, die zur Erreichung von 
+Biodiversitäts-, Klimaschutz- und Anpassungszielen beitragen. Voraussetzung dafür sind 
+klar deﬁnierte Ziele, transparente Kriterien und eine systematische Evaluierung. Ohne 
+eindeutige Zieldeﬁnition ist eine Bewertung der Wirksamkeit öﬀentlicher Mittel kaum 
+möglich. Im Wald erschweren lange Entwicklungszeiträume eine kurzfristige 
+Erfolgskontrolle. Daher sind präzise formulierte Maßnahmen und langfristige 
+Förderprogramme notwendig. Transparenz, gleichwertiger Zugang und klare 
+Verantwortlichkeiten erhöhen die Akzeptanz und Wirksamkeit der Förderinstrumente. 
+Förderung wird so zu einem Steuerungsinstrument, das waldbauliche Entscheidungen im 
+Sinne gesellschaftlicher Ziele lenkt.
+Entity List 
+Förderinstrumente; Ziele; Maßnahmen; Evaluierung; Transparenz; Zugang; 
+Verantwortlichkeiten
+Relationship Triplets 
+Ziele strukturieren Maßnahmen 
+Förderinstrumente lenken Maßnahmen 
+Evaluierung verbessert Förderinstrumente 
+Transparenz stärkt Zugang 
+Verantwortlichkeiten sichern Umsetzung
+3.3 One-Stop-Shop-Förderplattform 
+Eine zentrale Förderplattform soll Informationen zu Biodiversität, Klimaschutz und 
+Klimawandelanpassung bündeln und für Waldbesitzer:innen leicht zugänglich machen. 
+Derzeit sind Förderangebote fragmentiert und schwer überschaubar, was die 
+Inanspruchnahme hemmt. 
+Die Plattform soll nicht nur Informationen bereitstellen, sondern auch Beratung und 
+Unterstützung bei Antragstellung und Abwicklung integrieren. Durch administrative 
+Vereinfachung und aktive Kommunikation können Zugangshürden gesenkt und die 
+tatsächliche Umsetzung gefördert werden. Damit wird die Förderplattform zu einem 
+wichtigen Bindeglied zwischen Politik, Beratung und Praxis.
+Entity List 
+Förderplattform; Förderangebote; Informationen; Beratung; Antragstellung; Abwicklung; 
+Zugang
+
+
+--- PAGE 113 ---
+Relationship Triplets 
+Förderplattform bündelt Informationen 
+Informationen verbessern Zugang 
+Beratung unterstützt Antragstellung 
+Beratung erleichtert Abwicklung 
+Förderangebote erreichen Waldbesitzer:innen
+Summary  
+Die erfolgreiche Umsetzung klima- und biodiversitätsorientierter Waldstrategien erfordert 
+geeignete forstpolitische Instrumente. Zentrale Bedeutung kommt integrierten Beratungs- 
+und Fortbildungsangeboten zu, die Waldbesitzer:innen bei langfristigen Entscheidungen 
+unterstützen und komplexe Zielkonﬂikte verständlich vermitteln. Besonders 
+kleinstrukturierte und hof-ferne Betriebe proﬁtieren von niedrigschwelligen, praxisnahen 
+Beratungsformaten.
+Zielorientierte Förderinstrumente ergänzen diese Ansätze, indem sie konkrete 
+Maßnahmen zur Erreichung gesellschaftlicher Ziele lenken. Klare Zieldeﬁnitionen, 
+transparente Kriterien und langfristige Programme sind Voraussetzung für ihre 
+Wirksamkeit. Eine zentrale Förderplattform kann den Zugang zu Informationen erleichtern, 
+administrative Hürden reduzieren und Beratung, Antragstellung sowie Abwicklung 
+bündeln. Durch das Zusammenspiel von Beratung, Förderung und transparenter 
+Steuerung wird eine wirksame Umsetzung klima- und naturschutzorientierter Waldpolitik 
+ermöglicht.
+Quelle: 
+Dirnböck, T., Foldal, C., Jandl, R., Kirchmeir, H., Kobler, J., Paternoster, D., Pichler-Koban, 
+C., Pröll, G., Schwarzl, B., Stickler, T. & Süssenbacher, R. (2024).
+Integration von Natur- und Klimaschutz im österreichischen Buchenwald. Kurzfassung der 
+Ergebnisse des Projekts ManageBeech.
+Wien: Umweltbundesamt. DP-193. ISBN 978-3-99004-749-1.
+
+--- PAGE 114 ---
+1 Klimawandel als globaler Rahmen der Waldpolitik 
+1.1 Klimawandel als globales Umweltproblem 
+Der Klimawandel wird als globales Umweltproblem verstanden, dessen Ursachen und 
+Wirkungen über nationale und regionale Ebenen hinausreichen. Internationale Klimaziele 
+wie das 1,5-Grad- und 2-Grad-Ziel beziehen sich auf die durchschnittliche Erwärmung 
+der gesamten Erdatmosphäre und bilden einen zentralen Referenzrahmen für politische 
+Entscheidungsprozesse. Wälder werden in diesem Kontext zunehmend als Bestandteil 
+globaler Klimaschutzstrategien betrachtet, insbesondere im Hinblick auf 
+Kohlenstoﬀspeicherung und Emissionsminderung. 
+Die wissenschaftliche Grundlage dieser Perspektive bilden globale Klimamodelle, die 
+großräumige Zusammenhänge zwischen Atmosphäre, Ozeanen und Landoberﬂächen 
+abbilden. Diese Modelle ermöglichen Aussagen über langfristige Trends, sind jedoch mit 
+zunehmender räumlicher Diﬀerenzierung mit Unsicherheiten verbunden. Dennoch prägen 
+sie maßgeblich politische Zielsetzungen und Erwartungen an die Rolle der Wälder im 
+Klimaschutz. Der Wald wird damit nicht mehr nur als lokales Ökosystem betrachtet, 
+sondern als Teil eines globalen Systems, dessen Entwicklung eng mit internationalen 
+Klimaprozessen verknüpft ist.
+Entity List 
+Klimawandel; globale Ebene; Klimaziele; Atmosphäre; Klimamodelle; Wald; Klimaschutz
+Relationship Triplets 
+Klimawandel betriﬀt globale Ebene 
+Klimaziele begrenzen Erwärmung 
+Klimamodelle beschreiben Atmosphäre 
+Wald unterstützt Klimaschutz 
+Klimaschutz adressiert Klimawandel
+1.2 Globale Wissensproduktion und Unsicherheit 
+Die Wissensproduktion zum Klimawandel basiert maßgeblich auf globalen Modellen und 
+Szenarien, wie sie etwa in internationalen Klimaberichten verwendet werden. Diese 
+Modelle erfassen komplexe Wechselwirkungen zwischen klimatischen Prozessen und 
+ermöglichen langfristige Projektionen. Gleichzeitig nimmt die Unsicherheit der Ergebnisse 
+zu, je stärker Aussagen auf regionale oder lokale Ebenen heruntergebrochen werden. 
+Für den Wald bedeutet dies, dass globale Aussagen über Temperaturanstieg oder 
+Niederschlagsveränderungen nur eingeschränkt konkrete Handlungsempfehlungen für 
+einzelne Standorte liefern können. Dennoch beeinﬂussen diese globalen Wissenssysteme 
+die forstpolitische Debatte erheblich, da sie als wissenschaftliche Grundlage für politische 
+Zielsetzungen dienen. Unsicherheit wird damit zu einem strukturellen Bestandteil von 
+Entscheidungsprozessen. Anstatt exakte Prognosen zu liefern, schaﬀen Klimamodelle 
+Orientierungsrahmen, innerhalb derer Anpassungsstrategien entwickelt werden müssen. 
+Die Anerkennung dieser Unsicherheiten ist entscheidend, um ﬂexible und adaptive 
+Formen der Waldbewirtschaftung zu ermöglichen.
+Entity List 
+Wissensproduktion; Klimamodelle; Szenarien; Unsicherheit; Waldstandorte; 
+Entscheidungsprozesse
+Relationship Triplets 
+Klimamodelle erzeugen Szenarien 
+Szenarien enthalten Unsicherheit 
+
+--- PAGE 115 ---
+Unsicherheit prägt Entscheidungsprozesse 
+Wissensproduktion beeinﬂusst Politik 
+Waldstandorte begrenzen Prognosen
+1.3 Internationale Klimapolitik und Wald 
+Internationale Klimapolitik deﬁniert Zielwerte und Strategien zur Begrenzung der globalen 
+Erwärmung. Wälder werden dabei zunehmend als Instrument zur Erreichung dieser Ziele 
+betrachtet, etwa durch Kohlenstoﬀspeicherung oder Emissionsvermeidung. Programme 
+und Mechanismen zur Bewertung von Klimaschutzleistungen des Waldes sind eng mit 
+globalen Diskursen verknüpft. Gleichzeitig wird deutlich, dass globale Klimapolitik lokale 
+Besonderheiten nur begrenzt berücksichtigen kann. Unterschiedliche ökologische, soziale 
+und wirtschaftliche Rahmenbedingungen führen dazu, dass Maßnahmen zur 
+Waldanpassung regional sehr unterschiedlich ausfallen müssen. Die Herausforderung 
+besteht darin, globale Zielsetzungen mit lokalen Handlungsspielräumen zu verbinden. Der 
+Wald wird somit zu einem Schnittpunkt zwischen internationaler Klimapolitik und 
+regionaler Umsetzung, wobei Spannungen zwischen globalen Erwartungen und lokalen 
+Realitäten sichtbar werden.
+Entity List 
+internationale Klimapolitik; Klimaziele; Wald; Kohlenstoﬀspeicherung; Anpassung; 
+Regionen
+Relationship Triplets 
+internationale Klimapolitik deﬁniert Klimaziele 
+Wald ermöglicht Kohlenstoﬀspeicherung 
+Klimaziele erfordern Anpassung 
+Regionen unterscheiden Anpassung 
+Wald verbindet Politik und Regionen
+Summary 
+Der Klimawandel bildet den globalen Rahmen für die heutige Waldpolitik. Internationale 
+Klimaziele und globale Klimamodelle prägen politische Zielsetzungen und Erwartungen an 
+die Rolle des Waldes im Klimaschutz. Gleichzeitig sind diese globalen Wissenssysteme 
+mit Unsicherheiten behaftet, insbesondere bei der Übertragung auf regionale und lokale 
+Ebenen. Wälder werden zunehmend als Teil globaler Klimastrategien verstanden, während 
+ihre konkrete Bewirtschaftung an standortspeziﬁsche Bedingungen angepasst werden 
+muss. Daraus ergibt sich die Notwendigkeit, globale Zielvorgaben mit ﬂexiblen, regional 
+diﬀerenzierten Anpassungsstrategien zu verbinden und Unsicherheit als festen 
+Bestandteil von Entscheidungsprozessen zu akzeptieren.
+2 Klimawandelbedingte Störungen und Vulnerabilität von Wäldern 
+2.1 Klimatische Stressfaktoren und Waldreaktionen 
+Der Klimawandel führt zu einer Vielzahl klimatischer Stressfaktoren, die die Stabilität von 
+Wäldern beeinträchtigen. Steigende Temperaturen, veränderte Niederschlagsmuster und 
+häuﬁgere Extremereignisse wie Dürreperioden erhöhen den Wasserstress und 
+beeinﬂussen Wachstum sowie Vitalität der Bestände. Diese Belastungen wirken nicht 
+isoliert, sondern verstärken sich gegenseitig. 
+Wälder reagieren auf diese Stressfaktoren mit reduzierten Zuwächsen, erhöhter Mortalität 
+und veränderter Artenzusammensetzung. Besonders problematisch ist die zeitliche 
+Verzögerung vieler Reaktionen, da Schäden oft erst Jahre nach dem eigentlichen 
+Stressereignis sichtbar werden. Dadurch wird die Einschätzung zukünftiger 
+
+--- PAGE 116 ---
+Entwicklungen erschwert. Die zunehmende Belastung durch klimatische Stressfaktoren 
+macht deutlich, dass Wälder nicht mehr als stabile Systeme betrachtet werden können, 
+sondern als dynamische Ökosysteme mit begrenzter Anpassungsfähigkeit.
+Entity List 
+Temperaturanstieg; Niederschlagsmuster; Extremereignisse; Wasserstress; Wald; Vitalität
+Relationship Triplets 
+Temperaturanstieg erhöht Wasserstress 
+Extremereignisse schwächen Wald 
+Wasserstress reduziert Vitalität 
+Niederschlagsmuster beeinﬂussen Wachstum 
+Wald reagiert auf Klimawandel
+2.2 Biotische und abiotische Störungen 
+Klimawandelbedingte Veränderungen erhöhen die Häuﬁgkeit und Intensität biotischer und 
+abiotischer Störungen. Dazu zählen Schadorganismen, Waldbrände, Stürme und 
+großﬂächige Ausfälle ganzer Bestände. Besonders problematisch ist, dass geschwächte 
+Wälder anfälliger für Folgeereignisse werden, wodurch sich Schadprozesse gegenseitig 
+verstärken können. 
+Biotische Störungen wie Insektenkalamitäten proﬁtieren häuﬁg von höheren 
+Temperaturen, während abiotische Störungen durch Trockenheit und Hitze begünstigt 
+werden. Diese Entwicklungen reduzieren die Fähigkeit der Wälder, sich selbstständig zu 
+regenerieren. Der Klimawandel wirkt somit als Verstärker bestehender Risiken und erhöht 
+die Wahrscheinlichkeit großräumiger Störungen. Die Betrachtung einzelner 
+Störungsfaktoren greift dabei zu kurz, da ihre Wechselwirkungen entscheidend für die 
+Gesamtvulnerabilität der Wälder sind.
+Entity List 
+Störungen; Schadorganismen; Waldbrände; Stürme; Klimawandel; Vulnerabilität
+Relationship Triplets 
+Klimawandel verstärkt Störungen 
+Schadorganismen schädigen Wald 
+Waldbrände zerstören Bestände 
+Störungen erhöhen Vulnerabilität 
+Vulnerabilität mindert Stabilität
+2.3 Vulnerabilität und Anpassungsgrenzen 
+Die zunehmenden klimabedingten Belastungen führen zu einer steigenden Vulnerabilität 
+der Wälder. Vulnerabilität beschreibt dabei die Anfälligkeit eines Systems gegenüber 
+Störungen sowie seine begrenzte Fähigkeit zur Erholung. Unter veränderten 
+Klimabedingungen stoßen viele Wälder an ihre Anpassungsgrenzen. 
+Klimaszenarien verdeutlichen, dass zukünftige Risiken nicht linear verlaufen, sondern 
+durch komplexe Rückkopplungen geprägt sind. Anpassungsmaßnahmen können die 
+Vulnerabilität verringern, jedoch nicht vollständig aufheben. Entscheidend ist daher, 
+realistische Erwartungen an die Anpassungsfähigkeit der Wälder zu formulieren. Die 
+Anerkennung von Anpassungsgrenzen ist Voraussetzung für ein verantwortungsvolles 
+Risikomanagement und eine langfristige Sicherung zentraler Waldfunktionen.
+
+
+--- PAGE 117 ---
+Entity List 
+Vulnerabilität; Anpassung; Klimaszenarien; Risiken; Waldökosysteme
+Relationship Triplets 
+Klimaszenarien zeigen Risiken 
+Risiken erhöhen Vulnerabilität 
+Anpassung reduziert Vulnerabilität 
+Waldökosysteme besitzen Anpassungsgrenzen 
+Anpassungsgrenzen begrenzen Stabilität
+Summary 
+Der Klimawandel erhöht die Belastung von Wäldern durch klimatische Stressfaktoren 
+sowie biotische und abiotische Störungen. Steigende Temperaturen, Trockenheit und 
+Extremereignisse beeinträchtigen Wachstum und Vitalität und erhöhen die Anfälligkeit 
+gegenüber Schadprozessen. Diese Entwicklungen verstärken sich gegenseitig und führen 
+zu einer steigenden Vulnerabilität der Wälder. Anpassungsmaßnahmen können Risiken 
+mindern, stoßen jedoch an ökologische Grenzen. Eine realistische Einschätzung von 
+Vulnerabilität und Anpassungsfähigkeit ist daher zentral für eine nachhaltige 
+Waldbewirtschaftung im Klimawandel.
+3 Anpassung, Resilienz und Steuerung der Waldentwicklung 
+3.1 Aktive Steuerung der Waldentwicklung 
+Die Anpassung der Wälder an den Klimawandel erfordert eine aktive Steuerung der 
+Waldentwicklung. Ziel ist es, Wälder so zu gestalten, dass sie auch unter veränderten 
+Klimabedingungen ihre Funktionen erfüllen können. Dies umfasst die Förderung stabiler 
+Bestände, die Berücksichtigung standörtlicher Bedingungen und die Anpassung 
+waldbaulicher Strategien. 
+Aktive Steuerung bedeutet, natürliche Prozesse gezielt zu unterstützen und Risiken 
+frühzeitig zu adressieren. Dabei wird deutlich, dass Passivität keine geeignete Strategie 
+mehr darstellt. Waldentwicklung wird als langfristiger Prozess verstanden, der 
+kontinuierliche Anpassung und Überprüfung erfordert. Die Steuerung der 
+Waldentwicklung ist damit ein zentrales Instrument zur Sicherung von Resilienz und 
+Klimaschutzleistung.
+Entity List 
+Waldentwicklung; Anpassung; Steuerung; Resilienz; Standorte
+Relationship Triplets 
+Anpassung steuert Waldentwicklung 
+Steuerung fördert Resilienz 
+Standorte begrenzen Waldentwicklung 
+Resilienz sichert Funktionen 
+Waldentwicklung reagiert auf Klimawandel
+3.2 Monitoring und adaptives Management 
+Monitoring spielt eine zentrale Rolle bei der Anpassung der Wälder an den Klimawandel. 
+Durch regelmäßige Erfassung von Waldzustand, Störungen und Klimafaktoren können 
+Veränderungen frühzeitig erkannt werden. Diese Informationen bilden die Grundlage für 
+adaptives Management. 
+Adaptives Management bedeutet, Maßnahmen kontinuierlich zu überprüfen und bei 
+Bedarf anzupassen. Angesichts hoher Unsicherheiten ist diese Flexibilität entscheidend, 
+
+--- PAGE 118 ---
+um auf unvorhersehbare Entwicklungen reagieren zu können. Monitoring ermöglicht damit 
+nicht nur Kontrolle, sondern aktives Lernen. Waldmanagement wird zu einem 
+dynamischen Prozess, der Wissen, Beobachtung und Anpassung miteinander verbindet.
+Entity List 
+Monitoring; Waldzustand; Daten; adaptives Management; Lernen
+Relationship Triplets 
+Monitoring erfasst Waldzustand 
+Daten unterstützen Management 
+adaptives Management nutzt Monitoring 
+Lernen verbessert Anpassung 
+Anpassung erhöht Resilienz
+3.3 Nachhaltige Waldbewirtschaftung im Klimawandel 
+Nachhaltige Waldbewirtschaftung im Klimawandel bedeutet, ökologische Stabilität, 
+Klimaschutz und gesellschaftliche Ansprüche gemeinsam zu berücksichtigen. Wälder 
+sollen langfristig als Kohlenstoﬀspeicher, Lebensraum und Ressource erhalten bleiben. 
+Die Unsicherheiten des Klimawandels machen ﬂexible Planungsansätze erforderlich, die 
+regelmäßig überprüft und angepasst werden. Nachhaltigkeit wird dabei nicht als 
+statischer Zustand verstanden, sondern als dynamischer Prozess. Die Integration von 
+Anpassung, Risikomanagement und langfristiger Perspektive ist entscheidend, um die 
+vielfältigen Funktionen des Waldes auch für zukünftige Generationen zu sichern.
+Entity List 
+Nachhaltigkeit; Waldbewirtschaftung; Klimaschutz; Anpassung; Generationen
+Relationship Triplets 
+Nachhaltigkeit prägt Waldbewirtschaftung 
+Waldbewirtschaftung unterstützt Klimaschutz 
+Anpassung sichert Nachhaltigkeit 
+Klimaschutz schützt Generationen 
+Waldbewirtschaftung reagiert auf Klimawandel
+Summary  
+Die Anpassung der Wälder an den Klimawandel erfordert eine aktive, langfristig 
+ausgerichtete Steuerung der Waldentwicklung. Monitoring und adaptives Management 
+ermöglichen es, auf Unsicherheiten und neue Erkenntnisse ﬂexibel zu reagieren. 
+Nachhaltige Waldbewirtschaftung wird dabei als dynamischer Prozess verstanden, der 
+Klimaschutz, Anpassung und gesellschaftliche Anforderungen integriert. Ziel ist es, 
+resiliente Wälder zu entwickeln, die ihre ökologischen und klimarelevanten Funktionen 
+auch unter veränderten Bedingungen langfristig erfüllen können.
+Quelle  
+Krott, M. (2005).
+Regierung des Waldes: Steuerung, Akteure und politische Prozesse in der Forstwirtschaft.
+Wiesbaden: VS Verlag für Sozialwissenschaften (Springer Fachmedien)
+
+--- PAGE 119 ---
+1 Grundlagen der Klimaschutzwirkung des Forst- und Holzsektors 
+1.1 Klimaschutzmechanismen im Forst- und Holzsektor 
+Der Forst- und Holzsektor trägt über mehrere miteinander verknüpfte Mechanismen zur 
+Minderung des Klimawandels bei. Eine zentrale Rolle spielt die Kohlenstoﬀspeicherung im 
+Waldökosystem, die sich aus dem Zusammenspiel von Zuwachs, Nutzung und 
+natürlichen Verlusten ergibt. Zusätzlich wird Kohlenstoﬀ in Holzprodukten über 
+unterschiedlich lange Zeiträume gespeichert, abhängig von Produktart und Lebensdauer. 
+Über die Speicherung hinaus entstehen Klimaschutzwirkungen durch Substitution. Holz 
+kann emissionsintensive Materialien wie Stahl oder Beton ersetzen und fossile 
+Energieträger substituieren, wodurch zusätzliche Emissionen vermieden werden. Die 
+Gesamtwirkung ergibt sich aus dem Zusammenspiel von Speicher- und 
+Substitutionseﬀekten entlang der gesamten Wertschöpfungskette. 
+Eine isolierte Betrachtung einzelner Komponenten greift zu kurz, da Veränderungen im 
+Waldmanagement direkte Auswirkungen auf Holzverfügbarkeit, Produktströme und 
+Substitutionseﬀekte haben. Die Klimaschutzleistung des Sektors ist daher systemisch zu 
+verstehen und erfordert eine integrierte Betrachtung von Wald, Nutzung und 
+Holzverwendung.
+Entity List 
+Forst- und Holzsektor; Waldökosystem; Holzprodukte; Kohlenstoﬀspeicherung; stoﬄiche 
+Substitution; energetische Substitution; Wertschöpfungskette; Klimaschutzleistung
+Relationship Triplets 
+Forst- und Holzsektor umfasst Waldökosystem 
+Forst- und Holzsektor umfasst Holzprodukte 
+Waldökosystem ermöglicht Kohlenstoﬀspeicherung 
+Holzprodukte ermöglichen Kohlenstoﬀspeicherung 
+stoﬄiche Substitution erhöht Klimaschutzleistung 
+energetische Substitution erhöht Klimaschutzleistung
+1.2 Annahmen, Koeﬃzienten und Unsicherheiten 
+Die Bewertung der Klimaschutzwirkung des Forst- und Holzsektors beruht auf einer 
+Vielzahl von Annahmen und Koeﬃzienten. Dazu zählen Parameter zur 
+Kohlenstoﬀspeicherung in Biomasse, Totholz und Böden sowie Substitutionsfaktoren für 
+stoﬄiche und energetische Nutzung von Holz. Diese Werte werden aus empirischen 
+Studien abgeleitet und sind mit Unsicherheiten verbunden. 
+Unsicherheiten entstehen nicht nur durch begrenzte Datenverfügbarkeit, sondern auch 
+durch methodische Entscheidungen, etwa bei der Festlegung von Systemgrenzen oder 
+Referenzsystemen. Zudem beeinﬂussen zeitliche Verzögerungen zwischen 
+Kohlenstoﬀaufnahme und -freisetzung die Bilanzierung. 
+Ergebnisse zur Klimaschutzwirkung sind daher nicht als exakte Vorhersagen zu 
+verstehen, sondern als belastbare Orientierungen innerhalb deﬁnierter Annahmen. 
+Transparenz über Unsicherheiten ist Voraussetzung für eine sachgerechte Interpretation 
+und den Vergleich unterschiedlicher Managementoptionen.
+Entity List 
+Annahmen; Koeﬃzienten; Unsicherheiten; Biomasse; Totholz; Waldboden; 
+Substitutionsfaktoren; Systemgrenzen
+Relationship Triplets 
+Annahmen bestimmen Koeﬃzienten 
+
+--- PAGE 120 ---
+Koeﬃzienten beeinﬂussen Kohlenstoﬀbilanz 
+Unsicherheiten betreﬀen Koeﬃzienten 
+Systemgrenzen beeinﬂussen Unsicherheiten 
+Substitutionsfaktoren beeinﬂussen Kohlenstoﬀbilanz
+1.3 Wertschöpfungskette als integrierter Betrachtungsrahmen 
+Die Klimaschutzwirkung des Forst- und Holzsektors entfaltet sich entlang der gesamten 
+Wertschöpfungskette – von der Waldressource über industrielle Verarbeitung bis zur 
+Nutzung von Holzprodukten. Änderungen im Waldmanagement beeinﬂussen nicht nur 
+Kohlenstoﬀvorräte im Bestand, sondern auch Menge, Qualität und Verfügbarkeit von Holz 
+für unterschiedliche Verwendungszwecke. 
+Diese Wechselwirkungen machen deutlich, dass Maßnahmen im Wald nicht unabhängig 
+von industriellen und gesellschaftlichen Rahmenbedingungen bewertet werden können. 
+Eine Erhöhung oder Reduktion der Nutzung verändert Substitutionseﬀekte ebenso wie 
+Speicherwirkungen. 
+Die Betrachtung der Wertschöpfungskette erlaubt es, Zielkonﬂikte sichtbar zu machen 
+und Managementoptionen systematisch zu vergleichen. Sie bildet die Grundlage für 
+Szenarien, die unterschiedliche Entwicklungspfade des Forst- und Holzsektors 
+untersuchen.
+Entity List 
+Wertschöpfungskette; Waldmanagement; Holzverfügbarkeit; Produktströme; Nutzung; 
+Speicherwirkung; Substitutionseﬀekt
+Relationship Triplets 
+Wertschöpfungskette umfasst Waldmanagement 
+Waldmanagement beeinﬂusst Holzverfügbarkeit 
+Holzverfügbarkeit beeinﬂusst Produktströme 
+Produktströme beeinﬂussen Substitutionseﬀekt 
+Nutzung beeinﬂusst Speicherwirkung
+Summary 
+Der Forst- und Holzsektor wirkt über Kohlenstoﬀspeicherung und Substitution als 
+komplexes Klimaschutzsystem. Speicherprozesse im Wald und in Holzprodukten sowie 
+die Vermeidung fossiler Emissionen durch Substitution sind eng miteinander verknüpft. 
+Die Bewertung dieser Eﬀekte basiert auf Annahmen und Koeﬃzienten, die mit 
+Unsicherheiten verbunden sind und eine transparente Interpretation erfordern. Eine 
+integrierte Betrachtung entlang der gesamten Wertschöpfungskette ist notwendig, um 
+Wechselwirkungen zwischen Waldmanagement, Holzverwendung und 
+Klimaschutzleistung zu verstehen. Diese Systemperspektive bildet die Grundlage für den 
+Vergleich unterschiedlicher Managementstrategien und zukünftiger Entwicklungspfade.
+2 Speicher- und Substitutionsprozesse im Klimaschutz 
+2.1 Aktuelle Klimaschutzleistung des Sektors 
+Die aktuelle Klimaschutzleistung des Forst- und Holzsektors ergibt sich aus der 
+Kombination von biologischer Kohlenstoﬀspeicherung und Substitutionseﬀekten. Die 
+Senkenwirkung des Waldes basiert auf der Diﬀerenz zwischen Zuwachs und Entnahmen, 
+ist jedoch kein stabiler Zustand. Alterung der Bestände, Klimastress und 
+Störungsereignisse können die Senkenleistung verringern. 
+Gleichzeitig ermöglicht die Nutzung von Holz die Bereitstellung von Rohstoﬀen für 
+langlebige Produkte und Substitution. Daraus entsteht ein Zielkonﬂikt zwischen 
+
+--- PAGE 121 ---
+Speicherung im Bestand und Nutzung für Klimaschutz über Produktverwendung. 
+Die Klimaschutzleistung ist daher dynamisch und abhängig von 
+Managemententscheidungen, die sowohl ökologische Stabilität als auch Substitution 
+berücksichtigen müssen.
+Entity List 
+Klimaschutzleistung; Senkenwirkung; Zuwachs; Entnahmen; Klimastress; 
+Holzbereitstellung; Zielkonﬂikt
+Relationship Triplets 
+Zuwachs bestimmt Senkenwirkung 
+Entnahmen beeinﬂussen Senkenwirkung 
+Klimastress verringert Senkenwirkung 
+Holzbereitstellung unterstützt Substitution 
+Zielkonﬂikt betriﬀt Klimaschutzleistung
+2.2 Kohlenstoﬀspeicherung im Waldökosystem 
+Die Kohlenstoﬀspeicherung im Wald verteilt sich auf mehrere Speicherkomponenten, 
+insbesondere lebende Biomasse, Totholz und Waldböden. Für die Klimabilanz ist dabei 
+nicht die absolute Größe dieser Speicher ausschlaggebend, sondern ihre jährliche 
+Veränderung im Zusammenspiel von Zuwachs, Mortalität und Nutzung. Während 
+Veränderungen der Biomasse vergleichsweise rasch auf Managementmaßnahmen 
+reagieren, verlaufen Prozesse im Boden deutlich langsamer und sind mit größeren 
+Unsicherheiten verbunden. Die getrennte Betrachtung der einzelnen 
+Speicherkomponenten ermöglicht eine diﬀerenzierte Analyse der Senkenleistung und 
+verdeutlicht die unterschiedlichen zeitlichen Dynamiken innerhalb des Waldökosystems. 
+Waldökosysteme reagieren insgesamt verzögert auf Management- und 
+Klimaveränderungen, sodass kurzfristige Maßnahmen ihre Wirkung häuﬁg erst über 
+längere Zeiträume entfalten. Für Bewertung und Planung sind daher langfristige 
+Perspektiven erforderlich, die zeitliche Verzögerungen, Unsicherheiten und ökologische 
+Rückkopplungen angemessen berücksichtigen.
+Entity List 
+Waldökosystem; Biomasse; Totholz; Waldboden; Speicherkomponenten; Mortalität; 
+Senkenleistung
+Relationship Triplets 
+Waldökosystem umfasst Biomasse 
+Waldökosystem umfasst Totholz 
+Waldökosystem umfasst Waldboden 
+Mortalität beeinﬂusst Biomasse 
+Speicherkomponenten bestimmen Senkenleistung
+2.3 Substitution durch Holzverwendung 
+Substitution beschreibt die Vermeidung von Treibhausgasemissionen durch den Einsatz 
+von Holz anstelle emissionsintensiver Materialien oder fossiler Energieträger. Stoﬄiche 
+Substitution spielt insbesondere im Bau- und Industriesektor eine Rolle, während 
+energetische Substitution fossile Brennstoﬀe ersetzt. 
+Die Höhe der Substitutionseﬀekte hängt von technologischen Entwicklungen, 
+Produktnachfrage und den verwendeten Referenzsystemen ab. Substitution ist daher 
+keine konstante Größe, sondern verändert sich über die Zeit. 
+
+--- PAGE 122 ---
+Wirksame Substitution setzt die Verfügbarkeit geeigneter Holzströme voraus und ist eng 
+mit Waldmanagement und Wertschöpfungskette verbunden.
+Entity List 
+stoﬄiche Substitution; energetische Substitution; Emissionsvermeidung; Technologie; 
+Produktnachfrage; Holzströme
+Relationship Triplets 
+stoﬄiche Substitution reduziert Emissionsvermeidung 
+energetische Substitution reduziert Emissionsvermeidung 
+Technologie beeinﬂusst Substitution 
+Produktnachfrage beeinﬂusst Holzströme 
+Holzströme ermöglichen Substitution
+Summary 
+Speicher- und Substitutionsprozesse bestimmen gemeinsam die Klimaschutzleistung des 
+Forst- und Holzsektors. Die Senkenwirkung des Waldes ergibt sich aus dem 
+Zusammenspiel von Zuwachs, Nutzung und natürlichen Verlusten und ist daher 
+dynamisch sowie mit ökologischen Risiken verbunden. Gleichzeitig ermöglicht die 
+Nutzung von Holz zusätzliche Emissionsvermeidung, indem emissionsintensive 
+Materialien und fossile Energieträger ersetzt werden.
+Die Gesamtbilanz wird maßgeblich durch Unterschiede in den Speicherkomponenten von 
+Biomasse, Totholz und Böden sowie durch technologische Entwicklungen, 
+Produktnachfrage und Marktbedingungen beeinﬂusst. Eine integrierte Bewertung dieser 
+Prozesse macht Zielkonﬂikte zwischen Speicherung im Bestand und Nutzung für 
+Substitution sichtbar. Sie zeigt, dass Klimaschutzwirkungen nur durch abgestimmte 
+Management- und Nutzungsstrategien nachhaltig gesichert werden können, die 
+ökologische Stabilität, wirtschaftliche Nutzung und langfristige Klimaziele gleichermaßen 
+berücksichtigen.
+3 Managementszenarien und langfristige Entwicklung 
+3.1 Zielsetzung der Managementszenarien 
+Managementszenarien dienen dazu, unterschiedliche langfristige Entwicklungspfade des 
+Forst- und Holzsektors systematisch vergleichbar zu machen. Sie unterscheiden sich vor 
+allem hinsichtlich des Ernteniveaus, der Regenerations- und Verjüngungsstrategien sowie 
+der Gewichtung von Kohlenstoﬀspeicherung im Wald gegenüber der Nutzung von Holz 
+für Produkte und Substitution. Ziel ist es, die Konsequenzen unterschiedlicher 
+Managemententscheidungen über mehrere Jahrzehnte hinweg sichtbar zu machen.
+Die Szenarien sind nicht als Prognosen zu verstehen, sondern als strukturierte 
+Vergleichsrahmen, die alternative Strategien unter konstanten Annahmen 
+gegenüberstellen. Dadurch können Wirkungen auf Kohlenstoﬀbilanz, Holzbereitstellung 
+und langfristige Ressourcendynamik analysiert werden. Szenarien ermöglichen es, 
+Zielkonﬂikte zwischen Speicherung und Nutzung transparent darzustellen und ihre 
+Auswirkungen auf Klimaschutz und Bioökonomie abzuschätzen. Sie bilden die Grundlage 
+für modellbasierte Analysen und unterstützen strategische Entscheidungen, indem sie die 
+langfristigen Folgen heutiger Weichenstellungen verdeutlichen.
+Entity List 
+Managementszenarien; Ernteniveau; Regeneration; Speicherung; Nutzung; 
+Vergleichsrahmen
+
+
+--- PAGE 123 ---
+Relationship Triplets 
+Managementszenarien vergleichen Nutzung 
+Ernteniveau beeinﬂusst Holzbereitstellung 
+Regeneration beeinﬂusst Speicherung 
+Speicherung beeinﬂusst Kohlenstoﬀbilanz 
+Nutzung beeinﬂusst Kohlenstoﬀbilanz
+3.2 Gesellschaftliche und wirtschaftliche Einbettung 
+Waldmanagement ist stets in gesellschaftliche und wirtschaftliche Kontexte eingebettet 
+und kann nicht losgelöst von politischen Zielsetzungen, industriellen Strategien und 
+regionalen Rahmenbedingungen betrachtet werden. Unterschiede im Ernteniveau oder im 
+Schutzgrad spiegeln unterschiedliche Prioritäten wider, etwa zwischen Klimaschutz, 
+Wertschöpfung, Versorgungssicherheit und Risikominimierung.
+Managementszenarien machen diese Zusammenhänge sichtbar, indem sie zeigen, wie 
+forstliche Entscheidungen mit Entwicklungen entlang der Wertschöpfungskette verknüpft 
+sind. Eine stärkere Nutzung kann industrielle Holzverwendung und Substitution fördern, 
+während eine stärkere Fokussierung auf Speicherung andere Ziele begünstigt. Diese 
+Wechselwirkungen verdeutlichen Zielkonﬂikte, die bei der Bewertung von Strategien 
+berücksichtigt werden müssen. Szenarien helfen dabei, Managementoptionen nicht nur 
+anhand ihrer Klimawirkung, sondern auch im Hinblick auf ökonomische und 
+gesellschaftliche Konsequenzen zu beurteilen. Dadurch unterstützen sie eine 
+ganzheitliche Betrachtung langfristiger Entwicklungsstrategien.
+Entity List 
+gesellschaftlicher Kontext; wirtschaftlicher Kontext; Wertschöpfung; 
+Versorgungssicherheit; Risikominimierung; Zielkonﬂikte
+Relationship Triplets 
+gesellschaftlicher Kontext beeinﬂusst Waldmanagement 
+wirtschaftlicher Kontext beeinﬂusst Waldmanagement 
+Wertschöpfung beeinﬂusst Nutzung 
+Zielkonﬂikte betreﬀen Waldmanagement 
+Risikominimierung beeinﬂusst Managementszenarien
+3.3 Modellierung und Interpretationsgrenzen 
+Die Analyse von Managementszenarien erfolgt mithilfe von Modellen, die Waldressourcen, 
+Produktströme und Kohlenstoﬀbilanzen über lange Zeiträume abbilden. Diese Modelle 
+ermöglichen integrierte Bewertungen, unterliegen jedoch methodischen Grenzen. Nicht 
+alle Aspekte des Waldmanagements lassen sich vollständig darstellen, insbesondere 
+Veränderungen in Sortimentsstruktur, Produktverwendung oder regionaler Heterogenität.
+Zusätzlich erhöhen externe Faktoren wie Klimawandel und potenzielle Großstörungen die 
+Unsicherheit langfristiger Projektionen. Modellannahmen zu Wachstum, Mortalität oder 
+Nutzung beeinﬂussen die Ergebnisse maßgeblich. Aus diesem Grund sind Szenarien nicht 
+als exakte Vorhersagen zu interpretieren, sondern als vergleichende Orientierungshilfen. 
+Ihre Aussagekraft liegt im relativen Vergleich unterschiedlicher Managementoptionen 
+unter gleichen Annahmen. Eine reﬂektierte Interpretation erfordert daher die 
+Berücksichtigung von Modellgrenzen, Unsicherheiten und vereinfachenden Annahmen, 
+um Fehlschlüsse zu vermeiden
+
+
+--- PAGE 124 ---
+Entity List 
+Modelle; Waldressourcen; Produktströme; Kohlenstoﬀbilanz; Klimawandel; 
+Großstörungen; Unsicherheit
+Relationship Triplets 
+Modelle nutzen Waldressourcen 
+Modelle nutzen Produktströme 
+Produktströme beeinﬂussen Kohlenstoﬀbilanz 
+Klimawandel erhöht Unsicherheit 
+Großstörungen beeinﬂussen Kohlenstoﬀbilanz
+Summary 
+Managementszenarien ermöglichen den systematischen Vergleich unterschiedlicher 
+langfristiger Entwicklungsstrategien des Forst- und Holzsektors. Sie machen sichtbar, wie 
+sich verschiedene Kombinationen aus Nutzung, Kohlenstoﬀspeicherung und 
+gesellschaftlichen Rahmenbedingungen auf die Klimaschutzleistung des Sektors 
+auswirken. Durch die Gegenüberstellung alternativer Managementpfade lassen sich 
+Zielkonﬂikte zwischen Speicherung im Wald, Holzbereitstellung und Substitutionseﬀekten 
+nachvollziehbar darstellen. Modellbasierte Analysen liefern dabei eine wichtige 
+Orientierung für die Bewertung langfristiger Wirkungen, insbesondere im Hinblick auf 
+Kohlenstoﬀbilanzen und Ressourcendynamiken. Gleichzeitig ist eine vorsichtige 
+Interpretation erforderlich, da Ergebnisse von Annahmen, Datenverfügbarkeit und 
+methodischen Grenzen abhängen. Szenarien dienen daher nicht als Prognosen, sondern 
+als Entscheidungsgrundlage für strategische Abwägungen und eine langfristig 
+ausgerichtete Planung im Forst- und Holzsektor.
+Quelle 
+Roux, A., Colin, A., Dhôte, J.-F . & Schmitt, B. (Hrsg.) (2023). 
+The forestry & wood sector and climate change mitigation: From carbon sequestration in 
+forests to the development of the bioeconomy. 
+Versailles: Éditions Quæ

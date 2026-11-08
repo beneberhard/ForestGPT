@@ -1,0 +1,473 @@
+ENTITY
+58: Entities: 
+97: Entities: 
+135: Entities: 
+172: Entities: 
+232: Entities: 
+264: Entities: 
+297: Entities: 
+335: Entities: 
+387: Entities: 
+422: Entities: 
+458: Entities: 
+490: Entities: 
+571: Entities: 
+606: Entities: 
+639: Entities: 
+670: Entities: 
+720: Entities: 
+752: Entities: 
+784: Entities: 
+817: Entities: 
+868: Entities: 
+900: Entities: 
+932: Entities: 
+965: Entities: 
+1044: Entities: 
+1076: Entities: 
+1110: Entities: 
+1146: Entities: 
+1198: Entities: 
+1234: Entities: 
+1268: Entities: 
+1300: Entities: 
+1348: Entities: 
+1381: Entities: 
+1414: Entities: 
+1446: Entities: 
+1529: Entities: 
+1562: Entities: 
+1596: Entities: 
+1628: Entities: 
+1680: Entities: 
+1715: Entities: 
+1748: Entities 
+1781: Entities: 
+1830: Entities: 
+1862: Entities: 
+1895: Entities: 
+1953: Entities: 
+1990: Entities: 
+2026: Entities: 
+2062: Entities: 
+2118: Entities: 
+2152: Entities: 
+2189: Entities: 
+2247: Entities: 
+2283: Entities: 
+2319: Entities: 
+2379: Entities: 
+2410: Entities: 
+2457: Entities: 
+2486: Entities: 
+2524: Entities: 
+2553: Entities: 
+2597: Entities: 
+2621: Entities: 
+2643: Entities: 
+2665: Entities: 
+2686: Entities: 
+2707: Entities: 
+2760: Entities: internationales Regime; Prinzipien; Normen; Regeln; 
+2777: Entities: Entwaldung; internationale Agenda; UNCED; Waldkonvention 
+2794: Entities: Fragmentierung; internationale Organisationen; Politikfelder 
+2810: Entities: rechtliche Verbindlichkeit; Agenda-Setting; Leitbilder 
+2829: Entities: nicht-staatliche Akteure; Umweltorganisationen; Wissensnetzwerke 
+2844: Entities: Nachhaltigkeit; nachhaltige Waldwirtschaft; Leitbild 
+2891: Entities: Mehrebenensystem; Politikebenen; nationale Akteure 
+2904: Entities: nationale Umsetzung; internationale Leitbilder 
+2920: Entities: Föderalismus; Umsetzung; Koordination 
+2933: Entities: Verwaltung; Implementierung; Routinen 
+2949: Entities: Wahrnehmung; nationale Akteure; Steuerungsfähigkeit 
+2961: Entities: Anpassung; Harmonisierung; Pfadabhängigkeit 
+3001: Entities: Regimewirkungen; Akteursverhalten 
+3010: Entities: Lernen; Politikkonzepte 
+3023: Entities: Autorität; Legitimation 
+3033: Entities: Akteursrollen; Umweltakteure 
+3042: Entities: Diskurse; Nachhaltigkeit 
+3056: Entities: institutioneller Wandel; Katalysatoren 
+3137: Entities (Schlagwörter) 
+3175: Entities (Schlagwörter) 
+3220: Entities (Schlagwörter) 
+3270: Entities (Schlagwörter) 
+3320: Entities (Schlagwörter) 
+3354: Entities (Schlagwörter) 
+3406: Entities (Schlagwörter) 
+3444: Entities (Schlagwörter) 
+3489: Entities (Schlagwörter) 
+3540: Entities (Schlagwörter) 
+3590: Entities (Schlagwörter) 
+3626: Entities (Schlagwörter) 
+3675: Entities (Schlagwörter) 
+3714: Entities (Schlagwörter) 
+3747: Entities (Schlagwörter) 
+3837: Entities (Schlagwörter) 
+3884: Entities (Schlagwörter) 
+3921: Entities (Schlagwörter) 
+3972: Entities (Schlagwörter) 
+4020: Entities (Schlagwörter) 
+4057: Entities (Schlagwörter) 
+4107: Entities (Schlagwörter) 
+4156: Entities (Schlagwörter) 
+4195: Entities (Schlagwörter) 
+4255: Entities (Schlagwörter) 
+4293: Entities (Schlagwörter) 
+4327: Entities (Schlagwörter) 
+4381: Entities (Schlagwörter) 
+4429: Entities (Schlagwörter) 
+4465: Entities (Schlagwörter) 
+4554: Entities (Schlagwörter) 
+4599: Entities (Schlagwörter) 
+4641: Entities (Schlagwörter) 
+4688: Entities (Schlagwörter) 
+4748: Entities (Schlagwörter) 
+4795: Entities (Schlagwörter) 
+4839: Entities (Schlagwörter) 
+4883: Entities (Schlagwörter) 
+4947: Entities (Schlagwörter) 
+4993: Entities (Schlagwörter) 
+5034: Entities (Schlagwörter) 
+5075: Entities (Schlagwörter) 
+5133: Entities (Schlagwörter) 
+5180: Entities (Schlagwörter) 
+5218: Entities (Schlagwörter) 
+5256: Entities (Schlagwörter) 
+5366: Entities (Schlagwörter) 
+5409: Entities (Schlagwörter) 
+5451: Entities (Schlagwörter) 
+5492: Entities (Schlagwörter) 
+5550: Entities (Schlagwörter) 
+5591: Entities (Schlagwörter) 
+5632: Entities (Schlagwörter) 
+5681: Entities (Schlagwörter) 
+5743: Entities (Schlagwörter) 
+5790: Entities (Schlagwörter) 
+5827: Entities (Schlagwörter) 
+5863: Entities (Schlagwörter) 
+5926: Entities (Schlagwörter) 
+5974: Entities (Schlagwörter) 
+6013: Entities (Schlagwörter) 
+6056: Entities (Schlagwörter) 
+6118: Entities (Schlagwörter) 
+6166: Entities (Schlagwörter) 
+6202: Entities (Schlagwörter) 
+6237: Entities (Schlagwörter) 
+6449: Entities: 
+6489: Entities:  
+6534: Entities:  
+6580: Entities:  
+6627: Entities: 
+6673: Entities: 
+6725: Entities: 
+6862: Entities: 
+6902: Entities: 
+6946: Entities: 
+6990: Entities: 
+7125: Entities: 
+7167: Entities: 
+7210: Entities 
+7257: Entities: 
+7296: Entities: 
+7338: Entities: 
+7431: Entities: 
+7472: Entities: 
+7511: Entities: 
+7560: Entities: 
+7605: Entities: 
+7651: Entities: 
+7694: Entities: 
+7790: Entities: 
+7834: Entities: 
+7872: Entities: 
+7915: Entities: 
+8116: Entities: 
+8156: Entities: 
+8199: Entities: 
+8247: Entities: 
+8288: Entities: 
+8336: Entities: 
+8379: Entities: 
+8472: Entities: 
+8510: Entities: 
+8558: Entities: 
+8603: Entities: 
+8647: Entities: 
+8746: Entities: 
+8783: Entities: 
+8826: Entities: 
+8871: Entities: 
+8913: Entities: 
+8952: Entities: 
+8995: Entities: 
+9041: Entities: 
+9250: Entities: 
+9335: Entities: 
+9380: Entities: 
+9422: Entities: 
+9467: Entities: 
+9556: Entities: 
+9598: Entities: 
+9645: Entities: 
+9691: Entities: 
+9737: Entities: 
+9778: Entities: 
+9821: Entities: 
+9867: Entities: 
+9917: Entities: 
+10148: Entities: 
+10187: Entities: 
+10227: Entities: 
+10268: Entities: 
+10311: Entities: 
+10361: Entities: 
+10443: Entities: 
+10482: Entities: 
+10528: Entities: 
+10571: Entities: 
+10611: Entities: 
+10692: Entities: 
+10735: Entities: 
+10778: Entities: 
+10821: Entities: 
+10864: Entities: 
+10997: Entities: Integrierte Ländliche Entwicklung (ILE), Sektoraler Ansatz, Territorialer Ansatz, 
+11021: Entities: Regional Governance, ÖƯentliche Akteure, Private Akteure, Schatten der 
+11044: Entities: Wettbewerbsprinzip, Gießkannenprinzip, Regionales Entwicklungskonzept 
+11068: Entities: Pilotcharakter, Diversiﬁzierung, Integrierter Ansatz, SynergieeƯekte, 
+11124: Entities: Gemeinwohlverpﬂichtung, Bundeswaldgesetz, ÖƯentliche Güter, 
+11151: Entities: Lange Planungszeiträume, Programmlaufzeiten, Förderpolitik, Forstliche 
+11176: Entities: Nachhaltigkeit, Multifunktionale Waldbewirtschaftung, Ökonomische 
+11200: Entities: Staatliche Forstverwaltung, Forstreformen, Personaleinsparungen, 
+11226: Entities: Formale Wirklichkeit, Informale Wirklichkeit, Forstverwaltung, Eigeninteressen, 
+11284: Entities: Freiwillige Kooperation, Tauschprozess, Interdependenz, Bargaining, Problem-
+11310: Entities: Forstpromotor, Policy Entrepreneur, Ressourcen, Persönliches Engagement, 
+11333: Entities: Machtressourcen, Finanzielle Mittel, Personal, Verfügungsmacht durch 
+11359: Entities: Bündnispartner, Starke Fürsprecher, Kommunalpolitik, Wirtschaftsförderung, 
+11384: Entities: Handlungsleitende Interessen, Finanzielle Anreize, Informale Interessen, 
+11470: Entities: Markt, Akteure, Verfügungsrechte, Transaktionskosten, Make or Buy, 
+11495: Entities: Organisierte Märkte, Börse, Fungibilität, Vollkommener Markt, 
+11517: Entities: Marktformen, Polypol, Oligopol, Monopol, Monopson, Schnittholzmarkt, 
+11540: Entities: Absatz, Handel, Zeitliche Funktion, Quantitätsfunktion, Großhandel 
+11559: Entities: Preiselastizität, Elastisches Angebot, Unelastisches Angebot, Inverses 
+11584: Entities: Nachfragekurve, Gleichgewichtspreis, PreisdiƯerenzierung, 
+11630: Entities: Holzwirtschaft, Sägeindustrie, Holzverarbeitende Industrie, Papierindustrie, 
+11653: Entities: Schnittholz, Nadelschnittholz, Zerspanertechnologie, Ausbeute, 
+11674: Entities: Sägenebenprodukte (SNP), Koppelprodukt, Sägespäne, ZellstoƯindustrie, 
+11696: Entities: Holzplatten, Spanplatten, MDF , Massivholzplatten, Möbelindustrie, 
+11716: Entities: Papierindustrie, ZellstoƯ, Altpapier, Exportquote, Verpackungspapiere, 
+11739: Entities: Altholz, Post-Consumer Wood, Abfallhierarchie, Wiederverwendung, 
+11786: Entities: Forstbetriebe, Mengenanpasser, Kleinwald, Sparkassenfunktion, Großwald, 
+11806: Entities: Holzübergabe, Waldstraße, Stockverkauf, Stockzins, Nordamerika, 
+11828: Entities: Verkaufsverfahren, Freihandverkauf, Versteigerung, Submission, Wertholz, 
+11849: Entities: Abgeleitete Nachfrage, Sägerundholzpreis, Schnittholzpreis, Industrieholz, 
+11867: Entities: Windwurf, Angebotskurve, Schadholz, Preisverfall, Lagerkapazitäten, 
+11911: Entities: Außenhandel, Mangelnde Liefermöglichkeit, Relative Preisunterschiede, 
+11932: Entities: RCA-Wert, Revealed Comparative Advantage, Standortvorteile, Schnittholz, 
+11951: Entities: Österreichische Kontrollbank, KRR-Kredite, Exportﬁnanzierungsverfahren, 
+11970: Entities: Zölle, EU, EWR, Ursprungszeugnisse, Phytosanitärzeugnisse, 
+11988: Entities: Importnachfrage, Bruttoinlandsprodukt, Exporte, Konjunktur, 
+12059: Entities: Politik, Soziale Gemeinschaften, Ressourcenknappheit, Konﬂikte, 
+12080: Entities: Herrschaft, David Easton, Autoritative Wertzuweisung, Max Weber, Gehorsam, 
+12100: Entities: Macht, Harold D. Lasswell, 1. Gesicht der Macht, Robert A. Dahl, OƯene 
+12123: Entities: 3. Gesicht der Macht, Steven Lukes, Falsches Bewusstsein, 4. Gesicht der 
+12142: Entities: Polity, Politics, Policy, Institutionelle Ordnung, Verfassung, Willensbildung, 
+12187: Entities: Akteurzentrierter Institutionalismus, Renate Mayntz, Fritz W. Scharpf, 
+12211: Entities: Akteure, Kollektive Akteure, Korporative Akteure, Koalitionen, Soziale 
+12235: Entities: Hierarchie, Wettbewerb, Verhandlung, Über-Unterordnungsverhältnis, 
+12256: Entities: Verwaltung, Max Weber, Bürokratiemodell, New Public Management, 
+12278: Entities: Verbände, Mancur Olson, Logik des kollektiven Handelns, ÖƯentliche Güter, 
+12323: Entities: Policy-Making, Fritz W. Scharpf, Problemverarbeitung, David Easton, 
+12342: Entities: Policy Cycle, Harold D. Lasswell, Phasenmodell, Rationale Planung, Heuristik, 
+12365: Entities: Agenda Setting, Filterfunktion, Politische Tagesordnung, John Kingdon, Policy 
+12385: Entities: Politikformulierung, Programme, Ministerialbürokratie, Garbage Can Theory, 
+12405: Entities: Implementation, Programme, Output, Impact, Adressaten, Top-down, Bottom-
+12422: Entities: Evaluierung, Outcome, Terminierung, Reformulierung, Widerstand, 
+12466: Entities: Governance, Interventionsstaat, Neoliberaler Staat, Kooperativer Staat, 
+12490: Entities: Steuerungsinstrumente, Direkte Steuerung, Indirekte Steuerung, Regulative 
+12509: Entities: Regulative Instrumente, Zwang, Grenzwerte, Widerstand, Vollzugsdeﬁzite, End-
+12530: Entities: Finanzielle Anreize, Subventionen, Steuern, Internalisierung, Externe Kosten, 
+12550: Entities: Strukturierung, Information, Prozedurale Steuerung, Verhaltensangebote, 
+12572: Entities: Privatisierung, Liberalisierung, New Public Management, Regulierung, 
+12651: Entities: Unternehmer, Nichtunternehmer, Verbraucher, Privatgeschäft, Einseitiges 
+12674: Entities: Österreichische Holzhandelsusancen (ÖHHU), Handelsbräuche, Zweiseitiges 
+12695: Entities: Normen, Stand der Technik, Österreichisches Normungsinstitut, ÖNORM, 
+12754: Entities: Rohholz, Güteklasse A, Güteklasse B, Güteklasse C, Wertholz, Ausschuss, 
+12775: Entities: Festmeter, Raummeter, Atro-Tonne, Werksabmaß, Kluppe, Rindenabzug, 
+12796: Entities: Schnittholz, Bretter, Kanthölzer, Festigkeitssortierung, EN 1611, EN 14081, 
+12842: Entities: Kaufvertrag, Willensübereinstimmung, Unverbindliches Angebot, Formfreiheit, 
+12862: Entities: Übergabe, Übernahme, Eigentumsübergang, Eigentumsvorbehalt, 
+12883: Entities: Ca-Klausel, Erfüllungsort, INCOTERMS, DAF , Gefahrenübergang, Fixgeschäft 
+12930: Entities: Handelsrechnung, Faktura, Frachtbrief, Reeder, Ozeankonnossement 
+12951: Entities: Ursprungszeugnis, EU, Drittstaaten, Pﬂanzenschutzgesetz, Phytosanitäre 
+12970: Entities: Indirekter Export, Direkter Export, Joint Venture, Reload Center, Vertikales 
+13015: Entities: Vorauszahlung, OƯenes Ziel, Wettbewerbsposition, Einheitliche Richtlinien, 
+13035: Entities: Dokumentenakkreditiv, Zahlungsversprechen, Unwiderruﬂiches Akkreditiv, 
+13054: Entities: Dokumenteninkasso, Annahmerisiko, Bonitätsprüfung, KSV 1870, 
+13099: Entities: Bringung, Rückung, Holztransport, LKW, Gesamtgewicht, 
+13119: Entities: Bahntransport, Ganzzugsystem, OƯener Güterwagen, 
+13146: Entities: SchiƯstransport, LinienschiƯfahrt, Bulk-Frachter, Geschwindigkeit, LKW, 
+13191: Entities: Wechsel, Tratte, Akzept, Wechselstrenge, Indossament 
+13207: Entities: Scheck, Sichtfälligkeit, Verrechnungsscheck, Vorlagefrist, Gebührenfreiheit, 
+13228: Entities: Factoring, FactorBank, Forderungsverkauf, Liquidität, Debitorenmanagement, 
+13271: Entities: Gewährleistung, Beweislastumkehr, Übergabe, Wandlung, Innere Fehler. 
+13289: Entities: Lieferverzug, Stillschweigende Prolongation, Fixgeschäft, Exekutiver Verkauf, 
+13309: Entities: Börsenschiedsgericht, Expertise, Schnelligkeit, Vollstreckbarkeit, 
+TRIPLET
+69: Relationship Triplets: 
+108: Relationship Triplets: 
+144: Relationship Triplets 
+186: Relationship Triplets: 
+240: Relationship Triplets: 
+272: Relationship Triplets: 
+304: Relationship Triplets 
+343: Relationship Triplets: 
+395: Relationship Triplets: 
+430: Relationship Triplets: 
+466: Relationship Triplets: 
+498: Relationship Triplets: 
+579: Relationship Triplets: 
+614: Relationship Triplets: 
+647: Relationship Triplets: 
+679: Relationship Triplets: 
+728: Relationship Triplets: 
+760: Relationship Triplets: 
+792: Relationship Triplets: 
+825: Relationship Triplets: 
+876: Relationship Triplets: 
+908: Relationship Triplets 
+940: Relationship Triplets: 
+973: Relationship Triplets: 
+1052: Relationship Triplets: 
+1084: Relationship Triplets: 
+1118: Relationship Triplets: 
+1154: Relationship Triplets: 
+1206: Relationship Triplets: 
+1243: Relationship Triplets: 
+1276: Relationship Triplets: 
+1308: Relationship Triplets: 
+1356: Relationship Triplets: 
+1389: Relationship Triplets: 
+1422: Relationship Triplets: 
+1454: Relationship Triplets: 
+1537: Relationship Triplets: 
+1570: Relationship Triplets: 
+1604: Relationship Triplets: 
+1636: Relationship Triplets: 
+1688: Relationship Triplets: 
+1723: Relationship Triplets: 
+1756: Relationship Triplets: 
+1789: Relationship Triplets: 
+1838: Relationship Triplets: 
+1870: Relationship Triplets: 
+1903: Relationship Triplets: 
+1961: Relationship Triplets: 
+1997: Relationship Triplets: 
+2033: Relationship Triplets: 
+2069: Relationship Triplets: 
+2122: Relationship Triplets: 
+2157: Relationship Triplets: 
+2194: Relationship Triplets: 
+2252: Relationship Triplets: 
+2287: Relationship Triplets: 
+2324: Relationship Triplets: 
+2383: Relationship Triplets: 
+2414: Relationship Triplets: 
+2461: Relationship Triplets: 
+2490: Relationship Triplets: 
+2528: Relationship Triplets: 
+2557: Relationship Triplets: 
+2601: Relationship Triplets: 
+2624: Relationship Triplets: 
+2647: Relationship Triplets: 
+2668: Relationship Triplets: 
+2689: Relationship Triplets: 
+2711: Relationship Triplets: 
+2763: Relationship Triplets: 
+2779: Relationship Triplets: 
+2796: Relationship Triplets: 
+2812: Relationship Triplets: 
+2831: Relationship Triplets: 
+2846: Relationship Triplets: 
+2893: Relationship Triplets: 
+2906: Relationship Triplets: 
+2922: Relationship Triplets: 
+2935: Relationship Triplets: 
+2951: Relationship Triplets: 
+2963: Relationship Triplets: 
+3002: Relationship Triplets: 
+3012: Relationship Triplets: 
+3025: Relationship Triplets: 
+3035: Relationship Triplets: 
+3044: Relationship Triplets: 
+3058: Relationship Triplets: 
+3152: Relationship Triplets 
+3186: Relationship Triplets 
+3230: Relationship Triplets 
+3286: Relationship Triplets 
+3330: Relationship Triplets 
+3364: Relationship Triplets 
+3421: Relationship Triplets 
+3455: Relationship Triplets 
+3499: Relationship Triplets 
+3556: Relationship Triplets 
+3600: Relationship Triplets 
+3636: Relationship Triplets 
+3691: Relationship Triplets 
+3725: Relationship Triplets 
+3759: Relationship Triplets 
+3850: Relationship Triplets 
+3894: Relationship Triplets 
+3931: Relationship Triplets 
+3986: Relationship Triplets 
+4030: Relationship Triplets 
+4067: Relationship Triplets 
+4122: Relationship Triplets 
+4166: Relationship Triplets 
+4205: Relationship Triplets 
+4270: Relationship Triplets 
+4304: Relationship Triplets 
+4338: Relationship Triplets 
+4395: Relationship Triplets 
+4439: Relationship Triplets 
+4475: Relationship Triplets 
+4565: Relationship Triplets 
+4609: Relationship Triplets 
+4651: Relationship Triplets 
+4699: Relationship Triplets 
+4761: Relationship Triplets 
+4805: Relationship Triplets 
+4849: Relationship Triplets 
+4897: Relationship Triplets 
+4959: Relationship Triplets 
+5003: Relationship Triplets 
+5044: Relationship Triplets 
+5085: Relationship Triplets 
+5146: Relationship Triplets 
+5190: Relationship Triplets 
+5228: Relationship Triplets 
+5266: Relationship Triplets 
+5376: Relationship Triplets 
+5419: Relationship Triplets 
+5465: Relationship Triplets 
+5504: Relationship Triplets 
+5564: Relationship Triplets 
+5603: Relationship Triplets 
+5642: Relationship Triplets 
+5698: Relationship Triplets 
+5756: Relationship Triplets 
+5800: Relationship Triplets 
+5837: Relationship Triplets 
+5873: Relationship Triplets 
+5940: Relationship Triplets 
+5984: Relationship Triplets 
+6023: Relationship Triplets 
+6073: Relationship Triplets 
+6132: Relationship Triplets 
+6176: Relationship Triplets 
+6212: Relationship Triplets 
+6247: Relationship Triplets 
+7989: Relationship Triplets und Structured Summaries die KI Grok (von xAI) und ChatGPT 
+9121: Relationship Triplets und Structured Summaries die KI Grok (von xAI) und ChatGPT 
+9262: Relationship Triplets  
+10001: Relationship Triplets und Structured Summaries die KI Grok (von xAI) und ChatGPT 
+10939: Relationship Triplets und Structured Summaries die KI Grok (von xAI) und ChatGPT 

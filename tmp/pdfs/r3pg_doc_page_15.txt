@@ -1,0 +1,44 @@
+prepare_input 15
+• from: year and month indicating the start of simulation. Provided in form
+of year-month. E.g. "2000-01".
+• to: year and month indicating the end of simulation. Provided in form of
+year-month. E.g. "2009-12", will include December 2009 as last simulation
+month
+species table containing the information about species level data. Each row corresponds
+to one species/cohort.
+• species: species or cohort id/name. It must be consistent with species names
+in thinning, parameters and sizeDist tables.
+• planted: year and month indicating when species was planted. Provided in
+form of year-month. E.g. "2000-01".
+• fertility: soil fertility for a given species. Range from 0 to 1.
+• stems_n: number of trees per ha.
+• biom_stem: stem biomass for a given species (Mg/ha).
+• biom_root: root biomass for a given species (Mg/ha).
+• biom_foliage: initial foliage biomass (Mg/ha). If this is a leafless period,
+provide the spring foliage biomass.
+climate table containing the information about monthly values for climatic data. If the
+climate table has exactly 12 rows it will be replicated for the number of years
+and months specified byfrom - to. Otherwise, it will be subsetted to the selected
+time period. More details about preparing climate data are atprepare_climate.
+• year: year of observation (only required for subsetting) (optional).
+• month: months of observation (only required for subsetting) (optional).
+• tmp_min: monthly mean daily minimum temperature (C).
+• tmp_max: monthly mean daily maximum temperature (C).
+• tmp_ave: monthly mean daily average temperature (C) (optional).
+• prcp: monthly rainfall (mm month-1).
+• srad: monthly mean daily solar radiation (MJ m-2 d-1).
+• frost_days: frost days per month (d month-1).
+• vpd_day: water pressure deficit (mbar) (optional).
+• co2: monthly mean atmospheric co2 (ppm), required if calculate_d13c=1
+(optional)
+• d13catm: monthly mean isotopic composition of air (‰), required if calcu-
+late_d13c=1 (optional)
+thinning table containing the information about thinnings. If there is no thinning, it must
+be NULL.
+• species: species or cohort id/name. It must be consistent with species names
+in species, parameters and sizeDist tables.
+• age: age when thinning is performed.
+• stems_n: number of trees remaining after thinning
+• foliage: type of thinning (above/below). Default is 1.
+• root: type of thinning (above/below). Default is 1.
+• stem: type of thinning (above/below). Default is 1.

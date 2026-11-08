@@ -1,0 +1,197 @@
+L15 P1: Source:  | FHP, Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  | Entity List:  | • Harvester  | • Fully mechanized harvesting 
+L60 P2: Source:  | FHP, Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  | Entity List:  | • Harvester unit  | • Public transport networks 
+L114 P4: Source:  | FHP , Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  | Entity List:  | • Forwarder  | • Assortment tractor 
+L164 P5: Source:  | FHP, Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  | Entity List:  | • Felling  | • Processing 
+L208 P6: Source:  | FHP, Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  |   | Entity List:  | • Harvester 
+L257 P7: Source:  | FHP, Harvester und Forwarder in der Holzernte, 3.Auflage (2015)  |  | --- PAGE 8 --- | Entity List: 
+L319 P9: Source:   | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity list:  | • Chainsaw chain  | • Drive link 
+L354 P10: Source:   | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity list:  | • Incisor  | • Cutting part 
+L400 P11: Source:   | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity list:  | • Cutting edges  | • Cutting performance 
+L450 P13: Source:  | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity List:  | • Carburetor  | • Gasoline 
+L491 P14: Source:  | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity List:  | • Chainsaw chain  | • Cutting performance 
+L533 P15: Source:  | Slovik S., Lehrskript für den 2.Jahrgang Forst- & Arbeitstechnik, HBLA Bruck/Mur  | Entity List:  | • Machine  | • Device 
+L591 P17: Source:   | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity list:  | • Felling plan  | • Timber processing 
+L631 P18: Source:   | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity list:  | • Cable system  | • Transport capacity 
+L674 P19: Source:   | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity list:  | • Spatial sequence  | • Subtasks 
+L718 P20: Source:  | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity List:  | • Stand development  | • Timber 
+L762 P21: Source:  | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity List:  | • Accidents  | • Work organization 
+L813 P23: Source:  | FHP , Holzernte im Seilgelände, Organisation, 13.Auflage (2019)  | Entity List:  | • Hard work  | • Work capacity 
+L869 P25: Source 1 – Kaulen et al. (o. J.). Anforderungsanalyse robotergestütztes  | Holzernteverfahren. Project CALAHARI.  | Chapter 1: Concept and Motivation of Robotic Timber Harvesting  |   | Knowledge Card 1.1 
+L886 P25: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  |  | --- PAGE 26 --- | Entity List: 
+L923 P26: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  |  | --- PAGE 27 --- | Entity List: 
+L958 P27: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  | Entity List:  | Soil protection  | 
+L1012 P29: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  |   | Source 1 – Kaulen et al. (o. J.). Anforderungsanalyse robotergestütztes  | Holzernteverfahren. Project CALAHARI. 
+L1015 P29: Source 1 – Kaulen et al. (o. J.). Anforderungsanalyse robotergestütztes  | Holzernteverfahren. Project CALAHARI.  | Chapter 2: Technical Requirements and Digitalization  |   | Knowledge Card 1.4 
+L1031 P29: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  | Entity List:  | Mobility systems  | Forest robots 
+L1067 P30: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  | Entity List:  | Navigation systems  | Sensor technology 
+L1103 P31: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  | Entity List:  | Data protection  | Digital forestry 
+L1157 P33: Source:  | Based on: CALAHARI – Anforderungsanalyse robotergestütztes Holzernteverfahren.  |   | Source 2 – Helicopter Logging (Stampfer,2025)  | Chapter 1: Application Fields and Operational Context 
+L1160 P33: Source 2 – Helicopter Logging (Stampfer,2025)  | Chapter 1: Application Fields and Operational Context  |   | Knowledge Card 2.1  | Title: 
+L1176 P33: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Helicopter logging  | Steep terrain 
+L1213 P34: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Environmental protection  | Soil compaction 
+L1249 P35: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Productivity  | Flight cycle 
+L1303 P37: Source: Based on: Stampfer (2025) – Helicopter Logging.  |   | Source 2 – Helicopter Logging (Stampfer,2025)  | Chapter 2: Operational Processes, Safety Management, and Technology  |  
+L1305 P37: Source 2 – Helicopter Logging (Stampfer,2025)  | Chapter 2: Operational Processes, Safety Management, and Technology  |   | Knowledge Card 2.4  | Title: 
+L1321 P37: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Load attachment  | Chokers 
+L1357 P38: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Work cycle  | Cycle time 
+L1393 P39: Source:  | Based on: Stampfer (2025) – Helicopter Logging.  | Entity List:  | Safety zones  | Risk management 
+L1449 P41: Source: Based on: Stampfer (2025) – Helicopter Logging.  |   | Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest  | harvesting methods. Natural Resources Institute Finland (Luke).  | Chapter 1: Energy Wood and Sustainable Bioenergy Supply 
+L1451 P41: Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest  | harvesting methods. Natural Resources Institute Finland (Luke).  | Chapter 1: Energy Wood and Sustainable Bioenergy Supply  |   | Knowledge Card 3.1 
+L1466 P41: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Energy wood  | Forest biomass 
+L1502 P42: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Forest bioenergy  | Carbon cycle 
+L1538 P43: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Sustainability criteria  | Energy wood harvesting 
+L1593 P45: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  |   | Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest  | harvesting methods. Natural Resources Institute Finland (Luke). 
+L1596 P45: Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest  | harvesting methods. Natural Resources Institute Finland (Luke).  | Chapter 2: Harvesting Technology, Ecological Impacts, and Economic  | Aspects  |  
+L1615 P45: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Harvesting technology  | Energy wood 
+L1651 P46: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Ecological impacts  | Soil fertility 
+L1689 P47: Source:  | Based on: Baltic ForBio – Cost-efficient and sustainable forest harvesting methods.  | Entity List:  | Economic feasibility  | Energy wood supply chain 
+L1781 P50: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Equipment and tools)  | Title  | Personal protective equipment in the work process 
+L1811 P51: Source:  | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Equipment and tools)  | Title  | Tools and aids in the tractor area 
+L1843 P52: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter Equipment and Tools  | Equipment and tools form the basis for harvesting timber in the tractor area. They  | include work equipment, aids, and personal protective equipment, which must be 
+L1884 P53: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Chainsaw handling)  | Title  | Adapted chainsaw handling according to terrain and working conditions 
+L1917 P54: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Chainsaw handling)  | Title  | Safety relevance of chainsaw work in the work process 
+L1948 P55: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter on chainsaw handling  | Chainsaw handling is a key part of timber harvesting in tractor terrain and is closely  | linked to work processes, working techniques, and safety. The chainsaw is used in 
+L1989 P56: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Workflow and safety)  | Title  | Organization and Coordination in the Work Process 
+L2019 P57: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Workflow and safety)  | Title  | Safety rules and hazards in the work process 
+L2046 P57: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter Workflow and Safety  | Workflow and safety are closely linked in timber harvesting on tractor terrain. A  | structured workflow provides clarity, reduces overlap between activities, and supports 
+L2087 P58: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  |   |  | --- PAGE 59 ---
+L2118 P59: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Working technique)  | Title  | The relationship between working techniques, work processes and work quality 
+L2148 P60: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter: Working Techniques  | Working techniques form the basis for the practical implementation of timber harvesting  | in tractor terrain. They combine terrain conditions, workflows, and the tools used to 
+L2190 P61: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Delimbing technique)  | Title  | Working method and procedure for delimbing 
+L2220 P62: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Limbing Technique)  | Title  | Safety aspects of limbing 
+L2248 P63: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter: Delimbing Technique  | Delimbing is a key step in timber harvesting in tractor terrain and influences both the  | workflow and the safety of the work. It serves to remove branches from the trunk and 
+L2289 P64: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Cutting technique)  | Title  | Influence of tension in the wood on cutting 
+L2319 P65: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Cutting technique)  | Title  | Safety aspects when performing cuts 
+L2346 P65: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter on cutting technique  | The cut-off technique is a central component of timber harvesting in tractor terrain and  | influences the workflow, efficiency, and safety of the work. The cut-off is used for the 
+L2387 P66: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 2 (Logging in tractor terrain)  | Title  | Influence of terrain and soil on timber hauling 
+L2416 P67: Source:  | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Knowledge Card 3 (Logging in tractor terrain)  | Title  | Safety aspects of logging in tractor terrain  
+L2446 P68: Source:   | FHP , Holzernte im Schleppergelände – Methodische Arbeit 4, 13. Auflage, 2016  | Structured Summary: Chapter Logging in tractor terrain  | Timber hauling is an essential step in timber harvesting in tractor terrain and influences  | the workflow, efficiency, and safety of the entire work process. It serves to transport the 
+L2491 P69: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 2 (Equipment and machine  | elements for rope skidding)  | 
+L2523 P70: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 3 (Equipment and machine  | elements for rope skidding)  | Title 
+L2556 P71: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter Equipment and machine elements for  | cable skidding  | Equipment and machine elements form the technical foundation of cable skidding in 
+L2601 P72: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 2 (Tree climbing)  | Title  | Equipment and safety systems for tree climbing 
+L2632 P73: Source:  | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 3 (Tree climbing)  | Title  | Safety requirements and work organization when climbing trees 
+L2661 P74: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter Tree Climbing  | Tree climbing is a specialized work method used in timber harvesting and is employed  | for work on standing trees. It requires the use of coordinated personal protective 
+L2703 P75: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 1 (Supports)  | Title  | Support types and their areas of application 
+L2735 P76: Source:  | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 3 (Supports)  | Title  | Workflow, statics, and safety in support construction 
+L2766 P77: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter Supports  | Supports are essential components of the cable support system in the tow area and are  | used to guide and support cables. They enable the cable route to be adapted to the 
+L2808 P78: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 2 (Anchor construction)  | Title  | Anchor Types and Anchoring Methods 
+L2839 P79: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 3 (Anchor construction)  | Title  | Assessment, Dimensioning and Safety in Anchor Construction 
+L2867 P79: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter Anchor Construction  | Anchor construction is an essential part of rope pulling on tractor terrain and serves to  | safely absorb and dissipate tensile forces from the rope system. Anchors ensure the 
+L2910 P80: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  |   |  | --- PAGE 81 ---
+L2943 P81: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 3 (Assembly details for  | support construction)  | Title 
+L2975 P82: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter – Assembly Details for Support  | Construction  | Assembly details are a central component of support construction and have a 
+L3020 P83: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 2 (Assembly, dismantling,  | and operation of rope crane systems)  |  
+L3053 P84: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Knowledge Card 1 (Assembly, disassembly,  | and operation of cable crane systems)  | Title 
+L3087 P85: Source:   | FHP , Holzernte im Seilgelände – Methodische Arbeit 4, 9. Auflage, 2014  | Structured Summary: Chapter Assembly, dismantling and operation of  | cable crane systems  | The assembly, dismantling, and operation of cable crane systems are closely linked 
+L3131 P86: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Skidding Systems)  | Title  | Areas of application and possible uses of skidding systems 
+L3163 P87: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Skidding Systems)  | Title  | Performance Indicators and Evaluation of Skidding Systems  
+L3194 P88: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter: Skidding systems, applications, and  | performance indicators  | Skidding systems form the basis of timber transport in rope terrain and determine the 
+L3238 P89: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Choice of skidding  | method)  | Title 
+L3270 P90: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Choice of skidding  | method)  | Title 
+L3302 P91: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter - Choice of skidding method  | The choice of skidding method is a key planning step in timber harvesting in cable  | yarding areas and determines the type of timber transport. It is based on the terrain, soil 
+L3346 P92: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Cable skidding systems)  | Title  | System variants and areas of application for cable skidding 
+L3377 P93: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Cable Skidding Systems)  | Title  | Impact of cable skidding systems on workflows and operations 
+L3407 P94: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter Cable Skidding Systems  | Cable skidding systems are key skidding methods for transporting timber in steep or  | difficult-to-access terrain. They enable timber to be transported regardless of the direct 
+L3451 P95: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Trolley)  | Title  | System types and control types for trolleys 
+L3482 P96: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Trolleys)  | Title  | Influence of trolleys on work processes and areas of application 
+L3510 P96: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter - Carriages  | Carriages are central functional elements of cable skidding systems and determine the  | type of load movement along the suspension cable. They connect the suspension cable, 
+L3552 P97: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  |   |   | 
+L3584 P98: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Drive Units)  | Title  | Influence of drive units on safety and operation 
+L3615 P99: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter - Drive Units  | Drive units are the central power source of cable skidding systems and enable the  | movement of cables and the transport of timber in the cable yard. They generate and 
+L3657 P100: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Machine and process  | selection)  | Title 
+L3688 P101: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Machine and process  | selection)  | Title 
+L3720 P102: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter - Machine and Process Selection  | The selection of machines and processes is an essential part of planning timber  | harvesting in cable yarding areas. It determines which technical systems are used and 
+L3762 P103: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 2 (Utilization Planning)  | Title  | Assigning uses to transport classes and methods 
+L3791 P104: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Knowledge Card 3 (Utilization Planning)  | Title  | Time requirements, productivity, and costs in utilization planning 
+L3822 P105: Source:   | FHP , Holzernte im Seilgelände – Planung 2, 5. Auflage, 2013  | Structured Summary: Chapter - Utilization Planning  | Utilization planning controls the timing and quantity of timber harvesting in the cable  | yard. It combines silvicultural objectives with operational and technical conditions and 
+L3856 P106: Source: Bont et al. (2021). Assessing timber-harvesting systems and forest road networks in  | Switzerland: new tools.  | Schweiz Z Forstwes 172 (5): 268–277.  | Entity List (8)  | • Best method 
+L3902 P107: Source: Bont et al. (2021). Assessing timber-harvesting systems and forest road networks in  | Switzerland: new tools.  | Schweiz Z Forstwes 172 (5): 268–277.  | Entity List (9)  | • Motor-manual systems 
+L3947 P108: Source: Bont et al. (2021). Assessing timber-harvesting systems and forest road networks in  | Switzerland: new tools.  | Schweiz Z Forstwes 172 (5): 268–277.  |  | --- PAGE 109 ---
+L3999 P110: Source:  | Bont et al. (2021), Schweiz Z Forstwes 172 (5): 268–277  |   | • Entity List:  | Forest road density 
+L4077 P112: Source:  | Bont et al. (2021), Schweiz Z Forstwes 172 (5): 268–277  |   | KNOWLEDGE CARD 2.3  | Title: Integrated evaluation of extraction and transport 
+L4120 P113: Source:  | Bont et al. (2021), Schweiz Z Forstwes 172 (5): 268–277  |  | --- PAGE 114 --- | KNOWLEDGE CARD 3.1 
+L4142 P114: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Cable crane system  | • Mountainous terrain 
+L4186 P115: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Conventional cable crane  | • Mobile cable crane 
+L4230 P116: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Terrain classification  | • Slope gradient 
+L4272 P118: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Cable crane planning  | • Anchor point 
+L4310 P119: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Productivity  | • Payload size 
+L4348 P120: Source:  | Heinimann (1987), Schweizerische Zeitschrift für Forstwesen 138 (2): 93–117  | Entity List:  | • Technical limit  | • Operational limit 
+L4387 P121: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Slit-cut method  | • Regeneration intervention 
+L4424 P122: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Tree-length method  | • Cable yarder 
+L4464 P123: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Productivity  | • Piece volume 
+L4502 P124: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Mast cable yarder  | • Mobile carrier 
+L4541 P125: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Skyline  | • Mainline 
+L4581 P126: Source:  | Haberl, A. (2020), Holznutzung mit Mastseilgeräten im Schlitzverfahren  | Entity List:  | • Work zone  | • Load suspension 
+L4611 P127: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  | Entity List:  | ➢ Ergonomie  | ➢ Richtige Körperhaltung 
+L4641 P128: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Schutzhelm 
+L4672 P129: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Starkholzschlägerung 
+L4708 P130: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Bringung 
+L4758 P131: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |    |  | --- PAGE 132 ---
+L4771 P132: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Schlagart 
+L4807 P133: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Zugbeanspruchung 
+L4845 P134: Source: Waldwirtschaft Heute (Gilge; Grulich; Pfeiffer; Sandler; Spreitzhofer) 13. Auflage  | 2017  |   | Entity List:  | ➢ Kurzspleiß 
+L4909 P136: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   | Entity List:  | ➢ Seilrückung  | ➢ Seilgelände 
+L4946 P137: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   | Entity List:  | ➢ Seilsystem  | ➢ Tragseil 
+L4980 P138: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  | Entity List:  | ➢ Seilrückung  | ➢ Gefahrenbereich  | ➢ Tragseil 
+L5013 P139: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  |    |  | --- PAGE 140 --- | Knowledge Card 2.2.1 
+L5028 P140: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  |   | Entity List:  | ➢ Rückung  | ➢ Befahrbares Gelände 
+L5059 P141: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  |   | Entity List:  | ➢ Rückemittel  | ➢ Forsttraktor 
+L5092 P142: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  | Entity List:  | ➢ Rückung  | ➢ Sicherheit  | ➢ Bodenschutz 
+L5126 P143: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.)  |   |  | --- PAGE 144 --- | Knowledge Card 3.1.1 
+L5144 P144: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  | Entity List:  | ➢ Forststraße  | ➢ Vertikalaufbau  | ➢ Unterbau 
+L5175 P145: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   | Entity List:  | ➢ Gesteinskörnung  | ➢ Kornverteilung 
+L5209 P146: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   | Entity List:  | ➢ Bodentragfähigkeit  | ➢ Verkehrslast 
+L5244 P147: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.   |  | --- PAGE 148 --- | Knowledge Card 3.2.1  | Title 
+L5259 P148: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   | Entity List:  | ➢ Instandhaltung  | ➢ Forststraße 
+L5294 P149: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  | Entity List:  | ➢ Instandsetzung  | ➢ Erneuerung  | ➢ Deckschicht 
+L5329 P150: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  | Entity List:  | ➢ Schäden  | ➢ Forststraße  | ➢ Erosion 
+L5364 P151: Source: Vorlesungsfolien (WS-24) Stampfer Karl Univ.Prof. Dipl.-Ing.Dr.nat.techn.  |   |  | --- PAGE 152 --- | Universität Bodenkultur  Tobias Wenger (12323201) 
+L5390 P152: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Excavator – based harvester 
+L5464 P154: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Excavator-based planting system 
+L5543 P156: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Skidding vehicle 
+L5617 P158: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   |   |  
+L5644 P159: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Cable winch attachment 
+L5681 P160: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Wood splitting tool 
+L5720 P161: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   | Entity List:  |  Branch saw 
+L5767 P162: Source:   | Based on: forst-praxis, (2017). Forst&Technik. Der Verlag.  |   |  | --- PAGE 163 ---
+L5794 P163: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L5861 P165: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L5892 P166: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L5940 P167: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   |  
+L5969 P168: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L6006 P169: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L6042 P170: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   | Entity List: 
+L6090 P171: Source:   | Based on: Wassermann, Clemens (2024). Construction and promotion   | of forest roads. PDF  |   |  
+L6116 P172: Source:   | Based on: Wöhrle (2015). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Forestry accident statistics 
+L6151 P173: Source:   | Based on: Wöhrle (2025). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Forestry accident prevention 
+L6190 P174: Source:   | Based on: Wöhrle (2025). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Harvester technology 
+L6236 P175: Source:   | Based on: Based on: Wöhrle (2025). Waldverbandaktuell. waldverbandsalzburg.  |   |   |  
+L6262 P176: Source:   | Based on: Wöhrle (2015). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Drones 
+L6299 P177: Source:   | Based on: Wöhrle (2015). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Drones 
+L6340 P178: Source:   | Based on: Wöhrle (2015). Waldverbandaktuell. waldverbandsalzburg.  |   | Entity List:  |  Drones 
+L6383 P179: Source:   | Based on: Based on: Wöhrle (2025). Waldverbandaktuell. waldverbandsalzburg.  |   |   |  
+L6406 P180: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Forest harvesting  | Timber production 
+L6443 P181: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Forest harvesting  | Timber extraction 
+L6479 P182: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Terrain  | Slope gradient 
+L6517 P183: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  |   | Knowledge Card 2.1:   | Title: Motor-manual Forest Harvesting 
+L6536 P184: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Motor-manual harvesting  | Chainsaw 
+L6569 P185: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Semi-mechanized harvesting  | Manual work 
+L6599 P186: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  | Entity List:  | Fully mechanized harvesting  | Harvester 
+L6627 P186: Source:  | Stampfer, K., Spinelli, R., Visser, R. Forest Operations. Springer.  |   |   |  
+L6651 P187: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   | Entity List:  | Forest operations 
+L6692 P188: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   | Entity List:  | Work organization 
+L6729 P189: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   | Entity List:  | Infrastructure 
+L6771 P190: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   |   |  
+L6792 P191: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   | Entity List:  | Environmental impacts 
+L6825 P191: Source:  |  | --- PAGE 192 --- | FAO. Forest Operations and Engineering Guidelines.  |  
+L6864 P192: Source:  |  | --- PAGE 193 --- | FAO. Forest Operations and Engineering Guidelines.  |  
+L6907 P194: Source:  | FAO. Forest Operations and Engineering Guidelines.  |   |   |  
+L6932 P194: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Productivity 
+L6971 P195: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Efficiency 
+L7010 P196: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Work organization 
+L7043 P197: Source:  | International Journal of Forest Engineering.  |   |   |  
+L7066 P198: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Occupational safety 
+L7104 P199: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Environmental impacts 
+L7142 P200: Source:  | International Journal of Forest Engineering.  |   | Entity List:  | Efficiency 
+L7175 P200: Source:  | International Journal of Forest Engineering. 

@@ -17,3 +17,4 @@ python-docx
 Pillow
 PyMuPDF
 pytesseract
+tiktoken==0.12.0

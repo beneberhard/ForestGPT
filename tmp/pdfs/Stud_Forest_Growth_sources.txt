@@ -1,0 +1,254 @@
+L145 P5: Grey Literature: The sensitivity of the austrian forests to scenarios of climatic change  | (Ehrlinger) ............................................................................................................................. 128  | Chapter 3: Methods ............................................................................................................ 128  | Structured Summary ....................................................................................................... 128  | Knowledge Card 1 .......................................................................................................... 128 
+L225 P8: Buch: Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes (Prielinger) 223  | Block A– Grundlagen des Waldwachstums & Wachstumsfaktoren .................................. 223  | 1. Knowledge Card ......................................................................................................... 223  | 1.  Knowledge Card ........................................................................................................ 225  | 1. Knowledge Card ......................................................................................................... 227 
+L452 P15: Buch Waldbestandsmessung - Stichprobenverfahren - Wachstumsmodellierung  | (Klammer) ............................................................................................................................. 398  |  | --- PAGE 16 --- | 1. Knowledge Card: .................................................................................................... 398 
+L480 P17: Buch Grundlagen der Wachstumsforschung (Willin- | ger)  | Kapitel 1: Der Wald und sein Wachstum. Einführung  | Structured Summary  | Kapitel 1 beschreibt den Waldbestand als dynamisches, komplexes System, dessen Entwicklung aus 
+L576 P19: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 7-10.  | ISBN 978-3-662-58154-4 (Print), ISBN 978-3-662-58155-1 (eBook).  |  
+L609 P20: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 16 -32.  | ISBN 978-3-662-58154-4 (Print), ISBN 978-3-662-58155-1 (eBook).  |  
+L678 P22: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 122-133.  | ISBN 978-3-662-58154-4 (Print), ISBN 978-3-662-58155-1 (eBook).  |  
+L717 P23: Quelle  |  | --- PAGE 24 --- | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 133-142. ISBN 978-3-662-58154-4 (Print), ISBN 978-
+L755 P25: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte  | Auflage. Springer Spektrum, Berlin/Heidelberg, S. 142-153.  | ISBN 978-3-662-58154-4 (Print), ISBN 978-3-662-58155-1 (eBook).  |  
+L796 P26: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 153-173. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L832 P27: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 181-185. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L870 P28: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 185-190. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L935 P30: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 213-225. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L970 P31: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 225-230. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1005 P32: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 230-232. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1035 P33: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 232-238. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1065 P33: Quelle  |  | --- PAGE 34 --- | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 238-246. ISBN 978-3-662-58154-4 (Print), ISBN 978-
+L1132 P35: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 256-260. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1167 P36: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 260-265. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1203 P37: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 280-282. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  | 
+L1238 P38: Quelle  |  | --- PAGE 39 --- | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 282-285. ISBN 978-3-662-58154-4 (Print), ISBN 978-
+L1301 P40: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 294-308. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1339 P41: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 319-337. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1380 P43: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 342-348. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1443 P44: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 432-437. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1481 P45: Quelle  |  | --- PAGE 46 --- | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 442-450. ISBN 978-3-662-58154-4 (Print), ISBN 978-
+L1516 P46: Quelle  |  | --- PAGE 47 --- | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 451-455. ISBN 978-3-662-58154-4 (Print), ISBN 978-
+L1573 P48: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 466-470. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1613 P49: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 470-480. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1658 P51: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 480-483. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1696 P52: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 483-499. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1733 P53: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 499-502. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1775 P54: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 503-511. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1833 P56: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 575-584. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1864 P57: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 584-597. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |  
+L1900 P58: Quelle  | Pretzsch, H. (2019). Grundlagen der Waldwachstumsforschung. 2., überarbeitete und erweiterte Auf- | lage. Springer Spektrum, Berlin/Heidelberg, S. 598-608. ISBN 978-3-662-58154-4 (Print), ISBN 978- | 3-662-58155-1 (eBook).  |   
+L1907 P59: Buch Leitfaden zur Waldmesslehre (Willinger)  | Kapitel 1: Charakterisierung der Waldbestände   | Structured Summary  | Das Kapitel beschreibt, wie Waldbestände mithilfe quantitativer Merkmale systematisch erfasst und  | beschrieben werden können. Zentrale Grundlage bilden kontinuierliche, messbare Merkmale wie Brust-
+L1966 P60: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 98-101. ISBN 978-7939-0880-7  |   | Gebräuchliche Mittelstämme 
+L2000 P61: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 101-106. ISBN 978-7939-0880-7  |   | Bestandshöhen  
+L2030 P62: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 106-113. ISBN 978-7939-0880-7  | Bestandsdichte  | Die Bestandsgrundfläche stellt das hauptsächliche Kriterium zur Beschreibung der Bestandsdichte dar. 
+L2066 P63: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 120-126. ISBN 978-7939-0880-7  |   | Kapitel 2: Massenberechnungs- und Schätzverfahren   
+L2120 P65: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 127-128. ISBN 978-7939-0880-7  |   | Vorratsschätzung 
+L2155 P66: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 129-132. ISBN 978-7939-0880-7  |   | Probestammverfahren 
+L2177 P66: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 132-135. ISBN 978-7939-0880-7  |   | Ermittlung der Bestandesbiomasse 
+L2209 P67: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 136-137. ISBN 978-7939-0880-7  |    | 
+L2261 P69: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 140-141. ISBN 978-7939-0880-7  |   | Zuwachs beim Einzelbaum 
+L2293 P70: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 141-149. ISBN 978-7939-0880-7  |   | Zuwachs von Waldbeständen 
+L2327 P71: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 149-. ISBN 978-7939-0880-7  |   | Bonitierung 
+L2362 P72: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 154-156. ISBN 978-7939-0880-7  |   | Wachstums- und Ertragsmodelle 
+L2397 P73: Quelle  | Kramer, H. & Akça, A. (2008): Leitfaden zur Waldmesslehre. 5. Überarbeitete Auflage. J. D. Sauerlän- | der´s Verlag, Bad Orb. S. 156-160. ISBN 978-7939-0880-7  |    | 
+L2447 P75: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Dendroökologie  
+L2476 P76: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Geschichte der Jahrringforschung  
+L2504 P76: Quelle  |  | --- PAGE 77 --- | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien. 
+L2529 P77: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Kapitel 2: Biologische Grundlagen und Zuwachszonen  
+L2582 P79: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Zuwachszonen 
+L2617 P80: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Zuwachsfaktoren  
+L2652 P81: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Kapitel 3: Auswertung von Jahrringen und Merkmale  
+L2709 P82: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Jahrringmerkmale 
+L2742 P83: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Dendroklimatologie 
+L2779 P84: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |   | Verwundungen 
+L2814 P85: Quelle  | Grabner, Michael (2018): Dendrochronologie – Der Kalender im Baum. Vorlesungsfolien, Institut für  | Holztechnologie und Nachwachsende Rohstoffe, BOKU Wien.  |  | --- PAGE 86 ---
+L2819 P86: Book: Integrative Forest Management and Silvicul- | ture (Ehrlinger)  | Suzuki, Satoshi N, Dai Fukui, Toshiaki Owari, and Nobuaki Tanaka: Integrative Forest Man- | agement and Silviculture: Harmonizing Conservation and Production. Singapore: Springer Na- | ture, 2026 
+L3575 P109: Book: Physiological Ecology of Forest Production  | (Ehrlinger)  | Landsberg, J. J., and Peter J. Sands : Physiological Ecology of Forest Production: Principles,  | Processes and Models. 1st ed., Volume 4, Academic Press/Elsevier, 2011  | Chapter 1: Introduction: Terrestrial Ecology 
+L4218 P128: Grey Literature: The sensitivity of the austrian for- | ests to scenarios of climatic change (Ehrlinger)  | Lexer M. J., Hönninger K., Scheifinger H., Matulla Ch., Groll N., Kromp -Kolb H., Schadauer  | K., Starlinger F. and Englisch M.: The Sensitivity of the Austrian Forests to Scenarios of Cli- | matic Change: A Large -Scale Risk Assessment.  Vol. Monographien Umweltbundesamt 132. 
+L4620 P140: Grey literature: Forstliche Etragslehre (Prielinger)  | Block 1: Grundlagen   | 1. Knowledge Card  | Title  | Grundlagen der forstlichen Ertragslehre 
+L4662 P141: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015.  Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L4710 P143: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien   |   |  
+L4754 P144: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien   |   | 
+L4767 P145: Quelle der Biomasseproduktion. Der Aufbau organischer Substanz wird durch Atmung teil- | weise wieder reduziert, sodass nur ein Teil der produzierten Energie dem Wachstum  zur Ver- | fügung steht. Das tatsächliche Wachstum wird durch Umweltfaktoren wie Licht, Wasser, Nähr- | stoffe und Temperatur begrenzt. Zusätzlich wirken Konkurrenzprozesse innerhalb des Bestan- | des regulierend, da mehrere Bäume um dieselben Ressourcen konkurrieren. 
+L4821 P147: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |  
+L4868 P149: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien |   |  
+L4910 P151: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |  
+L4955 P153: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5021 P156: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5067 P158: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien  |   |   
+L5112 P160: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015.  Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5178 P163: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5223 P165: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5266 P167: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien  |   |   
+L5309 P169: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5377 P172: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre – Vorlesungsfolien   |   |   
+L5422 P174: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5467 P176: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5511 P178: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5578 P181: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015.  Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5624 P183: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5670 P185: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5714 P187: Quelle  | Institut für Waldwachtumsforschung, Universität für Bodenkultur Wien, 2015. Forstliche Er- | tragslehre - Vorlesungsfolien  |   |   
+L5747 P189: Grey literature: Zustandserhebung und Ertrags- | prognosen (Prielinger)  | Block 1: Modelle, Waldwachstumskunde und Wachstumsfaktoren  | 1. Knowledge Card  | Title 
+L5788 P190: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Einführung Universität für Bodenkultur  | Wien (BOKU), Wien. |  
+L5834 P192: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Einführung Universität für Bodenkultur  | Wien (BOKU), Wien. |  
+L5880 P194: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Einführung Universität für Bodenkultur  | Wien (BOKU), Wien. |  
+L5945 P197: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien.  |  
+L5992 P199: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien.  |  
+L6037 P201: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen .  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose Universität für Boden- | kultur Wien (BOKU), Wien.  |  
+L6081 P203: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose Universität für Boden- | kultur Wien (BOKU), Wien.  |  
+L6148 P206: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Zustandserhebung Universität für Boden- | kultur Wien (BOKU), Wien.  |  
+L6194 P208: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Zustandserhebung Universität für Boden- | kultur Wien (BOKU), Wien.  |  
+L6237 P210: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Zustandserhebung Universität für Boden- | kultur Wien (BOKU), Wien.  |   
+L6281 P212: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Zustandserhebung Universität für Boden- | kultur Wien (BOKU), Wien.  |  
+L6348 P215: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien.  |   
+L6391 P217: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien.  |  
+L6436 P219: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien.  |  
+L6481 P221: Quelle  | Institut für Waldwachstumsforschung (2025). Zustandserhebung und Ertragsprognosen.  | Lehrveranstaltungsunterlagen – Foliensatz ZEEP_Wachstumsprognose. Universität für Bo- | denkultur Wien (BOKU), Wien. |  
+L6513 P223: Buch: Zielstärken-Nutzung oder die Plenterung des  | Altersklassenwaldes (Prielinger)  | Block A– Grundlagen des Waldwachstums & Wachstumsfaktoren  | 1. Knowledge Card  | Title 
+L6553 P224: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 225 ---
+L6597 P226: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 227 ---
+L6641 P228: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 229 ---
+L6706 P231: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |  | --- PAGE 232 ---
+L6749 P233: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 234 ---
+L6793 P235: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |  | --- PAGE 236 ---
+L6860 P238: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |    | 
+L6904 P240: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |  | --- PAGE 241 ---
+L6946 P242: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 243 ---
+L7012 P245: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |    | 
+L7056 P247: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.  |    | 
+L7100 P249: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 250 ---
+L7141 P251: Quelle  | Reininger, Heinrich.  Zielstärken-Nutzung oder die Plenterung des Altersklassenwaldes . 5.  | Aufl.., Nr. 5. Aufl., Österr. Agrarverl., 1992.   |  | --- PAGE 252 ---
+L7170 P253: Buch Waldwirtschaft heute (Prielinger)  | Kapitel: Forstliche Betriebswirtschaft – Ertragskunde  | 1. Knowledge Card  | Title  | Ziel der Ertragskunde 
+L7207 P254: Quelle  | Gilge, H.; Grulich, H.; Pfeiffer, G.; Sandler, J.; Spreitzhofer, J.; (2020). Waldwirtschaft heute  | 15., überarbeitete und erweiterte Auflage. Cadmos Verlag, München, S. 172–182., ISBN 978- | 384-048312-7   |  
+L7251 P256: Quelle  | Gilge, H.; Grulich, H.; Pfeiffer, G.; Sandler, J.; Spreitzhofer, J.; (2020). Waldwirtschaft heute  | 15., überarbeitete und erweiterte Auflage. Cadmos Verlag, München, S. 172–182., ISBN 978- | 384-048312-7   |  
+L7296 P258: Quelle  | Gilge, H.; Grulich, H.; Pfeiffer, G.; Sandler, J.; Spreitzhofer, J.; (2020). Waldwirtschaft heute  | 15., überarbeitete und erweiterte Auflage. Cadmos Verlag, München, S. 172–182., ISBN 978- | 384-048312-7   |  
+L7340 P260: Quelle  | Gilge, H.; Grulich, H.; Pfeiffer, G.; Sandler, J.; Spreitzhofer, J.; (2020). Waldwirtschaft heute  | 15., überarbeitete und erweiterte Auflage. Cadmos Verlag, München, S. 172–182., ISBN 978- | 384-048312-7   |  
+L7383 P262: Buch: Waldökologie (Borgmann)  | Kapitel: Habitus  | 1. Knowledge Card  | Title  | Habitus 
+L7422 P263: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5  |  
+L7484 P264: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5   | 
+L7532 P266: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  | Structured Summary  | Bäume kann man in Stamm, Wurzel und Krone einteilen. Jeder teil erfüllt eine andere aufgebe. 
+L7590 P267: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5   | 
+L7625 P268: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  |   |   
+L7663 P269: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  |  | --- PAGE 270 ---
+L7717 P272: Quelle  | BOKU Skriptum Allgemeine Botanik 2015  | Titel: Wachstumsfaktoren als Limitierung des Waldwachstums  |   | Das Waldwachstum und die Biomasse Produktion hängen von verschiedenen Ökologi-
+L7755 P273: Quelle:  |  Kooperatives Skriptum Allgemeine Botanik, 2015, Seiten 114–121.  | Titel: Produktionsökologie und Biomassebildung im Wald  | Text:  | Die Verteilung der Biomasse in Ökosystemen wird über die Produktionsökologie beschrieben. 
+L7789 P273: Quelle:  | Basierend auf Kooperatives Skriptum Allgemeine Botanik, 2015, Seiten 113–116.  |  | --- PAGE 274 --- |  
+L7825 P274: Quelle:  | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seiten  | 6–7  |   | 
+L7862 P275: Quelle:  | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seite  | 10.  |   | Titel: CO₂ als Ressource des Waldwachstums 
+L7898 P276: Quelle:  | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seite  | 14  |   | Structured Summary 
+L7954 P279: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5  |  
+L8015 P280: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5   | 
+L8062 P282: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  | Structured Summary  | Bäume kann man in Stamm, Wurzel und Krone einteilen. Jeder teil erfüllt eine andere aufgebe. 
+L8122 P284: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015).  Waldökologie: Einführung für Mitteleu- | ropa (1st Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662- | 44268-5   | 
+L8156 P285: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  |   | 1. Knowledge Card 
+L8197 P287: Quelle  | Norbert Bartsch, Ernst Röhrig, Martin Lay. (2015). Waldökologie: Einführung für Mitteleuropa (1st  | Aufl 2016th edition). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44268-5  | Structured Summary  |  
+L8246 P288: Quelle  | BOKU Skriptum Allgemeine Botanik 2015  |  | --- PAGE 289 --- | Titel: Wachstumsfaktoren als Limitierung des Waldwachstums 
+L8284 P289: Quelle:  |  Kooperatives Skriptum Allgemeine Botanik, 2015, Seiten 114–121.  | Titel: Produktionsökologie und Biomassebildung im Wald  | Text:  | 
+L8320 P290: Quelle:  | Basierend auf Kooperatives Skriptum Allgemeine Botanik, 2015, Seiten 113–116.  |    |  | --- PAGE 291 ---
+L8325 P291: Grey literature: Grundlagen der Ökologie II (Borg- | mann)  | Titel:   | Photosynthetisch aktive Strahlung (PAR) und Lichtnutzung im Wald  | Text: 
+L8359 P291: Quelle:  |  | --- PAGE 292 --- | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seiten  | 6–7 
+L8397 P292: Quelle:  |  | --- PAGE 293 --- | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seite  | 10. 
+L8436 P293: Quelle:  |  | --- PAGE 294 --- | Basierend auf Gratzer, G., Grundlagen der Ökologie – Einheit 3: Strahlung, GOEK II, Seite  | 14 
+L8453 P295: Buch Waldstruktur und Waldwachstum (Lenz)  | Kapitel 1: Grundlagen  | 1. Knowledge Card  | Title  | Standörtliche Rahmenbedingungen  
+L8495 P296: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8545 P297: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8597 P299: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8671 P301: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8718 P302: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8760 P303: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   | Structured Summary 
+L8828 P305: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8879 P307: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L8926 P308: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   | Structured Summary 
+L8991 P310: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9038 P311: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9090 P313: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   | Structured Summary 
+L9156 P315: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9204 P316: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9254 P317: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   | 
+L9320 P319: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9366 P321: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   | 3. Knowledge Card 
+L9420 P322: Quelle  | Gadow, K. (2003). Waldstruktur und Wachstum. Göttingen: Universitätsverlag Göttingen.  | ISBN 3-930457-32-6  |   |  
+L9481 P324: Quelle  |  | --- PAGE 325 --- | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien 
+L9514 P325: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |  | --- PAGE 326 ---
+L9556 P327: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |   | Kapitel 2: Klassisches Lineares Modell 
+L9589 P328: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |   | 2. Knowledge Card 
+L9621 P329: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |   | 3. Knowledge Card 
+L9656 P330: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |    | 
+L9690 P331: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |   | 
+L9724 P332: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |   |  
+L9759 P333: Quelle  | Nothdurft, Arne (2024): Forstliche Biometrie II. Vorlesungsfolien, Institut für Waldwachstum,  | BOKU Wien  |    | 
+L9792 P334: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   | 
+L9823 P335: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L9858 P336: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   | 
+L9889 P337: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L9920 P338: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L9953 P339: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L9983 P340: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L10011 P341: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L10043 P342: Quelle:  | Hangler, Johannes (2024): Abteilung III/1 - Waldpolitik, Waldökonomie und Waldinformation,  | Bundesministerium für Land - und Forstwirtschaft, Klima - und Umweltschutz, Regionen und  | Wasserwirtschaft   |  
+L10057 P343: Buch Lehrbuch der Forstwirtschaft (Klammer)  | Kapitel  – Grundbegriffe der Forstwirtschaft und Waldproduktion  | 1. Knowledge Card  | Title  | Begriff und Gegenstand der Forstwirtschaft 
+L10121 P345: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 1-25.  |   |   
+L10155 P346: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 1-25.  |    | 
+L10188 P347: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 1-25.  |   |   
+L10243 P349: Quelle  |  | --- PAGE 350 --- | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 25–28. 
+L10279 P351: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 29–34.  |    | 
+L10311 P352: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 35–39.  |    | 
+L10370 P355: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 60–64.  |    | 
+L10403 P356: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 65–69.  |    | 
+L10436 P357: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 70–75.  |    | 
+L10468 P358: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 76–80.  |    | 
+L10520 P360: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 81–85.  |    | 
+L10552 P361: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 86–90.  |    | 
+L10584 P362: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 91–95.  |    | 
+L10616 P363: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 96–100.  |    | 
+L10667 P365: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 101–105.  |  | --- PAGE 366 ---
+L10701 P367: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 106–110.  |    | 
+L10733 P368: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 111–115.  |    | 
+L10781 P370: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 101–105.  |  | --- PAGE 371 ---
+L10815 P372: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 106–110.  |    | 
+L10847 P373: Quelle  | Lorenz, H. R. von. (1908). Lehrbuch der Forstwirtschaft  (3. Aufl., Bd. III). Wien: Wilhelm  | Frick. S. 111–115.  |    | 
+L10904 P376: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 1–3.  |    | 
+L10939 P377: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 2–4.  |    | 
+L10996 P380: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 5–6.  |    | 
+L11031 P381: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 7–9.  |    | 
+L11065 P382: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 7–11.  |    | 
+L11119 P385: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 5–6.  |    | 
+L11154 P386: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 7–9.  |    | 
+L11188 P387: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 7–11.  |    | 
+L11239 P389: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 23–25.  |  | --- PAGE 390 ---
+L11274 P391: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 26–28.  |    | 
+L11306 P392: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 29–31.  |    | 
+L11355 P394: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 32–34.  |    | 
+L11388 P395: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 35–37.  |    | 
+L11421 P396: Quelle  | Forst Holz Papier Österreich. (2024). Gesetzliche Rahmenbedingungen und Eichvorschriften  | im Zusammenhang mit Holzvermessung. Vorlesungsunterlagen, S. 38–40.  |    | 
+L11444 P398: Buch Waldbestandsmessung - Stichprobenverfahren  | - Wachstumsmodellierung (Klammer)  | Kapitel– Messung liegender und stehender Bäume  | 1. Knowledge Card:  | Bedeutung der Baumvermessung für die Waldwachstumslehre 
+L11481 P399: Quelle:   | Lockow, K.-W. (2022). Waldbestandsmessung - Stichprobenverfahren - Wachstumsmodellie- | rung (1. Aufl. 2022 edition.). Springer.  |   |   
+L12016 P419: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einhei- | ten 1–8).Universität für Bodenkultur Wien.   |  | --- PAGE 420 ---
+L12049 P420: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einhei- | ten 1–8).Universität für Bodenkultur Wien.   |  | --- PAGE 421 ---
+L12081 P421: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.   |  | --- PAGE 422 ---
+L12112 P422: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.   |  | --- PAGE 423 ---
+L12164 P424: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12199 P425: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12234 P426: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12289 P428: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |  | --- PAGE 429 ---
+L12326 P430: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12361 P431: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12396 P432: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12449 P434: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |  | --- PAGE 435 ---
+L12486 P436: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12520 P437: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12555 P438: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12607 P440: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12642 P441: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12676 P442: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12710 P443: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12762 P445: Quelle:  |  | --- PAGE 446 --- | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien. 
+L12799 P447: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |  | --- PAGE 448 ---
+L12836 P449: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12869 P450: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12922 P452: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12957 P453: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L12991 P454: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L13025 P455: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L13077 P457: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L13111 P458: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L13145 P459: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 
+L13179 P460: Quelle:  | Institut für Waldwachstumsforschung. (2023).Biometrie 1 (Vorlesungsunterlagen, Einheiten  | 1–8).Universität für Bodenkultur Wien.  |    | 

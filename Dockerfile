@@ -3,6 +3,7 @@ FROM python:3.12-slim
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
+    TIKTOKEN_CACHE_DIR=/opt/tiktoken_cache \
     RSCRIPT_BIN=Rscript
 
 WORKDIR /app
@@ -34,7 +35,8 @@ RUN apt-get update \
 
 COPY requirements.txt .
 RUN python -m pip install --upgrade pip \
-    && python -m pip install -r requirements.txt
+    && python -m pip install -r requirements.txt \
+    && python -c "import tiktoken; tiktoken.get_encoding('cl100k_base')"
 
 RUN Rscript -e "install.packages(c('jsonlite', 'r3PG'), repos='https://cloud.r-project.org')"
 

@@ -1,0 +1,181 @@
+6: 1.Knowledge Card 
+28: 2.Knowledge Card 
+55: 3.Knowledge Card 
+82: 4.Knowledge Card 
+104: 5.Knowledge Card 
+138: 1.Knowledge Card 
+164: 2.Knowledge Card 
+191: 3.Knowledge Card 
+230: 1.Knowledge Card 
+258: 2.Knowledge Card 
+279: 3.Knowledge Card 
+307: 4.Knowledge Card 
+334: 5.Knowledge Card 
+367: 6.Knowledge Card 
+405: 1.Knowledge Card 
+431: 2.Knowledge Card 
+455: 3.Knowledge Card 
+493: 1.Knowledge Card 
+518: 2.Knowledge Card 
+548: 3.Knowledge Card  
+579: 4.Knowledge Card 
+623: 1.Knowledge Card 
+648: 2.Knowledge Card 
+674: 3.Knowledge Card 
+700: 4.Knowledge Card 
+736: 1.Knowledge Card 
+760: 2.Knowledge Card 
+788: 3.Knowledge Card 
+809: 4.Knowledge Card 
+838: 5.Knowledge Card 
+886: 1.Knowledge Card 
+905: 2.Knowledge Card 
+930: 3.Knowledge Card 
+997: 1.Knowledge Card 
+1025: 2.Knowledge Card  
+1056: 3.Knowledge Card 
+1084: 4.Knowledge Card 
+1137: 1.Knowledge Card 
+1161: 2.Knowledge Card 
+1193: 3.Knowledge Card 
+1238: 1.Knowledge Card 
+1270: 2.Knowledge Card 
+1299: 3.Knowledge Card 
+1353: 1.Knowledge Card 
+1381: 2.Knowledge Card 
+1412: 3.Knowledge Card 
+1465: 1.Knowledge Card 
+1495: 2.Knowledge Card 
+1524: 3.Knowledge Card 
+1576: 1.Knowledge Card 
+1609: 2.Knowledge Card 
+1636: 3.Knowledge Card 
+1661: 4.Knowledge Card 
+1707: 1.Knowledge Card 
+1735: 2.Knowledge Card 
+1762: 3.Knowledge Card 
+1806: 1.Knowledge Card 
+1831: 2.Knowledge Card 
+1856: 3.Knowledge Card 
+1905: 1.Knowledge Card 
+1931: 2.Knowledge Card 
+1955: 3.Knowledge Card 
+2003: 1.Knowledge Card 
+2025: 2.Knowledge Card 
+2047: 3.Knowledge Card 
+2069: 4.Knowledge Card 
+2115: 1.Knowledge Card 
+2137: 2.Knowledge Card 
+2164: 3.Knowledge Card 
+2214: 1.Knowledge Card 
+2236: 2.Knowledge Card 
+2256: 3.Knowledge Card 
+2313: 1.Knowledge Card 
+2334: 2.Knowledge Card 
+2369: 3.Knowledge Card 
+2431: 1.Knowledge Card 
+2466: 2.Knowledge Card 
+2495: 3.Knowledge Card 
+2557: 1.Knowledge Card 
+2590: 2.Knowledge Card 
+2623: 3.Knowledge Card 
+2684: 1.Knowledge Card 
+2717: 2.Knowledge Card 
+2750: 3.Knowledge Card 
+2813: 1.Knowledge Card 
+2844: 2.Knowledge Card 
+2875: 3.Knowledge Card 
+2936: 1.Knowledge Card 
+2954: 2.Knowledge Card  
+2975: 3.Knowledge Card  
+3014: 1.Knowledge Card  
+3039: 2.Knowledge Card  
+3057: 3.Knowledge Card  
+3090: 1.Knowledge Card 
+3110: 2.Knowledge Card  
+3130: 3.Knowledge Card 
+3171: 1.Knowledge Card  
+3192: 2.Knowledge Card  
+3217: 3.Knowledge Card  
+3240: 4.Knowledge Card 
+3288: 1.Knowledge Card  
+3308: 2.Knowledge Card  
+3330: 3.Knowledge Card  
+3368: 1.Knowledge Card  
+3388: 2.Knowledge Card  
+3409: 3.Knowledge Card  
+3448: 1.Knowledge Card  
+3467: 2.Knowledge Card  
+3486: 3.Knowledge Card  
+3537: 1.Knowledge Card  
+3552: 2.Knowledge Card 
+3571: 3.Knowledge Card  
+3605: 1.Knowledge Card 
+3633: 2.Knowledge Card 
+3665: 3.Knowledge Card 
+3709: 1.Knowledge Card 
+3739: 2.Knowledge Card  
+3767: 3.Knowledge Card 
+3814: 1.Knowledge Card 
+3841: 2.Knowledge Card  
+3866: 3.Knowledge Card 
+3893: 4.Knowledge Card  
+3937: 1.Knowledge Card  
+3968: 2.Knowledge Card  
+3992: 3.Knowledge Card  
+4017: 4.Knowledge Card 
+4055: 1.Knowledge Card 
+4083: 2.Knowledge Card 
+4106: 3.Knowledge Card 
+4150: 1.Knowledge Card 
+4177: 2.Knowledge Card  
+4202: 3.Knowledge Card 
+4227: 4.Knowledge Card 
+4250: 5.Knowledge Card 
+4289: 1.Knowledge Card 
+4317: 2.Knowledge Card  
+4344: 3.Knowledge Card 
+4390: 1.Knowledge Card 
+4418: 2.Knowledge Card 
+4441: 3.Knowledge Card 
+4502: 1.Knowledge Card 
+4532: 2.Knowledge Card 
+4570: 3.Knowledge Card 
+4598: 4.Knowledge Card 
+4669: 1.Knowledge Card 
+4704: 2.Knowledge Card  
+4732: 3.Knowledge Card 
+4805: 1.Knowledge Card 
+4829: 2.Knowledge Card 
+4854: 3.Knowledge Card 
+4911: 1.Knowledge Card 
+4936: 2.Knowledge Card 
+4962: 3.Knowledge Card 
+5017: 1.Knowledge Card  
+5049: 2.Knowledge Card 
+5078: 3.Knowledge Card 
+5112: 4. Knowledge Card:  
+5131: 5.Knowledge Card 
+
+SOURCES
+3: Quelle: Mitschrift Atmospheric pollution and climate 
+227: Quelle: Mitschrift Grundlagen der Ökologie 2 VO  
+491: Quelle: Mitschrift Forstpathologie VO/UE  
+618: Quelle: Campbell Biologie, L.A. Urry, S.A. Wasserman, 
+859: Scientific consensus → attributes → current warming to human activity 
+877: Quelle: Schadholzaufarbeitung – Fäll und 
+1233: Quelle: Klimawandel in Deutschland, G. Brasseur, D. 
+1574: Quelle: Mitschrift Forstbotanik VO 
+1903: Quelle: Mitschrift Waldklimatologie VO 
+2209: Quelle: Renaturierung von Waldböden, Prinzipien der 
+2555: Quelle: Mitschrift Einführung in den Forstschutz VO 
+2931: Quelle: Störungsökologie, T. Wohlgemuth, A. Jentsch, R.  
+3279: Quelle: Biodiversität und Klimawandel Auswirkungen 
+3534: Quelle: Mitschrift Dendrochronologie VO 
+3602: Quelle:  Mitschrift Meteorologie für 
+3935: Quelle: Waldökologie VO Mitschrift 
+4146: Quelle: Waldökologie. N. Bartsch, E. Röhrig 
+4385: Quelle: Wald im Klimawandel - Grundlagen für 
+4799: Quelle: Managing Forest Ecosystems: The Challenge of 
+4906: Quelle: Klimawandel und Vegetation – Eine globale 
+5015: Quelle: Waldbodenkunde VO Mitschrift 

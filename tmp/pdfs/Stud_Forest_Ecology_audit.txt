@@ -1,0 +1,528 @@
+ENTITY
+39: Entities: Wald, internationale Walddefinition, Größenausdehnung, Breitenausdehnung, 
+69: Entities: Forstgesetz, Waldfunktionen, Ökosystemleistungen, nachhaltige Bewirtschaftung, 
+88: Entities: Atmosphäre, Troposphäre, Wettergeschehen, Tropopause, Gesamtmasse, Wassergehalt, 
+116: Entities: Atmosphärische Grenzschicht, Prandtl-Schicht, Ekman-Schicht, Bodenreibung, turbulenter 
+140: Entities: Standort, abiotische Faktoren, Lorenz von Liburnau, stabile Merkmale, Boden, Klima, 
+164: Entities: natürlicher Treibhauseffekt, Treibhausgase, Oberflächentemperatur, Erdoberfläche, Weltall, 
+206: Entities: Luftabkühlung, Advektionsnebel, Taupunkt, Dilatation, Wolkenbildung, Konvektion, 
+231: Entities: Wälder, BVOCs, Baumarten, Sekundäre organische Aerosole (SOA), Oxidation, 
+259: Entities: Niederschlagsbildung, Regentropfen, Eiskristalle, Koaleszenz, Koagulation, Eisphase, 
+311: Entities: Energiebilanz, Nettostrahlung (Rn), photosynthetischer Wärmestrom (), fühlbarer 
+342: Entities: Kleinrelief, Waldgrenze, Schneedecke, Ausstrahlung, Windwirkung, Cuticula, Embolien, 
+365: Entities: Grasfrost; Ausstrahlungszeitraum; Mineralboden; Grasfilz; Isolierschicht; 
+413: Entities: European floodplain forests; Quaternary river deposits; soft-wooded floodplain forest; hard-
+440: Entities: Floodplain forests; Anthropogenic impact; Agriculture; River regulation; Groundwater level; 
+460: Entities: Middle Ages; Coppice forests; Short rotation periods; Softwood species; High forests; 
+503: Entities: Danube; Marchfeld; Sedimentation; Erosion; Great Danube Training and Flood Protection 
+533: Entities: River straightening; Riverbed erosion; Groundwater level; Groundwater fluctuations; Drier 
+564: Entities: Hydroelectric power plants; Groundwater body; Groundwater amplitude; Hardwood 
+616: Entities: Wald; Stockwerkartiger Aufbau; Baumkronen; Sträucher; Kräuterschicht; Moose; 
+640: Entities: Schichtung des Waldes; Konkurrenz; Lichtholzarten; Eiche; Schattenholzarten; Rotbuche; 
+665: Entities: Waldpflanzen; Waldrand; Büsche; Windbruch; Austrocknen; Waldklima; Luftfeuchtigkeit; 
+710: Entities: Waldzusammensetzung; Klima; Baumarten; Seeklima; Rotbuche; Traubeneiche; 
+731: Entities: Waldgebiet Europas; Waldgürtel; Temperatur; Hartlaubzone; Steineiche; Korkeiche; 
+758: Entities: Temperatur; Höhenstufen; Nördliche Alpen; Laubwälder; Mischwälder; Fichtenwälder; 
+805: Entities: Wildschadenanfälligkeit (WSA); Besiedlungsanreize (BA); Nahrungsangebot (N); Wildeinfluss; 
+830: Entities: Waldbewirtschaftung; Dauerwald; Kahlschlag; nahrungsunabhängige Besiedlungsanreize 
+857: Entities: Diagnoseschema; Wildeinfluss; Wildschaden; Verjüngungsnotwendigkeit; Zielbaumart; 
+901: Entities: Freizeitsektor; Wildstörungen; Bewusstmachung; Aufklärungskampagnen; Hinweisschilder; 
+923: Entities: Wald-Wiesen-Reviere; Wildschadenanfälligkeit; Deckungsmöglichkeiten; Feldraine; Hecken; 
+953: Entities: Integrale Wildökologische Raumplanung (WÖRP); Wildlife Ecological Spatial Planning (WESP); 
+992: Entities: coarse woody debris (CWD); logs; snags; large branches; coarse roots; fungi; 
+1026: Entities: volume functions; sectioning; taper function; Huber’s method; Smalian’s method; 
+1057: Entities: sample plot inventory; strip survey; line intercept sampling; Horvitz–
+1082: Entities: decay class; wood density; penetrometer; log samples; oven-drying; 
+1128: Entities: vertical stand structure; canopy density; tree size; branching patterns; 
+1159: Entities: arc-based method; cover index (CI); S1 (field layer); S2 (shrub layer); S3 (lower 
+1191: Entities: stratification index; TSTRAT algorithm; moving-average method; canopy strata; 
+1240: Entities: forest fragmentation; habitat loss; habitat fragmentation; biodiversity; patch size; 
+1271: Entities: reference landscape; fragmented landscape; sample size; fragmentation metrics; 
+1295: Entities: regression approach; residual fragmentation metrics; experimental landscape; 
+1341: Entities: edge; forest patch; non-forest habitat; dispersal; migration; predation; 
+1372: Entities: Swiss national forest inventory; 50 m transect; floristic diversity; 
+1403: Entities: core area model; effective area model; depth of edge influence (DEI); 
+1454: Entities: tree form; stem shape; form factor; form quotient; cylindrical form factor (fc); 
+1485: Entities: decay hole; cavity; rot site; dead wood; hollowing; water pool; bark damage; 
+1510: Entities: minimum entrance width; cavity depth; branch diameter; branch order; 
+1542: Entities: sounding; increment boring; cordless drill; shigometer; impedance tomography; 
+1593: Entities: understory vegetation; species composition; relative cover; density; frequency; 
+1623: Entities: quadrat; frame quadrat; gridded quadrat; Domin scale; Braun–Blanquet scale; 
+1654: Entities: point quadrat; line transect; point transect; quadrat size; mosses; herbs; shrubs; 
+1704: Entities: habitat model; conceptual model; statistical formulation; calibration; prediction; 
+1737: Entities: expert opinion; elicitation method; Delphi technique; conceptual model; 
+1761: Entities: geographic envelope model; convex hull; α-hull; Delaunay triangulation; 
+1824: Entities: stem population density, mortality rate, stand age, site conditions, management 
+1861: Entities: environmental stress, frost, drought, insects and diseases, frost hardiness, cold 
+1886: Entities: drought-induced mortality, carbon starvation, hydraulic failure, biotic agents, 
+1919: Entities: canopy closure, self-thinning, stem number, stand basal area, self-thinning line, 
+1953: Entities: allometric stem mass equation, stem mass, DBH, allometric power, self-thinning 
+2014: Entities: critical height , stem diameter dᴮ, elastic modulus , green wood density 
+2060: Entities: height–diameter allometry, , exponent , mechanical 
+2109: Entities: stem biomass , form factor , stem shape, wood density , basal area , 
+2164: Entities: Weibull distribution , height/diameter distribution, shape parameter , 
+2190: Entities: allometric parameters, stand age, age-specific relationships, biomass at a 
+2265: Entities: isometry, shape preservation, allometry, departure from isometry, component 
+2313: Entities: main stem biomass, total biomass, Pinus sylvestris, exponent n approximately 
+2339: Entities: stem biomass , DBH , allometric exponent for stem biomass, coarse root 
+2379: Entities: allometric parameters  & , tree age, older trees, higher scale factor , slightly 
+2424: Entities: clone differences, allometric scale factors, clone C2 and C3, stem scale factor, 
+2476: Entities: canopy architecture, PAR interception, transpiration rate, crown shape, latitude 
+2507: Entities: specific leaf area, leaf area, foliage mass, leaf area index LAI, conifer species, 
+2547: Entities: transition function SLA , SLA change with age, juvenile foliage SLA , mature 
+2597: Entities: foliage mass , diameter at breast height , sapwood area , leaf area , 
+2622: Entities: leaf area index (LAI), foliage area density , canopy height , stand density 
+2670: Entities: closed-canopy LAI , min{, , }, nutrition-limited LAI , soil fertility 
+2723: Entities: homogeneous canopy, uniform foliage distribution, clumped canopy, gaps in 
+2799: Entities: root systems, structural support, water and nutrients, fine roots, absorbing 
+2824: Entities: very large roots, diameter greater than 20 mm, large roots, diameter between 
+2859: Entities: root biomass , DBH , exponent , 2.7–2.9, root length , root length 
+2906: Entities: fine root biomass, foliage biomass, poor sites, higher fine root biomass per 
+2941: Entities: poor productivity sites, higher fine root turnover, high productivity sites, lower fine 
+2976: Entities: fine root production, site moisture, fine root turnover rate, drier sites, nutrient 
+3037: Entities: Bäume, Holzigkeit, mechanische Stabilität, Höhenwachstum, 
+3067: Entities: Drehwuchs, Windbelastung, Biegefestigkeit, Holzdichte, Temperatur, 
+3097: Entities: Borke, Überhitzung und Feuer, Rinde, Phloem und Kambium, 
+3117: Entities: Kleine Blätter, hohe spezifische Blattfläche, hohe Stickstoffkonzentration, 
+3146: Entities: Keimung, Licht, Serotinie, Feuer, große Samen, Schattenpflanzen, viele kleine 
+3196: Entities: Biodiversität, genetische Vielfalt, Anpassungsfähigkeit, phänotypische Diversität, 
+3224: Entities: Artenvielfalt, Artenakkumulationskurven, Simpson-Index, Häufigkeit und 
+3245: Entities: Funktionale Diversität, Ökosystemfunktionen, Ökosystem-Diversität, 
+3273: Entities: Biodiversitätskrise, Luftverschmutzung, Klimawandel, Artenrückgang, invasive 
+3319: Entities: Kronenschicht, Strahlungs- und Windregime, Kronenraum, photosynthetisches 
+3339: Entities: Geologie, Waldzusammensetzung, Samenverbreitung, Bestandsstruktur, 
+3368: Entities: Heranwachsen, Biomassevolumen, Optimalstadium, horizontale 
+3398: Entities: Windwurf, Holzanpassungen, Feuer, Boden-pH, Insektenfraß, Klima, 
+3418: Entities: Regeneration, Samenanflug, Kronensamenbank, Samen, Eichelhäher, Eicheln, 
+3464: Entities: Photosynthese, CO₂, Respiration, boreale Wälder, langsamer C-Umsatz, 
+3491: Entities: N-Fixierung, N₂, Ammonium, Mineralisation, Nitrifikation, Nitrat, Denitrifikation, N₂/
+3516: Entities: Phosphorkreislauf, organischer und anorganischer Phosphor, Mineralisierung, 
+3560: Entities: Wurzelarchitektur, Bodenverdichtung, Trockenheit, Pfahlwurzeln, 
+3577: Entities: Mykorrhiza, Pilz und Pflanzenwurzel, Pilz, Nährstoffe und Wasser, Pflanze, 
+3606: Entities: Ektomykorrhiza, Hyphenmantel, Hartig’sches Netz, ericoide Mykorrhiza, einige 
+3649: Entities: Stomata, CO₂-Aufnahme, Wasserverlust, Schließzellen, Stomataöffnung, 
+3666: Entities: Wassermangel, Unterdruck im Xylem, Kavitation, Embolie, Wassertransport, 
+3693: Entities: 
+3721: Entities: 
+3765: Entities: Zwergpflanzen, Schnee, Schneebedeckung, Frost, Kampfzone, deformierte 
+3782: Entities: Supercooling, Wasser flüssig unter 0 °C, gelöste Substanzen, Gefrierpunkt, 
+3806: Entities: Ungesättigte Fettsäuren, Membranfluidität, Antifreeze-Proteine, Eiskristalle, 
+3821: Entities: Xanthophyllzyklus, überschüssige Energie, Violaxanthin, Zeaxanthin, 
+3863: Entities: Saurer Niederschlag, Protoneneinträge, Basenkationen, Basensättigung, 
+3889: Entities: erhöhtes CO₂, Photosynthese bei C₃-Pflanzen, CO₂-Anstieg, Wurzelwachstum, 
+3906: Entities: NOₓ und VOCs, Ozon, Sonnenlicht, Ozonbildung, Peroxidstress, Photosynthese, 
+3948: Entities: boreale Wälder, 45° und 70° Breite, Klima in der Taiga, kühl und trocken, 
+3975: Entities: Mediterranes Klima, heiße Sommer und regenreiche Winter, Hadley-Zelle, 
+3994: Entities: 
+4035: Entities: tropische Regenwälder, 6 % der Erdoberfläche, >50 % der terrestrischen Arten, 
+4060: Entities: Amazonas, 25 % der terrestrischen Arten, 20 % des globalen Abflusses, 
+4079: Entities: Janzen-Connell-Hypothese, Pathogene, dominante Arten, Hubbell Neutralität, 
+4105: Entities: Nebelwälder, 500–3000 m, hohe Luftfeuchtigkeit, Epiphyten, Mangrovenwälder, 
+4147: Entities: Kahlschlag, Habitatverlust, Bodenerosion, Baumplantagen, Schädlinge und 
+4164: Entities: Wege- und Maschinenbau, Bodenverdichtung, Austrocknung und 
+4189: Entities: Ölplantagen, Artenverlust, Boden, Abholzung, CO₂, weniger Schatten, 
+4207: Entities: Fichte, Anteil erhöht auf 1,5x, Lärche und Kiefer, Anteil erhöht auf 4x, Tanne, 
+4234: Entities: Wald, Kohlenstoffsenke, Störung, CO₂-Ausstoß, tote Biomasse, CO₂, Boden, C-
+4306: Entities: Abiotische Faktoren, Biotische Faktoren, Komplexkrankheiten, Anthropogene Einflüsse, 
+4331: Entities: Viren, Phloem, Plasmodesmen, Pappelmosaikvirus, Bakterien, Nasskern der Tanne 
+4356: Entities: Ascomyceten, Ascosporen, Basidiomyceten, Schlauchpilze, Pilze, Eukaryonten 
+4399: Entities: Feinwurzelkrankheiten, Welkekrankheiten, Wurzelfäulen, Harzfluss, Verdickungen, 
+4422: Entities: Heterobasidion annosum, Rotfäule, Basidiosporen, Wurzelkontakt, Fichte, 
+4447: Entities: Armillaria, Kambium, Mycelmatten, Rhizomorphen, Saprobiont, Weißfäule, 
+4496: Entities: Blutender Schichtpilz, Braunfilziger/ Chaillet’s / Braunfilziger Schichtpilz, Weißfäule, 
+4527: Entities: Fichte, Schwarzer Schneeschimmel, Schneedecke, Pseudothecien, 
+4554: Entities: Fichte, Lagerholz, Bläue, Stereum sanguinolentum, Amylostereum-Arten, Splintholz, 
+4609: Entities: Rotrandiger Baumschwamm, Blutender Schichtpilz, Kiefern-Feuerschwamm, 
+4630: Entities: Stroben-Blasenrost, Kiefernrinden-Blasenrost, Kiefern-Mistel, Strobe, Ribes- Arten, 
+4657: Entities: Kieferntriebsterben, Triebschwinden der Kiefer, Diplodia-Kieferntriebsterben, 
+4685: Entities: Schwarzer Schneeschimmel, Dothistroma-Nadelbräune, Lecanosticta-Nadelbräune , 
+4722: Entities: Tannen-Feuerschwamm, Tannenkrebs, Weißfäule, Schwefelporling, Lärche, Braunfäule, 
+4755: Entities: Lärchenkrebs, Diplodia-Triebsterben, Douglasie, Phomopsis-Krankheit, Neuartige 
+4781: Entities: Rußige Douglasienschütte, Rostige Douglasienschütte, Inland- Douglasie, Küsten -
+4829: Entities: Echter Zunderschwamm, Rotbuche, Weißfäule, Demarkationslinien, Leberpilz, Eiche, 
+4859: Entities: Buchenkrebs, Rotbuche, Perithecien, Ascosporen, Eichenschildbecherling, 
+4883: Entities: Schmutzbecherling, Eichenstämme, Weißfäule, Apothecien, Schwarzfärbende Sporen, 
+4933: Entities: Cuticula, Häutung, Epidermis, Ecdyson, Juvenilhormon, Wachstum, Schutzfunktion,  
+4958: Entities: Ei, Larve, Puppe, Imago, Metamorphose, Hemimetabolie, Holometabolie, Nymphe, 
+4982: Entities: Mandibeln, Labrum, Maxillen, Labium, Rüssel, Phytophagen, Xylophagen, Zoophagen, 
+5023: Entities: Bockkäfer, Larven, Fühler, Holz, Zellulose, Symbiose, Hausbock, Ausschlupfloch, 
+5044: Entities: Prachtkäfer, Bast, Saftstrom, Bohrmehl, Ausschlupfloch, Trockenstress, Metallglanz, 
+5067: Entities: Laufkäfer, Mandibeln, Laufbeine, Bioindikatoren, Totholz, Raupen, Nützlinge, 
+5112: Entities: Scolytinae, Mandibeln, Antennen, Flügeldeckenabsturz, Splintkäfer, Bastkäfer, 
+5137: Entities: Holometabole Entwicklung, Larven, Reifungsfraß, Kairomone, Aggregationspheromone, 
+5156: Entities: Buchdrucker, Fichte, Rammelkammer, Muttergang, Larvengang, Bohrmehl, Polygamie, 
+5208: Entities: Wind, Schadenereignisse, Windwurf, Kettenreaktionen, standortangepasste 
+5229: Entities: Klimawandel, lange Trockenperioden, Trockenstress, vermindertes Wachstum, junge 
+5249: Entities: Spätfrost, Frosthärte, Risse im Holz, Kambium, Wasser, Pilze, Frostleisten, Wildtiere, 
+5275: Entities: Wasser, ausgetrockneter Boden, Feinlehm/Ton, Wasserstau, Wurzeln, Bodenluft, 
+5297: Entities: Hagelereignisse, Blatt- und Nadelfall, Nassschnee, Schneelasten, Baumkrone, 
+5349: Entities: Mykorrhiza-Pilze, Nährstoffkreislauf, Eschentriebsterben, Pilzgeflecht, 
+5375: Entities: Buchdrucker, Kupferstecher, großer brauner Rüsselkäfer, Baumrinde, Larvengänge, 
+5409: Entities: Rötelmaus, Hasen, Wiederkäuer, Rotwild, Rinde, Knospen und junge Triebe, 
+5453: Entities Waldsterben, Schwefeldioxide, Stickoxide, saurer Regen, Nährstoffhaushalt, 
+5478: Entities: lange Trockenperioden, Waldbrandgefahr, Menschliches Handeln, Pyrophyten, 
+5500: Entities: Holzernte, Schäden, Eintrittspforten, offene Stellen, Schadenskontrolle, Gute Planung 
+5583: Entity 
+5616: Entity 
+5650: Entity 
+5678: Entity 
+5709: Entity 
+5745: Entity 
+5797: Entity 
+5824: Entity 
+5854: Entity 
+5883: Entity 
+5908: Entity 
+5937: Entity 
+5989: Entity 
+6013: Entity 
+6041: Entity 
+6066: Entity 
+6094: Entity 
+6122: Entity 
+6164: Entity 
+6196: Entity 
+6225: Entity 
+6248: Entity 
+6276: Entity 
+6302: Entity 
+6362: Entity 
+6388: Entity 
+6418: Entity 
+6444: Entity 
+6474: Entity 
+6500: Entity 
+6551: Entity 
+6582: Entity 
+6615: Entity 
+6642: Entity 
+6675: Entity 
+6707: Entity 
+6755: Entity 
+6779: Entity 
+6810: Entity 
+6834: Entity 
+6863: Entity 
+6887: Entity 
+6937: Entity 
+6967: Entity 
+6996: Entity 
+7022: Entity 
+7053: Entity 
+7080: Entity 
+7129: Entity 
+7159: Entity 
+7191: Entity 
+7216: Entity 
+7247: Entity 
+7274: Entity 
+7338: Entities 
+7360: Entities 
+7382: Entities 
+7427: Entities 
+7448: Entities 
+7470: Entities 
+7521: Entities 
+7539: Entities 
+7557: Entities 
+7609: Entities 
+7633: Entities 
+7653: Entities 
+7670: Entities 
+7714: Entities 
+7734: Entities 
+7749: Entities 
+7766: Entities 
+7827: Entities 
+7847: Entities 
+7868: Entities 
+7890: Entities 
+7930: Entities 
+7950: Entities 
+7971: Entities 
+7993: Entities 
+8028: Entities 
+8046: Entities 
+8065: Entities 
+8082: Entities 
+8119: Entities 
+8137: Entities 
+8156: Entities 
+8190: Entities: Nemorale Nadelwälder, azonale Wälder, zonale Wälder, Konnkurrenzdruck, Trocken- und 
+8209: Entities: Feucht-Koniferenwälder, Trocken-Kiefernwälder, Gebirgslandschaft, Gelbkiefer, 
+8236: Entities: Feucht-Koniferenwald, Wuchsleistung, Baumhöhe, Douglasie-Hemlock-Wald, 
+8261: Entities: Trocken-Kiefernwald, Gebirgslandschaft, Drehkiefer, Gelbkiefer, Brandﬂächen, 
+8308: Entities: Antarktis, Wärmegefälle, Westwind, Ozean, Lufttemperatur, Vegetation, 
+8330: Entities: Lorbeerwald, Neuseeland, Südamerika, Valdivianischer Lorbeerwald, Chile, laurophylle 
+8360: Entities: Nothofaguswald, Südamerika, Westandenkette, Niederschlag, Wind, magellanische 
+8406: Entities: Rotbuche, Rotbuchen-Tannenwälder, Böden, Tieﬂagen, Gebirgslagen, Europa, 
+8430: Entities: Kolchisch-hyrkanische Eichenmischwälder, Südosteuropa, Westasien, Kaukasus, 
+8452: Entities: Eichenmischwälder, Mittel- und Osteuropa, Eiche-Hainbuchewälder, kontinentaler 
+8473: Entities: hemiboreale Laubholz-Fichten-Kiefermischwälder, Nordeuropa, nemorale Wälder, boreale 
+8503: Entities: Pappel-Tannen-Wälder, Europa–Westasien-Grenze, Zitterpappel, sibirische Tanne, 
+8548: Entities: Gemäßigte Zone, Laubbäume, Nadelbäume, Europa, Alpen, Baumarten, Nadelhölzer, 
+8573: Entities: Wald, Standortfaktoren, Klima, Fichte, Nordalpen, Rotbuche, Hauptalpenkamm, 
+8597: Entities: Temperatur, Waldstruktur, Waldgrenze, Täler, Laubwälder, Nadelwälder, Krummholz, 
+8635: Entities: Nadelbäume, Nordhemisphäre, Kaltes Klima, Oberer Alpenraum, Fichte, Forstwirtschaft, 
+8650: Entities: Lärche, Nadeln, Herbst, Austrocknung, Bodenwasser, Wintertage, Knospen, 
+8668: Entities: Zirbe, Lärche, Subalpine Waldschicht, Mensch, Fichte, Tannenhäher, Zirbenholz, Nadeln, 
+8704: Entities: Extreme Bedingungen, Bäume, Krummholz, Hochwald, alpiner Rasen, Latsche, 
+8720: Entities: Latschenwälder, Mensch, Urwälder, Naturprozesse,  hohe Diversität, Vögel, Krummholz, 
+8734: Entities: Latsche, Silikatgestein, Innenalpen, Extremstandorte, Zirbe, Lärche, Laublatsche, 
+8776: Entities: Quellen, Biodiversität, Hotspots, kleiner Raum, Gefährdung, Kulturlandschaft, 
+8794: Entities: Quelle, wasserleitende Bodenschicht, Oberﬂäche, Gelände, Grundwasser, Bachoberlauf, 
+8818: Entities: Quelle, Hang, Boden, Gewässer, Kalk, Strukturreichtum, Artenvielfalt, Temperatur, 
+8832: Entities: Wald, Wasser, Quelle, gute Qualität, Chemikalien, Forstwirtschaft, Fauna, Nistplätze
+TRIPLET
+42: Relationship Triplets: internationale Walddefinition ➜ ignoriert ➜ Diversitätsaspekte, 
+71: Relationship-Triplets: Waldfunktionen – stehen im – Forstgesetz, Waldfunktionen – dienen der – 
+90: Relationship Triplets: Troposphäre – beherbergt – Wettergeschehen, Troposphäre – begrenzt durch – 
+118: Relationship Triplets: atmosphärische Grenzschicht – besteht aus – Prandtl-Schicht und Ekman-
+142: Relationship Triplets: Standort ➜  besteht aus ➜ abiotischen Faktoren, Lorenz von Liburnau ➜ 
+166: Relationship Triplets: Treibhausgase ➜ absorbieren ➜ abgestrahlte Wärme, Treibhauseffekt ➜ 
+208: Relationship Triplets: Luftabkühlung ➜ erreicht ➜ Taupunkt, Advektionsnebel ➜ benötigt ➜ 
+233: Relationship Triplets: Wälder ➜ emittieren ➜ BVOCs, BVOCs ➜ dienen der ➜ Abwehr, Baumarten ➜ 
+261: Relationship Triplets: Niederschlagsbildung ➜ benötigt ➜ Tropfenwachstum, Koaleszenz ➜ erzeugt 
+314: Relationship Triplets: Energiebilanz ➜ beschreibt ➜ Energieaufteilung, Nettostrahlung ➜ ist tagsüber 
+344: Relationship Triplets: Kleinrelief ➜ beeinflusst ➜ Temperaturunterschiede; Waldgrenze ➜ gilt als ➜ 
+367: Relationship Triplets: Grasfrost ➜ tritt auf im ➜ Ausstrahlungszeitraum; Grasfilz ➜ wirkt als ➜ 
+415: Relationship Triplets: European floodplain forests ➜ found on ➜ Quaternary river deposits; site 
+443: Relationship Triplets: Floodplain forests ➜ affected by ➜ anthropogenic impact; Agriculture ➜ 
+462: Relationship Triplets: Middle Ages ➜ characterized by ➜ coppice forests; Coppice forests ➜ featured 
+506: Relationship Triplets: Danube ➜ was originally ➜ dynamic river; Danube ➜ featured ➜ many 
+536: Relationship Triplets: River straightening ➜ increased ➜ riverbed erosion; Riverbed erosion ➜ 
+567: Relationship Triplets: Hydroelectric power plants ➜ cut off ➜ groundwater body; Power plants ➜ 
+618: Relationship Triplets: Wald ➜ ist ein ➜ komplexes System; Stockwerkartiger Aufbau ➜ optimiert ➜ 
+642: Relationship Triplets: Schichtung des Waldes ➜ vermindert ➜ Konkurrenz zwischen Etagen; 
+667: Relationship Triplets: Waldpflanzen ➜ fördern ➜ sich gegenseitig; Bäume am Waldrand ➜ schützen 
+712: Relationship Triplets: Waldzusammensetzung ➜ entspricht ➜ Klima eines Gebietes; Baumarten ➜ 
+733: Relationship Triplets: Waldgebiet Europas ➜ gegliedert in ➜ Waldgürtel; Abnehmende Temperatur 
+760: Relationship Triplets: Temperatur ➜ nimmt ab mit ➜ zunehmender Höhe; Zunehmende Höhe ➜ 
+807: Relationship Triplets: WSA ➜ wird berechnet als ➜ BA dividiert durch N; Wildeinfluss ➜ bedeutet 
+833: Relationship Triplets: Waldbewirtschaftung ➜ steuert ➜ Wildschadensanfälligkeit; Kahlschlag ➜ 
+860: Relationship Triplets: Diagnoseschema ➜ ermöglicht ➜ objektive Beurteilung; Wildeinfluss ➜ 
+903: Relationship Triplets: Freizeitsektor ➜ verursacht ➜ Wildstörungen; Bewusstmachung ➜ erfordert 
+925: Relationship Triplets: Wald-Wiesen-Reviere ➜ erfordern ➜ Waldentlastung; Deckung im Feld ➜ 
+956: Relationship Triplets: WÖRP ➜ dient der ➜ Konfliktlösung; WÖRP ➜ bezweckt ➜ 
+994: Relationship Triplets: 
+1028: Relationship Triplets: 
+1060: Relationship Triplets: 
+1084: Relationship Triplets: 
+1130: Relationship Triplets: 
+1161: Relationship Triplets: 
+1193: Relationship Triplets: 
+1242: Relationship Triplets: 
+1274: Relationship Triplets: 
+1297: Relationship Triplets: 
+1343: Relationship Triplets: 
+1375: Relationship Triplets: 
+1406: Relationship Triplets: 
+1456: Relationship Triplets: 
+1487: Relationship Triplets: 
+1513: Relationship Triplets: 
+1544: Relationship Triplets: 
+1595: Relationship Triplets: 
+1625: Relationship Triplets: 
+1656: Relationship Triplets: 
+1706: Relationship Triplets: 
+1740: Relationship Triplets: 
+1763: Relationship Triplets: 
+1828: Relationship Triplets: 
+1864: Relationship Triplets: 
+1890: Relationship Triplets: 
+1922: Relationship Triplets: 
+1958: Relationship Triplets: 
+2018: Relationship Triplets: 
+2064: Relationship Triplets: 
+2112: Relationship Triplets: 
+2169: Relationship Triplets: 
+2210: Relationship Triplets: 
+2269: Relationship Triplets: 
+2318: Relationship Triplets: 
+2343: Relationship Triplets: 
+2384: Relationship Triplets: 
+2428: Relationship Triplets: 
+2480: Relationship Triplets: 
+2510: Relationship Triplets: 
+2552: Relationship Triplets: 
+2601: Relationship Triplets: 
+2626: Relationship Triplets: 
+2675: Relationship Triplets: 
+2727: Relationship Triplets: 
+2803: Relationship Triplets: 
+2838: Relationship Triplets: 
+2863: Relationship Triplets: 
+2910: Relationship Triplets: 
+2946: Relationship Triplets: 
+2980: Relationship Triplets: 
+3040: Relationship Triplets: 
+3070: Relationship Triplets: 
+3100: Relationship Triplets: 
+3120: Relationship Triplets: 
+3149: Relationship Triplets: 
+3199: Relationship Triplets: 
+3228: Relationship Triplets: 
+3248: Relationship Triplets: 
+3276: Relationship Triplets: 
+3322: Relationship Triplets: 
+3342: Relationship Triplets: 
+3371: Relationship Triplets: 
+3401: Relationship Triplets: 
+3420: Relationship Triplets: 
+3467: Relationship Triplets: 
+3493: Relationship Triplets: 
+3519: Relationship Triplets: 
+3563: Relationship Triplets: 
+3579: Relationship Triplets: 
+3609: Relationship Triplets: 
+3651: Relationship Triplets: 
+3669: Relationship Triplets: 
+3696: Relationship Triplets: 
+3724: Relationship Triplets: 
+3767: Relationship Triplets: 
+3785: Relationship Triplets: 
+3808: Relationship Triplets: 
+3823: Relationship Triplets: 
+3866: Relationship Triplets: 
+3892: Relationship Triplets: 
+3908: Relationship Triplets: 
+3950: Relationship Triplets: 
+3978: Relationship Triplets: 
+3997: Relationship Triplets: 
+4038: Relationship Triplets: 
+4063: Relationship Triplets: 
+4083: Relationship Triplets: 
+4107: Relationship Triplets: 
+4149: Relationship Triplets: 
+4167: Relationship Triplets: 
+4191: Relationship Triplets: 
+4210: Relationship Triplets: 
+4236: Relationship Triplets: 
+4308: Relationship triplets: 
+4332: Relationship triplets: 
+4357: Relationship triplets:  
+4401: Relationship triplets:  
+4424: Relationship triplets: 
+4449: Relationship triplets: 
+4498: Relationship triplets: 
+4529: Relationship triplets: 
+4556: Relationship triplets:  
+4611: Relationship triplets:  
+4632: Relationship triplets: 
+4659: Relationship triplets: 
+4687: Relationship triplets:  
+4724: Relationship triplets:  
+4758: Relationship triplets:  
+4783: Relationship triplets:  
+4831: Relationship triplets: 
+4862: Relationship triplets:  
+4885: Relationship triplets:  
+4936: Relationship Triplets: 
+4960: Relationship Triplets: 
+4984: Relationship Triplets: 
+5025: Relationship Triplets: 
+5046: Relationship Triplets: 
+5069: Relationship Triplets: 
+5114: Relationship Triplets: 
+5140: Relationship Triplets: 
+5158: Relationship Triplets: 
+5210: Relationship triplets:  
+5231: Relationship triplets:  
+5251: Relationship triplets: 
+5277: Relationship triplets:  
+5299: Relationship triplets: 
+5351: Relationship triplets: 
+5377: Relationship triplets:  
+5411: Relationship triplets:  
+5455: Relationship triplets: 
+5480: Relationship triplets:  
+5503: Relationship triplets:  
+5595: Triplet 
+5623: Triplet 
+5659: Triplet 
+5691: Triplet 
+5716: Triplet 
+5753: Triplet 
+5806: Triplet 
+5836: Triplet 
+5861: Triplet 
+5890: Triplet 
+5915: Triplet 
+5945: Triplet 
+5997: Triplet 
+6025: Triplet 
+6049: Triplet 
+6078: Triplet 
+6101: Triplet 
+6129: Triplet 
+6177: Triplet 
+6203: Triplet 
+6232: Triplet 
+6255: Triplet 
+6283: Triplet 
+6314: Triplet 
+6369: Triplet 
+6395: Triplet 
+6426: Triplet 
+6451: Triplet 
+6481: Triplet 
+6513: Triplet 
+6563: Triplet 
+6591: Triplet 
+6622: Triplet 
+6656: Triplet 
+6683: Triplet 
+6714: Triplet 
+6762: Triplet 
+6788: Triplet 
+6818: Triplet 
+6841: Triplet 
+6870: Triplet 
+6900: Triplet 
+6949: Triplet 
+6974: Triplet 
+7003: Triplet 
+7029: Triplet 
+7061: Triplet 
+7093: Triplet 
+7141: Triplet 
+7167: Triplet 
+7199: Triplet 
+7223: Triplet 
+7255: Triplet 
+7282: Triplet 
+7385: Relationship triplets 
+7769: Relationship triplets 
+7933: Relationship triplets 
+7953: Relationship triplets 
+7974: Relationship triplets 
+7996: Relationship triplets 
+8031: Relationship triplets 
+8049: Realtionship triplets 
+8068: Relationship triplets 
+8085: Relationship triplets 
+8122: Ralationship triplets 
+8142: Relationship triplets 
+8159: Relationship triplets 
+8193: Relationship Triplets: Koniferen - bevorzugen - gemäßigtes und subtropisches Klima,  Koniferen - 
+8239: Relationship Triplets: Feucht-Koniferenwald - weißt auf - sehr gute Wuchsleistung, Feucht-
+8263: Relationship Triplets: Trocken-Kiefernwald - beﬁnden sich - Gebirgslandschaft, Drehkiefer - zu 
+8310: Relationship Triplets: Antarktis - verstärkt - Wärmegefälle, Wärmegefälle - verstärkt - Westwind, 
+8335: Relationship Triplets: Lorbeewald - zu ﬁnden in - Neuseeland und Südamerika, valdivianischer 
+8362: Relationship Triplets: Nothofaguswald - sind dominant - Südamerika, Nothofaguswald - zu ﬁnden 
+8433: Relationship-Triplets: Eichenmischwälder -  zu ﬁnden -  Südosteuropa, Eichenmischwälder - zu 
+8455: Relationship-Triplets: Eichenmischwälder - kommen vor in - Mittel- und Osteuropa, 
+8506: Relationship-Triplets: Pappel-Tannen-Wälder - zu ﬁnden - Europa–Westasien-Grenze, Zitterpappel 
+8550: Relationship-Triplets: Gemäßigte Zone - hat - 55 000 Laubbäume, Gemäßigte Zone - hat - 600 
+8575: Relationship-triplets: Wald - ist unterschiedlich - Standortfaktoren, Wald - bestimmt durch - Klima, 
+8599: Relationship-triplets: Temperatur – bestimmt – Waldstruktur, Temperatur – bestimmt – 
+8637: Relationship-Triplets: Nadelbäume – dominieren – kaltes Klima, Kaltes Klima – kommt vor in – 
+8653: Relationship-triplet: Lärche – wirft ab – Nadeln, Lärche – wirft Nadeln ab im – Herbst, Nadeln – 
+8670: Relationship-Triplet: Zirbe – dominiert – subalpine Waldschicht, Lärche – ist beigemischt – 
+8706: Relationship-Triplets: Krummholz - ist eine Form von - Bäume, Hochwald - übergeht in - 
+8722: Relationship-Triplets: Latschenwälder - sind unbeeinﬂusst von - Mensch, Latschenwälder - sind - 
+8736: Relationship-Triplets: Latsche – kommt auch vor auf – Silikatgestein, Silikatgestein – liegt in – 
+8778: Relationship-triplets: Quellen - wichtig für - Biodiversität, Quellen - sind - Hotspots, Hotspots - 
+8796: Relationship-triplets: Quelle - tritt aus - wasserleitender Bodenschicht, Quelle - erreicht - 
+8820: Relationship-triplets: Quelle – entspringt an – Hängen, Quelle – tritt aus – Boden, Quelle – bildet – 
+8833: Relationship-triplets: Wald - sammelt - Wasser, Wald - speichert - Wasser, Wald - reinigt- Wasser, 

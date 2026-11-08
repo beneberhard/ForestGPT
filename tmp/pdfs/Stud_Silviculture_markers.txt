@@ -1,0 +1,253 @@
+6: Knowledge Card 1 
+33: Knowledge Card 2 
+61: Knowledge Card 3 
+102: Knowledge Card 
+130: Knowledge Card 2 
+154: Knowledge Card 3 
+193: Knowledge Card 1 
+219: Knowledge Card 2 
+242: Knowledge Card 3 
+285: Knowledge Card 1 
+310: Knowledge Card 2 
+336: Knowledge Card 3 
+360: Knowledge Card 4 
+399: Knowledge Card 1 
+425: Knowledge Card 2  
+450: Knowledge Card 3 
+473: Knowledge Card 4 
+518: Knowledge Card 1  
+546: Knowledge Card 2  
+574: Knowledge Card 3 
+600: Knowledge Card 4  
+645: Knowledge Card 1  
+671: Knowledge Card 2 
+698: Knowledge Card 3 
+722: Knowledge Card 4 
+761: Knowledge Card 1 
+788: Knowledge Card 2  
+815: Knowledge Card 3 
+838: Knowledge Card 4 
+886: Knowledge Card 1 
+911: Knowledge Card 2 
+941: Knowledge Card 3 
+992: Knowledge Card 1  
+1023: Knowledge Card 2 
+1050: Knowledge Card 3 
+1097: Knowledge Card 1 
+1125: Knowledge Card 2 
+1154: Knowledge Card 3 
+1206: Knowledge Card 1: Zielsetzung und Grundprinzip der Durchforstung 
+1225: Knowledge Card 2: Konkurrenz und Zuwachslenkung 
+1248: Knowledge Card 3: Durchforstungsarten und Auslesekonzepte 
+1288: Knowledge Card 1: Ziel und Bedeutung der Astung 
+1313: Knowledge Card 2: Astungsarten und Durchführung 
+1336: Knowledge Card 3: Werkzeuge und Risiken der Astung 
+1381: Knowledge Card 1: Grundlagen und Zielsetzung der Düngung 
+1406: Knowledge Card 2: Arten der Düngung im Waldbau 
+1428: Knowledge Card 3: Chancen und Risiken der Düngung 
+1473: Knowledge Card 1: Bedeutung der Waldverjüngung 
+1497: Knowledge Card 2: Natürliche Verjüngung 
+1516: Knowledge Card 3: Künstliche Verjüngung 
+1546: Knowledge Card 1: Abiotische Gefährdungen 
+1565: Knowledge Card 2: Biotische Gefährdungen durch Schädlinge 
+1585: Knowledge Card 3: Gefährdung durch Wild und Waldweide 
+1610: Knowledge Card 1: Einschätzung der Wildeinwirkung 
+1629: Knowledge Card 2: Schadensbegriffe und Bewertung 
+1646: Knowledge Card 3: Maßnahmen zur Unterstützung der Verjüngung 
+1696: Knowledge Card 1: Begriff und Zusammensetzung der Waldstreu 
+1722: Knowledge Card 2: Physikalische Wirkungen der Streudecke 
+1747: Knowledge Card 3: Chemische Bedeutung der Waldstreu 
+1789: Knowledge Card 1: Historische Streunutzung 
+1815: Knowledge Card 2: Stoffverluste durch Streuentnahme 
+1840: Knowledge Card 3: Veränderungen der Bodeneigenschaften 
+1877: Knowledge Card 1: Auswirkungen auf Wachstum und Ertrag 
+1902: Knowledge Card 2: Gefährdung der Waldbestände 
+1928: Knowledge Card 3: Forstliche Konsequenzen und Lehren 
+1969: Knowledge Card 1 Ökologische Nachhaltigkeit als Leitprinzip des Waldbaus 
+1993: Knowledge Card 2 Boden- und Nährstoffhaushalt als Nachhaltigkeitsfaktor 
+2016: Knowledge Card 3: Biodiversität und Strukturvielfalt 
+2053: Knowledge Card 2: Nachhaltige Holznutzung(ca. 140 Wörter) 
+2076: Knowledge Card 2: Risikomanagement 
+2093: Knowledge Card 3: Langfristige Wertschöpfung 
+2134: Knowledge Card 1: Gesellschaftliche Funktionen des Waldes 
+2154: Knowledge Card 2: Akzeptanz und Partizipation 
+2172: Knowledge Card 3: Nachhaltigkeit als Generationenvertrag 
+2225: Knowledge Card 1       
+2260: Knowledge Card 2      
+2297: Knowledge Card 3     
+2336: Knowledge Card 4    
+2398: Knowledge Card 1           
+2439: Knowledge Card 2          
+2475: Knowledge Card 3         
+2539: Knowledge Card 1           
+2579: Knowledge Card 2         
+2616: Knowledge Card 3          
+2686: Knowledge Card 1          
+2713: Knowledge Card 2 
+2749: Knowledge Card 3  
+2807: Knowledge Card 1          
+2841: Knowledge Card 2         
+2877: Knowledge Card 3         
+2926: Knowledge Card 1          
+2958: Knowledge Card 2          
+2989: Knowledge Card 3         
+3027:  Knowledge Card 1: Waldverjüngung als waldbaulicher Prozess 
+3060: Knowledge Card 2: Standortfaktoren und Klimarisiken 
+3094: Knowledge Card 3: Anpassungsfähigkeit durch Baumartenmischung 
+3138:  Knowledge Card 1: Saumschlag als Verjüngungsverfahren 
+3172: Knowledge Card 2: Femelschlag als kleinflächiges Verjüngungsverfahren 
+3206: Knowledge Card 3: Hiebsform, Mikroklima und Baumartenwahl 
+3256: Knowledge Card 1:  Risiken für den Verjüngungserfolg 
+3289: Knowledge Card 2: Risiken für den Verjüngungserflog 
+3320: Knowledge Card 3: Zielkonflikte in der Verjüngungsplanung 
+3377:  Knowledge Card 1: Kahlschlag zur Umwandlung von Reinbeständen 
+3407: Knowledge Card 2: Ökologisch und waldbaulicher Effekt von Kahlschlägen 
+3433: Knowledge Card 3: Langfristige Ziele der Umgestaltung von Beständen 
+3483:  Knowledge Card 1: Strukturvielfalt als Grundlage stabiler Wälder 
+3515: Knowledge Card 2: Baumartenmischung als Stabilitätseinfluss 
+3543: Knowledge Card 3: Räumliche und vertikale Bestandesstruktur 
+3587:  Knowledge Card 1: Risiken für den Verjüngungserfolg 
+3617: Knowledge Card 2: Lenkung natürlicher Prozesse im Waldbau 
+3642: Knowledge Card 3: Zielkonflikte und waldbauliche Entscheidungen 
+3682: müssen gegeneinander abgewogen werden. Die drei Knowledge Cards ergänzen sich 
+3702: Knowledge Card 1 
+3733: Knowledge Card 2 
+3783: Knowledge Card 1 
+3809: Knowledge Card 2 
+3835: Knowledge Card 3 
+3876: Knowledge Card 1 
+3898: Knowledge Card 2 
+3923: Knowledge Card 3 
+3971: Knowledge Card 1 
+4003: Knowledge Card 2 
+4030: Knowledge Card 3 
+4072: Knowledge Card 1 
+4102: Knowledge Card 2 
+4128: Knowledge Card 3 
+4157: Knowledge Card 4 
+4186: Knowledge Card 5 
+4210: Knowledge Card 6 
+4250: Knowledge Card 1 
+4274: Knowledge Card 2 
+4302: Knowledge Card 3 
+4329: Knowledge Card 4 
+4353: Knowledge Card 5 
+4403: Knowledge Card 1 
+4427: Knowledge Card 2 
+4454: Knowledge Card 3 
+4481: Knowledge Card 4 
+4504: Knowledge Card 5 
+4548: Knowledge Card 1 
+4573: Knowledge Card 2 
+4594: Knowledge Card 3 
+4618: Knowledge Card 4 
+4639: Knowledge Card 5 
+4660: Knowledge Card 6 
+4702: Knowledge Card 1 
+4725: Knowledge Card 2 
+4744: Knowledge Card 3 
+4766: Knowledge Card 4 
+4788: Knowledge Card 5 
+4810: Knowledge Card 6 
+4832: Knowledge Card 7 
+4880: Knowledge Card 1 
+4905: Knowledge Card 2 
+4932: Knowledge Card 3 
+4960: Knowledge Card 4 
+4982: Knowledge Card 5 
+5026: Knowledge Card 1 
+5053: Knowledge Card 2 
+5076: Knowledge Card 3 
+5101: Knowledge Card 4 
+5122: Knowledge Card 5 
+5146: Knowledge Card 6 
+5194: Knowledge Card 1 
+5216: Knowledge Card 2 
+5240: Knowledge Card 3 
+5261: Knowledge Card 4 
+5284: Knowledge Card 5 
+5304: Knowledge Card 6 
+5347: Knowledge Card 1 
+5371: Knowledge Card 2 
+5396: Knowledge Card 3 
+5418: Knowledge Card 4 
+5442: Knowledge Card 5 
+5464: Knowledge Card 6 
+5512: Knowledge Card 1 
+5541: Knowledge Card 2 
+5567: Knowledge Card 3 
+5596: Knowledge Card 1 
+5628: Knowledge Card 2 
+5658: Knowledge Card 3 
+5703: Knowledge Card 1 
+5730: Knowledge Card 2 
+5756: Knowledge Card 3 
+5815: Knowledge Card 1 
+5842: Knowledge Card 2 
+5866: Knowledge Card 3 
+5909: Knowledge Card 1 
+5936: Knowledge Card 2 
+5963: Knowledge Card 3 
+6003: Knowledge Card 1 
+6026: Knowledge Card 2 
+6054: Knowledge Card 3 
+6094: Knowledge Card 1 
+6121: Knowledge Card 2 
+6146: Knowledge Card 3 
+6173: Knowledge Card 4 
+6230: Knowledge Card 1: 
+6249: Knowledge Card 2: 
+6270: Knowledge Card 3: 
+6306: Knowledge Card 1: 
+6326: Knowledge Card 2: 
+6349: Knowledge Card 3: 
+6370: Knowledge Card 4: 
+6389: Knowledge Card 5: 
+6425: Knowledge Card 1:  
+6448: Knowledge Card 2: 
+6469: Knowledge Card 3: 
+6490: Knowledge Card 4: 
+6529: Knowledge Card 1: 
+6549: Knowledge Card 2: 
+6574: Knowledge Card 3: 
+6597: Knowledge Card 4: 
+6635: Knowledge Card 1: 
+6655: Knowledge Card 2: 
+6677: Knowledge Card 3: 
+6697: Knowledge Card 4: 
+6733: Knowledge Card 1: 
+6755: Knowledge Card 2: 
+6775: Knowledge Card 3: 
+
+SOURCES
+4: Grey Literature 
+100: Grey literature 1 
+191: Grey literature 1 
+276: Grey literature Quelle 1:  
+283: Grey literature 2  
+397: Grey literature 2 
+508: Quelle Grey literature 2:   
+516: Textbook Quelle 1 
+643: Textbook Quelle 1  
+759: Textbook Quelle 1 
+879: Textbook Quelle 1:  
+884: Textbook Quelle 2  
+990: Textbook Quelle 2 
+1093: Textbook Quelle 2 
+1196: Textbook Quelle 2: 
+1203: Grey Literature 1: „Durchforstung, Astung, Düngung“ Foliensatz 7  aus 
+1470: Grey Literature 2: „Gefahren der Waldverjüngung (Wild&Weideeinfluss) 
+2216: Grey Literature 
+2218: Quelle: 
+2676: Quelle: 
+3014: Grey Literature 
+3022: Textbook source 1: 
+3372: Textbook source 2: 
+3692: Quelle: 
+3961: Quelle: 
+4394: Quelle: 
+4871: Quelle: 
+5508: Source 1: Waldbau I: Die Prinzipien der Waldnutzung und der Waldbehandlung Skript zur 
+5811: Source 2: https://www.baysf.de/klimawald/waldbau-waldumbau/ 
+6225: Textbook 1: https://www-1cabidigitallibrary-1org-
+6524: Textbook 2: 

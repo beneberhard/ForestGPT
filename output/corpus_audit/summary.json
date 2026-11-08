@@ -1,0 +1,51 @@
+[
+  {
+    "pdf": "Stud_Climate_A.pdf",
+    "pages": 139,
+    "card_occurrences": 158,
+    "source_groups": 20,
+    "sha256": "c51c6f1d11fcc50239c3dd48dc449d490b22daa8d5e75dcbc6fc559a5dfd574e"
+  },
+  {
+    "pdf": "Stud_Climate_B.pdf",
+    "pages": 124,
+    "card_occurrences": 111,
+    "source_groups": 23,
+    "sha256": "17742dcdea84541d2e3729d14ac73b21a0d9581313653c39e7088208c86b0eb4"
+  },
+  {
+    "pdf": "Stud_Forest_Ecology.pdf",
+    "pages": 201,
+    "card_occurrences": 274,
+    "source_groups": 16,
+    "sha256": "55935eb4582cba3f8b61025238299fa516012694b69dded7bdf7be78cf5f63f6"
+  },
+  {
+    "pdf": "Stud_Forest_Growth.pdf",
+    "pages": 461,
+    "card_occurrences": 294,
+    "source_groups": 20,
+    "sha256": "f894bf92d2b835d493b627c883798841af239f5c8634cdbe3f4759bea80e61c2"
+  },
+  {
+    "pdf": "Stud_Forest_Operations.pdf",
+    "pages": 200,
+    "card_occurrences": 169,
+    "source_groups": 20,
+    "sha256": "e462994eef05d9e8382dbc9974469a6f418dd8a030c87c60c12ac332fd0c00bb"
+  },
+  {
+    "pdf": "Stud_Forest_Policy.pdf",
+    "pages": 380,
+    "card_occurrences": 314,
+    "source_groups": 19,
+    "sha256": "da98ee50c0e2ed263160701951b278b5bb24362d9ac8f537ee840d4deae2d6b0"
+  },
+  {
+    "pdf": "Stud_Silviculture.pdf",
+    "pages": 169,
+    "card_occurrences": 219,
+    "source_groups": 20,
+    "sha256": "bd400aa0917693d4353d7cadb9a1f926cfed177d5016aa7dcd78a7e5a2530caa"
+  }
+]

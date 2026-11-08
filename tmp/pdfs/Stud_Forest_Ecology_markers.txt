@@ -1,0 +1,196 @@
+28: Knowledge Cards  
+194: Knowledge Cards 
+297: Knowledge Cards 
+401: Knowledge Cards  
+488: Knowledge Cards  
+595: Knowledge Cards  
+691: Knowledge Cards  
+793: Knowledge Cards  
+888: Knowledge Cards  
+978: Knowledge Card 7.2.1 – Definition and ecological role of CWD 
+1011: Knowledge Card 7.2.2 – Methods for estimating volume of logs and 
+1036: Knowledge Card 7.2.3 – Survey methods for CWD in forest stands 
+1068: Knowledge Card 7.2.4 – Decay classification, wood density and decay 
+1115: Knowledge Card 7.3.1 – Definition and significance of vertical structure 
+1146: Knowledge Card 7.3.2 – Arc-based method and cover index 
+1177: Knowledge Card 7.3.3 – Stratification indices and critiques 
+1226: Knowledge Card 7.4.1 – Habitat loss versus fragmentation 
+1250: Knowledge Card 7.4.2 – Design issues in fragmentation studies 
+1281: Knowledge Card 7.4.3 – Measuring fragmentation independently of 
+1329: Knowledge Card 7.5.1 – Defining edges and processes influenced 
+1359: Knowledge Card 7.5.2 – Edge assessment methods and edge contrast 
+1382: Knowledge Card 7.5.3 – Scaling and modelling edge effects 
+1440: Knowledge Card 7.6.1 – Tree form, timber indices and veteran trees 
+1464: Knowledge Card 7.6.2 – Habitat features of veteran and ancient trees 
+1496: Knowledge Card 7.6.3 – Measuring cavities and classifying standing 
+1529: Knowledge Card 7.6.4 – Assessing tree decay and non-destructive 
+1579: Knowledge Card 7.7.1 – Variables and definitions in understory 
+1611: Knowledge Card 7.7.2 – Quadrat methods and cover estimation scales 
+1633: Knowledge Card 7.7.3 – Point quadrats, line transects and sampling 
+1680: Knowledge Card 7.8.1 – Habitat modelling approaches and process 
+1714: Knowledge Card 7.8.2 – Expert-based conceptual models and the HSI 
+1748: Knowledge Card 7.8.3 – Geographic envelope models 
+1804: Knowledge Card 4.1.1 – Modelling population density and mortality in 
+1837: Knowledge Card 4.1.2 – Environmental stresses and frost hardiness 
+1873: Knowledge Card 4.1.3 – Drought-induced mortality and physiological 
+1907: Knowledge Card 4.1.4 – Self-thinning processes in even-aged stands 
+1931: Knowledge Card 4.1.5 – Integrating allometric relationships with 
+2004: Knowledge Card 4.2.1 – Mechanical constraints and critical height 
+2048: Knowledge Card 4.2.2 – Allometric height–diameter relation 
+2073: Knowledge Card 4.2.3 – Predicting stem biomass from height and basal 
+2121: Knowledge Card 4.2.4 – Height and diameter distributions: the Weibull 
+2178: Knowledge Card 4.2.5 – Age dependence and applications of height–
+2240: Knowledge Card 4.3.1 – Isometry versus allometry and fundamental 
+2278: Knowledge Card 4.3.2 – Allometric relationships among biomass pools 
+2327: Knowledge Card 4.3.3 – Biomass as a function of diameter: stem, root 
+2366: Knowledge Card 4.3.4 – Age effects on allometric parameters and stand-
+2410: Knowledge Card 4.3.5 – Species, clone and environmental effects on 
+2465: Knowledge Card 4.4.1 – Canopy architecture and its determinants 
+2497: Knowledge Card 4.4.2 – Specific leaf area (SLA) and its variability  
+2519: Knowledge Card 4.4.3 – Temporal variation in SLA and canopy 
+2561: Knowledge Card 4.4.4 – Estimating leaf area from stem diameter and 
+2610: Knowledge Card 4.4.5 – Calculating and modelling leaf area index (LAI) 
+2656: Knowledge Card 4.4.6 – Modelling closed-canopy LAI and site/
+2706: Knowledge Card 4.4.7 – Foliage distribution, dynamics and litterfall 
+2776: Knowledge Card 4.5.1 – Functions, trade-offs and environmental 
+2813: Knowledge Card 4.5.2 – Root classification and estimation of fine root 
+2847: Knowledge Card 4.5.3 – Allometric equations for root biomass and 
+2893: Knowledge Card 4.5.4 – Root dynamics: production and turnover  
+2928: Knowledge Card 4.5.5 – Site productivity, carbon allocation and root 
+2955: Knowledge Card 4.5.6 – Fine root responses to environmental gradients 
+3026: Knowledge Card 1 – Lebensform Bäume und Wachstumsstrategie 
+3056: Knowledge Card 2 – Mechanik, Holzdichte und Drehwuchs 
+3078: Knowledge Card 3 – Borke, Rinde und Abwehr 
+3107: Knowledge Card 4 – Blätter, Pigmente und Photosynthese 
+3127: Knowledge Card 5 – Samen, Lianen und Totholz 
+3185: Knowledge Card 1 – Definitionen genetischer, phänotypischer und 
+3206: Knowledge Card 2 – Artenreichtum und Inselbiogeographie 
+3235: Knowledge Card 3 – Funktionale und Ökosystem-Diversität 
+3254: Knowledge Card 4 – Biodiversitätskrise und Treiber 
+3309: Knowledge Card 1 – Vertikale Waldstruktur 
+3329: Knowledge Card 2 – Horizontale Struktur und Landschaftsskalen 
+3357: Knowledge Card 3 – Entwicklungsphasen und Sukzession 
+3379: Knowledge Card 4 – Störungen: Wind, Feuer, Insekten und Lücken 
+3408: Knowledge Card 5 – Regeneration, Samenverbreitung und Keimung 
+3454: Knowledge Card 1 – Kohlenstoffkreislauf und Mykorrhiza 
+3482: Knowledge Card 2 – Stickstoffkreislauf: Formen und Prozesse 
+3500: Knowledge Card 3 – Phosphorkreislauf und Mykorrhiza 
+3543: Knowledge Card 1 – Wurzelsysteme und Bodenbedingungen 
+3569: Knowledge Card 2 – Nutzen der Mykorrhiza 
+3585: Knowledge Card 3 – Typen von Mykorrhiza 
+3638: Knowledge Card 1 – Stomata und Gaswechsel 
+3658: Knowledge Card 2 – Hydraulik, Kavitation und Embolie 
+3684: Knowledge Card 3 – Wurzeltiefe und Energiehaushalt 
+3702: Knowledge Card 4 – Photosynthesewege, Photorespiration und 
+3748: Knowledge Card 1 – Schutz vor Frost durch Lebensform und 
+3773: Knowledge Card 2 – Gefriervermeidung: Supercooling und 
+3791: Knowledge Card 3 – Membran- und Zellwandanpassungen 
+3813: Knowledge Card 4 – Photoprotektion im Winter 
+3852: Knowledge Card 1 – Bodenversauerung und Basensättigung 
+3872: Knowledge Card 2 – CO₂-Anstieg, Stickstoffdeposition und Mykorrhiza 
+3898: Knowledge Card 3 – Ozonbildung und Pflanzenschäden 
+3938: Knowledge Card 1 – Boreale Wälder (Taiga) 
+3956: Knowledge Card 2 – Mediterrane Wälder 
+3984: Knowledge Card 3 – Temperierte Wälder und Gymnospermen 
+4025: Knowledge Card 1 – Bedeutung und Verbreitung tropischer 
+4052: Knowledge Card 2 – Amazonien: Funktionen und Gefährdungen 
+4069: Knowledge Card 3 – Hypothesen zur Artenvielfalt 
+4138: Knowledge Card 1 – Bewirtschaftungsformen: Kahlschlag, Plantagen 
+4156: Knowledge Card 2 – Eingriffe in Wasser- und Nährstoffhaushalt 
+4181: Knowledge Card 3 – Ölplantagen, Carbon Debt und Biodiversität 
+4197: Knowledge Card 4 – Veränderung der Baumartenzusammensetzung und 
+4226: Knowledge Card 5 – Kohlenstoffdynamik nach Störungen 
+4292: Knowledge Cards 
+4385: Knowledge Cards 
+4479: Knowledge cards: 
+4595: Knowledge cards 
+4710: Knowledge cards 
+4813: Knowledge cards 
+4922: Knowledge Cards 
+5011: Knowledge Cards 
+5099: Knowledge Cards 
+5193: Knowledge cards: 
+5328: Knowledge cards 
+5441: Knowledge Cards 
+7325: Knowledge Card 
+7348: Knowledge card 
+7371: Knowledge card 
+7419: Knowledge card: Waldränder 
+7437: Knowledge card: Horizontale und vertikale Struktur 
+7460: Knowledge card: Struktur und NährstoƯe 
+7511: Knowledge card: Sukzession 
+7530: Knowledge card: Arten von Störungen 
+7548: Knowledge card: Häuﬁgkeit von Störungen 
+7599: Knowledge card 
+7623: Knowledge card 
+7642: Knowledge card 
+7662: Knowledge card 
+7705: Knowledge card 
+7722: Knowledge card 
+7742: Knowledge card 
+7756: Knowledge card 
+7814: Knowledge card: Forststraßen 
+7836: Knowledge card: Gewässer 
+7856: Knowledge card: Auer- und Schalenwild 
+7880: Knowledge card: Neophyten 
+7920: Knowledge card: Mykotrophie und Mykorrhizatypen im Wald 
+7941: Knowledge card: Baumarten und Abhängigkeit 
+7961: Knowledge card: Standortfaktoren und Ektomykorrhiza -Frequenz im 
+7982: Knowledge card: Düngung, Eutrophierung und Ektomykorrhiza -
+8017: Knowledge card: Ektomykorrhiza entlang Klimagradienten 
+8038: Knowledge card: Anektotrophwälder vs. Ektotrophwälder 
+8055: Knowledge card: Auwälder und regionale Unterschiede der Ektomykorrhiza 
+8074: Knowledge card: Wissenslücken und Variabilität in EM-Partnerschaften 
+8110: Knowledge card: Sukzession holzbewohnender Pilze auf Totholz 
+8128: Knowledge card: Parasitismus an lebenden Bäumen und Waldstruktur 
+8148: Knowledge card: Pilzsoziologische Systeme und Standortspezialisten 
+8172: Knowledge Card 1 
+8198: Knowledge Card 2 
+8217: Knowledge Card 3 
+8246: Knowledge Card 4 
+8293: Knowledge Card 1 
+8314: Knowledge Card 2 
+8342: Knowledge Card 3 
+8395: Knowledge Card 1 
+8417: Knowledge Card 2 
+8439: Knowledge Card 3 
+8463: Knowledge Card 4 
+8487: Knowledge Card 5 
+8543: Knowledge Card 1 
+8557: Knowledge Card 2 
+8581: Knowledge Card 3 
+8628: Knowledge Card 1 
+8642: Knowledge Card 2 
+8657: Knowledge Card 3 
+8694: Knowledge Card 1 
+8714: Knowledge Card 2 
+8726: Knowledge Card 3 
+8770: Knowledge Card 1 
+8784: Knowledge Card 2 
+8802: Knowledge Card 3 
+8826: Knowledge Card 4 
+
+SOURCES
+6: Source 1 – grey literature 
+379: Source 2 – textbook 
+575: Source 3 – textbook 
+768: Source 4 – grey literature 
+975: Source 5 
+1803: Source 6 Conceptual Unit 4.1 – Stem Population Dynamics  
+3024: Source 7 
+4266: Quelle 
+4271: Source 8 – grey literature 
+4897: Source 9: grey literature 
+5169: Source 10: Textbook  
+5542: Quelle (Textbook): 
+6908: Quelle (grey literature): Vorlesung Grundlagen der Ökologie 2 (Lv.-Nr.: 916110) der Universität für 
+8168: Quelle Nr.1: Textbook 
+8539: Quelle Nr.2: Textbook 
+8765: Quelle 3: grey literature  
+8771: Quellen sind wichtig für Biodiversität, sie sind Hotspots auf sehr kleinen Raum, die nur wenige 
+8789: Quellen sind  im Gebirge, während man sie im Tieﬂand nur noch selten ﬁndet, in der Schweiz sind 
+8800: Quelle - besitzt geringe - Abﬂussmenge
+8803: Quellen entspringen aus Flussebenen, vertikal aus Felsen und hauptsächlich aus schiefen 
+8823: Quelle – enthält wenig – Nährstoﬀe,, Quelle – ist Lebensraum für – Tiere, Quelle – ist Lebensraum 
+8834: Quellen - besitzen - gute Qualität, Quellen - enthalten keine - Chemikalien, Forstwirtschaft -  
+8837: Quellen sind bedeutende Lebensräume und spielen eine zentrale Rolle für die Biodiversität. 

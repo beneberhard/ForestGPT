@@ -119,6 +119,27 @@ docker compose exec app python -m scripts.ingest_rag_corpus --replace
 
 OCR behavior can be configured with `OCR_LANGUAGES`, `OCR_DPI`, and `OCR_MIN_TEXT_CHARACTERS`.
 
+Text is split with `tiktoken==0.12.0`, encoding `cl100k_base`, into windows of at
+most 600 tokens with 90 tokens of overlap. Boundaries move inward when necessary
+to preserve a complete Unicode character, so the overlap can be slightly smaller.
+The tokenizer and token settings are stored in document metadata, and each chunk
+records its token count. Retrieved passages are sent in full, without the former
+700-character truncation. The existing 60,000-character soft prompt limit can
+still remove the lowest-ranked passages; it does not shorten individual passages.
+
+After changing chunking settings, rebuild chunks and embeddings from source files
+(the embedding-only repair does not change chunk boundaries):
+
+```bash
+docker compose up -d --build app
+docker compose exec -T app python -m scripts.ingest_rag_corpus --replace --prune-missing
+```
+
+`--prune-missing` removes indexed documents whose files are no longer present in
+the corpus folder. Other documents, including the seeded sample, are preserved.
+The full corpus update commits only after ingestion succeeds; embedding failures
+abort the update and leave the previous committed index available.
+
 ## PostGIS and QGIS
 
 The default host connection for QGIS or another database client is:
@@ -137,16 +158,35 @@ These development credentials can be changed in `docker-compose.yml` before depl
 
 Important environment variables include:
 
+Values in `config.py` are fallbacks. Docker Compose reads `.env` and passes its
+values into the container; explicit process settings take precedence when Python
+loads `.env`. Only the `openai` embedding provider is currently implemented.
+If `EMBEDDING_API_KEY` is unset, embeddings use `OPENAI_API_KEY`.
+
 | Variable | Purpose | Default |
 |---|---|---|
 | `APP_HOST_PORT` | Web application port on the host | `8005` |
 | `POSTGRES_HOST_PORT` | PostgreSQL port on the host | `5433` |
 | `OPENAI_BASE_URL` | OpenAI-compatible chat endpoint | `http://host.docker.internal:1234/v1` |
 | `OPENAI_MODEL` | Conversational model | `local-model` |
+| `EMBEDDING_PROVIDER` | Supported embedding provider | `openai` |
 | `EMBEDDING_BASE_URL` | Embedding API endpoint | `https://api.openai.com/v1` |
 | `EMBEDDING_MODEL` | Embedding model | `text-embedding-3-small` |
 | `SIMULATION_ADAPTER` | Growth simulator | `r3pg` |
 | `OCR_LANGUAGES` | Tesseract OCR languages | `eng+deu+ita` |
+
+After changing embedding configuration, rebuild the app and repair existing vectors:
+
+```bash
+docker compose up -d --build app
+docker compose exec -T app python -m scripts.ingest_rag_corpus --embeddings-only
+```
+
+The repair uses the embedding API and preserves existing document text and IDs.
+It commits each completed document and can be rerun after a failure. Ingestion
+only skips a document when its file hash, embedding metadata, and chunking
+settings match, and every chunk has a vector. Query embedding failures are logged
+and retrieval falls back to BM25; ingestion embedding failures abort the update.
 
 ## Development status
 

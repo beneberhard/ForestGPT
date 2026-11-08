@@ -1,0 +1,19 @@
+L3 P1: Quelle Textbook 1:  | Pülzl, Helga. Die Politik des Waldes. 2010, https://doi.org/10.26530/oapen_574651.  |   |   | Inhalt 
+L523 P17: Quelle Textbook 2:  | Ammer, Christian, u. a. Der Wald-Wild-Konflikt: Analyse und Lösungsansätze vor dem  | Hintergrund rechtlicher, ökologischer und ökonomischer Zusammenhänge.  | Universitätsverlag Göttingen, 2010, https://doi.org/10.17875/gup2010-280.  | Inhalt 
+L997 P33: Quelle grey-literature 1:  | Hogl, Karl. Studienbehelf zur Lehrveranstaltung Einführung in die Waldpolitik. 2018-2022  | Inklusive der Mitschriften aus der Lehrveranstaltung  |   | Inhalt 
+L1477 P49: Quelle grey-literature 2:  | Linser, Stefanie. Bundesministerium für Landwirtschaft, Regionen und Tourismus.  | Indikatoren für nachhaltige Waldbewirtschaftung des Österreichischen Walddialoges.  | 2020  |  
+L1928 P64: Quelle (Grey Literature)  |   | Ennöckl, Daniel (Universität für Bodenkultur Wien, Institut für Rechtswissenschaften).  | VO Grundlagen des Rechts & rechtliche Grundlagen – 9. Einheit: Forst-,  | Naturschutz-, Klimaschutzrecht (Foliensatz, 79 S.).  
+L2357 P77: Quelle (Grey Literature)  | Hogl, Karl. Einführung in die Forstwirtschaft – Vertiefung „Waldpolitik“.  | Vorlesung SS 2023, Universität für Bodenkultur Wien, Institut für Wald-, Umwelt- und  | Ressourcenpolitik.   |  
+L2577 P84: Quelle (Textbook):   | Hofmann (2002): Globale Waldpolitik in Deutschland   | Eine Untersuchung über die Wirkung internationaler Regime in föderalen Strukturen  | Inaugural-Dissertation,zur Erlangung der Doktorwürde der Forstwissenschaftlichen  | Fakultät der Albert-Ludwigs-Universität zu Freiburg im Breisgau, vorgelegt von Frank 
+L3084 P101: QUELLE GRAUE LITERATUR 1:  | Kasimir P. Nemestothy . Ressourceneffizienz vs. Kaskadenzwang –  | Die energetische und/oder stoffliche Nutzung von Holz . 201 6,   | Kontext:  BOKU -Seminar, 12.12.2016   |  
+L3781 P122: QUELLE GRAUE LITERATUR 2:  | UNECE & FAO . European Forest Sector Outlook Study . 20 11 ,   |   |   | Inhalt 
+L4496 P144: QUELLE TEXTBOOK 1:  | Husch, Bertram. Guidelines for forest policy formulation. 1987,  | https://w w w.fao.org/4/ap462e/ap462e00.pdf   |   |  
+L5296 P169: QUELLE TEXTBOOK 2:  | Tomi Tuomasjukka . Forest Policy  and Economics in Support of  | Good Governance . 20 10 ,  | https://efi.int/sites/default/files/files/publication -bank/2018/proc58_net.pdf   |  
+L6282 P200: Quelle 1 „grey literature“  | Großsteiner Patrick  | Matrikelnummer:12217579  |   | 
+L8003 P240: Quelle 2 „grey literature“  | Großsteiner Patrick  | Matrikelnummer:12217579  |   | 
+L9134 P267: Quelle 1 „Text book“  | Großsteiner Patrick  | Matrikelnummer:12217579  |   | 
+L10017 P288: Quelle 2 „Text book“  | Großsteiner Patrick  | Matrikelnummer:12217579  |   | 
+L11422 P325: Quelle: Ortner, M. (2008). Erfolgsfaktoren für die Beteiligung forstlicher Akteure an der  | integrierten ländlichen Entwicklung. Universitätsverlag Göttingen.  |   |   |  
+L12015 P342: Quelle: Holzmarktlehre; Nach Vorlesungsunterlagen von Peter Schwarzbauer   | überarbeitet und aktualisiert von Martin Braun (2022), ergänzt durch Vorlesungsnotizen  |  | --- PAGE 343 --- |  
+L12602 P359: Quelle: Studienunterlage zur Vorlesung Grundlagen der Politik zusammengestellt  | von Karl Hogl und Michael Pregernig (2022), ergänzt durch Vorlesungsnotizen   |  | --- PAGE 360 --- |  
+L13351 P380: Quelle: Waren- und Zahlungsverkehr mit Holzprodukten I von Stefan Weinfurter  | (2023), ergänzt durch Vorlesungsnotizen 

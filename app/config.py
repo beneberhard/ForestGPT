@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-load_dotenv(override=True)
+# Explicit process/container settings take precedence over local .env defaults.
+load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",

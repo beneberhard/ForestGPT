@@ -1,0 +1,588 @@
+ENTITY
+515: Entity List  
+554: Entity List  
+594: Entity List  
+653: Entity List  
+695: Entity List  
+734: Entity List  
+770: Entity List  
+811: Entity List  
+846: Entity List  
+910: Entity List  
+948: Entity List  
+984: Entity List  
+1019: Entity List  
+1050: Entity List  
+1108: Entity List  
+1149: Entity List  
+1185: Entity List  
+1219: Entity List  
+1278: Entity List  
+1317: Entity List  
+1355: Entity List  
+1421: Entity List  
+1458: Entity List  
+1497: Entity List  
+1550: Entity List  
+1591: Entity List  
+1631: Entity List  
+1672: Entity List  
+1710: Entity List  
+1748: Entity List  
+1810: Entity List  
+1846: Entity List  
+1877: Entity List  
+1940: Entity List  
+1980: Entity List  
+2014: Entity List  
+2042: Entity List  
+2102: Entity List  
+2132: Entity List  
+2164: Entity List  
+2190: Entity List  
+2241: Entity List  
+2272: Entity List  
+2305: Entity List  
+2338: Entity List  
+2375: Entity List  
+2428: Entity List  
+2458: Entity List  
+2488: Entity List  
+2518: Entity List  
+2561: Entity List  
+2592: Entity List  
+2629: Entity List  
+2689: Entity List  
+2722: Entity List  
+2758: Entity List  
+2793: Entity List  
+2852: Entity List 
+2888: Entity List 
+2924: Entity List 
+2989: Entity List 
+3021: Entity List 
+3060: Entity List 
+3111: Entity List 
+3150: Entity List 
+3192: Entity List 
+3240: Entity List 
+3272: Entity List 
+3308: Entity List 
+3353: Entity List 
+3389: Entity List 
+3425: Entity List 
+3473: Entity List 
+3513: Entity List 
+3550: Entity List 
+3604: Entity List 
+3638: Entity List 
+3683: Entity List 
+3749: Entity List 
+3785: Entity List 
+3815: Entity List 
+3873: Entity List 
+3909: Entity List 
+3945: Entity List 
+4003: Entity List 
+4039: Entity List 
+4074: Entity List 
+4129: Entity List 
+4162: Entity List 
+4196: Entity List 
+4258: Entity list 
+4298: Entity list 
+4338: Entity list 
+4390: Entity list 
+4429: Entity list 
+4467: Entity list 
+4508: Entity list 
+4550: Entity list 
+4587: Entity list 
+4640: 2. Entity List 
+4687: 2. Entity List 
+4734: 2. Entity List 
+4802: 2. Entity List 
+4847: 2.Entity List 
+4890: 2. Entity List 
+4935: 2. Entity List 
+5001: 2. Entity List 
+5045: 2. Entity List 
+5089: 2.Entity List 
+5157: 2. Entity List 
+5199: 2. Entity List 
+5244: 2. Entity List 
+5287: 2. Entity List 
+5356: 2. Entity List 
+5399: 2. Entity List 
+5444: Entity List 
+5488: 2. Entity List 
+5558: 2. Entity List 
+5601: 2. Entity List 
+5646: 2. Entity List 
+5691: 2. Entity List 
+5767: 2. Entity List 
+5811: 2. Entity List 
+5857: 2. Entity List 
+5924: 2. Entity List 
+5969: 2. Entity List 
+6014: 2. Entity List 
+6059: 2. Entity List 
+6127: 2. Entity List 
+6171: 2. Entity List 
+6216: 2. Entity List 
+6259: 2. Entity List 
+6328: Entity List 
+6369: 2. Entity List 
+6414: 2. Entity List 
+6459: 2. Entity List 
+6532: 2. Entity List 
+6574: 2. Entity List 
+6618: 2. Entity List 
+6685: 2. Entity List 
+6726: 2. Entity List 
+6770: 2. Entity List 
+6839: 2. Entity List 
+6881: 2. Entity List 
+6924: 2. Entity List 
+6990: 2. Entity List 
+7033: 2. Entity List 
+7077: 2. Entity List 
+7119: 2. Entity List 
+7186: 2. Entity List 
+7229: 2. Entity List 
+7274: 2. Entity List 
+7318: 2. Entity List 
+7397: 2. Entity List  
+7463: 2. Entity List  
+7504: 2. Entity List  
+7572:  2. Entity List 
+7608: 2. Entity List 
+7644: 2. Entity List 
+7694: 2. Entity List 
+7731: Entity List  
+7767: Entity List  
+7804: Entity List  
+7840: Entity List  
+7877: Entity List  
+7929: 2. Entity List  
+7994: 2. Entity List  
+8036: 2. Entity List  
+8101:  2. Entity List 
+8139: 2. Entity List 
+8175: 2. Entity List 
+8225: 2. Entity List 
+8262: Entity List  
+8298: Entity List  
+8338: Entity List  
+8375: Entity List  
+8415: Entity List  
+8471: 2. Entity List  
+8524: 2. Entity List  
+8574: 2. Entity List  
+8644:  2. Entity List 
+8695: 2. Entity List 
+8740: 2. Entity List 
+8802: 2. Entity List 
+8853: 2. Entity List 
+8902: 2. Entity List 
+9016: 2. Entity List 
+9064: 2. Entity List 
+9130: 2.Entity List 
+9179: 2. Entity List 
+9231: 2. Entity List 
+9299: 2. Entity List 
+9344: 2. Entity List 
+9390: 2. Entity List 
+9466: Entity List 
+9499: Entity List 
+9532: Entity List 
+9572: Entity List 
+9603: Entity List 
+9635: Entity List 
+9675: Entity List 
+9707: Entity List 
+9740: Entity List 
+9777: Entity List 
+9808: Entity List 
+9839: Entity List 
+9875: Entity List 
+9905: Entity List 
+9935: Entity List 
+9969: Entity List 
+9997: Entity List 
+10023: Entity List 
+10073: 2. Entity List 
+10104: 2. Entity List 
+10140: 2. Entity List 
+10173: 2. Entity List 
+10228: 2. Entity List 
+10264: 2. Entity List 
+10296: 2. Entity List 
+10353: 2. Entity List 
+10388: 2. Entity List 
+10421: 2. Entity List 
+10453: 2. Entity List 
+10505: 2. Entity List 
+10537: 2. Entity List 
+10569: 2. Entity List 
+10601: 2. Entity List 
+10652: 2. Entity List 
+10686: 2. Entity List 
+10718: 2. Entity List 
+10766: 2. Entity List 
+10800: 2. Entity List 
+10832: 2. Entity List 
+10887: 2. Entity List 
+10924: 2. Entity List 
+10979: 2. Entity List 
+11016: 2. Entity List 
+11050: 2. Entity List 
+11102: 2. Entity List 
+11139: 2. Entity List 
+11173: 2. Entity List 
+11224: 2. Entity List 
+11259: 2. Entity List 
+11291: 2. Entity List 
+11340: 2. Entity List 
+11373: 2. Entity List 
+11406: 2. Entity List 
+11461: 2. Entity List: 
+11499: 2. Entity List: 
+11528: 2. Entity List: 
+11577: 2. Entity List 
+11608: 2. Entity List 
+11638: 2. Entity List 
+11666: 2. Entity List 
+11716: 2. Entity List 
+11745: 2. Entity List 
+11773: 2. Entity List 
+11802: 2. Entity List 
+11853: 2. Entity List 
+11883: 2. Entity List 
+11913: 2. Entity List 
+11942: 2. Entity List 
+11998: 1. Entity List 
+12034: 3. Entity List 
+12066: 2. Entity List 
+12097: 2. Entity List 
+12149: Entity List 
+12184: Entity List 
+12219: Entity List 
+12274: Entity List 
+12311: Entity List 
+12346: Entity List 
+12381: Entity List 
+12434: Entity List 
+12471: Entity List 
+12505: Entity List 
+12540: Entity List 
+12592: Entity List 
+12627: Entity List 
+12661: Entity List 
+12695: Entity List 
+12747: Entity List 
+12784: Entity List 
+12821: Entity List 
+12854: Entity List 
+12907: Entity List 
+12942: Entity List 
+12976: Entity List 
+13010: Entity List 
+13062: Entity List 
+13096: Entity List 
+13130: Entity List 
+13164: Entity List 
+TRIPLET
+527: Relationship Triplets  
+567: Relationship Triplets  
+603: Relationship Triplets  
+666: Relationship Triplets  
+707: Relationship Triplets  
+745: Relationship Triplets  
+783: Relationship Triplets  
+824: Relationship Triplets  
+860: Relationship Triplets  
+922: Relationship Triplets  
+957: Relationship Triplets  
+995: Relationship Triplets  
+1027: Relationship Triplets  
+1059: Relationship Triplets  
+1121: Relationship Triplets  
+1158: Relationship Triplets  
+1196: Relationship Triplets  
+1231: Relationship Triplets  
+1291: Relationship Triplets  
+1329: Relationship Triplets  
+1368: Relationship Triplets  
+1433: Relationship Triplets  
+1471: Relationship Triplets  
+1507: Relationship Triplets  
+1564: Relationship Triplets  
+1603: Relationship Triplets  
+1644: Relationship Triplets  
+1685: Relationship Triplets  
+1724: Relationship Triplets  
+1763: Relationship Triplets  
+1822: Relationship Triplets  
+1855: Relationship Triplets  
+1889: Relationship Triplets  
+1953: Relationship Triplets  
+1989: Relationship Triplets  
+2022: Relationship Triplets  
+2055: Relationship Triplets  
+2110: Relationship Triplets  
+2141: Relationship Triplets  
+2170: Relationship Triplets  
+2199: Relationship Triplets  
+2252: Relationship Triplets  
+2281: Relationship Triplets  
+2315: Relationship Triplets  
+2350: Relationship Triplets  
+2384: Relationship Triplets  
+2438: Relationship Triplets  
+2467: Relationship Triplets  
+2496: Relationship Triplets  
+2520: Relationship Triplets  
+2570: Relationship Triplets  
+2603: Relationship Triplets  
+2638: Relationship Triplets  
+2699: Relationship Triplets  
+2733: Relationship Triplets  
+2769: Relationship Triplets  
+2803: Relationship Triplets  
+2860: Relationship Triplets 
+2896: Relationship Triplets 
+2936: Relationship Triplets 
+3000: Relationship Triplets 
+3034: Relationship Triplets 
+3071: Relationship Triplets 
+3124: Relationship Triplets 
+3165: Relationship Triplets 
+3203: Relationship Triplets 
+3247: Relationship Triplets 
+3281: Relationship Triplets 
+3317: Relationship Triplets 
+3365: Relationship Triplets 
+3402: Relationship Triplets 
+3435: Relationship Triplets 
+3487: Relationship Triplets 
+3524: Relationship Triplets 
+3559: Relationship Triplets 
+3614: Relationship Triplets 
+3652: Relationship Triplets 
+3696: Relationship Triplets 
+3758: Relationship Triplets 
+3793: Relationship Triplets 
+3825: Relationship Triplets 
+3881: Relationship Triplets 
+3918: Relationship Triplets 
+3953: Relationship Triplets 
+4011: Relationship Triplets 
+4047: Relationship Triplets 
+4082: Relationship Triplets 
+4137: Relationship Triplets 
+4170: Relationship Triplets 
+4204: Relationship Triplets 
+4268: Relationship triplets  
+4308: Relationship triplets 
+4351: Relationship triplets 
+4401: Relationship triplets 
+4437: Relationship triplets 
+4478: Relationship triplets 
+4523: Relationship triplets 
+4561: Relationship triplets 
+4602: Relationship triplets 
+4653: 3. Relationship Triplets 
+4701: 3. Relationship Triplets 
+4745: Relationship Triplets 
+4813: 3. Relationship Triplets 
+4859: 3. Relationship Triplets 
+4903: 3. Relationship Triplets 
+4946: 3. Relationship Triplets 
+5010: 3. Relationship Triplets 
+5056: 3.Relationship Triplets 
+5101: 3.Relationship Triplets 
+5167: 3. Relationship Triplets 
+5212: 3. Relationship Triplets 
+5257: 3. Relationship Triplets 
+5300: 3. Relationship Triplets 
+5366: 3. Relationship Triplets 
+5411: 3. Relationship Triplets 
+5456: 3. Relationship Triplets 
+5500: 3. Relationship Triplets 
+5567: 3. Relationship Triplets 
+5613: 3. Relationship Triplets 
+5659: 3. Relationship Triplets 
+5703: 3. Relationship Triplets 
+5777: 3. Relationship Triplets 
+5823: 3. Relationship Triplets 
+5869: 3. Relationship Triplets 
+5934: 3. Relationship Triplets 
+5981: 3. Relationship Triplets 
+6026: 3.Relationship Triplets 
+6072: 3. Relationship Triplets 
+6137: 3. Relationship Triplets 
+6183: 3. Relationship Triplets 
+6228: 3. Relationship Triplets 
+6272: 3. Relationship Triplets 
+6337: 3. Relationship Triplets 
+6382: 3. Relationship Triplets 
+6427: 3. Relationship Triplets 
+6472: 3. Relationship Triplets 
+6542: 3. Relationship Triplets 
+6586: 3. Relationship Triplets 
+6630: 3. Relationship Triplets 
+6695: 3. Relationship Triplets 
+6738: 3. Relationship Triplets 
+6782: 3. Relationship Triplets 
+6849: 3. Relationship Triplets 
+6893: 3. Relationship Triplets 
+6937: 3. Relationship Triplets 
+7003: 3. Relationship Triplets 
+7045: 3. Relationship Triplets 
+7089: 3. Relationship Triplets 
+7132: 3. Relationship Triplets 
+7197: 3. Relationship Triplets 
+7242: 3. Relationship Triplets 
+7287: 3. Relationship Triplets 
+7331: 3. Relationship Triplets 
+7408: 3. Relationship Triplets  
+7473: 3. Relationship Triplets  
+7517: 3. Relationship Triplets  
+7582: 3. Relationship Triplets 
+7617: 3. Relationship Triplets 
+7654: 3. Relationship Triplets 
+7706: 3. Relationship Triplets 
+7743: Relationship Triplets: 
+7779: Relationship Triplets: 
+7816: Relationship Triplets: 
+7852: Relationship Triplets: 
+7888: Relationship Triplets: 
+7940: 3. Relationship Triplets  
+8004: 3. Relationship Triplets  
+8049: 3. Relationship Triplets  
+8111: 3. Relationship Triplets 
+8148: 3. Relationship Triplets 
+8185: 3. Relationship Triplets 
+8237: 3. Relationship Triplets 
+8274: Relationship Triplets: 
+8310: Relationship Triplets: 
+8350: Relationship Triplets: 
+8387: Relationship Triplets: 
+8426: Relationship Triplets: 
+8482: 3. Relationship Triplets  
+8535: 3. Relationship Triplets  
+8584: 3. Relationship Triplets  
+8656: 3. Relationship Triplets 
+8708: 3. Relationship Triplets 
+8750: 3. Relationship Triplets 
+8816: 3. Relationship Triplets 
+8865: 3. Relationship Triplets 
+8915: 3. Relationship Triplets 
+9027: 3. Relationship Triplets 
+9076: 3. Relationship Triplets 
+9142: 3. Relationship Triplets 
+9193: 3. Relationship Triplets 
+9242: 3. Relationship Triplets 
+9310: 3. Relationship Triplets 
+9355: 3. Relationship Triplets 
+9406: 3. Relationship Triplets 
+9475: Relationship Triplets 
+9507: Relationship Triplets 
+9541: Relationship Triplets 
+9580: Relationship Triplets 
+9612: Relationship Triplets 
+9643: Relationship Triplets 
+9683: Relationship Triplets 
+9715: Relationship Triplets 
+9748: Relationship Triplets 
+9785: Relationship Triplets 
+9816: Relationship Triplets 
+9846: Relationship Triplets 
+9882: Relationship Triplets 
+9913: Relationship Triplets 
+9942: Relationship Triplets 
+9976: Relationship Triplets 
+10004: Relationship Triplets 
+10032: Relationship Triplets 
+10081: 3. Relationship Triplets 
+10112: 3. Relationship Triplets 
+10148: 3. Relationship Triplets 
+10181: 3. Relationship Triplets 
+10236: 3. Relationship Triplets 
+10272: 3. Relationship Triplets 
+10304: 3. Relationship Triplets 
+10361: 3. Relationship Triplets 
+10396: 3. Relationship Triplets 
+10429: 3. Relationship Triplets 
+10461: 3. Relationship Triplets 
+10513: 3. Relationship Triplets 
+10545: 3. Relationship Triplets 
+10577: 3. Relationship Triplets 
+10609: 3. Relationship Triplets 
+10660: 3. Relationship Triplets 
+10694: 3. Relationship Triplets 
+10726: 3. Relationship Triplets 
+10774: 3. Relationship Triplets 
+10808: 3. Relationship Triplets 
+10840: 3. Relationship Triplets 
+10895: 3. Relationship Triplets 
+10932: 3. Relationship Triplets 
+10987: 3. Relationship Triplets 
+11024: 3. Relationship Triplets 
+11058: 3. Relationship Triplets 
+11110: 3. Relationship Triplets 
+11147: 3. Relationship Triplets 
+11181: 3. Relationship Triplets 
+11232: 3. Relationship Triplets 
+11267: 3. Relationship Triplets 
+11299: 3. Relationship Triplets 
+11348: 3. Relationship Triplets 
+11381: 3. Relationship Triplets 
+11414: 3. Relationship Triplets 
+11471: 3. Relationship Triplets: 
+11507: 3. Relationship Triplets: 
+11536: 3. Relationship Triplets: 
+11586: 3. Relationship Triplets 
+11616: 3. Relationship Triplets 
+11646: 3. Relationship Triplets 
+11674: 3. Relationship Triplets 
+11724: 3. Relationship Triplets 
+11753: 3. Relationship Triplets 
+11781: 3. Relationship Triplets 
+11810: 3. Relationship Triplets 
+11861: 3. Relationship Triplets 
+11891: 3. Relationship Triplets 
+11921: 3. Relationship Triplets 
+11950: 3. Relationship Triplets 
+12006: 2. Relationship Triplets 
+12042: 4. Relationship Triplets 
+12074: 3. Relationship Triplets 
+12105: 3. Relationship Triplets 
+12157: Relationship Triplets 
+12192: Relationship Triplets 
+12227: Relationship Triplets 
+12282: Relationship Triplets 
+12319: Relationship Triplets 
+12354: Relationship Triplets 
+12389: Relationship Triplets 
+12442: Relationship Triplets 
+12479: Relationship Triplets 
+12513: Relationship Triplets 
+12548: Relationship Triplets 
+12600: Relationship Triplets 
+12635: Relationship Triplets 
+12669: Relationship Triplets 
+12703: Relationship Triplets 
+12755: Relationship Triplets 
+12792: Relationship Triplets 
+12829: Relationship Triplets 
+12862: Relationship Triplets 
+12915: Relationship Triplets 
+12950: Relationship Triplets 
+12984: Relationship Triplets 
+13018: Relationship Triplets 
+13070: Relationship Triplets 
+13104: Relationship Triplets 
+13138: Relationship Triplets 
+13172: Relationship Triplets 

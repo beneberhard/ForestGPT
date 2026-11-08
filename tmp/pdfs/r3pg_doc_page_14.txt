@@ -1,0 +1,32 @@
+14 prepare_input
+Value
+a data.frame with number of rows corresponding to number of simulated month and 10 columns
+See Also
+run_3PG, prepare_input, prepare_parameters, prepare_sizeDist, prepare_thinning
+Examples
+# sub-setting climate data
+prepare_climate( climate = d_climate, from = '2003-04', to = '2010-11')
+# replicating climate data
+set.seed(1)
+climate = data.frame( tmp_min = rnorm(12, mean = 10),
+tmp_max = rnorm(12, mean = 20),
+prcp = sample(c(0:200), 12),
+srad = sample(c(1:100), 12),
+frost_days = sample(c(0:30), 12))
+prepare_climate( climate = climate, from = '2000-04', to = '2010-11')
+prepare_input Check and prepare input for running 3-PG model
+Description
+Checks and prepares all input tables to be used in run_3PG. For detailed descriptions see Forrester
+(2020).
+Usage
+prepare_input(site, species, climate, thinning = NULL, parameters = NULL,
+size_dist = NULL, settings = NULL)
+Arguments
+site table containing the information about site conditions.
+• latitude: site latitude in the WGS84 coordinate system.
+• altitude: site altitude, m a.s.l.
+• soil_class: 1 - Sandy; 2 - Sandy loam; 3 - Clay loam; 4 - Clay; 0 - No effect
+of asw on production.
+• asw_i: initial available soil water (mm).
+• asw_min: minimum available soil water (mm).
+• asw_max: maximum available soil water (mm).

@@ -1,0 +1,179 @@
+3: Knowledge Card 1.1 
+46: Knowledge card 1.2: 
+100: Knowledge Card 1.3:  
+151: Knowledge Card 1.4:  
+194: Knowledge Card 1.5:  
+243: Knowledge Card 1.6:  
+309: Knowledge Card 2.1 
+343: Knowledge Card 2.2 
+386: Knowledge Card 2.3 
+433: Knowledge Card 2.4:  
+475: Knowledge Card 2.5:  
+519: Knowledge Card 2.6:  
+578: Knowledge Card 3.1 
+616: Knowledge Card 3.2 
+658: Knowledge Card 3.3 
+705: Knowledge Card 3.4:  
+746: Knowledge Card 3.5:  
+796: Knowledge Card 3.6:  
+873: Knowledge Card 1.1 
+909: Knowledge Card 1.2 
+946: Knowledge Card 1.3 
+1019: Knowledge Card 1.4 
+1054: Knowledge Card 1.5 
+1090: Knowledge Card 1.6 
+1163: Knowledge Card 2.1 
+1199: Knowledge Card 2.2 
+1236: Knowledge Card 2.3 
+1308: Knowledge Card 2.4 
+1344: Knowledge Card 2.5 
+1380: Knowledge Card 2.6 
+1455: Knowledge Card 3.1 
+1489: Knowledge Card 3.2 
+1525: Knowledge Card 3.3 
+1601: Knowledge Card 3.4 
+1638: Knowledge Card 3.5 
+1674: Knowledge Card 3.6 
+1752: Knowledge Card 1 (Equipment and tools) 
+1783: Knowledge Card 2 (Equipment and tools) 
+1813: Knowledge Card 3 (Equipment and tools) 
+1855: Knowledge Card 1 (Chainsaw handling) 
+1886: Knowledge Card 2 (Chainsaw handling) 
+1919: Knowledge Card 3 (Chainsaw handling) 
+1960: Knowledge Card 1 (Workflow and safety) 
+1991: Knowledge Card 2 (Workflow and safety) 
+2021: Knowledge Card 3 (Workflow and safety) 
+2058: Knowledge Card 1 (Working techniques) 
+2092: Knowledge Card 2 (Working technique) 
+2120: Knowledge Card 3 (Working technique) 
+2160: Knowledge Card 1 (Delimbing technique) 
+2192: Knowledge Card 2 (Delimbing technique) 
+2222: Knowledge Card 3 (Limbing Technique) 
+2259: Knowledge Card 1 (Cutting technique) 
+2291: Knowledge Card 2 (Cutting technique) 
+2321: Knowledge Card 3 (Cutting technique) 
+2359: Knowledge Card 1 (Logging in tractor terrain) 
+2389: Knowledge Card 2 (Logging in tractor terrain) 
+2418: Knowledge Card 3 (Logging in tractor terrain) 
+2460: Knowledge Card 1 (Equipment and machine 
+2493: Knowledge Card 2 (Equipment and machine 
+2525: Knowledge Card 3 (Equipment and machine 
+2573: Knowledge Card 1 (Tree climbing) 
+2603: Knowledge Card 2 (Tree climbing) 
+2634: Knowledge Card 3 (Tree climbing) 
+2673: Knowledge Card 1 (Supports) 
+2705: Knowledge Card 1 (Supports) 
+2737: Knowledge Card 3 (Supports) 
+2779: Knowledge Card 1 (Anchor construction) 
+2810: Knowledge Card 2 (Anchor construction) 
+2841: Knowledge Card 3 (Anchor construction) 
+2881: Knowledge Card 1 (Assembly details for 
+2915: Knowledge Card 2 (Assembly details for 
+2945: Knowledge Card 3 (Assembly details for 
+2991: Knowledge Card 1 (Assembly, dismantling, 
+3022: Knowledge Card 2 (Assembly, dismantling, 
+3055: Knowledge Card 1 (Assembly, disassembly, 
+3103: Knowledge Card 1 (Skidding systems) 
+3133: Knowledge Card 2 (Skidding Systems) 
+3165: Knowledge Card 3 (Skidding Systems) 
+3206: Knowledge Card 1 (Choice of skidding 
+3240: Knowledge Card 2 (Choice of skidding 
+3272: Knowledge Card 3 (Choice of skidding 
+3314: Knowledge Card 1 (Rope skidding systems) 
+3348: Knowledge Card 2 (Cable skidding systems) 
+3379: Knowledge Card 3 (Cable Skidding Systems) 
+3420: Knowledge Card 1 (Carriage) 
+3453: Knowledge Card 2 (Trolley) 
+3484: Knowledge Card 3 (Trolleys) 
+3524: Knowledge Card 1 (Drive Units) 
+3558: Knowledge Card 2 (Drive Units) 
+3586: Knowledge Card 3 (Drive Units) 
+3627: Knowledge Card 1 (Machine and process 
+3659: Knowledge Card 2 (Machine and process 
+3690: Knowledge Card 3 (Machine and process 
+3733: Knowledge Card 1 (Utilization Planning) 
+3764: Knowledge Card 2 (Utilization Planning) 
+3793: Knowledge Card 3 (Utilization Planning) 
+3837: KNOWLEDGE CARD1.1 
+3883: KNOWLEDGE CARD 1.2 
+3928: KNOWLEDGE CARD 1.3 
+3977: KNOWLEDGE CARD 2.1 
+4033: KNOWLEDGE CARD 2.2 
+4080: KNOWLEDGE CARD 2.3 
+4124: KNOWLEDGE CARD 3.1 
+4168: KNOWLEDGE CARD 3.2 
+4212: KNOWLEDGE CARD 3.3 
+4256: KNOWLEDGE CARD 4.1 
+4295: KNOWLEDGE CARD 4.2 
+4333: KNOWLEDGE CARD 4.3 
+4371: KNOWLEDGE CARD 5.1 
+4409: KNOWLEDGE CARD 5.2 
+4448: KNOWLEDGE CARD 5.3 
+4486: KNOWLEDGE CARD 6.1 
+4525: KNOWLEDGE CARD 6.2 
+4565: KNOWLEDGE CARD 6.3 
+4603: Knowledge Card 1.1.1 
+4633: Knowledge Card 1.1.2 
+4662: Knowledge Card 1.1.3 
+4697: Knowledge Card 1.1.4 
+4763: Knowledge Card 1.2.1 
+4798: Knowledge Card 1.2.2 
+4802: Diese Knowledge Card handelt von den verschiedenen Beanspruchungen die ein Seil im 
+4834: Knowledge Card 1.2.3  
+4895: Knowledge Card 2.1.1 
+4934: Knowledge Card 2.1.2 
+4967: Knowledge Card 2.1.3 
+5017: Knowledge Card 2.2.1 
+5049: Knowledge Card 2.2.2 
+5080: Knowledge Card 2.2.3 
+5130: Knowledge Card 3.1.1 
+5163: Knowledge Card 3.1.2 
+5195: Knowledge Card 3.1.3 
+5247: Knowledge Card 3.2.1 
+5282: Knowledge Card 3.2.2 
+5317: Knowledge Card 3.2.3 
+5369: Knowledge Card 1.1 
+5440: Knowledge Card 1.2 
+5524: Knowledge Card 1.3 
+5630: Knowledge Card 2.1 
+5668: Knowledge Card 2.2 
+5704: Knowledge Card 2.3 
+5773: Knowledge Card 3.1 
+5779: excavator bucket. This Knowledge Card focuses speciﬁcally on the hydraulic hammer. 
+5845: Knowledge Card 3.2 
+5881: Knowledge Card 3.3 
+5956: Knowledge Card 4.1 
+5994: Knowledge Card 4.2 
+6030: Knowledge Card 4.3 
+6099: Knowledge Card 5.1 
+6137: Knowledge Card 5.2 
+6174: Knowledge Card 5.3 
+6247: Knowledge Card 6.1 
+6284: Knowledge Card 6.2 
+6321: Knowledge Card 6.3 
+6392: Knowledge Card 1.1:  
+6430: Knowledge Card 1.2:  
+6464: Knowledge Card 1.3:  
+6520: Knowledge Card 2.1:  
+6554: Knowledge Card 2.2:  
+6587: Knowledge Card 2.3:  
+6635: Knowledge Card 3.1:  
+6676: Knowledge Card 3.2:  
+6716: Knowledge Card 3.3:  
+6777: Knowledge Card 4.1:  
+6813: Knowledge Card 4.2:  
+6848: Knowledge Card 4.3:  
+6916: Knowledge Card 5.1:  
+6957: Knowledge Card 5.2:  
+6995: Knowledge Card 5.3:  
+7049: Knowledge Card 6.1:  
+7087: Knowledge Card 6.2:  
+7124: Knowledge Card 6.3:  
+
+SOURCES
+869: Source 1 – Kaulen et al. (o. J.). Anforderungsanalyse robotergestütztes 
+1015: Source 1 – Kaulen et al. (o. J.). Anforderungsanalyse robotergestütztes 
+1160: Source 2 – Helicopter Logging (Stampfer,2025) 
+1305: Source 2 – Helicopter Logging (Stampfer,2025) 
+1451: Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest 
+1596: Source 3 – Baltic ForBio (2020). Cost-efficient and sustainable forest 

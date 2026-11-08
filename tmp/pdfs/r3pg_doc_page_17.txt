@@ -1,0 +1,28 @@
+prepare_parameters 17
+prepare_parameters Prepare parameters table
+Description
+Prepares the parameters table, by either replicating the defaults or replicating defaults for each of
+the species.
+Usage
+prepare_parameters(parameters = NULL, sp_names = c("Fagus sylvatica",
+"Pinus sylvestris"))
+Arguments
+parameters table containing the information about parameters to be modified. Values that
+are not provided are replaced by defaults.
+• parameter: name of the parameter, must be consistent in naming withi_parameters
+• species: each column must correspond to species/cohort id/name, as de-
+fined in species table
+sp_names names of the species / cohorts used for the simulations.The ‘sp_names‘ must be
+identical to those from species table.
+Details
+This function prepares the parameter table for run_3PG
+Value
+a data.frame with 47 rows and columns corresponding to each species.
+See Also
+run_3PG, prepare_input, prepare_sizeDist, prepare_thinning, prepare_climate
+Examples
+# replace some
+prepare_parameters( parameters = d_parameters[1:4,],
+sp_names = c( 'Fagus sylvatica ', 'Pinus sylvestris ' ))
+# Make default
+prepare_parameters( parameters = NULL, sp_names = c( 'Quercus', 'Abies'))

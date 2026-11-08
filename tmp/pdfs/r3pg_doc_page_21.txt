@@ -1,0 +1,31 @@
+prepare_thinning 21
+prepare_thinning Check and prepare management information.
+Description
+Prepares the management table and checks for consistency.
+Usage
+prepare_thinning(thinning = NULL, sp_names = c("Fagus sylvatica",
+"Pinus sylvestris"))
+Arguments
+thinning table containing the information about thinnings. If there is no thinning, it must
+be NULL. The following columns are required:
+• species: species or cohort id/name.
+• age: age at which thinning is done.
+• stems_n: number of trees remaining after thinning
+• stem: type of thinning (above/below). Default is 1.
+• foliage: type of thinning (above/below). Default is 1.
+• root: type of thinning (above/below). Default is 1.
+sp_names names of the species / cohorts used for the simulations. This is required whether
+‘thinning=NULL‘ or if not all species are indicated in the ‘thinning‘ table. The
+‘sp_names‘ must be identical to those fromspecies table.
+Details
+This function prepares the thinning table for run_3PG.
+In case there is no thinning it will return empty 3-d array.
+In case there will be thinning it will return 3-d array, where one dimension correspond to each
+species.
+Value
+a 3-dimentional array, where third dimention correspond to each species.
+See Also
+run_3PG, prepare_input, prepare_parameters, prepare_sizeDist, prepare_climate
+Examples
+prepare_thinning( thinning = NULL, sp_names = c( 'Quercus', 'Abies'))
+prepare_thinning( thinning = d_thinning, sp_names = c( 'Fagus sylvatica ', 'Pinus sylvestris '))
